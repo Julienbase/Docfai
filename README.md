@@ -82,6 +82,22 @@ npm run lint
 npm test
 ```
 
+## Releasing
+
+Releases are built and published by GitHub Actions ([`.github/workflows/release.yml`](.github/workflows/release.yml)):
+
+1. Bump `version` in `package.json` (for example to `1.0.49`) and commit it to `main`.
+2. Tag that commit with the same version and push the tag:
+
+   ```powershell
+   git tag v1.0.49
+   git push origin v1.0.49
+   ```
+
+The workflow checks that the tag matches `package.json`, runs the typecheck and tests, builds the installer, and publishes a GitHub Release with the installer, its SHA-256 checksum and generated release notes.
+
+To test a build without publishing, run the **Release** workflow manually from the Actions tab. The installer is attached to the run as an artifact for 7 days.
+
 ## Known issues
 
 - Windows only.

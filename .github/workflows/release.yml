@@ -1,0 +1,121 @@
+name: Release
+
+# Pushing a tag like v1.0.49 builds the installer and publishes a GitHub
+# Release with it. Running the workflow by hand (Actions -> Release -> Run
+# workflow) does a test build and uploads the installer as a workflow artifact
+# instead of publishing anything.
+on:
+  push:
+    tags: ['v*.*.*']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    # windows-latest ships Visual Studio 2026, which node-gyp 11 can't detect,
+    # so the native module (binding.gyp) fails to build there.
+    runs-on: windows-2022
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Check tag matches package.json version
+        if: startsWith(github.ref, 'refs/tags/')
+        shell: pwsh
+        run: |
+          $version = (Get-Content package.json -Raw | ConvertFrom-Json).version
+          if ("v$version" -ne $env:GITHUB_REF_NAME) {
+            throw "Tag $env:GITHUB_REF_NAME does not match package.json version $version. Bump the version, commit, then tag."
+          }
+
+      # npm ci also builds the native click-capture module from binding.gyp.
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check native module was built
+        shell: pwsh
+        run: |
+          if (-not (Test-Path build/Release/auto_click_capture.node)) {
+            throw "build/Release/auto_click_capture.node is missing; node-gyp did not build the native module."
+          }
+
+      - name: Typecheck
+        run: npm run check
+
+      - name: Run tests
+        run: npm test
+
+      # Downloads FFmpeg (SHA-256 verified), builds the renderer and the NSIS
+      # installer. dist passes --publish=never; publishing happens below.
+      - name: Build installer
+        run: npm run dist
+
+      - name: Compute checksum
+        id: checksum
+        shell: pwsh
+        run: |
+          $exe = Get-ChildItem release -Filter 'Docfai-Setup-*.exe' | Select-Object -First 1
+          if (-not $exe) { throw "No installer found in release/" }
+          $hash = (Get-FileHash $exe.FullName -Algorithm SHA256).Hash
+          "$hash  $($exe.Name)" | Set-Content -Encoding ascii release/SHA256SUMS.txt
+          "exe=$($exe.FullName)" >> $env:GITHUB_OUTPUT
+          "name=$($exe.Name)" >> $env:GITHUB_OUTPUT
+          "sha256=$hash" >> $env:GITHUB_OUTPUT
+          Write-Host "$($exe.Name)  SHA-256 $hash"
+
+      - name: Upload test build
+        if: github.event_name == 'workflow_dispatch'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: docfai-installer
+          path: |
+            release/Docfai-Setup-*.exe
+            release/SHA256SUMS.txt
+          retention-days: 7
+
+      - name: Publish GitHub Release
+        if: startsWith(github.ref, 'refs/tags/')
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EXE: ${{ steps.checksum.outputs.exe }}
+          EXE_NAME: ${{ steps.checksum.outputs.name }}
+          SHA256: ${{ steps.checksum.outputs.sha256 }}
+        run: |
+          $version = $env:GITHUB_REF_NAME.TrimStart('v')
+          $notes = @"
+          ## Download
+
+          Download **$env:EXE_NAME** below and run it. Requires Windows 10 or 11 (64-bit).
+
+          The installer is not code-signed, so Windows SmartScreen may show "Windows protected your PC". Click **More info**, then **Run anyway**.
+
+          SHA-256 of ``$env:EXE_NAME``:
+
+          ``````
+          $env:SHA256
+          ``````
+
+          ## FFmpeg source
+
+          The installer bundles unmodified FFmpeg 8.1.2 (GPL-3.0-or-later). Its source code is available at https://ffmpeg.org/releases/ffmpeg-8.1.2.tar.xz. See THIRD-PARTY-NOTICES.txt for details.
+
+          "@
+          $notes | Set-Content -Encoding utf8 release-notes.md
+          gh release create $env:GITHUB_REF_NAME $env:EXE release/SHA256SUMS.txt `
+            --title "Docfai $version" `
+            --notes-file release-notes.md `
+            --generate-notes `
+            --verify-tag

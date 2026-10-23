@@ -6,7 +6,9 @@ on:
 
 jobs:
   test:
-    runs-on: windows-latest
+    # windows-latest ships Visual Studio 2026, which node-gyp 11 can't detect,
+    # so the native module (binding.gyp) fails to build there.
+    runs-on: windows-2022
     steps:
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
 
