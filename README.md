@@ -102,7 +102,7 @@ To test a build without publishing, run the **Release** workflow manually from t
 
 - Windows only.
 - `npm run lint` reports existing errors (mostly unused imports and `any` types). `npm run check` and `npm test` pass.
-- `npm audit --omit=dev --audit-level=high` (also run in CI) fails on `extract-zip` and `image-size`. `extract-zip` has no fixed version yet; it only extracts the hash-verified translation module.
+- `npm audit --omit=dev` reports two moderate React Router advisories (an open redirect in `<Link>`/`useNavigate` and a server-rendering issue that doesn't apply to this app). They are fixed only in React Router 7. CI fails on high-severity advisories only, so it passes.
 
 ## License
 

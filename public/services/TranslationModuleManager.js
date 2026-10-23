@@ -9,6 +9,7 @@ import https from 'https';
 import { pipeline } from 'stream/promises';
 import { createWriteStream } from 'fs';
 import logPkg from 'electron-log';
+import { safeExtractZip } from './safeExtractZip.js';
 const log = logPkg;
 
 // Where the translation module is hosted. Not configured by default: set the
@@ -462,11 +463,7 @@ class TranslationModuleManager {
    * @param {string} destPath
    */
   async _extractZip(zipPath, destPath) {
-    // Dynamic import since extract-zip is CommonJS
-    const extractZipModule = await import('extract-zip');
-    const extractZip = extractZipModule.default || extractZipModule;
-
-    await extractZip(zipPath, { dir: destPath });
+    await safeExtractZip(zipPath, destPath);
   }
 
   /**
