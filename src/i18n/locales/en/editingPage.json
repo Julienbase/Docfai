@@ -1,0 +1,163 @@
+{
+  "empty": {
+    "title": "No Project or Recording Selected",
+    "subtitle": "Please select a project or recording to start editing.",
+    "goToDashboard": "Go to Dashboard"
+  },
+  "header": {
+    "backToDashboard": "Back to Dashboard",
+    "editor": "Editor",
+    "videoProject": "Video Project",
+    "screenshots": "Screenshots"
+  },
+  "view": {
+    "edit": "Edit",
+    "preview": "Preview",
+    "showHints": "Show hints",
+    "hideHints": "Hide hints",
+    "stepsCount": "{{count}} steps",
+    "exportDocumentation": "Export Documentation",
+    "exportEmpty": "Add screenshots or diagrams to export documentation",
+    "exportReady": "Export step-by-step documentation"
+  },
+  "stage": {
+    "viewFullSize": "View full size",
+    "buildingTitle": "Your documentation is being built",
+    "buildingSubtitle": "Select a step on the right to preview, or switch to Preview mode to see your full document",
+    "previewDocument": "Preview Document"
+  },
+  "timeline": {
+    "label": "Timeline ({{count}})"
+  },
+  "videoInfo": {
+    "videoRecording": "Video Recording",
+    "duration": "Duration: {{time}}",
+    "screenshotBased": "Screenshot-based documentation",
+    "exportVideoOnly": "Export Video Only",
+    "exportVideoOnlyTitle": "Export video file only (WebM format)"
+  },
+  "projectSettings": {
+    "heading": "Project Settings",
+    "titleLabel": "Project Title",
+    "titlePlaceholder": "Enter project title for PDF export",
+    "titleHint": "This title will appear in the exported PDF",
+    "sourceLabel": "Source/Application",
+    "sourcePlaceholder": "e.g., Chrome Browser, Desktop App",
+    "sourceHint": "Specify the source application or context"
+  },
+  "steps": {
+    "heading": "Documentation Steps ({{count}})",
+    "bookmarks": "Bookmarks ({{count}})",
+    "bookmarksTitle": "Generate steps from F10 bookmark timestamps",
+    "workflow": "Workflow",
+    "workflowTitle": "Generate a workflow diagram from step titles",
+    "diagram": "Diagram",
+    "diagramTitle": "Add empty diagram step",
+    "select": "Select",
+    "cancel": "Cancel",
+    "selectTitleEnter": "Select multiple steps",
+    "selectTitleExit": "Exit select mode",
+    "selectAll": "Select all",
+    "deselectAll": "Deselect all",
+    "selectedCount": "{{selected}} of {{total}} selected",
+    "bulkDelete": "Delete ({{count}})",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "goToTimestamp": "Go to timestamp",
+    "replaceVideoFrame": "Replace with current video frame",
+    "retakeFromWindow": "Retake screenshot from a window",
+    "editScreenshot": "Edit screenshot",
+    "editDiagram": "Edit diagram",
+    "delete": "Delete",
+    "doubleClickToEdit": "Double-click to edit",
+    "stepTitlePlaceholder": "Step title",
+    "stepDescriptionPlaceholder": "Step description",
+    "stepNumber": "Step {{n}}",
+    "dropZone": "Drop images or videos here to add new steps"
+  },
+  "emptyState": {
+    "noStepsYet": "No steps yet",
+    "captureFirstSteps": "Capture your first steps",
+    "goBackToCapture": "Go back to the capture page to take screenshots of your workflow",
+    "takeScreenshotsHint": "Take screenshots of your workflow and Docfai will turn them into professional documentation automatically",
+    "retakeScreenshots": "Retake Screenshots",
+    "startTakingScreenshots": "Start Taking Screenshots",
+    "generateFromBookmarksTitle": "Generate steps from bookmarks",
+    "generateFromBookmarksSubtitle": "Extract documentation steps at each F10 bookmark timestamp from your recording",
+    "stepsFromBookmarks": "Steps from Bookmarks ({{count}})"
+  },
+  "retakeModal": {
+    "heading": "Select window to capture"
+  },
+  "preview": {
+    "heading": "Documentation Preview",
+    "templateLabel": "Template:"
+  },
+  "videoEditor": {
+    "takeScreenshot": "Take Screenshot"
+  },
+  "coach": {
+    "editTitle": "Edit image & text",
+    "editDesc": "Click this button to annotate the screenshot and edit the step's title and description in one place.",
+    "replaceTitle": "Replace image",
+    "replaceDesc": "Swap the screenshot with a new capture from the original window — useful when the first capture missed something.",
+    "deleteTitle": "Delete step",
+    "deleteDesc": "Remove this step from your documentation. Use the grip handle to drag and reorder steps instead.",
+    "reorderTitle": "Reorder steps",
+    "reorderDesc": "Use the up/down arrows to change step order, or drag the grip handle on the left for quick rearranging.",
+    "templateTitle": "Choose a template",
+    "templateDesc": "Pick a layout that matches your style. Changes apply instantly to the preview below.",
+    "workflowTitle": "Auto-generate workflow",
+    "workflowDesc": "Creates a flow diagram from your step titles automatically — great for process documentation.",
+    "diagramTitle": "Add a diagram",
+    "diagramDesc": "Insert a blank flow diagram step to illustrate processes or decisions anywhere in your documentation."
+  },
+  "toast": {
+    "projectNotFound": "Project not found",
+    "stepUpdated": "Step updated successfully!",
+    "noStepsToExport": "No steps to export. Please take some screenshots or create diagrams first.",
+    "noDocStepsToExport": "No documentation steps to export. Please take some screenshots first.",
+    "exportFailed": "Failed to export step guide: {{error}}",
+    "noVideoFile": "No video file to export",
+    "videoLoadFailed": "Failed to load video recording",
+    "screenshotsLoadFailed": "Failed to load screenshots",
+    "interactiveScreenshotsLoadFailed": "Failed to load screenshots for interactive capture",
+    "desktopOnly": "This feature requires the desktop application",
+    "bookmarksCreated": "{{count}} steps created from bookmarks!",
+    "bookmarksFailed": "Failed to extract steps from bookmarks",
+    "needTwoSteps": "Need at least 2 steps to create a workflow diagram",
+    "workflowUpdated": "Workflow diagram updated with latest step titles!",
+    "workflowCreated": "Workflow diagram created! You can now edit it.",
+    "frameCaptureFailed": "Failed to capture frame from video",
+    "saveReplacementFailed": "Failed to save replacement screenshot",
+    "screenshotReplaced": "Screenshot replaced with current frame",
+    "replaceFailed": "Failed to replace screenshot",
+    "noCaptureSources": "No capture sources found",
+    "captureSourcesFailed": "Failed to load capture sources",
+    "captureFailed": "Failed to capture screenshot",
+    "retakeSuccess": "Screenshot retaken successfully",
+    "retakeFailed": "Failed to retake screenshot",
+    "stepsDeleted_one": "{{count}} step deleted",
+    "stepsDeleted_other": "{{count}} steps deleted",
+    "stepsReordered": "Steps reordered",
+    "unsupportedFile": "Unsupported file type. Drop an image (PNG, JPG, GIF, WebP) or video (MP4, WebM) file.",
+    "unsupportedFileShort": "Unsupported file type. Drop an image or video file.",
+    "videoTooLarge": "Video file too large. Maximum {{max}}MB.",
+    "noActiveProject": "No active project.",
+    "saveImageFailed": "Failed to save dropped image.",
+    "imageAdded": "Image added to step.",
+    "saveVideoFailed": "Failed to save video clip.",
+    "videoClipAdded": "Video clip added to step.",
+    "addImageStepFailed": "Failed to add image step.",
+    "noProjectSelected": "No project selected",
+    "screenshotDeleted": "Screenshot deleted successfully!",
+    "deleteScreenshotFailed": "Failed to delete screenshot file",
+    "noVideoForDoc": "No video file available for documentation",
+    "screenshotUpdated": "Screenshot and step information updated successfully!",
+    "nextScreenshotFailed": "Failed to load next screenshot",
+    "noVideoForExport": "No video file available for export",
+    "screenshotEditLoadFailed": "Failed to load screenshot for editing",
+    "diagramDeleted": "Diagram step and associated files deleted",
+    "stepDeleted": "Step and screenshot file deleted"
+  }
+}

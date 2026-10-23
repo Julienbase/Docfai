@@ -1,0 +1,72 @@
+{
+  "header": {
+    "title": "Importa Progetto",
+    "description": "Ripristina progetti precedentemente esportati con tutte le registrazioni, screenshot e documentazione.",
+    "hints": {
+      "show": "Mostra suggerimenti",
+      "hide": "Nascondi suggerimenti"
+    }
+  },
+  "selection": {
+    "title": "Seleziona un file .docfai",
+    "subtitle": "Scegli un backup di progetto esportato da importare",
+    "browseButton": "Sfoglia File"
+  },
+  "preview": {
+    "analyzing": "Analisi del file di importazione...",
+    "title": "Anteprima Importazione",
+    "projectName": "Nome Progetto",
+    "created": "Creato",
+    "recordings": "Registrazioni",
+    "screenshots": "Screenshot",
+    "documentationSteps": "Passaggi Documentazione",
+    "fileSize": "Dimensione File"
+  },
+  "conflict": {
+    "warning": "Esiste già un progetto chiamato \"{{name}}\"",
+    "importAsNew": "Importa come nuovo progetto",
+    "importAsNewDesc": "Crea una copia con un nome diverso, lasciando il progetto esistente intatto",
+    "replace": "Sostituisci progetto esistente",
+    "replaceDesc": "Elimina il progetto esistente e lo sostituisce con quello importato"
+  },
+  "progress": {
+    "complete": "% completato"
+  },
+  "actions": {
+    "chooseDifferent": "Scegli File Diverso",
+    "importButton": "Importa Progetto",
+    "importing": "Importazione in corso..."
+  },
+  "infocards": {
+    "formats": {
+      "title": "Formati Supportati",
+      "desc": "File .docfai e .zip esportati da Docfai"
+    },
+    "protection": {
+      "title": "Protezione Conflitti",
+      "desc": "I nomi duplicati vengono rilevati — scegli di sostituire o importare come nuovo"
+    },
+    "restore": {
+      "title": "Ripristino Completo",
+      "desc": "Registrazioni, screenshot, diagrammi e note vengono tutti ripristinati"
+    }
+  },
+  "coach": {
+    "browse": {
+      "title": "Seleziona il file .docfai",
+      "desc": "Scegli il backup esportato che vuoi ripristinare. Docfai lo analizzerà e mostrerà un'anteprima del contenuto."
+    },
+    "confirmImport": {
+      "title": "Importa quando sei pronto",
+      "desc": "Rivedi l'anteprima sopra, poi importa. Se il nome esiste già, scegli come gestire il conflitto."
+    }
+  },
+  "toast": {
+    "fileNotAvailable": "Selezione file non disponibile in questo ambiente",
+    "analyzeError": "Analisi del file selezionato fallita",
+    "readError": "Lettura file fallita: {{error}}",
+    "selectError": "Selezione file di importazione fallita",
+    "success": "Progetto importato con successo!",
+    "error": "Importazione fallita: {{error}}"
+  }
+}

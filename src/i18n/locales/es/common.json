@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "dashboard": "Panel de Control",
+    "import": "Importar",
+    "help": "Ayuda",
+    "settings": "Configuración",
+    "pricing": "Precios",
+    "subscriptionRequired": "Suscripción Requerida",
+    "subscribeHint": "Suscríbete a un plan en Precios para desbloquear todas las funciones.",
+    "signOut": "Cerrar sesión"
+  },
+  "navBlock": {
+    "recordingTitle": "Grabación en Progreso",
+    "captureTitle": "Captura en Progreso",
+    "recordingBody": "Una grabación de pantalla se está ejecutando actualmente. Por favor, detén la grabación antes de navegar.",
+    "captureBody": "La captura de pantalla está actualmente activa. Por favor, detén la captura antes de navegar.",
+    "goBack": "Volver"
+  },
+  "action": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "create": "Crear",
+    "close": "Cerrar"
+  },
+  "language": {
+    "label": "Idioma",
+    "en": "English",
+    "de": "Deutsch",
+    "es": "Español",
+    "fr": "Français",
+    "ro": "Română",
+    "it": "Italiano"
+  },
+  "theme": {
+    "label": "Tema",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema"
+  },
+  "coach": {
+    "ok": "OK"
+  },
+  "settings": {
+    "accountTitle": "Configuración de Cuenta",
+    "general": "Configuración General",
+    "recordingDefaults": "Valores Predeterminados de Grabación",
+    "quality": "Calidad",
+    "frameRate": "Velocidad de Fotogramas",
+    "saveSettings": "Guardar Configuración",
+    "saved": "Configuración guardada"
+  }
+}

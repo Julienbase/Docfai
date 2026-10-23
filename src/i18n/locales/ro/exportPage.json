@@ -1,0 +1,104 @@
+{
+  "empty": {
+    "title": "Nicio Înregistrare Selectată",
+    "subtitle": "Vă rugăm, selectați o înregistrare pentru a exporta documentația.",
+    "goToDashboard": "Mergeți la Panou de Control"
+  },
+  "header": {
+    "title": "Export Documentație",
+    "showHints": "Afișare indicii",
+    "hideHints": "Ascundere indicii"
+  },
+  "formats": {
+    "heading": "Format",
+    "htmlOnly": "Doar HTML",
+    "pdf": {
+      "name": "Document PDF",
+      "info": "Doar capturi, fără redare video"
+    },
+    "docx": {
+      "name": "Document Word",
+      "info": "Editabil, capturile ca imagini"
+    },
+    "html": {
+      "name": "HTML",
+      "info": "Redare video completă, interactiv"
+    },
+    "pptx": {
+      "name": "Prezentare PowerPoint",
+      "info": "Un pas per diapozitiv, înglobări video"
+    },
+    "markdown": {
+      "name": "Document Markdown",
+      "info": "Text simplu, imagini ca legături"
+    },
+    "videoStepsWarning": "Pași video detectați — acest format arată doar miniaturi. Utilizați HTML sau PPTX pentru redare video."
+  },
+  "language": {
+    "label": "Limbă Export",
+    "none": "Original (Fără Traducere)",
+    "en": "English",
+    "de": "Deutsch (German)",
+    "moduleRequired": "Necesită descărcare modul traducere ~600 MB"
+  },
+  "destination": {
+    "heading": "Destinație",
+    "localFile": "Fișier Local",
+    "connect": "Conectare",
+    "local": {
+      "name": "Fișier Local",
+      "description": "Salvare pe computerul dumneavoastră"
+    },
+    "confluence": {
+      "name": "Confluence",
+      "description": "Încărcați în spațiu Confluence",
+      "spaceUrlLabel": "URL Spațiu (Opțional)",
+      "parentPageLabel": "ID Pagină Părinte (Opțional)",
+      "parentPagePlaceholder": "Lăsați gol pentru rădăcină",
+      "connectPrompt": "Conectare Confluence"
+    },
+    "sharepoint": {
+      "name": "SharePoint",
+      "description": "Încărcați în biblioteca SharePoint",
+      "libraryUrlLabel": "URL Bibliotecă SharePoint",
+      "connectPrompt": "Conectare Microsoft 365"
+    }
+  },
+  "export": {
+    "exporting": "Exportare...",
+    "loading": "Încărcare...",
+    "button": "Export Documentație",
+    "progress": "Exportare..."
+  },
+  "result": {
+    "complete": "Export Complet",
+    "openFile": "Deschidere Fișier",
+    "folder": "Dosar",
+    "dismiss": "Respingere",
+    "showInFolder": "Afișare în dosar"
+  },
+  "recent": {
+    "heading": "Export Recent"
+  },
+  "coach": {
+    "formatTitle": "Alegere format export",
+    "formatDesc": "PDF și DOCX sunt grozavi pentru partajare. HTML păstrează redarea video. PPTX transformă fiecare pas într-o diapozitiv.",
+    "destinationTitle": "Alegere destinație",
+    "destinationDesc": "Salvați exportul local, sau împingeți direct la Confluence sau SharePoint o dată conectat.",
+    "runTitle": "Executare export",
+    "runDesc": "Generați documentul cu formatul, destinația și șablonul selectat."
+  },
+  "toast": {
+    "noData": "Nicio dată disponibilă pentru export",
+    "translationFailed": "Traducere eșuată. Exportare în limba originală.",
+    "exportCanceled": "Export anulat",
+    "exportedDocx": "Documentație exportată ca document Microsoft Word",
+    "exportedHtml": "Documentație exportată ca HTML cu șablon {{template}}",
+    "exportedFile": "Documentație exportată ca {{filename}}",
+    "exportedConfluence": "Documentație exportată la Confluence: {{name}}",
+    "exportedSharePoint": "Documentație exportată la SharePoint: {{filename}}",
+    "exportFailed": "Eșec la exportarea documentației",
+    "openFileFailed": "Eșec la deschiderea fișierului",
+    "showFolderFailed": "Eșec la afișare în dosar"
+  }
+}

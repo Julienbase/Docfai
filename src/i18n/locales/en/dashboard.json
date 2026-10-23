@@ -1,0 +1,116 @@
+{
+  "welcome": "Welcome back, {{name}}!",
+  "subtitle": {
+    "empty": "Start your first documentation project",
+    "needsEditing_one": "{{count}} project needs editing",
+    "needsEditing_other": "{{count}} projects need editing",
+    "readyToExport_one": "{{count}} project ready to export",
+    "readyToExport_other": "{{count}} projects ready to export",
+    "allUpToDate_one": "{{count}} project — all up to date",
+    "allUpToDate_other": "{{count}} projects — all up to date"
+  },
+  "plan": {
+    "trial": "Trial",
+    "team": "Team Plan",
+    "yearly": "Yearly",
+    "monthly": "Monthly",
+    "active": "Active",
+    "noPlan": "No Plan"
+  },
+  "hints": {
+    "show": "Show hints",
+    "hide": "Hide hints"
+  },
+  "continue": "Continue: {{name}}",
+  "stage": {
+    "empty": "Empty",
+    "completed": "Completed",
+    "readyToExport": "Ready to export",
+    "needsEditing": "Needs editing"
+  },
+  "quickActions": {
+    "title": "Quick Actions",
+    "startRecordingTitle": "Start Recording",
+    "startRecordingDesc": "Begin screen capture session",
+    "newProjectTitle": "New Project",
+    "newProjectDesc": "Create documentation project",
+    "stepByStepTitle": "Step-by-Step Screenshots",
+    "stepByStepDesc": "Capture screens and clicks",
+    "importProjectTitle": "Import Project",
+    "importProjectDesc": "Restore previously exported projects with all their recordings, screenshots, and documentation"
+  },
+  "recentProjects": "Recent Projects",
+  "searchPlaceholder": "Search projects...",
+  "chooseMethod": {
+    "title": "Choose how to capture your process",
+    "subtitle": "Pick the method that fits your workflow",
+    "videoTitle": "Video Recording",
+    "videoDesc": "Best for long workflows across multiple apps. Record your screen, then auto-generate steps.",
+    "screenshotsTitle": "Step-by-Step Screenshots",
+    "screenshotsDesc": "Best for click-by-click tutorials. Capture each step with annotations as you go."
+  },
+  "noResults": {
+    "title": "No projects found",
+    "subtitle": "Try adjusting your search terms"
+  },
+  "project": {
+    "noDescription": "No description",
+    "typeScreenshots": "Screenshots",
+    "typeVideo": "Video"
+  },
+  "modal": {
+    "createNewTitle": "Create New Project",
+    "projectName": "Project Name",
+    "projectNamePlaceholder": "Enter project name",
+    "description": "Description (Optional)",
+    "descriptionPlaceholder": "Describe your project",
+    "cancel": "Cancel",
+    "createProject": "Create Project",
+    "deleteTitle": "Delete Project",
+    "deleteConfirm": "Are you sure you want to delete \"{{name}}\"?",
+    "deleteWarning": "This action cannot be undone. All project files, recordings, and screenshots will be permanently deleted.",
+    "deleteButton": "Delete Project"
+  },
+  "capture": {
+    "modalTitle": "🖥️ Desktop Recording Active",
+    "modalInstructions": "Press <strong>SPACE</strong> to capture screenshots",
+    "modalSubtext": "Works anywhere on your desktop - any app, browser, or window",
+    "screenshotsCounter": "Screenshots: {{count}}",
+    "stopRecording": "Stop Recording"
+  },
+  "toast": {
+    "nameRequired": "Please enter a project name",
+    "duplicateName": "A project named \"{{name}}\" already exists. Please choose a different name.",
+    "created": "Project created successfully!",
+    "createFailed": "Failed to create project folder structure",
+    "deleted": "Project and files deleted successfully",
+    "deleteFailed": "Failed to delete project files",
+    "noExportable": "No recordings or screenshots found in this project to export",
+    "desktopOnly": "This feature requires the desktop application",
+    "startGlobalFailed": "Failed to start global recording",
+    "noScreenshots": "No screenshots captured",
+    "stopError": "Error stopping recording",
+    "captureNotSupported": "Screen capture is not supported in this browser",
+    "capturePermissionDenied": "Screen capture permission denied",
+    "captureNotSupported2": "Screen capture not supported",
+    "captureFailed": "Failed to capture screenshot",
+    "startSystemFailed": "Failed to start system-wide recording",
+    "leavePrompt": "Recording is in progress. Are you sure you want to leave?"
+  },
+  "time": {
+    "justNow": "just now",
+    "minsAgo": "{{count}}m ago",
+    "hoursAgo": "{{count}}h ago",
+    "daysAgo": "{{count}}d ago"
+  },
+  "coach": {
+    "startRecordingTitle": "Start Recording",
+    "startRecordingDesc": "Capture your screen as a video. Best for longer walkthroughs across multiple apps.",
+    "newProjectTitle": "Create a project",
+    "newProjectDesc": "Organize recordings, screenshots, and documentation in one place.",
+    "stepByStepTitle": "Step-by-step screenshots",
+    "stepByStepDesc": "Capture a screenshot on every click. Ideal for click-by-click tutorials.",
+    "importTitle": "Import a project",
+    "importDesc": "Bring in an existing Docfai project exported from another device."
+  }
+}

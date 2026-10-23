@@ -1,0 +1,72 @@
+{
+  "header": {
+    "title": "Importare Proiect",
+    "description": "Restaurați proiecte exportate anterior cu toate înregistrările, capturile și documentația.",
+    "hints": {
+      "show": "Afișare indicii",
+      "hide": "Ascundere indicii"
+    }
+  },
+  "selection": {
+    "title": "Selectare fișier .docfai",
+    "subtitle": "Alegeți o backup a proiectului exportat pentru import",
+    "browseButton": "Selectați Fișiere"
+  },
+  "preview": {
+    "analyzing": "Analizare fișier import...",
+    "title": "Previzualizare Import",
+    "projectName": "Nume Proiect",
+    "created": "Creat",
+    "recordings": "Înregistrări",
+    "screenshots": "Capturi",
+    "documentationSteps": "Pași Documentație",
+    "fileSize": "Mărime Fișier"
+  },
+  "conflict": {
+    "warning": "Un proiect cu nume \"{{name}}\" deja există",
+    "importAsNew": "Import ca proiect nou",
+    "importAsNewDesc": "Creează o copie cu alt nume, păstrând proiectul existent neatins",
+    "replace": "Înlocuire proiect existent",
+    "replaceDesc": "Șterge proiectul existent și îl înlocuiește cu cel importat"
+  },
+  "progress": {
+    "complete": "% complet"
+  },
+  "actions": {
+    "chooseDifferent": "Alegere Fișier Diferit",
+    "importButton": "Importare Proiect",
+    "importing": "Importare..."
+  },
+  "infocards": {
+    "formats": {
+      "title": "Formate Suportate",
+      "desc": "Fișiere .docfai și .zip exportate din Docfai"
+    },
+    "protection": {
+      "title": "Protecție Conflict",
+      "desc": "Numele duplicate sunt detectate — alegeți să înlocuiți sau să importați ca nou"
+    },
+    "restore": {
+      "title": "Restaurare Completă",
+      "desc": "Înregistrările, capturile, diagramele și notele sunt toate restaurate"
+    }
+  },
+  "coach": {
+    "browse": {
+      "title": "Selectare fișierul .docfai",
+      "desc": "Selectați backup-ul exportat pe care doriți să îl restaurați. Docfai îl va analiza și previzualiza conținutul."
+    },
+    "confirmImport": {
+      "title": "Import când sunteți gata",
+      "desc": "Revizuiți previzualizarea de mai sus, apoi importați. Dacă numele deja există, alegeți cum se gestionează conflictul."
+    }
+  },
+  "toast": {
+    "fileNotAvailable": "Selectare fișier nu disponibilă în acest mediu",
+    "analyzeError": "Eșec la analizare fișier selectat",
+    "readError": "Eșec la citire fișier: {{error}}",
+    "selectError": "Eșec la selectare fișier import",
+    "success": "Proiect importat cu succes!",
+    "error": "Import eșuat: {{error}}"
+  }
+}

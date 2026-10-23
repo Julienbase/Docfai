@@ -1,0 +1,164 @@
+{
+  "header": {
+    "title": "Account Settings",
+    "subtitle": "Manage your account, preferences, and subscription"
+  },
+  "tabs": {
+    "profile": "Profile",
+    "backup": "Backup & Export",
+    "settings": "Settings",
+    "connections": "Connections",
+    "subscription": "Subscription",
+    "usage": "Usage",
+    "support": "Support"
+  },
+  "profile": {
+    "title": "Profile Information",
+    "email": "Email",
+    "teamRole": "Team Role",
+    "teamAdmin": "Team Admin",
+    "teamMember": "Team Member",
+    "company": "Company"
+  },
+  "settings": {
+    "general": "General Settings",
+    "recordingDefaults": "Recording Defaults",
+    "quality": "Quality",
+    "frameRate": "Frame Rate",
+    "saveSettings": "Save Settings",
+    "saved": "Settings saved successfully!"
+  },
+  "connectionTab": {
+    "title": "Connected Accounts",
+    "manageConnections": "Manage Connections",
+    "subtitle": "Connect your Confluence and SharePoint accounts to export documentation directly to these platforms.",
+    "confluence": {
+      "title": "Confluence",
+      "subtitle": "Atlassian Confluence",
+      "description": "Export documentation directly to Confluence spaces and pages."
+    },
+    "sharepoint": {
+      "title": "SharePoint",
+      "subtitle": "Microsoft 365",
+      "description": "Export documentation to SharePoint document libraries."
+    },
+    "connected": "Connected",
+    "notConnected": "Not Connected",
+    "quickSetup": "Quick Setup",
+    "quickSetupDesc": "Connect your accounts to start exporting documentation directly from the export page.",
+    "setupConnections": "Set up connections →"
+  },
+  "subscription": {
+    "title": "Subscription Management"
+  },
+  "usage": {
+    "title": "Usage Statistics",
+    "recordingsThisMonth": "Recordings This Month",
+    "totalRecordings": "Total Recordings",
+    "documentsGenerated": "Documents Generated",
+    "hoursRecorded": "Hours Recorded"
+  },
+  "support": {
+    "appInfo": "App Information",
+    "version": "App Version",
+    "versionDesc": "Currently installed version",
+    "contactSupport": "Contact Support",
+    "supportDesc": "Found a bug or have a question? Open an issue on GitHub.",
+    "emailSupport": "GitHub Issues",
+    "emailAddress": "github.com/Julienbase/Docfai/issues",
+    "contact": "Contact",
+    "troubleshooting": "Troubleshooting Tools",
+    "exportLogs": "Export Error Logs",
+    "exportLogsDesc": "Save error logs and send to support",
+    "exportErrorLogsModal": {
+      "title": "Export Error Logs",
+      "instructions": "Follow these steps to send error logs to our support team:",
+      "step1Title": "Choose where to save",
+      "step1Desc": "Select a location (like Desktop) to save the error logs file",
+      "step2Title": "Email will open automatically",
+      "step2Desc": "Your default email client will open with a pre-filled message",
+      "step3Title": "Attach the logs file",
+      "step3Desc": "Attach the error logs file you just saved to the email",
+      "step4Title": "Describe the issue and send",
+      "step4Desc": "Add details about the problem you're experiencing and send the email",
+      "note": "Note: The logs file contains system information to help us diagnose issues. No personal data is included.",
+      "cancel": "Cancel",
+      "export": "Export Logs"
+    }
+  },
+  "backup": {
+    "title": "Backup & Export",
+    "subtitle": "Configure automatic backups and data export settings"
+  },
+  "backupHistory": {
+    "title": "Backup History",
+    "loading": "Loading backup history...",
+    "empty": "No backup history found",
+    "emptyDesc": "Backup records will appear here after your first backup",
+    "retry": "Retry",
+    "close": "Close",
+    "date": "Date:",
+    "destination": "Destination:",
+    "size": "Size:",
+    "download": "Download backup",
+    "openFolder": "Open backup folder",
+    "deleteRecord": "Delete backup record"
+  },
+  "backupSettings": {
+    "automaticBackup": "Automatic Backup",
+    "automaticBackupDesc": "Automatically backup your projects and data",
+    "backupFrequency": "Backup Frequency",
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "monthly": "Monthly",
+    "scheduleTime": "Schedule Time",
+    "hour": "Hour",
+    "minute": "Minute",
+    "dayOfWeek": "Day of Week",
+    "dayOfMonth": "Day of Month",
+    "lastDayOfMonth": "Last day of the month",
+    "backupDestinations": "Backup Destinations",
+    "localStorage": "Local Storage",
+    "localStorageDesc": "Save backups to a local folder on your computer",
+    "sharepoint": "SharePoint",
+    "sharepointDesc": "Upload backups to your SharePoint site",
+    "noFolderSelected": "No folder selected",
+    "change": "Change",
+    "select": "Select",
+    "nextBackup": "Next backup: {{time}}",
+    "backupNow": "Backup Now",
+    "backupHistory": "Backup History",
+    "advancedSettings": "Advanced Settings"
+  },
+  "advancedBackupSettings": {
+    "title": "Advanced Backup Settings",
+    "cancel": "Cancel",
+    "save": "Save Settings",
+    "retentionPolicy": "Retention Policy",
+    "keepBackupsFor": "Keep backups for",
+    "maxBackupCount": "Maximum backup count",
+    "compression": "Compression",
+    "enableCompression": "Enable compression",
+    "compressionLevel": "Compression level",
+    "fast": "Fast",
+    "balanced": "Balanced",
+    "maximum": "Maximum",
+    "notifications": "Notifications",
+    "notifySuccess": "Notify on successful backup",
+    "notifyFailure": "Notify on backup failure",
+    "notifyCleanup": "Notify when old backups are cleaned up",
+    "bandwidth": "Bandwidth",
+    "limitUploadSpeed": "Limit upload speed",
+    "maxUploadSpeed": "Max upload speed (MB/s)"
+  },
+  "toast": {
+    "settingsSaved": "Advanced backup settings saved!",
+    "settingsFailed": "Failed to save settings. Please try again.",
+    "backupDeleted": "Backup record deleted successfully",
+    "backupDeleteFailed": "Failed to delete backup record",
+    "logsSaved": "Error logs saved successfully!",
+    "logsFailed": "Failed to export error logs",
+    "desktopOnly": "This feature is only available in desktop app",
+    "paymentSuccess": "Payment successful! Your subscription is now active."
+  }
+}

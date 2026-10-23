@@ -1,0 +1,116 @@
+{
+  "welcome": "Bentornato, {{name}}!",
+  "subtitle": {
+    "empty": "Inizia il tuo primo progetto di documentazione",
+    "needsEditing_one": "{{count}} progetto richiede modifiche",
+    "needsEditing_other": "{{count}} progetti richiedono modifiche",
+    "readyToExport_one": "{{count}} progetto pronto per l'esportazione",
+    "readyToExport_other": "{{count}} progetti pronti per l'esportazione",
+    "allUpToDate_one": "{{count}} progetto — tutto aggiornato",
+    "allUpToDate_other": "{{count}} progetti — tutto aggiornato"
+  },
+  "plan": {
+    "trial": "Prova",
+    "team": "Piano Team",
+    "yearly": "Annuale",
+    "monthly": "Mensile",
+    "active": "Attivo",
+    "noPlan": "Nessun Piano"
+  },
+  "hints": {
+    "show": "Mostra suggerimenti",
+    "hide": "Nascondi suggerimenti"
+  },
+  "continue": "Continua: {{name}}",
+  "stage": {
+    "empty": "Vuoto",
+    "completed": "Completato",
+    "readyToExport": "Pronto per l'esportazione",
+    "needsEditing": "Da modificare"
+  },
+  "quickActions": {
+    "title": "Azioni Rapide",
+    "startRecordingTitle": "Avvia Registrazione",
+    "startRecordingDesc": "Avvia una sessione di acquisizione schermo",
+    "newProjectTitle": "Nuovo Progetto",
+    "newProjectDesc": "Crea un progetto di documentazione",
+    "stepByStepTitle": "Screenshot Passo dopo Passo",
+    "stepByStepDesc": "Acquisisci schermate e clic",
+    "importProjectTitle": "Importa Progetto",
+    "importProjectDesc": "Ripristina progetti precedentemente esportati con tutte le registrazioni, screenshot e documentazione"
+  },
+  "recentProjects": "Progetti Recenti",
+  "searchPlaceholder": "Cerca progetti...",
+  "chooseMethod": {
+    "title": "Scegli come acquisire il tuo processo",
+    "subtitle": "Scegli il metodo adatto al tuo flusso di lavoro",
+    "videoTitle": "Registrazione Video",
+    "videoDesc": "Ideale per flussi di lavoro lunghi su più applicazioni. Registra lo schermo, poi genera i passaggi automaticamente.",
+    "screenshotsTitle": "Screenshot Passo dopo Passo",
+    "screenshotsDesc": "Ideale per tutorial passo dopo passo. Acquisisci ogni passaggio con annotazioni man mano che procedi."
+  },
+  "noResults": {
+    "title": "Nessun progetto trovato",
+    "subtitle": "Prova a modificare i termini di ricerca"
+  },
+  "project": {
+    "noDescription": "Nessuna descrizione",
+    "typeScreenshots": "Screenshot",
+    "typeVideo": "Video"
+  },
+  "modal": {
+    "createNewTitle": "Crea Nuovo Progetto",
+    "projectName": "Nome Progetto",
+    "projectNamePlaceholder": "Inserisci il nome del progetto",
+    "description": "Descrizione (Facoltativa)",
+    "descriptionPlaceholder": "Descrivi il tuo progetto",
+    "cancel": "Annulla",
+    "createProject": "Crea Progetto",
+    "deleteTitle": "Elimina Progetto",
+    "deleteConfirm": "Sei sicuro di voler eliminare \"{{name}}\"?",
+    "deleteWarning": "Questa azione non può essere annullata. Tutti i file, le registrazioni e gli screenshot del progetto verranno eliminati definitivamente.",
+    "deleteButton": "Elimina Progetto"
+  },
+  "capture": {
+    "modalTitle": "🖥️ Registrazione Desktop Attiva",
+    "modalInstructions": "Premi <strong>SPAZIO</strong> per acquisire schermate",
+    "modalSubtext": "Funziona ovunque sul desktop — qualsiasi applicazione, browser o finestra",
+    "screenshotsCounter": "Screenshot: {{count}}",
+    "stopRecording": "Interrompi Registrazione"
+  },
+  "toast": {
+    "nameRequired": "Inserisci un nome per il progetto",
+    "duplicateName": "Un progetto chiamato \"{{name}}\" esiste già. Scegli un nome diverso.",
+    "created": "Progetto creato con successo!",
+    "createFailed": "Creazione struttura cartelle progetto fallita",
+    "deleted": "Progetto e file eliminati con successo",
+    "deleteFailed": "Eliminazione file del progetto fallita",
+    "noExportable": "Nessuna registrazione o screenshot trovati in questo progetto da esportare",
+    "desktopOnly": "Questa funzione richiede l'app desktop",
+    "startGlobalFailed": "Avvio registrazione globale fallito",
+    "noScreenshots": "Nessuno screenshot",
+    "stopError": "Errore durante l'interruzione della registrazione",
+    "captureNotSupported": "L'acquisizione schermo non è supportata da questo browser",
+    "capturePermissionDenied": "Permesso acquisizione schermo negato",
+    "captureNotSupported2": "Acquisizione schermo non supportata",
+    "captureFailed": "Acquisizione schermo fallita",
+    "startSystemFailed": "Avvio registrazione di sistema fallito",
+    "leavePrompt": "È in corso una registrazione. Sei sicuro di voler uscire?"
+  },
+  "time": {
+    "justNow": "poco fa",
+    "minsAgo": "{{count}}min fa",
+    "hoursAgo": "{{count}}h fa",
+    "daysAgo": "{{count}}g fa"
+  },
+  "coach": {
+    "startRecordingTitle": "Avvia Registrazione",
+    "startRecordingDesc": "Acquisisci lo schermo come video. Ideale per tutorial più lunghi su più applicazioni.",
+    "newProjectTitle": "Crea un progetto",
+    "newProjectDesc": "Organizza registrazioni, screenshot e documentazione in un unico posto.",
+    "stepByStepTitle": "Screenshot passo dopo passo",
+    "stepByStepDesc": "Acquisisci uno schermo per ogni clic. Perfetto per tutorial step-by-step.",
+    "importTitle": "Importa un progetto",
+    "importDesc": "Importa un progetto Docfai esistente esportato da un altro dispositivo."
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "panel": {
+    "heading": "Modèle de Document",
+    "selectPlaceholder": "Sélectionnez un modèle pour votre export",
+    "tabSelect": "Sélectionner un Modèle",
+    "tabCustomize": "Personnaliser",
+    "customizeLink": "Personnaliser les couleurs & polices →",
+    "selected": "Sélectionné :"
+  },
+  "selector": {
+    "heading": "Modèle de Document",
+    "available": "{{count}} modèles disponibles",
+    "categories": {
+      "compliance": "Conformité & Réglementation",
+      "operations": "Opérations & Processus",
+      "training": "Formation & Éducation",
+      "technical": "Documentation Technique"
+    }
+  },
+  "templates": {
+    "sop": {
+      "name": "Procédure Opératoire Standard (POS)",
+      "description": "Documentation de processus prête pour la conformité avec suivi des révisions, sections d'approbation et mise en page structurée. Idéal pour les secteurs réglementés."
+    },
+    "work-instruction": {
+      "name": "Instruction de Travail",
+      "description": "Documentation claire et orientée action avec étapes numérotées et visuels proéminents. Idéal pour les tâches opérationnelles ou en atelier."
+    },
+    "training-manual": {
+      "name": "Manuel de Formation",
+      "description": "Documentation pédagogique avec objectifs d'apprentissage, mise en page axée sur les visuels, points de contrôle et sections récapitulatives."
+    },
+    "user-guide": {
+      "name": "Manuel / Guide Utilisateur",
+      "description": "Documentation conviviale avec navigation claire, captures d'écran annotées et structure par chapitres."
+    },
+    "technical-spec": {
+      "name": "Spécification Technique",
+      "description": "Documentation technique structurée avec spécifications détaillées, support de diagrammes et gestion des versions."
+    }
+  },
+  "customizer": {
+    "heading": "Personnaliser le Modèle",
+    "save": "Enregistrer les Paramètres",
+    "saving": "Enregistrement...",
+    "saved": "Enregistré !",
+    "reset": "Réinitialiser",
+    "sections": {
+      "colors": "Schéma de Couleurs",
+      "typography": "Typographie",
+      "branding": "Image de Marque",
+      "document": "Informations du Document"
+    },
+    "colors": {
+      "presets": "Préréglages Rapides",
+      "custom": "Couleurs Personnalisées",
+      "primary": "Primaire",
+      "secondary": "Secondaire",
+      "accent": "Accent",
+      "text": "Texte",
+      "headerBg": "Fond d'En-tête",
+      "headerText": "Texte d'En-tête"
+    },
+    "typography": {
+      "combinations": "Combinaisons de Polices",
+      "headingFont": "Police des Titres",
+      "bodyFont": "Police du Corps"
+    },
+    "branding": {
+      "logo": "Logo de l'Entreprise",
+      "changeLogo": "Changer le Logo",
+      "uploadLogo": "Téléverser un Logo",
+      "companyName": "Nom de l'Entreprise",
+      "companyNamePlaceholder": "Saisissez le nom de l'entreprise"
+    },
+    "document": {
+      "documentId": "ID du Document",
+      "documentIdPlaceholder": "ex : POS-001",
+      "revision": "Révision",
+      "revisionPlaceholder": "ex : 1.0",
+      "confidentiality": "Niveau de Confidentialité",
+      "public": "Public",
+      "internal": "Usage Interne Uniquement",
+      "confidential": "Confidentiel",
+      "restricted": "Restreint"
+    },
+    "preview": {
+      "heading": "Aperçu",
+      "hide": "Masquer",
+      "show": "Afficher"
+    }
+  }
+}

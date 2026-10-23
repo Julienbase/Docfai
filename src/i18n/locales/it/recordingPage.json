@@ -1,0 +1,127 @@
+{
+  "header": {
+    "title": "Registrazione Schermo",
+    "noProject": "Nessun progetto selezionato"
+  },
+  "hints": {
+    "show": "Mostra suggerimenti",
+    "hide": "Nascondi suggerimenti"
+  },
+  "noProject": {
+    "prompt": "Crea un nuovo progetto per iniziare",
+    "description": "Hai bisogno di un progetto prima di iniziare a registrare. Le registrazioni e i passaggi di documentazione verranno salvati nel progetto.",
+    "createButton": "Crea Nuovo Progetto"
+  },
+  "source": {
+    "heading": "Seleziona Sorgente"
+  },
+  "settings": {
+    "heading": "Impostazioni",
+    "summary": "{{quality}} · {{fps}} FPS · Mic {{micState}}",
+    "micOn": "ON",
+    "micOff": "OFF",
+    "quality": {
+      "label": "Qualità",
+      "fhd": "1080p Full HD",
+      "2k": "1440p 2K (QHD)"
+    },
+    "frameRate": {
+      "label": "Frequenza Fotogrammi"
+    },
+    "microphone": {
+      "label": "Microfono",
+      "on": "Microfono ON",
+      "off": "Microfono OFF",
+      "noDevice": "Nessun microfono rilevato",
+      "deviceLabel": "Dispositivo Microfono",
+      "default": "Microfono Predefinito"
+    }
+  },
+  "controls": {
+    "recording": "Registrazione",
+    "paused": "In Pausa",
+    "stepsMarked": "{{count}} passaggio contrassegnato con F10",
+    "stepsMarked_other": "{{count}} passaggi contrassegnati con F10",
+    "preview": "Anteprima Sorgente",
+    "start": "Avvia Registrazione",
+    "pause": "Pausa",
+    "resume": "Riprendi",
+    "stop": "Interrompi"
+  },
+  "bookmark": {
+    "title": "Premi F10 per contrassegnare i passaggi di documentazione",
+    "description": "Contrassegna i momenti importanti durante la registrazione. Ogni segnalibro diventa un passaggio di documentazione con uno screenshot estratto automaticamente."
+  },
+  "upload": {
+    "button": "Carica Video",
+    "uploading": "Caricamento... {{progress}}%"
+  },
+  "preview": {
+    "selectPrompt": "Seleziona una sorgente dalla barra laterale",
+    "clickPrompt": "Clicca \"Anteprima Sorgente\" per vedere cosa registrerai",
+    "rec": "REC",
+    "pausedOverlay": "IN PAUSA",
+    "steps": "{{count}} passaggio",
+    "steps_other": "{{count}} passaggi"
+  },
+  "modal": {
+    "title": "Crea Nuovo Progetto",
+    "projectName": "Nome Progetto *",
+    "projectNamePlaceholder": "Inserisci il nome del progetto",
+    "description": "Descrizione (Facoltativa)",
+    "descriptionPlaceholder": "Inserisci la descrizione del progetto",
+    "cancel": "Annulla",
+    "create": "Crea Progetto"
+  },
+  "coach": {
+    "sourceTitle": "Scegli cosa registrare",
+    "sourceDesc": "Scegli uno schermo intero o una finestra specifica. Clicca su un riquadro per selezionarlo — vedrai un bordo blu sulla sorgente scelta.",
+    "startTitle": "Avvia la registrazione",
+    "startDesc": "Quando sei pronto, clicca questo pulsante per iniziare l'acquisizione. Puoi mettere in pausa o interrompere in qualsiasi momento dallo stesso posto.",
+    "stopTitle": "Interrompi e modifica",
+    "stopDesc": "L'interruzione ti porta direttamente nell'editor con la registrazione e tutti i segnalibri F10 pronti per diventare passaggi.",
+    "bookmarkTitle": "Contrassegna i momenti chiave con F10",
+    "bookmarkDesc": "Durante la registrazione, premi F10 quando succede qualcosa di importante. Ogni pressione diventa un passaggio di documentazione con uno screenshot automatico.",
+    "settingsTitle": "Regola qualità e audio",
+    "settingsDesc": "Espandi Impostazioni per cambiare risoluzione, frequenza fotogrammi, o abilitare il microfono prima di registrare."
+  },
+  "toast": {
+    "bookmarkAdded": "Segnalibro aggiunto a {{time}}",
+    "videoStarted": "Registrazione video avviata per {{source}}",
+    "videoSaved": "Video salvato in: {{path}}",
+    "videoSaveFailed": "Salvataggio video fallito: {{error}}",
+    "videoSaveError": "Salvataggio registrazione video fallito",
+    "videoError": "Errore registrazione video: {{error}}",
+    "videoRecordingError": "Si è verificato un errore durante la registrazione video",
+    "electronRequired": "Questa applicazione richiede Electron per funzionare correttamente.",
+    "loadSourcesFailed": "Caricamento sorgenti di registrazione fallito",
+    "micDenied": "Permesso microfono negato. La registrazione vocale non sarà disponibile.",
+    "noSource": "Seleziona prima una sorgente di registrazione.",
+    "micFailed": "Accesso al microfono fallito. Continuando solo con video.",
+    "previewFailed": "Avvio anteprima video fallito. Prova a selezionare di nuovo la sorgente.",
+    "permissionDenied": "Permesso acquisizione schermo negato. Abilita la condivisione dello schermo.",
+    "noCapture": "Nessuna sorgente di acquisizione schermo disponibile.",
+    "notSupported": "Acquisizione schermo non supportata in questo ambiente.",
+    "overconstrained": "La sorgente selezionata non può essere acquisita con le impostazioni correnti.",
+    "previewFailedGeneric": "Avvio anteprima fallito. Riprova.",
+    "noProjectSelected": "Nessun progetto selezionato",
+    "noSourceSelected": "Seleziona una sorgente di registrazione",
+    "micFailedRecording": "Accesso al microfono fallito. Registrazione senza audio.",
+    "recordingStarted": "Registrazione video avviata! (Formato: {{format}})",
+    "stopFailed": "Interruzione corretta della registrazione fallita",
+    "recordingSaved": "Registrazione video interrotta e salvata!",
+    "noVideoData": "Nessun dato video registrato. Riprova.",
+    "videoFileSaveFailed": "Salvataggio file video fallito",
+    "noProjectForSave": "Seleziona un progetto prima di registrare.",
+    "projectCreated": "Progetto creato con successo!",
+    "projectFolderFailed": "Creazione struttura cartelle progetto fallita",
+    "invalidFileType": "Seleziona un file video WebM o MP4",
+    "uploadSuccess": "Video caricato con successo: {{filename}}",
+    "uploadFailed": "Caricamento fallito: {{error}}",
+    "projectSelected": "Progetto \"{{name}}\" selezionato",
+    "recordingPaused": "Registrazione in pausa",
+    "recordingResumed": "Registrazione ripresa",
+    "noProjectName": "Inserisci un nome per il progetto",
+    "previewFailedMessage": "Avvio anteprima fallito: {{message}}"
+  }
+}

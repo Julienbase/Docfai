@@ -1,0 +1,93 @@
+{
+  "panel": {
+    "heading": "Dokumentvorlage",
+    "selectPlaceholder": "Vorlage für den Export auswählen",
+    "tabSelect": "Vorlage auswählen",
+    "tabCustomize": "Anpassen",
+    "customizeLink": "Farben & Schriften anpassen →",
+    "selected": "Ausgewählt:"
+  },
+  "selector": {
+    "heading": "Dokumentvorlage",
+    "available": "{{count}} Vorlagen verfügbar",
+    "categories": {
+      "compliance": "Compliance & Regulatorik",
+      "operations": "Betrieb & Prozesse",
+      "training": "Training & Bildung",
+      "technical": "Technische Dokumentation"
+    }
+  },
+  "templates": {
+    "sop": {
+      "name": "Standardarbeitsanweisung (SOP)",
+      "description": "Compliance-fähige Prozessdokumentation mit Revisionsverfolgung, Genehmigungsabschnitten und strukturiertem Layout. Ideal für regulierte Branchen."
+    },
+    "work-instruction": {
+      "name": "Arbeitsanweisung",
+      "description": "Klare, handlungsorientierte Dokumentation mit nummerierten Schritten und prominenten Grafiken. Ideal für Betriebsaufgaben."
+    },
+    "training-manual": {
+      "name": "Schulungshandbuch",
+      "description": "Bildungsdokumentation mit Lernzielen, visuellem Layout, Kontrollpunkten und Zusammenfassungsabschnitten."
+    },
+    "user-guide": {
+      "name": "Benutzerhandbuch / Anleitung",
+      "description": "Benutzerfreundliche Dokumentation mit klarer Navigation, kommentierten Screenshots und kapitelbasierter Struktur."
+    },
+    "technical-spec": {
+      "name": "Technische Spezifikation",
+      "description": "Strukturierte technische Dokumentation mit detaillierten Spezifikationen, Diagrammunterstützung und Versionierung."
+    }
+  },
+  "customizer": {
+    "heading": "Vorlage anpassen",
+    "save": "Einstellungen speichern",
+    "saving": "Wird gespeichert...",
+    "saved": "Gespeichert!",
+    "reset": "Zurücksetzen",
+    "sections": {
+      "colors": "Farbschema",
+      "typography": "Typografie",
+      "branding": "Corporate Design",
+      "document": "Dokumentinformationen"
+    },
+    "colors": {
+      "presets": "Schnellvorlagen",
+      "custom": "Benutzerdefinierte Farben",
+      "primary": "Primär",
+      "secondary": "Sekundär",
+      "accent": "Akzent",
+      "text": "Text",
+      "headerBg": "Kopfzeile HG",
+      "headerText": "Kopfzeile Text"
+    },
+    "typography": {
+      "combinations": "Schriftkombinationen",
+      "headingFont": "Überschriftentyp",
+      "bodyFont": "Fließtexttyp"
+    },
+    "branding": {
+      "logo": "Firmenlogo",
+      "changeLogo": "Logo ändern",
+      "uploadLogo": "Logo hochladen",
+      "companyName": "Firmenname",
+      "companyNamePlaceholder": "Firmennamen eingeben"
+    },
+    "document": {
+      "documentId": "Dokument-ID",
+      "documentIdPlaceholder": "z.B. SOP-001",
+      "revision": "Revision",
+      "revisionPlaceholder": "z.B. 1.0",
+      "confidentiality": "Vertraulichkeitsstufe",
+      "public": "Öffentlich",
+      "internal": "Nur für den internen Gebrauch",
+      "confidential": "Vertraulich",
+      "restricted": "Eingeschränkt"
+    },
+    "preview": {
+      "heading": "Vorschau",
+      "hide": "Ausblenden",
+      "show": "Einblenden"
+    }
+  }
+}

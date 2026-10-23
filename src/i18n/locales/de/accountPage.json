@@ -1,0 +1,164 @@
+{
+  "header": {
+    "title": "Kontoeinstellungen",
+    "subtitle": "Verwalten Sie Ihr Konto, Voreinstellungen und Abonnement"
+  },
+  "tabs": {
+    "profile": "Profil",
+    "backup": "Sicherung & Export",
+    "settings": "Einstellungen",
+    "connections": "Verbindungen",
+    "subscription": "Abonnement",
+    "usage": "Nutzung",
+    "support": "Unterstützung"
+  },
+  "profile": {
+    "title": "Profilinformationen",
+    "email": "E-Mail",
+    "teamRole": "Teamrolle",
+    "teamAdmin": "Team-Administrator",
+    "teamMember": "Teammitglied",
+    "company": "Unternehmen"
+  },
+  "settings": {
+    "general": "Allgemeine Einstellungen",
+    "recordingDefaults": "Standard-Aufnahmeeinstellungen",
+    "quality": "Qualität",
+    "frameRate": "Bildrate",
+    "saveSettings": "Einstellungen speichern",
+    "saved": "Einstellungen erfolgreich gespeichert!"
+  },
+  "connectionTab": {
+    "title": "Verbundene Konten",
+    "manageConnections": "Verbindungen verwalten",
+    "subtitle": "Verbinden Sie Ihre Confluence- und SharePoint-Konten, um Dokumentation direkt auf diese Plattformen zu exportieren.",
+    "confluence": {
+      "title": "Confluence",
+      "subtitle": "Atlassian Confluence",
+      "description": "Exportieren Sie Dokumentation direkt in Confluence-Bereiche und -Seiten."
+    },
+    "sharepoint": {
+      "title": "SharePoint",
+      "subtitle": "Microsoft 365",
+      "description": "Exportieren Sie Dokumentation in SharePoint-Dokumentbibliotheken."
+    },
+    "connected": "Verbunden",
+    "notConnected": "Nicht verbunden",
+    "quickSetup": "Schnellsetup",
+    "quickSetupDesc": "Verbinden Sie Ihre Konten, um Dokumentation direkt von der Exportseite zu exportieren.",
+    "setupConnections": "Verbindungen einrichten →"
+  },
+  "subscription": {
+    "title": "Abonnementverwaltung"
+  },
+  "usage": {
+    "title": "Nutzungsstatistiken",
+    "recordingsThisMonth": "Aufnahmen diesen Monat",
+    "totalRecordings": "Gesamtaufnahmen",
+    "documentsGenerated": "Generierte Dokumente",
+    "hoursRecorded": "Aufgenommene Stunden"
+  },
+  "support": {
+    "appInfo": "App-Informationen",
+    "version": "App-Version",
+    "versionDesc": "Derzeit installierte Version",
+    "contactSupport": "Kontakt zum Support",
+    "supportDesc": "Fehler gefunden oder eine Frage? Erstellen Sie ein Issue auf GitHub.",
+    "emailSupport": "GitHub Issues",
+    "emailAddress": "github.com/Julienbase/Docfai/issues",
+    "contact": "Kontakt",
+    "troubleshooting": "Fehlerbehebungs-Tools",
+    "exportLogs": "Fehlerprotokolle exportieren",
+    "exportLogsDesc": "Fehlerprotokolle speichern und an Support senden",
+    "exportErrorLogsModal": {
+      "title": "Fehlerprotokolle exportieren",
+      "instructions": "Führen Sie diese Schritte aus, um Fehlerprotokolle an unser Support-Team zu senden:",
+      "step1Title": "Wählen Sie den Speicherort",
+      "step1Desc": "Wählen Sie einen Speicherort (z. B. Desktop), um die Fehlerprotokolldatei zu speichern",
+      "step2Title": "E-Mail wird automatisch geöffnet",
+      "step2Desc": "Ihr Standard-E-Mail-Client wird mit einer vorausgefüllten Nachricht geöffnet",
+      "step3Title": "Fügen Sie die Protokolldatei an",
+      "step3Desc": "Fügen Sie die gerade gespeicherte Fehlerprotokolldatei der E-Mail an",
+      "step4Title": "Beschreiben Sie das Problem und senden Sie es",
+      "step4Desc": "Geben Sie Details zum Problem ein, das Sie haben, und senden Sie die E-Mail",
+      "note": "Hinweis: Die Protokolldatei enthält Systeminformationen, die uns bei der Diagnose von Problemen helfen. Es sind keine persönlichen Daten enthalten.",
+      "cancel": "Abbrechen",
+      "export": "Protokolle exportieren"
+    }
+  },
+  "backup": {
+    "title": "Sicherung & Export",
+    "subtitle": "Konfigurieren Sie automatische Sicherungen und Datenexporteinstellungen"
+  },
+  "backupHistory": {
+    "title": "Sicherungsverlauf",
+    "loading": "Sicherungsverlauf wird geladen...",
+    "empty": "Kein Sicherungsverlauf gefunden",
+    "emptyDesc": "Sicherungsdatensätze werden hier nach Ihrer ersten Sicherung angezeigt",
+    "retry": "Erneut versuchen",
+    "close": "Schließen",
+    "date": "Datum:",
+    "destination": "Ziel:",
+    "size": "Größe:",
+    "download": "Sicherung herunterladen",
+    "openFolder": "Sicherungsordner öffnen",
+    "deleteRecord": "Sicherungsdatensatz löschen"
+  },
+  "backupSettings": {
+    "automaticBackup": "Automatische Sicherung",
+    "automaticBackupDesc": "Sichern Sie Ihre Projekte und Daten automatisch",
+    "backupFrequency": "Sicherungshäufigkeit",
+    "daily": "Täglich",
+    "weekly": "Wöchentlich",
+    "monthly": "Monatlich",
+    "scheduleTime": "Geplante Zeit",
+    "hour": "Stunde",
+    "minute": "Minute",
+    "dayOfWeek": "Wochentag",
+    "dayOfMonth": "Tag des Monats",
+    "lastDayOfMonth": "Letzter Tag des Monats",
+    "backupDestinations": "Sicherungsziele",
+    "localStorage": "Lokaler Speicher",
+    "localStorageDesc": "Speichern Sie Sicherungen in einem lokalen Ordner auf Ihrem Computer",
+    "sharepoint": "SharePoint",
+    "sharepointDesc": "Laden Sie Sicherungen auf Ihre SharePoint-Website hoch",
+    "noFolderSelected": "Kein Ordner ausgewählt",
+    "change": "Ändern",
+    "select": "Auswählen",
+    "nextBackup": "Nächste Sicherung: {{time}}",
+    "backupNow": "Jetzt sichern",
+    "backupHistory": "Sicherungsverlauf",
+    "advancedSettings": "Erweiterte Einstellungen"
+  },
+  "advancedBackupSettings": {
+    "title": "Erweiterte Sicherungseinstellungen",
+    "cancel": "Abbrechen",
+    "save": "Einstellungen speichern",
+    "retentionPolicy": "Aufbewahrungsrichtlinie",
+    "keepBackupsFor": "Sicherungen behalten für",
+    "maxBackupCount": "Maximale Anzahl von Sicherungen",
+    "compression": "Kompression",
+    "enableCompression": "Kompression aktivieren",
+    "compressionLevel": "Kompressionsstufe",
+    "fast": "Schnell",
+    "balanced": "Ausgewogen",
+    "maximum": "Maximum",
+    "notifications": "Benachrichtigungen",
+    "notifySuccess": "Bei erfolgreicher Sicherung benachrichtigen",
+    "notifyFailure": "Bei Sicherungsfehler benachrichtigen",
+    "notifyCleanup": "Benachrichtigung beim Löschen alter Sicherungen",
+    "bandwidth": "Bandbreite",
+    "limitUploadSpeed": "Upload-Geschwindigkeit begrenzen",
+    "maxUploadSpeed": "Max. Upload-Geschwindigkeit (MB/s)"
+  },
+  "toast": {
+    "settingsSaved": "Erweiterte Sicherungseinstellungen gespeichert!",
+    "settingsFailed": "Einstellungen konnten nicht gespeichert werden. Bitte versuchen Sie es erneut.",
+    "backupDeleted": "Sicherungsdatensatz erfolgreich gelöscht",
+    "backupDeleteFailed": "Sicherungsdatensatz konnte nicht gelöscht werden",
+    "logsSaved": "Fehlerprotokolle erfolgreich gespeichert!",
+    "logsFailed": "Fehlerprotokolle konnten nicht exportiert werden",
+    "desktopOnly": "Diese Funktion ist nur in der Desktop-App verfügbar",
+    "paymentSuccess": "Zahlung erfolgreich! Ihr Abonnement ist jetzt aktiv."
+  }
+}

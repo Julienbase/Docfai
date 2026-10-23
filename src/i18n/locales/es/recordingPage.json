@@ -1,0 +1,127 @@
+{
+  "header": {
+    "title": "Grabación de Pantalla",
+    "noProject": "Ningún proyecto seleccionado"
+  },
+  "hints": {
+    "show": "Mostrar sugerencias",
+    "hide": "Ocultar sugerencias"
+  },
+  "noProject": {
+    "prompt": "Crea un nuevo proyecto para comenzar",
+    "description": "Necesitas un proyecto antes de comenzar a grabar. Tus grabaciones y pasos de documentación se guardarán dentro del proyecto.",
+    "createButton": "Crear Nuevo Proyecto"
+  },
+  "source": {
+    "heading": "Seleccionar Fuente"
+  },
+  "settings": {
+    "heading": "Configuración",
+    "summary": "{{quality}} · {{fps}} FPS · Mic {{micState}}",
+    "micOn": "ON",
+    "micOff": "OFF",
+    "quality": {
+      "label": "Calidad",
+      "fhd": "1080p Full HD",
+      "2k": "1440p 2K (QHD)"
+    },
+    "frameRate": {
+      "label": "Velocidad de Fotogramas"
+    },
+    "microphone": {
+      "label": "Micrófono",
+      "on": "Micrófono ON",
+      "off": "Micrófono OFF",
+      "noDevice": "No se detectó micrófono",
+      "deviceLabel": "Dispositivo de Micrófono",
+      "default": "Micrófono Predeterminado"
+    }
+  },
+  "controls": {
+    "recording": "Grabando",
+    "paused": "En Pausa",
+    "stepsMarked": "{{count}} paso marcado con F10",
+    "stepsMarked_other": "{{count}} pasos marcados con F10",
+    "preview": "Vista Previa de Fuente",
+    "start": "Comenzar Grabación",
+    "pause": "Pausar",
+    "resume": "Reanudar",
+    "stop": "Detener"
+  },
+  "bookmark": {
+    "title": "Presiona F10 para marcar pasos de documentación",
+    "description": "Marca momentos importantes mientras grabas. Cada marcador se convierte en un paso de documentación con una captura de pantalla extraída automáticamente."
+  },
+  "upload": {
+    "button": "Subir Video",
+    "uploading": "Subiendo... {{progress}}%"
+  },
+  "preview": {
+    "selectPrompt": "Selecciona una fuente de la barra lateral",
+    "clickPrompt": "Haz clic en \"Vista Previa de Fuente\" para ver qué grabarás",
+    "rec": "GRAB",
+    "pausedOverlay": "EN PAUSA",
+    "steps": "{{count}} paso",
+    "steps_other": "{{count}} pasos"
+  },
+  "modal": {
+    "title": "Crear Nuevo Proyecto",
+    "projectName": "Nombre del Proyecto *",
+    "projectNamePlaceholder": "Ingresa el nombre del proyecto",
+    "description": "Descripción (Opcional)",
+    "descriptionPlaceholder": "Ingresa la descripción del proyecto",
+    "cancel": "Cancelar",
+    "create": "Crear Proyecto"
+  },
+  "coach": {
+    "sourceTitle": "Elige qué grabar",
+    "sourceDesc": "Elige una pantalla completa o una ventana específica. Haz clic en un mosaico para seleccionarlo — verás un borde azul en la fuente elegida.",
+    "startTitle": "Comenzar grabación",
+    "startDesc": "Cuando estés listo, haz clic en este botón para comenzar la captura. Puedes pausar o detener en cualquier momento desde el mismo lugar.",
+    "stopTitle": "Detener y editar",
+    "stopDesc": "Al detener te llevará directamente al editor con tu grabación y todos los marcadores F10 listos para convertir en pasos.",
+    "bookmarkTitle": "Marca momentos clave con F10",
+    "bookmarkDesc": "Mientras grabas, presiona F10 cuando algo importante suceda. Cada pulsación se convierte en un paso de documentación con una captura automática.",
+    "settingsTitle": "Ajusta calidad y audio",
+    "settingsDesc": "Expande Configuración para cambiar resolución, velocidad de fotogramas o habilitar el micrófono antes de grabar."
+  },
+  "toast": {
+    "bookmarkAdded": "Marcador agregado en {{time}}",
+    "videoStarted": "Grabación de video iniciada para {{source}}",
+    "videoSaved": "Video guardado en: {{path}}",
+    "videoSaveFailed": "Error al guardar el video: {{error}}",
+    "videoSaveError": "Error al guardar la grabación de video",
+    "videoError": "Error de grabación de video: {{error}}",
+    "videoRecordingError": "Ocurrió un error de grabación de video",
+    "electronRequired": "Esta aplicación requiere Electron para funcionar correctamente.",
+    "loadSourcesFailed": "Error al cargar fuentes de grabación",
+    "micDenied": "Permiso de micrófono denegado. La grabación de voz no estará disponible.",
+    "noSource": "Por favor selecciona primero una fuente de grabación.",
+    "micFailed": "Error al acceder al micrófono. Continuando solo con video.",
+    "previewFailed": "Error al iniciar la vista previa de video. Intenta seleccionar la fuente de nuevo.",
+    "permissionDenied": "Permiso de captura de pantalla denegado. Por favor permite compartir pantalla.",
+    "noCapture": "No hay fuente de captura de pantalla disponible.",
+    "notSupported": "Captura de pantalla no soportada en este entorno.",
+    "overconstrained": "La fuente seleccionada no puede capturarse con la configuración actual.",
+    "previewFailedGeneric": "Error al iniciar la vista previa. Por favor inténtalo de nuevo.",
+    "noProjectSelected": "Ningún proyecto seleccionado",
+    "noSourceSelected": "Por favor selecciona una fuente de grabación",
+    "micFailedRecording": "Error al acceder al micrófono. Grabando sin audio.",
+    "recordingStarted": "¡Grabación de video iniciada! (Formato: {{format}})",
+    "stopFailed": "Error al detener la grabación correctamente",
+    "recordingSaved": "¡Grabación de video detenida y guardada!",
+    "noVideoData": "No se grabaron datos de video. Por favor intenta grabar de nuevo.",
+    "videoFileSaveFailed": "Error al guardar el archivo de video",
+    "noProjectForSave": "Por favor selecciona un proyecto antes de grabar.",
+    "projectCreated": "¡Proyecto creado exitosamente!",
+    "projectFolderFailed": "Error al crear la estructura de carpetas del proyecto",
+    "invalidFileType": "Por favor selecciona un archivo de video WebM o MP4",
+    "uploadSuccess": "Video subido exitosamente: {{filename}}",
+    "uploadFailed": "Error al subir: {{error}}",
+    "projectSelected": "Proyecto \"{{name}}\" seleccionado",
+    "recordingPaused": "Grabación en pausa",
+    "recordingResumed": "Grabación reanudada",
+    "noProjectName": "Por favor ingresa un nombre de proyecto",
+    "previewFailedMessage": "Error al iniciar la vista previa: {{message}}"
+  }
+}

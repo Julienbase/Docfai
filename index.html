@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      Security: Content Security Policy - Protects against XSS and injection attacks
+
+      Key Security Features:
+      - NO 'unsafe-inline' for scripts (prevents inline script injection)
+      - NO 'unsafe-eval' (prevents eval-based attacks)
+      - Explicit allowlist for external resources
+      - frame-ancestors 'none' (prevents clickjacking)
+
+      Note: style-src includes 'unsafe-inline' due to:
+      - Tailwind CSS utility classes generate inline styles
+      - React components with inline styles
+      - This is a common and acceptable trade-off for modern CSS-in-JS apps
+    -->
+    <meta http-equiv="Content-Security-Policy" content="
+      default-src 'self';
+      script-src 'self';
+      style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+      font-src 'self' data: https://fonts.gstatic.com https://fonts.googleapis.com;
+      img-src 'self' data: blob: http://localhost:* https: file:;
+      media-src 'self' data: blob: safe-file: http://localhost:* file:;
+      worker-src 'self' blob: data:;
+      connect-src 'self' ws://localhost:* http://localhost:*;
+      frame-src 'self';
+      object-src 'none';
+      base-uri 'self';
+      form-action 'self';
+      frame-ancestors 'none';
+    " />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Docfai</title>
+    <!-- Security: Inline scripts moved to external file to enable strict CSP (no 'unsafe-inline') -->
+    <script src="/polyfills.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- renderer-mouse-detection.js removed for Microsoft Store compliance -->
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,163 @@
+{
+  "empty": {
+    "title": "Aucun Projet ou Enregistrement Sélectionné",
+    "subtitle": "Veuillez sélectionner un projet ou un enregistrement pour commencer à modifier.",
+    "goToDashboard": "Aller au Tableau de Bord"
+  },
+  "header": {
+    "backToDashboard": "Retour au Tableau de Bord",
+    "editor": "Éditeur",
+    "videoProject": "Projet Vidéo",
+    "screenshots": "Captures d'Écran"
+  },
+  "view": {
+    "edit": "Modifier",
+    "preview": "Aperçu",
+    "showHints": "Afficher les suggestions",
+    "hideHints": "Masquer les suggestions",
+    "stepsCount": "{{count}} étapes",
+    "exportDocumentation": "Exporter la Documentation",
+    "exportEmpty": "Ajoutez des captures d'écran ou des diagrammes pour exporter la documentation",
+    "exportReady": "Exporter la documentation étape par étape"
+  },
+  "stage": {
+    "viewFullSize": "Voir en plein écran",
+    "buildingTitle": "Votre documentation est en cours de création",
+    "buildingSubtitle": "Sélectionnez une étape à droite pour la prévisualiser, ou passez en mode Aperçu pour voir votre document complet",
+    "previewDocument": "Prévisualiser le Document"
+  },
+  "timeline": {
+    "label": "Chronologie ({{count}})"
+  },
+  "videoInfo": {
+    "videoRecording": "Enregistrement Vidéo",
+    "duration": "Durée : {{time}}",
+    "screenshotBased": "Documentation basée sur des captures d'écran",
+    "exportVideoOnly": "Exporter Uniquement la Vidéo",
+    "exportVideoOnlyTitle": "Exporter uniquement le fichier vidéo (format WebM)"
+  },
+  "projectSettings": {
+    "heading": "Paramètres du Projet",
+    "titleLabel": "Titre du Projet",
+    "titlePlaceholder": "Saisissez le titre du projet pour l'export PDF",
+    "titleHint": "Ce titre apparaîtra dans le PDF exporté",
+    "sourceLabel": "Source/Application",
+    "sourcePlaceholder": "ex : Navigateur Chrome, Application Bureau",
+    "sourceHint": "Précisez l'application source ou le contexte"
+  },
+  "steps": {
+    "heading": "Étapes de Documentation ({{count}})",
+    "bookmarks": "Signets ({{count}})",
+    "bookmarksTitle": "Générer des étapes à partir des horodatages de signets F10",
+    "workflow": "Flux de Travail",
+    "workflowTitle": "Générer un diagramme de flux à partir des titres d'étapes",
+    "diagram": "Diagramme",
+    "diagramTitle": "Ajouter une étape de diagramme vide",
+    "select": "Sélectionner",
+    "cancel": "Annuler",
+    "selectTitleEnter": "Sélectionner plusieurs étapes",
+    "selectTitleExit": "Quitter le mode sélection",
+    "selectAll": "Tout sélectionner",
+    "deselectAll": "Tout désélectionner",
+    "selectedCount": "{{selected}} sur {{total}} sélectionnés",
+    "bulkDelete": "Supprimer ({{count}})",
+    "moveUp": "Monter",
+    "moveDown": "Descendre",
+    "goToTimestamp": "Aller à l'horodatage",
+    "replaceVideoFrame": "Remplacer par le cadre vidéo actuel",
+    "retakeFromWindow": "Reprendre la capture depuis une fenêtre",
+    "editScreenshot": "Modifier la capture d'écran",
+    "editDiagram": "Modifier le diagramme",
+    "delete": "Supprimer",
+    "doubleClickToEdit": "Double-cliquez pour modifier",
+    "stepTitlePlaceholder": "Titre de l'étape",
+    "stepDescriptionPlaceholder": "Description de l'étape",
+    "stepNumber": "Étape {{n}}",
+    "dropZone": "Déposez des images ou des vidéos ici pour ajouter de nouvelles étapes"
+  },
+  "emptyState": {
+    "noStepsYet": "Aucune étape",
+    "captureFirstSteps": "Capturez vos premières étapes",
+    "goBackToCapture": "Retournez à la page de capture pour prendre des captures d'écran de votre flux de travail",
+    "takeScreenshotsHint": "Prenez des captures d'écran de votre flux de travail et Docfai les transformera automatiquement en documentation professionnelle",
+    "retakeScreenshots": "Reprendre les Captures d'Écran",
+    "startTakingScreenshots": "Commencer les Captures d'Écran",
+    "generateFromBookmarksTitle": "Générer des étapes à partir des signets",
+    "generateFromBookmarksSubtitle": "Extraire des étapes de documentation à chaque horodatage de signet F10 de votre enregistrement",
+    "stepsFromBookmarks": "Étapes depuis les Signets ({{count}})"
+  },
+  "retakeModal": {
+    "heading": "Sélectionner la fenêtre à capturer"
+  },
+  "preview": {
+    "heading": "Aperçu de la Documentation",
+    "templateLabel": "Modèle :"
+  },
+  "videoEditor": {
+    "takeScreenshot": "Prendre une Capture d'Écran"
+  },
+  "coach": {
+    "editTitle": "Modifier image & texte",
+    "editDesc": "Cliquez ce bouton pour annoter la capture d'écran et modifier le titre et la description de l'étape en un seul endroit.",
+    "replaceTitle": "Remplacer l'image",
+    "replaceDesc": "Remplacez la capture d'écran par une nouvelle capture depuis la fenêtre d'origine — utile si la première capture a manqué quelque chose.",
+    "deleteTitle": "Supprimer l'étape",
+    "deleteDesc": "Supprimez cette étape de votre documentation. Utilisez la poignée de glissement pour réorganiser les étapes.",
+    "reorderTitle": "Réorganiser les étapes",
+    "reorderDesc": "Utilisez les flèches haut/bas pour changer l'ordre des étapes, ou faites glisser la poignée à gauche pour un réarrangement rapide.",
+    "templateTitle": "Choisir un modèle",
+    "templateDesc": "Sélectionnez une mise en page adaptée à votre style. Les modifications s'appliquent instantanément à l'aperçu ci-dessous.",
+    "workflowTitle": "Générer automatiquement un flux de travail",
+    "workflowDesc": "Crée automatiquement un diagramme de flux à partir de vos titres d'étapes — idéal pour la documentation de processus.",
+    "diagramTitle": "Ajouter un diagramme",
+    "diagramDesc": "Insérez une étape de diagramme de flux vide pour illustrer des processus ou des décisions n'importe où dans votre documentation."
+  },
+  "toast": {
+    "projectNotFound": "Projet introuvable",
+    "stepUpdated": "Étape mise à jour avec succès !",
+    "noStepsToExport": "Aucune étape à exporter. Veuillez prendre des captures d'écran ou créer des diagrammes d'abord.",
+    "noDocStepsToExport": "Aucune étape de documentation à exporter. Veuillez d'abord prendre des captures d'écran.",
+    "exportFailed": "Échec de l'export du guide : {{error}}",
+    "noVideoFile": "Aucun fichier vidéo à exporter",
+    "videoLoadFailed": "Échec du chargement de l'enregistrement vidéo",
+    "screenshotsLoadFailed": "Échec du chargement des captures d'écran",
+    "interactiveScreenshotsLoadFailed": "Échec du chargement des captures d'écran pour la capture interactive",
+    "desktopOnly": "Cette fonctionnalité nécessite l'application de bureau",
+    "bookmarksCreated": "{{count}} étapes créées depuis les signets !",
+    "bookmarksFailed": "Échec de l'extraction des étapes depuis les signets",
+    "needTwoSteps": "Au moins 2 étapes sont nécessaires pour créer un diagramme de flux",
+    "workflowUpdated": "Diagramme de flux mis à jour avec les derniers titres d'étapes !",
+    "workflowCreated": "Diagramme de flux créé ! Vous pouvez maintenant le modifier.",
+    "frameCaptureFailed": "Échec de la capture du cadre depuis la vidéo",
+    "saveReplacementFailed": "Échec de la sauvegarde de la capture de remplacement",
+    "screenshotReplaced": "Capture d'écran remplacée par le cadre actuel",
+    "replaceFailed": "Échec du remplacement de la capture d'écran",
+    "noCaptureSources": "Aucune source de capture trouvée",
+    "captureSourcesFailed": "Échec du chargement des sources de capture",
+    "captureFailed": "Échec de la capture d'écran",
+    "retakeSuccess": "Capture d'écran reprise avec succès",
+    "retakeFailed": "Échec de la reprise de la capture d'écran",
+    "stepsDeleted_one": "{{count}} étape supprimée",
+    "stepsDeleted_other": "{{count}} étapes supprimées",
+    "stepsReordered": "Étapes réorganisées",
+    "unsupportedFile": "Type de fichier non pris en charge. Déposez une image (PNG, JPG, GIF, WebP) ou une vidéo (MP4, WebM).",
+    "unsupportedFileShort": "Type de fichier non pris en charge. Déposez une image ou une vidéo.",
+    "videoTooLarge": "Fichier vidéo trop volumineux. Maximum {{max}} Mo.",
+    "noActiveProject": "Aucun projet actif.",
+    "saveImageFailed": "Échec de la sauvegarde de l'image déposée.",
+    "imageAdded": "Image ajoutée à l'étape.",
+    "saveVideoFailed": "Échec de la sauvegarde du clip vidéo.",
+    "videoClipAdded": "Clip vidéo ajouté à l'étape.",
+    "addImageStepFailed": "Échec de l'ajout de l'étape image.",
+    "noProjectSelected": "Aucun projet sélectionné",
+    "screenshotDeleted": "Capture d'écran supprimée avec succès !",
+    "deleteScreenshotFailed": "Échec de la suppression du fichier de capture d'écran",
+    "noVideoForDoc": "Aucun fichier vidéo disponible pour la documentation",
+    "screenshotUpdated": "Capture d'écran et informations d'étape mises à jour avec succès !",
+    "nextScreenshotFailed": "Échec du chargement de la capture d'écran suivante",
+    "noVideoForExport": "Aucun fichier vidéo disponible pour l'export",
+    "screenshotEditLoadFailed": "Échec du chargement de la capture d'écran pour modification",
+    "diagramDeleted": "Étape de diagramme et fichiers associés supprimés",
+    "stepDeleted": "Étape et fichier de capture d'écran supprimés"
+  }
+}

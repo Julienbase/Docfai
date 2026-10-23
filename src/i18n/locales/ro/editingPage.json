@@ -1,0 +1,163 @@
+{
+  "empty": {
+    "title": "Nicio Proiect sau Înregistrare Selectată",
+    "subtitle": "Vă rugăm, selectați un proiect sau o înregistrare pentru a începe editarea.",
+    "goToDashboard": "Mergeți la Panou de Control"
+  },
+  "header": {
+    "backToDashboard": "Înapoi la Panou de Control",
+    "editor": "Editor",
+    "videoProject": "Proiect Video",
+    "screenshots": "Capturi"
+  },
+  "view": {
+    "edit": "Editare",
+    "preview": "Previzualizare",
+    "showHints": "Afișare indicii",
+    "hideHints": "Ascundere indicii",
+    "stepsCount": "{{count}} pași",
+    "exportDocumentation": "Export Documentație",
+    "exportEmpty": "Adăugați capturi sau diagrame pentru a exporta documentația",
+    "exportReady": "Exportare documentație pas cu pas"
+  },
+  "stage": {
+    "viewFullSize": "Vizualizare mărime completă",
+    "buildingTitle": "Documentația dumneavoastră este în construcție",
+    "buildingSubtitle": "Selectați un pas pe dreapta pentru previzualizare, sau comutați la modul Previzualizare pentru a vedea documentul complet",
+    "previewDocument": "Previzualizare Document"
+  },
+  "timeline": {
+    "label": "Cronologie ({{count}})"
+  },
+  "videoInfo": {
+    "videoRecording": "Înregistrare Video",
+    "duration": "Durată: {{time}}",
+    "screenshotBased": "Documentație pe bază de captură",
+    "exportVideoOnly": "Export Doar Video",
+    "exportVideoOnlyTitle": "Export doar fișier video (format WebM)"
+  },
+  "projectSettings": {
+    "heading": "Setări Proiect",
+    "titleLabel": "Titlu Proiect",
+    "titlePlaceholder": "Introduceți titlul proiectului pentru export PDF",
+    "titleHint": "Acest titlu va apărea în PDF-ul exportat",
+    "sourceLabel": "Sursă/Aplicație",
+    "sourcePlaceholder": "de exemplu, Browser Chrome, Aplicație Desktop",
+    "sourceHint": "Specificați aplicația sursă sau contextul"
+  },
+  "steps": {
+    "heading": "Pași Documentație ({{count}})",
+    "bookmarks": "Marcaje ({{count}})",
+    "bookmarksTitle": "Generare pași din marcajele F10",
+    "workflow": "Flux de Lucru",
+    "workflowTitle": "Generare diagrama flux de lucru din titlurile pasilor",
+    "diagram": "Diagramă",
+    "diagramTitle": "Adăugare pas diagramă gol",
+    "select": "Selectare",
+    "cancel": "Anulare",
+    "selectTitleEnter": "Selectare mai mulți pași",
+    "selectTitleExit": "Ieșire din modul selectare",
+    "selectAll": "Selectare toate",
+    "deselectAll": "Deselectare toate",
+    "selectedCount": "{{selected}} din {{total}} selectați",
+    "bulkDelete": "Ștergere ({{count}})",
+    "moveUp": "Deplasare Sus",
+    "moveDown": "Deplasare Jos",
+    "goToTimestamp": "Mergeți la marcaj timp",
+    "replaceVideoFrame": "Înlocuire cu cadrul video curent",
+    "retakeFromWindow": "Retake captură de la fereastră",
+    "editScreenshot": "Editare captură",
+    "editDiagram": "Editare diagramă",
+    "delete": "Ștergere",
+    "doubleClickToEdit": "Dublu-clic pentru editare",
+    "stepTitlePlaceholder": "Titlu pas",
+    "stepDescriptionPlaceholder": "Descriere pas",
+    "stepNumber": "Pas {{n}}",
+    "dropZone": "Eliberați imagini sau videoclipuri aici pentru a adăuga pași noi"
+  },
+  "emptyState": {
+    "noStepsYet": "Niciun pas încă",
+    "captureFirstSteps": "Capturați primii pași",
+    "goBackToCapture": "Mergeți înapoi la pagina de captură pentru a face capturi ale fluxului de lucru",
+    "takeScreenshotsHint": "Faceți capturi de ecran ale fluxului de lucru și Docfai le va transforma în documentație profesională automat",
+    "retakeScreenshots": "Retake Capturi de Ecran",
+    "startTakingScreenshots": "Început Luare Capturi de Ecran",
+    "generateFromBookmarksTitle": "Generare pași din marcaje",
+    "generateFromBookmarksSubtitle": "Extragere pași documentației la fiecare marcaj F10 din înregistrarea dumneavoastră",
+    "stepsFromBookmarks": "Pași din Marcaje ({{count}})"
+  },
+  "retakeModal": {
+    "heading": "Selectare fereastră de captură"
+  },
+  "preview": {
+    "heading": "Previzualizare Documentație",
+    "templateLabel": "Șablon:"
+  },
+  "videoEditor": {
+    "takeScreenshot": "Luare Captură de Ecran"
+  },
+  "coach": {
+    "editTitle": "Editare imagine și text",
+    "editDesc": "Faceți clic pe acest buton pentru a adnota captura și edita titlul și descrierea pasului într-un singur loc.",
+    "replaceTitle": "Înlocuire imagine",
+    "replaceDesc": "Schimbați captura cu o nouă captură din fereastra originală — util când prima captură a ratat ceva.",
+    "deleteTitle": "Ștergere pas",
+    "deleteDesc": "Eliminați acest pas din documentația dumneavoastră. Utilizați maneta pentru a reorganiza pașii în schimb.",
+    "reorderTitle": "Reordonare pași",
+    "reorderDesc": "Utilizați săgețile sus/jos pentru a modifica ordinea pasilor, sau trageți maneta pe stânga pentru reorganizare rapidă.",
+    "templateTitle": "Alegere șablon",
+    "templateDesc": "Selectați o dispoziție care se potrivește stilului dumneavoastră. Modificările se aplică instant la previzualizarea de mai jos.",
+    "workflowTitle": "Generare automată flux de lucru",
+    "workflowDesc": "Creează o diagramă flux din titlurile dumneavoastră automat — grozav pentru documentația proceselor.",
+    "diagramTitle": "Adăugare diagramă",
+    "diagramDesc": "Inserați o diagramă flux goală pentru a ilustra procese sau decizii oriunde în documentația dumneavoastră."
+  },
+  "toast": {
+    "projectNotFound": "Proiect nu găsit",
+    "stepUpdated": "Pas actualizat cu succes!",
+    "noStepsToExport": "Niciun pas pentru export. Vă rugăm, faceți capturi sau creați diagrame mai întâi.",
+    "noDocStepsToExport": "Niciun pas documentație pentru export. Vă rugăm, faceți capturi mai întâi.",
+    "exportFailed": "Eșec la exportarea ghidului pas: {{error}}",
+    "noVideoFile": "Niciun fișier video pentru export",
+    "videoLoadFailed": "Eșec la încărcarea înregistrării video",
+    "screenshotsLoadFailed": "Eșec la încărcarea capturilor de ecran",
+    "interactiveScreenshotsLoadFailed": "Eșec la încărcarea capturilor pentru capturare interactivă",
+    "desktopOnly": "Această funcție necesită aplicația desktop",
+    "bookmarksCreated": "{{count}} pași creați din marcaje!",
+    "bookmarksFailed": "Eșec la extragerea pasilor din marcaje",
+    "needTwoSteps": "Sunt necesari cel puțin 2 pași pentru a crea o diagramă flux",
+    "workflowUpdated": "Diagramă flux actualizată cu titlurile pasilor mai noi!",
+    "workflowCreated": "Diagramă flux creată! Acum o puteți edita.",
+    "frameCaptureFailed": "Eșec la capturarea cadrului din video",
+    "saveReplacementFailed": "Eșec la salvarea captureului de înlocuire",
+    "screenshotReplaced": "Captură înlocuită cu cadrul curent",
+    "replaceFailed": "Eșec la înlocuire captură",
+    "noCaptureSources": "Nicio sursă de captură găsit",
+    "captureSourcesFailed": "Eșec la încărcarea surselor de captură",
+    "captureFailed": "Eșec la capturare captură",
+    "retakeSuccess": "Captură retake cu succes",
+    "retakeFailed": "Eșec la retake captură",
+    "stepsDeleted_one": "{{count}} pas șters",
+    "stepsDeleted_other": "{{count}} pași șterși",
+    "stepsReordered": "Pași reordonați",
+    "unsupportedFile": "Tip fișier nesuportat. Eliberați o imagine (PNG, JPG, GIF, WebP) sau video (MP4, WebM).",
+    "unsupportedFileShort": "Tip fișier nesuportat. Eliberați o imagine sau fișier video.",
+    "videoTooLarge": "Fișier video prea mare. Maximum {{max}}MB.",
+    "noActiveProject": "Nicio proiect activ.",
+    "saveImageFailed": "Eșec la salvarea imaginii eliberate.",
+    "imageAdded": "Imagine adăugat la pas.",
+    "saveVideoFailed": "Eșec la salvarea clipului video.",
+    "videoClipAdded": "Clip video adăugat la pas.",
+    "addImageStepFailed": "Eșec la adăugare pas imagine.",
+    "noProjectSelected": "Nicio proiect selectat",
+    "screenshotDeleted": "Captură șters cu succes!",
+    "deleteScreenshotFailed": "Eșec la ștergere fișier captură",
+    "noVideoForDoc": "Niciun fișier video disponibil pentru documentație",
+    "screenshotUpdated": "Captură și informații pas actualizate cu succes!",
+    "nextScreenshotFailed": "Eșec la încărcarea captureului următor",
+    "noVideoForExport": "Niciun fișier video disponibil pentru export",
+    "screenshotEditLoadFailed": "Eșec la încărcarea captureului pentru editare",
+    "diagramDeleted": "Pas diagramă și fișierele asociate șterse",
+    "stepDeleted": "Pas și fișier captură șters"
+  }
+}

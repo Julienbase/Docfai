@@ -1,0 +1,137 @@
+{
+  "header": {
+    "title": "Export Video"
+  },
+  "noRecording": {
+    "title": "Nicio Înregistrare Video Selectată",
+    "description": "Vă rugăm, selectați o înregistrare video pentru export.",
+    "button": "Mergeți la Panou de Control"
+  },
+  "hints": {
+    "show": "Afișare indicii",
+    "hide": "Ascundere indicii"
+  },
+  "trim": {
+    "heading": "Decupare Video",
+    "startTime": "Timp Inițial",
+    "endTime": "Timp Final",
+    "duration": "Durată:",
+    "reset": "Resetare"
+  },
+  "export": {
+    "button": "Export Video",
+    "exporting": "Exportare... {{progress}}%"
+  },
+  "recentExports": {
+    "heading": "Export Recent"
+  },
+  "format": {
+    "heading": "Format Export",
+    "premium": "Premium"
+  },
+  "formats": {
+    "mp4": {
+      "name": "Video MP4",
+      "description": "Format universal compatibil cu toate dispozitivele și platformele",
+      "features": [
+        "Compatibilitate universală",
+        "Mărime fișier mică",
+        "Calitate înaltă",
+        "Gata pentru streaming"
+      ]
+    },
+    "webm": {
+      "name": "Video WebM",
+      "description": "Format optimizat pentru web cu compresie excelentă",
+      "features": [
+        "Optimizat pentru web",
+        "Compresie excelentă",
+        "Open source",
+        "Gata pentru HTML5"
+      ]
+    },
+    "avi": {
+      "name": "Video AVI",
+      "description": "Format calitate înaltă pentru editare profesională",
+      "features": [
+        "Calitate înaltă",
+        "Editare profesională",
+        "Compresie fără pierdere",
+        "Sprijin larg"
+      ]
+    },
+    "mov": {
+      "name": "QuickTime MOV",
+      "description": "Format Apple optimizat pentru dispozitive Mac și iOS",
+      "features": [
+        "Optimizat Apple",
+        "Calitate înaltă",
+        "Grad profesional",
+        "Gata Final Cut Pro"
+      ]
+    }
+  },
+  "quality": {
+    "heading": "Setări Calitate",
+    "resolution": "Rezoluție",
+    "note": "Rezoluție mai înaltă = calitate mai bună",
+    "resolutions": {
+      "720p": "720p HD",
+      "1080p": "1080p Full HD",
+      "2k": "1440p 2K (QHD)"
+    },
+    "compression": "Compresie",
+    "compressionLow": "Scăzut (Cea mai Bună Calitate, Fișier Mai Mare)",
+    "compressionMedium": "Mediu (Echilibrat)",
+    "compressionHigh": "Înalt (Fișier Mai Mic, Calitate Mai Scăzută)",
+    "compressionNotes": {
+      "low": "Recomandat pentru 2K: 15-20 Mbps bitrate",
+      "medium": "Echilibrat: 8-15 Mbps bitrate",
+      "high": "Comprimat: 5-10 Mbps bitrate"
+    },
+    "frameRate": "Viteza Fotogramelor",
+    "fps30": "30 FPS (Standard)",
+    "fps60": "60 FPS (Smooth)"
+  },
+  "destination": {
+    "heading": "Destinație Export",
+    "local": {
+      "name": "Stocare Locală",
+      "description": "Salvare fișier video pe computerul dumneavoastră"
+    },
+    "sharepoint": {
+      "name": "SharePoint",
+      "description": "Încărcare video direct la SharePoint",
+      "required": "Conexiune cont Microsoft necesară",
+      "heading": "Opțiuni SharePoint",
+      "url": "URL SharePoint",
+      "urlPlaceholder": "https://yourcompany.sharepoint.com/sites/yoursite/...",
+      "libraryName": "Nume Bibliotecă",
+      "libraryPlaceholder": "Documente",
+      "folderPath": "Cale Dosar",
+      "folderPlaceholder": "Videoclipuri/Exporturi"
+    }
+  },
+  "progress": {
+    "heading": "Progres Export"
+  },
+  "coach": {
+    "trimTitle": "Decupare clip",
+    "trimDesc": "Ajustare timp inițial și final pentru a decupa video. Lăsați ambele la implicit pentru a exporta înregistrarea completă.",
+    "formatTitle": "Alegere format video",
+    "formatDesc": "Alegeți din MP4 (universal), WebM (web), sau formate premium cum ar fi AVI sau MOV pentru editare profesională.",
+    "exportTitle": "Export video",
+    "exportDesc": "Faceți clic aici pentru a începe procesul de export. Puteți salva local sau încărca direct la SharePoint."
+  },
+  "toast": {
+    "noRecording": "Nicio înregistrare video selectată pentru export",
+    "exportCanceled": "Export video anulat",
+    "exportSuccess": "Video exportat cu succes la {{path}}",
+    "exportDemo": "Export video completat (mod demo)",
+    "uploading": "Încărcare la SharePoint...",
+    "sharepointSuccess": "Video exportat la SharePoint: {{fileName}}",
+    "exportFailed": "Export eșuat: {{error}}",
+    "urlParsed": "URL SharePoint analizat cu succes!",
+    "urlParseFailed": "Eșec la analizare URL SharePoint"
+  }
+}

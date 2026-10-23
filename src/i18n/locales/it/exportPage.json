@@ -1,0 +1,104 @@
+{
+  "empty": {
+    "title": "Nessuna Registrazione Selezionata",
+    "subtitle": "Seleziona una registrazione per esportare la documentazione.",
+    "goToDashboard": "Vai al Pannello di Controllo"
+  },
+  "header": {
+    "title": "Esporta Documentazione",
+    "showHints": "Mostra suggerimenti",
+    "hideHints": "Nascondi suggerimenti"
+  },
+  "formats": {
+    "heading": "Formato",
+    "htmlOnly": "Solo HTML",
+    "pdf": {
+      "name": "Documento PDF",
+      "info": "Solo screenshot, senza riproduzione video"
+    },
+    "docx": {
+      "name": "Documento Word",
+      "info": "Modificabile, screenshot come immagini"
+    },
+    "html": {
+      "name": "HTML",
+      "info": "Riproduzione video completa, interattivo"
+    },
+    "pptx": {
+      "name": "Presentazione PowerPoint",
+      "info": "Un passaggio per diapositiva, video incorporato"
+    },
+    "markdown": {
+      "name": "Documento Markdown",
+      "info": "Testo semplice, immagini come link"
+    },
+    "videoStepsWarning": "Passaggi video rilevati — questo formato mostra solo miniature. Usa HTML o PPTX per la riproduzione video."
+  },
+  "language": {
+    "label": "Lingua Esportazione",
+    "none": "Originale (Senza Traduzione)",
+    "en": "English",
+    "de": "Deutsch (Tedesco)",
+    "moduleRequired": "Richiede ~600 MB di download del modulo di traduzione"
+  },
+  "destination": {
+    "heading": "Destinazione",
+    "localFile": "File Locale",
+    "connect": "Connetti",
+    "local": {
+      "name": "File Locale",
+      "description": "Salva sul tuo computer"
+    },
+    "confluence": {
+      "name": "Confluence",
+      "description": "Carica nello spazio Confluence",
+      "spaceUrlLabel": "URL Spazio (Facoltativo)",
+      "parentPageLabel": "ID Pagina Padre (Facoltativo)",
+      "parentPagePlaceholder": "Lascia vuoto per la radice",
+      "connectPrompt": "Connetti Confluence"
+    },
+    "sharepoint": {
+      "name": "SharePoint",
+      "description": "Carica nella libreria SharePoint",
+      "libraryUrlLabel": "URL Libreria SharePoint",
+      "connectPrompt": "Connetti Microsoft 365"
+    }
+  },
+  "export": {
+    "exporting": "Esportazione in corso...",
+    "loading": "Caricamento...",
+    "button": "Esporta Documentazione",
+    "progress": "Esportazione in corso..."
+  },
+  "result": {
+    "complete": "Esportazione Completata",
+    "openFile": "Apri File",
+    "folder": "Cartella",
+    "dismiss": "Chiudi",
+    "showInFolder": "Mostra nella cartella"
+  },
+  "recent": {
+    "heading": "Esportazioni Recenti"
+  },
+  "coach": {
+    "formatTitle": "Scegli un formato di esportazione",
+    "formatDesc": "PDF e DOCX sono ottimi per la condivisione. HTML mantiene la riproduzione video. PPTX trasforma ogni passaggio in una diapositiva.",
+    "destinationTitle": "Scegli una destinazione",
+    "destinationDesc": "Salva l'esportazione localmente, o invia direttamente a Confluence o SharePoint una volta connesso.",
+    "runTitle": "Avvia l'esportazione",
+    "runDesc": "Genera il documento con il formato, la destinazione e il modello selezionati."
+  },
+  "toast": {
+    "noData": "Nessun dato disponibile per l'esportazione",
+    "translationFailed": "Traduzione fallita. Esportazione nella lingua originale.",
+    "exportCanceled": "Esportazione annullata",
+    "exportedDocx": "Documentazione esportata come documento Microsoft Word",
+    "exportedHtml": "Documentazione esportata come HTML con modello {{template}}",
+    "exportedFile": "Documentazione esportata come {{filename}}",
+    "exportedConfluence": "Documentazione esportata su Confluence: {{name}}",
+    "exportedSharePoint": "Documentazione esportata su SharePoint: {{filename}}",
+    "exportFailed": "Esportazione documentazione fallita",
+    "openFileFailed": "Apertura file fallita",
+    "showFolderFailed": "Visualizzazione nella cartella fallita"
+  }
+}

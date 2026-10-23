@@ -1,0 +1,127 @@
+{
+  "header": {
+    "title": "Bildschirmaufnahme",
+    "noProject": "Kein Projekt ausgewählt"
+  },
+  "hints": {
+    "show": "Hinweise einblenden",
+    "hide": "Hinweise ausblenden"
+  },
+  "noProject": {
+    "prompt": "Erstellen Sie ein neues Projekt, um zu beginnen",
+    "description": "Sie benötigen ein Projekt, bevor Sie mit der Aufnahme beginnen können. Ihre Aufnahmen und Dokumentationsschritte werden im Projekt gespeichert.",
+    "createButton": "Neues Projekt erstellen"
+  },
+  "source": {
+    "heading": "Quelle auswählen"
+  },
+  "settings": {
+    "heading": "Einstellungen",
+    "summary": "{{quality}} · {{fps}} FPS · Mikrofon {{micState}}",
+    "micOn": "EIN",
+    "micOff": "AUS",
+    "quality": {
+      "label": "Qualität",
+      "fhd": "1080p Full HD",
+      "2k": "1440p 2K (QHD)"
+    },
+    "frameRate": {
+      "label": "Bildrate"
+    },
+    "microphone": {
+      "label": "Mikrofon",
+      "on": "Mikrofon EIN",
+      "off": "Mikrofon AUS",
+      "noDevice": "Kein Mikrofon erkannt",
+      "deviceLabel": "Mikrofongerät",
+      "default": "Standardmikrofon"
+    }
+  },
+  "controls": {
+    "recording": "Aufnahme",
+    "paused": "Pausiert",
+    "stepsMarked": "{{count}} Schritt mit F10 markiert",
+    "stepsMarked_other": "{{count}} Schritte mit F10 markiert",
+    "preview": "Vorschau der Quelle",
+    "start": "Aufnahme starten",
+    "pause": "Pause",
+    "resume": "Fortsetzen",
+    "stop": "Stopp"
+  },
+  "bookmark": {
+    "title": "F10 drücken, um Dokumentationsschritte zu markieren",
+    "description": "Markieren Sie wichtige Momente während der Aufnahme. Jedes Lesezeichen wird zu einem Dokumentationsschritt mit automatisch extrahiertem Screenshot."
+  },
+  "upload": {
+    "button": "Video hochladen",
+    "uploading": "Wird hochgeladen... {{progress}}%"
+  },
+  "preview": {
+    "selectPrompt": "Wählen Sie eine Quelle in der Seitenleiste",
+    "clickPrompt": "Klicken Sie auf \u201eVorschau der Quelle\u201c, um zu sehen, was Sie aufnehmen",
+    "rec": "REC",
+    "pausedOverlay": "PAUSIERT",
+    "steps": "{{count}} Schritt",
+    "steps_other": "{{count}} Schritte"
+  },
+  "modal": {
+    "title": "Neues Projekt erstellen",
+    "projectName": "Projektname *",
+    "projectNamePlaceholder": "Projektnamen eingeben",
+    "description": "Beschreibung (Optional)",
+    "descriptionPlaceholder": "Projektbeschreibung eingeben",
+    "cancel": "Abbrechen",
+    "create": "Projekt erstellen"
+  },
+  "coach": {
+    "sourceTitle": "Was möchten Sie aufnehmen?",
+    "sourceDesc": "Wählen Sie einen vollständigen Bildschirm oder ein bestimmtes Fenster. Klicken Sie auf eine Kachel, um sie auszuwählen — die gewählte Quelle wird blau umrandet.",
+    "startTitle": "Aufnahme starten",
+    "startDesc": "Wenn Sie bereit sind, klicken Sie auf diese Schaltfläche, um die Aufnahme zu beginnen. Sie können jederzeit pausieren oder stoppen.",
+    "stopTitle": "Stoppen und bearbeiten",
+    "stopDesc": "Beim Stoppen gelangen Sie direkt in den Editor mit Ihrer Aufnahme und allen F10-Lesezeichen, die zu Schritten werden können.",
+    "bookmarkTitle": "Wichtige Momente mit F10 markieren",
+    "bookmarkDesc": "Drücken Sie während der Aufnahme F10, wenn etwas Wichtiges passiert. Jeder Druck wird zu einem Dokumentationsschritt mit automatischem Screenshot.",
+    "settingsTitle": "Qualität & Audio anpassen",
+    "settingsDesc": "Öffnen Sie Einstellungen, um Auflösung, Bildrate oder das Mikrofon vor der Aufnahme anzupassen."
+  },
+  "toast": {
+    "bookmarkAdded": "Lesezeichen hinzugefügt bei {{time}}",
+    "videoStarted": "Videoaufnahme gestartet für {{source}}",
+    "videoSaved": "Video gespeichert unter: {{path}}",
+    "videoSaveFailed": "Video konnte nicht gespeichert werden: {{error}}",
+    "videoSaveError": "Fehler beim Speichern der Videoaufnahme",
+    "videoError": "Fehler bei der Videoaufnahme: {{error}}",
+    "videoRecordingError": "Fehler bei der Videoaufnahme aufgetreten",
+    "electronRequired": "Diese Anwendung benötigt Electron.",
+    "loadSourcesFailed": "Aufnahmequellen konnten nicht geladen werden",
+    "micDenied": "Mikrofonzugriff verweigert. Sprachaufnahme nicht verfügbar.",
+    "noSource": "Bitte wählen Sie zuerst eine Aufnahmequelle aus.",
+    "micFailed": "Mikrofonzugriff fehlgeschlagen. Weiter nur mit Video.",
+    "previewFailed": "Videovorschau konnte nicht gestartet werden. Versuchen Sie, die Quelle erneut auszuwählen.",
+    "permissionDenied": "Bildschirmaufnahme verweigert. Bitte erlauben Sie die Bildschirmfreigabe.",
+    "noCapture": "Keine Bildschirmaufnahmequelle verfügbar.",
+    "notSupported": "Bildschirmaufnahme in dieser Umgebung nicht unterstützt.",
+    "overconstrained": "Gewählte Quelle kann mit den aktuellen Einstellungen nicht aufgezeichnet werden.",
+    "previewFailedGeneric": "Vorschau konnte nicht gestartet werden. Bitte erneut versuchen.",
+    "noProjectSelected": "Kein Projekt ausgewählt",
+    "noSourceSelected": "Bitte wählen Sie eine Aufnahmequelle aus",
+    "micFailedRecording": "Mikrofonzugriff fehlgeschlagen. Aufnahme ohne Audio.",
+    "recordingStarted": "Videoaufnahme gestartet! (Format: {{format}})",
+    "stopFailed": "Aufnahme konnte nicht ordnungsgemäß gestoppt werden",
+    "recordingSaved": "Videoaufnahme gestoppt und gespeichert!",
+    "noVideoData": "Keine Videodaten aufgezeichnet. Bitte erneut versuchen.",
+    "videoFileSaveFailed": "Videodatei konnte nicht gespeichert werden",
+    "noProjectForSave": "Bitte wählen Sie ein Projekt aus, bevor Sie aufnehmen.",
+    "projectCreated": "Projekt erfolgreich erstellt!",
+    "projectFolderFailed": "Projektordnerstruktur konnte nicht erstellt werden",
+    "invalidFileType": "Bitte wählen Sie eine WebM- oder MP4-Videodatei",
+    "uploadSuccess": "Video erfolgreich hochgeladen: {{filename}}",
+    "uploadFailed": "Upload fehlgeschlagen: {{error}}",
+    "projectSelected": "Projekt \u201e{{name}}\u201c ausgewählt",
+    "recordingPaused": "Aufnahme pausiert",
+    "recordingResumed": "Aufnahme fortgesetzt",
+    "noProjectName": "Bitte geben Sie einen Projektnamen ein",
+    "previewFailedMessage": "Vorschau konnte nicht gestartet werden: {{message}}"
+  }
+}

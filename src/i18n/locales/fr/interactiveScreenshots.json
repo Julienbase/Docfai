@@ -1,0 +1,134 @@
+{
+  "header": {
+    "title": "Captures d'Écran Pas à Pas",
+    "noProject": "Aucun projet sélectionné"
+  },
+  "hints": {
+    "show": "Afficher les suggestions",
+    "hide": "Masquer les suggestions"
+  },
+  "noProject": {
+    "prompt": "Créez un nouveau projet pour commencer",
+    "description": "Vous avez besoin d'un projet avant de pouvoir commencer à capturer. Vos captures d'écran et étapes de documentation seront sauvegardées dans le projet.",
+    "createButton": "Créer un Nouveau Projet"
+  },
+  "source": {
+    "heading": "Source de Capture",
+    "refreshTitle": "Actualiser les sources",
+    "screen": "Écran",
+    "window": "Fenêtre"
+  },
+  "captureMode": {
+    "heading": "Mode de Capture",
+    "hotkeys": "Raccourcis",
+    "auto": "Auto",
+    "hintAuto": "Capture automatique à chaque clic",
+    "hintManual": "Appuyez sur {{hotkey}} pour capturer",
+    "captureRightClicks": "Capturer les clics droits"
+  },
+  "controls": {
+    "startCapturing": "Commencer la Capture",
+    "startAutoCapture": "Démarrer la Capture Auto",
+    "capturing": "Capture en cours",
+    "paused": "En Pause",
+    "pause": "Pause",
+    "resume": "Reprendre",
+    "stop": "Arrêter",
+    "goToEdit": "Aller à l'Édition ({{count}} étapes)"
+  },
+  "liveClicks": {
+    "heading": "Clics en Direct"
+  },
+  "stats": {
+    "screenshots": "Captures d'Écran",
+    "duration": "Durée"
+  },
+  "settings": {
+    "heading": "Paramètres",
+    "primaryHotkey": "Raccourci Principal",
+    "secondaryHotkey": "Raccourci Secondaire",
+    "notSet": "Non défini",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "editHotkeys": "Modifier les Raccourcis"
+  },
+  "feed": {
+    "capturedSteps": "Étapes Capturées ({{count}})",
+    "liveNotice": "Les nouvelles captures d'écran apparaissent ici automatiquement",
+    "readyTitle": "Prêt à capturer",
+    "waitingTitle": "En attente de captures...",
+    "readyDesc": "Sélectionnez une source et commencez la capture pour construire votre documentation",
+    "capturingAutoDesc": "Cliquez n'importe où sur la fenêtre cible — chaque clic devient une étape",
+    "capturingManualDesc": "Appuyez sur {{hotkey}} pour prendre une capture d'écran",
+    "realtimeNote": "Les captures d'écran apparaîtront ici en temps réel au fur et à mesure que vous les prenez"
+  },
+  "card": {
+    "step": "Étape {{number}}",
+    "preview": "Aperçu",
+    "delete": "Supprimer",
+    "loading": "Chargement...",
+    "loadError": "Échec du chargement de l'image"
+  },
+  "previewModal": {
+    "loading": "Chargement de l'aperçu...",
+    "loadError": "Échec du chargement de l'image",
+    "screenshotId": "ID de la Capture : {{id}}",
+    "captured": "Capturé le : {{time}}",
+    "size": "Taille : {{size}} Ko"
+  },
+  "modal": {
+    "title": "Créer un Nouveau Projet",
+    "projectName": "Nom du Projet *",
+    "projectNamePlaceholder": "Saisissez le nom du projet",
+    "description": "Description (Facultatif)",
+    "descriptionPlaceholder": "Saisissez la description du projet",
+    "cancel": "Annuler",
+    "create": "Créer le Projet"
+  },
+  "coach": {
+    "sourceTitle": "Choisissez une source de capture",
+    "sourceDesc": "Sélectionnez un moniteur ou une fenêtre spécifique. Les captures d'écran seront prises depuis la source sélectionnée.",
+    "modeTitle": "Manuel vs Auto",
+    "modeDesc": "Les raccourcis capturent sur commande. Le mode Auto capture à chaque clic — idéal pour créer des tutoriels clic par clic.",
+    "startTitle": "Démarrer la capture",
+    "startDesc": "Lancez la session de capture. En mode Raccourci, appuyez sur la touche configurée pour capturer chaque étape.",
+    "stopTitle": "Arrêter quand vous avez terminé",
+    "stopDesc": "Termine la session de capture. Vous pouvez ensuite passer à l'édition et à la mise en forme de vos étapes.",
+    "editTitle": "Prêt à modifier",
+    "editDesc": "Accédez à l'éditeur pour affiner les titres, descriptions et annotations avant d'exporter."
+  },
+  "toast": {
+    "noSourcesFound": "Aucune source capturable trouvée. Certaines fenêtres peuvent être protégées par le système.",
+    "loadSourcesFailed": "Échec du chargement des sources de capture. Certaines fenêtres système peuvent être protégées.",
+    "screenshotDeleted": "Capture d'écran supprimée",
+    "capturePaused": "Capture en pause",
+    "captureResumed": "Capture reprise",
+    "resumeFailed": "Échec de la reprise de la capture",
+    "switchedSource": "Basculé vers {{name}}",
+    "switchFailed": "Échec du changement de source",
+    "previewSelectFirst": "Veuillez d'abord sélectionner une source de capture.",
+    "previewStarted": "Aperçu démarré avec succès",
+    "previewDesktopOnly": "L'aperçu n'est disponible que dans l'application de bureau.",
+    "previewFailed": "Échec du démarrage de l'aperçu. Essayez de sélectionner une autre source.",
+    "noProjectName": "Veuillez saisir un nom de projet",
+    "projectCreated": "Projet créé avec succès !",
+    "projectFolderFailed": "Échec de la création de la structure de dossiers du projet",
+    "projectSelected": "Projet « {{name}} » sélectionné",
+    "hotkeySaved": "Configuration des raccourcis enregistrée !",
+    "hotkeyFailed": "Échec de l'enregistrement de la configuration des raccourcis",
+    "desktopRequired": "Cette fonctionnalité nécessite l'application de bureau",
+    "noSource": "Veuillez sélectionner une source de capture",
+    "noProject": "Veuillez d'abord sélectionner ou créer un projet",
+    "projectNotFound": "Projet introuvable",
+    "autoCaptureActivated": "Capture automatique activée — chaque clic est maintenant capturé automatiquement !",
+    "hotkeyCaptureActivated": "Mode de capture par raccourci activé — appuyez sur le raccourci pour capturer !",
+    "captureStartFailed": "Échec du démarrage de la capture interactive",
+    "captureCompleted": "Capture terminée ! {{count}} captures d'écran prises.",
+    "noScreenshots": "Aucune capture d'écran prise",
+    "stopFailed": "Erreur lors de l'arrêt de la capture",
+    "nativeScreenshot": "Capture native prise instantanément ! ({{size}} octets)",
+    "nativeScreenshotFailed": "Échec du traitement de la capture native",
+    "noScreenshotData": "Aucune donnée de capture reçue",
+    "noImageData": "Aucune donnée d'image reçue"
+  }
+}

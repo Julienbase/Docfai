@@ -1,0 +1,163 @@
+{
+  "empty": {
+    "title": "Ningún Proyecto o Grabación Seleccionado",
+    "subtitle": "Por favor selecciona un proyecto o grabación para comenzar a editar.",
+    "goToDashboard": "Ir al Panel de Control"
+  },
+  "header": {
+    "backToDashboard": "Volver al Panel de Control",
+    "editor": "Editor",
+    "videoProject": "Proyecto de Video",
+    "screenshots": "Capturas de Pantalla"
+  },
+  "view": {
+    "edit": "Editar",
+    "preview": "Vista Previa",
+    "showHints": "Mostrar sugerencias",
+    "hideHints": "Ocultar sugerencias",
+    "stepsCount": "{{count}} pasos",
+    "exportDocumentation": "Exportar Documentación",
+    "exportEmpty": "Agrega capturas de pantalla o diagramas para exportar documentación",
+    "exportReady": "Exportar documentación paso a paso"
+  },
+  "stage": {
+    "viewFullSize": "Ver tamaño completo",
+    "buildingTitle": "Tu documentación está siendo construida",
+    "buildingSubtitle": "Selecciona un paso a la derecha para previsualizar, o cambia al modo Vista Previa para ver tu documento completo",
+    "previewDocument": "Previsualizar Documento"
+  },
+  "timeline": {
+    "label": "Línea de tiempo ({{count}})"
+  },
+  "videoInfo": {
+    "videoRecording": "Grabación de Video",
+    "duration": "Duración: {{time}}",
+    "screenshotBased": "Documentación basada en capturas de pantalla",
+    "exportVideoOnly": "Exportar Solo Video",
+    "exportVideoOnlyTitle": "Exportar solo el archivo de video (formato WebM)"
+  },
+  "projectSettings": {
+    "heading": "Configuración del Proyecto",
+    "titleLabel": "Título del Proyecto",
+    "titlePlaceholder": "Ingresa el título del proyecto para la exportación PDF",
+    "titleHint": "Este título aparecerá en el PDF exportado",
+    "sourceLabel": "Fuente/Aplicación",
+    "sourcePlaceholder": "por ejemplo, Navegador Chrome, Aplicación de Escritorio",
+    "sourceHint": "Especifica la aplicación fuente o el contexto"
+  },
+  "steps": {
+    "heading": "Pasos de Documentación ({{count}})",
+    "bookmarks": "Marcadores ({{count}})",
+    "bookmarksTitle": "Generar pasos desde marcas de tiempo F10",
+    "workflow": "Flujo de trabajo",
+    "workflowTitle": "Generar un diagrama de flujo desde los títulos de los pasos",
+    "diagram": "Diagrama",
+    "diagramTitle": "Agregar paso de diagrama vacío",
+    "select": "Seleccionar",
+    "cancel": "Cancelar",
+    "selectTitleEnter": "Seleccionar múltiples pasos",
+    "selectTitleExit": "Salir del modo de selección",
+    "selectAll": "Seleccionar todo",
+    "deselectAll": "Deseleccionar todo",
+    "selectedCount": "{{selected}} de {{total}} seleccionados",
+    "bulkDelete": "Eliminar ({{count}})",
+    "moveUp": "Mover arriba",
+    "moveDown": "Mover abajo",
+    "goToTimestamp": "Ir a marca de tiempo",
+    "replaceVideoFrame": "Reemplazar con el fotograma actual del video",
+    "retakeFromWindow": "Volver a capturar desde una ventana",
+    "editScreenshot": "Editar captura de pantalla",
+    "editDiagram": "Editar diagrama",
+    "delete": "Eliminar",
+    "doubleClickToEdit": "Doble clic para editar",
+    "stepTitlePlaceholder": "Título del paso",
+    "stepDescriptionPlaceholder": "Descripción del paso",
+    "stepNumber": "Paso {{n}}",
+    "dropZone": "Arrastra imágenes o videos aquí para agregar nuevos pasos"
+  },
+  "emptyState": {
+    "noStepsYet": "Sin pasos aún",
+    "captureFirstSteps": "Captura tus primeros pasos",
+    "goBackToCapture": "Vuelve a la página de captura para tomar capturas de pantalla de tu flujo de trabajo",
+    "takeScreenshotsHint": "Toma capturas de pantalla de tu flujo de trabajo y Docfai las convertirá automáticamente en documentación profesional",
+    "retakeScreenshots": "Volver a Capturar",
+    "startTakingScreenshots": "Comenzar a Tomar Capturas de Pantalla",
+    "generateFromBookmarksTitle": "Generar pasos desde marcadores",
+    "generateFromBookmarksSubtitle": "Extrae pasos de documentación en cada marca de tiempo F10 de tu grabación",
+    "stepsFromBookmarks": "Pasos desde Marcadores ({{count}})"
+  },
+  "retakeModal": {
+    "heading": "Selecciona ventana para capturar"
+  },
+  "preview": {
+    "heading": "Vista Previa de Documentación",
+    "templateLabel": "Plantilla:"
+  },
+  "videoEditor": {
+    "takeScreenshot": "Tomar Captura de Pantalla"
+  },
+  "coach": {
+    "editTitle": "Editar imagen y texto",
+    "editDesc": "Haz clic en este botón para anotar la captura de pantalla y editar el título y descripción del paso en un solo lugar.",
+    "replaceTitle": "Reemplazar imagen",
+    "replaceDesc": "Intercambia la captura de pantalla con una nueva captura de la ventana original — útil cuando la primera captura perdió algo.",
+    "deleteTitle": "Eliminar paso",
+    "deleteDesc": "Elimina este paso de tu documentación. Usa el control de arrastre para reordenar pasos en su lugar.",
+    "reorderTitle": "Reordenar pasos",
+    "reorderDesc": "Usa las flechas arriba/abajo para cambiar el orden de los pasos, o arrastra el control a la izquierda para reorganizar rápidamente.",
+    "templateTitle": "Elegir una plantilla",
+    "templateDesc": "Elige un diseño que coincida con tu estilo. Los cambios se aplican instantáneamente a la vista previa.",
+    "workflowTitle": "Generar flujo de trabajo automáticamente",
+    "workflowDesc": "Crea un diagrama de flujo desde los títulos de tus pasos automáticamente — excelente para documentación de procesos.",
+    "diagramTitle": "Agregar un diagrama",
+    "diagramDesc": "Inserta un paso de diagrama de flujo en blanco para ilustrar procesos o decisiones en cualquier parte de tu documentación."
+  },
+  "toast": {
+    "projectNotFound": "Proyecto no encontrado",
+    "stepUpdated": "¡Paso actualizado exitosamente!",
+    "noStepsToExport": "Sin pasos para exportar. Por favor toma algunas capturas de pantalla o crea diagramas primero.",
+    "noDocStepsToExport": "Sin pasos de documentación para exportar. Por favor toma algunas capturas de pantalla primero.",
+    "exportFailed": "Error al exportar la guía de pasos: {{error}}",
+    "noVideoFile": "Sin archivo de video para exportar",
+    "videoLoadFailed": "Error al cargar la grabación de video",
+    "screenshotsLoadFailed": "Error al cargar las capturas de pantalla",
+    "interactiveScreenshotsLoadFailed": "Error al cargar capturas de pantalla para captura interactiva",
+    "desktopOnly": "Esta función requiere la aplicación de escritorio",
+    "bookmarksCreated": "¡{{count}} pasos creados desde marcadores!",
+    "bookmarksFailed": "Error al extraer pasos desde marcadores",
+    "needTwoSteps": "Se necesitan al menos 2 pasos para crear un diagrama de flujo",
+    "workflowUpdated": "¡Diagrama de flujo actualizado con los títulos de los pasos más recientes!",
+    "workflowCreated": "¡Diagrama de flujo creado! Ahora puedes editarlo.",
+    "frameCaptureFailed": "Error al capturar el fotograma del video",
+    "saveReplacementFailed": "Error al guardar la captura de pantalla de reemplazo",
+    "screenshotReplaced": "Captura de pantalla reemplazada con el fotograma actual",
+    "replaceFailed": "Error al reemplazar la captura de pantalla",
+    "noCaptureSources": "No se encontraron fuentes de captura",
+    "captureSourcesFailed": "Error al cargar fuentes de captura",
+    "captureFailed": "Error al capturar la pantalla",
+    "retakeSuccess": "Captura de pantalla repetida exitosamente",
+    "retakeFailed": "Error al repetir la captura de pantalla",
+    "stepsDeleted_one": "{{count}} paso eliminado",
+    "stepsDeleted_other": "{{count}} pasos eliminados",
+    "stepsReordered": "Pasos reordenados",
+    "unsupportedFile": "Tipo de archivo no soportado. Arrastra una imagen (PNG, JPG, GIF, WebP) o video (MP4, WebM).",
+    "unsupportedFileShort": "Tipo de archivo no soportado. Arrastra una imagen o archivo de video.",
+    "videoTooLarge": "Archivo de video demasiado grande. Máximo {{max}}MB.",
+    "noActiveProject": "Sin proyecto activo.",
+    "saveImageFailed": "Error al guardar la imagen arrastrada.",
+    "imageAdded": "Imagen agregada al paso.",
+    "saveVideoFailed": "Error al guardar el clip de video.",
+    "videoClipAdded": "Clip de video agregado al paso.",
+    "addImageStepFailed": "Error al agregar paso de imagen.",
+    "noProjectSelected": "Ningún proyecto seleccionado",
+    "screenshotDeleted": "¡Captura de pantalla eliminada exitosamente!",
+    "deleteScreenshotFailed": "Error al eliminar el archivo de captura de pantalla",
+    "noVideoForDoc": "Sin archivo de video disponible para documentación",
+    "screenshotUpdated": "¡Captura de pantalla e información del paso actualizadas exitosamente!",
+    "nextScreenshotFailed": "Error al cargar la siguiente captura de pantalla",
+    "noVideoForExport": "Sin archivo de video disponible para exportar",
+    "screenshotEditLoadFailed": "Error al cargar la captura de pantalla para editar",
+    "diagramDeleted": "Paso de diagrama y archivos asociados eliminados",
+    "stepDeleted": "Paso y archivo de captura de pantalla eliminados"
+  }
+}

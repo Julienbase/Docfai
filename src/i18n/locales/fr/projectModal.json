@@ -1,0 +1,111 @@
+{
+  "noDescription": "Sans description",
+  "hints": {
+    "show": "Afficher les suggestions",
+    "hide": "Masquer les suggestions"
+  },
+  "close": "Fermer",
+  "cancel": "Annuler",
+  "save": "Enregistrer",
+  "saving": "Enregistrement...",
+  "delete": "Supprimer",
+  "newProject": {
+    "heading": "Comment souhaitez-vous capturer ?",
+    "subtitle": "Choisissez un mode de capture pour commencer. Cela ne peut pas être modifié ensuite.",
+    "videoTitle": "Enregistrement Vidéo",
+    "videoDesc": "Enregistrez votre écran avec narration audio, puis générez des étapes automatiquement depuis la vidéo.",
+    "videoBestFor": "Idéal pour : les flux de travail longs sur plusieurs applications",
+    "screenshotsTitle": "Captures d'Écran Pas à Pas",
+    "screenshotsDesc": "Capturez chaque clic comme une étape numérotée avec détection automatique des éléments.",
+    "screenshotsBestFor": "Idéal pour : les tutoriels pas à pas avec annotations",
+    "startCapturing": "Commencer la Capture",
+    "startRecording": "Commencer l'Enregistrement"
+  },
+  "security": {
+    "notesEncrypted": "Toutes les notes sont chiffrées et stockées en toute sécurité"
+  },
+  "status": {
+    "completed": "Terminé",
+    "recording": "Enregistrement",
+    "editing": "Édition",
+    "draft": "Brouillon"
+  },
+  "summary": {
+    "videoRecording": "Enregistrement Vidéo",
+    "screenshots": "Captures d'Écran",
+    "recordings_one": "{{count}} enregistrement",
+    "recordings_other": "{{count}} enregistrements",
+    "screenshotsCount_one": "{{count}} capture d'écran",
+    "screenshotsCount_other": "{{count}} captures d'écran",
+    "updated": "Mis à jour {{date}}"
+  },
+  "actions": {
+    "editSteps": "Modifier les Étapes",
+    "export": "Exporter",
+    "retake": "Reprendre",
+    "addMore": "Ajouter Plus",
+    "saveVersion": "Enregistrer la Version",
+    "saveVersionTitle": "Enregistrer une version de sauvegarde"
+  },
+  "tabs": {
+    "notes": "Notes ({{count}})",
+    "versions": "Versions ({{count}})"
+  },
+  "notes": {
+    "title": "Notes du Projet",
+    "add": "Ajouter une Note",
+    "placeholder": "Écrivez votre note ici...",
+    "loading": "Chargement des notes...",
+    "emptyTitle": "Aucune note",
+    "emptySubtitle": "Ajoutez votre première note pour commencer",
+    "encrypted": "Chiffré"
+  },
+  "versions": {
+    "emptyTitle": "Aucune version",
+    "emptySubtitle": "Les versions sont créées automatiquement lorsque vous exportez le projet",
+    "triggerExport": "Exporter",
+    "triggerBackup": "Sauvegarde",
+    "restore": "Restaurer",
+    "restoring": "Restauration...",
+    "confirmRestore": "Confirmer la Restauration",
+    "restorePrompt": "Cela remplacera votre projet actuel par la version {{n}}. Êtes-vous sûr ?",
+    "deletePrompt": "Supprimer la version {{n}} ? Cette action est irréversible.",
+    "showInFolder": "Afficher dans le dossier",
+    "deleteThis": "Supprimer cette version",
+    "restoreThis": "Restaurer cette version",
+    "hintSteps": "Étapes de documentation",
+    "hintScreenshots": "Captures d'Écran",
+    "hintRecordings": "Enregistrements"
+  },
+  "toast": {
+    "notesLoadFailed": "Échec du chargement des notes",
+    "enterNote": "Veuillez saisir le contenu de la note",
+    "userNotAuth": "Utilisateur non authentifié",
+    "noteAdded": "Note ajoutée avec succès",
+    "noteAddFailed": "Échec de l'ajout de la note",
+    "noteDeleted": "Note supprimée avec succès",
+    "noteDeleteFailed": "Échec de la suppression de la note",
+    "versionDeleted": "Version supprimée",
+    "versionDeleteFailed": "Échec de la suppression de la version",
+    "projectRestored": "Projet restauré avec succès. Rechargez le projet pour voir les modifications.",
+    "versionRestoreFailed": "Échec de la restauration de la version",
+    "versionSaved": "Version {{n}} enregistrée avec succès",
+    "versionSaveFailed": "Échec de l'enregistrement de la version",
+    "selectRecordingType": "Veuillez sélectionner un type d'enregistrement",
+    "cannotChangeType": "Impossible de changer le type d'enregistrement dans les projets avec du contenu existant",
+    "projectFilesCleared": "Fichiers du projet effacés pour reprendre",
+    "clearFilesFailed": "Échec de l'effacement des fichiers du projet"
+  },
+  "coach": {
+    "editStepsTitle": "Modifiez vos étapes",
+    "editStepsDesc": "Ouvrez l'éditeur pour affiner les titres, descriptions, annotations et réorganiser les étapes avant l'export.",
+    "exportTitle": "Exporter le projet",
+    "exportDesc": "Générez un PDF, DOCX, HTML ou PPTX.",
+    "retakeTitle": "Ajouter ou reprendre des étapes",
+    "retakeDesc": "Capturez des captures d'écran supplémentaires ou ré-enregistrez des parties sans démarrer un nouveau projet.",
+    "saveVersionTitle": "Enregistrer une version",
+    "saveVersionDesc": "Capturez l'état actuel pour pouvoir revenir en arrière si les modifications ultérieures ne fonctionnent pas.",
+    "addNoteTitle": "Capturez le contexte dans les notes",
+    "addNoteDesc": "Annotez les exigences, commentaires ou décisions liés à ce projet. Les notes sont chiffrées sur le disque."
+  }
+}

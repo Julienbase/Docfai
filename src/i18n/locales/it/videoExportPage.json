@@ -1,0 +1,137 @@
+{
+  "header": {
+    "title": "Esporta Video"
+  },
+  "noRecording": {
+    "title": "Nessuna Registrazione Video Selezionata",
+    "description": "Seleziona una registrazione video da esportare.",
+    "button": "Vai al Pannello di Controllo"
+  },
+  "hints": {
+    "show": "Mostra suggerimenti",
+    "hide": "Nascondi suggerimenti"
+  },
+  "trim": {
+    "heading": "Ritaglia Video",
+    "startTime": "Ora Inizio",
+    "endTime": "Ora Fine",
+    "duration": "Durata:",
+    "reset": "Reimposta"
+  },
+  "export": {
+    "button": "Esporta Video",
+    "exporting": "Esportazione in corso... {{progress}}%"
+  },
+  "recentExports": {
+    "heading": "Esportazioni Recenti"
+  },
+  "format": {
+    "heading": "Formato Esportazione",
+    "premium": "Premium"
+  },
+  "formats": {
+    "mp4": {
+      "name": "Video MP4",
+      "description": "Formato universale compatibile con tutti i dispositivi e piattaforme",
+      "features": [
+        "Compatibilità universale",
+        "File di piccole dimensioni",
+        "Alta qualità",
+        "Pronto per lo streaming"
+      ]
+    },
+    "webm": {
+      "name": "Video WebM",
+      "description": "Formato ottimizzato per il web con eccellente compressione",
+      "features": [
+        "Ottimizzato per il web",
+        "Eccellente compressione",
+        "Open source",
+        "Pronto per HTML5"
+      ]
+    },
+    "avi": {
+      "name": "Video AVI",
+      "description": "Formato di alta qualità per la modifica professionale",
+      "features": [
+        "Alta qualità",
+        "Modifica professionale",
+        "Compressione lossless",
+        "Ampio supporto"
+      ]
+    },
+    "mov": {
+      "name": "QuickTime MOV",
+      "description": "Formato Apple ottimizzato per dispositivi Mac e iOS",
+      "features": [
+        "Ottimizzato Apple",
+        "Alta qualità",
+        "Grado professionale",
+        "Pronto per Final Cut Pro"
+      ]
+    }
+  },
+  "quality": {
+    "heading": "Impostazioni Qualità",
+    "resolution": "Risoluzione",
+    "note": "Risoluzione più alta = qualità migliore",
+    "resolutions": {
+      "720p": "720p HD",
+      "1080p": "1080p Full HD",
+      "2k": "1440p 2K (QHD)"
+    },
+    "compression": "Compressione",
+    "compressionLow": "Bassa (Qualità Migliore, File Più Grande)",
+    "compressionMedium": "Media (Bilanciata)",
+    "compressionHigh": "Alta (File Più Piccolo, Qualità Inferiore)",
+    "compressionNotes": {
+      "low": "Consigliato per 2K: bitrate 15-20 Mbps",
+      "medium": "Bilanciato: bitrate 8-15 Mbps",
+      "high": "Compresso: bitrate 5-10 Mbps"
+    },
+    "frameRate": "Frequenza Fotogrammi",
+    "fps30": "30 FPS (Standard)",
+    "fps60": "60 FPS (Fluido)"
+  },
+  "destination": {
+    "heading": "Destinazione Esportazione",
+    "local": {
+      "name": "Archiviazione Locale",
+      "description": "Salva il file video sul tuo computer"
+    },
+    "sharepoint": {
+      "name": "SharePoint",
+      "description": "Carica il video direttamente su SharePoint",
+      "required": "Connessione account Microsoft richiesta",
+      "heading": "Opzioni SharePoint",
+      "url": "URL SharePoint",
+      "urlPlaceholder": "https://tuaazienda.sharepoint.com/sites/tuosito/...",
+      "libraryName": "Nome Libreria",
+      "libraryPlaceholder": "Documenti",
+      "folderPath": "Percorso Cartella",
+      "folderPlaceholder": "Video/Esportazioni"
+    }
+  },
+  "progress": {
+    "heading": "Avanzamento Esportazione"
+  },
+  "coach": {
+    "trimTitle": "Ritaglia il clip",
+    "trimDesc": "Regola i tempi di inizio e fine per ritagliare il video. Lascia entrambi al valore predefinito per esportare la registrazione completa.",
+    "formatTitle": "Scegli un formato video",
+    "formatDesc": "Scegli tra MP4 (universale), WebM (web), o formati premium come AVI o MOV per la modifica professionale.",
+    "exportTitle": "Esporta il video",
+    "exportDesc": "Clicca qui per avviare il processo di esportazione. Puoi salvare localmente o caricare direttamente su SharePoint."
+  },
+  "toast": {
+    "noRecording": "Nessuna registrazione video selezionata per l'esportazione",
+    "exportCanceled": "Esportazione video annullata",
+    "exportSuccess": "Video esportato con successo in {{path}}",
+    "exportDemo": "Esportazione video completata (modalità demo)",
+    "uploading": "Caricamento su SharePoint...",
+    "sharepointSuccess": "Video esportato su SharePoint: {{fileName}}",
+    "exportFailed": "Esportazione fallita: {{error}}",
+    "urlParsed": "URL SharePoint analizzato con successo!",
+    "urlParseFailed": "Analisi URL SharePoint fallita"
+  }
+}

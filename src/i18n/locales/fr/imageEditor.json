@@ -1,0 +1,77 @@
+{
+  "title": "Modifier la Capture d'Écran & les Informations d'Étape",
+  "nav": {
+    "prevStep": "Étape précédente (sauvegarde automatique)",
+    "nextStep": "Étape suivante (sauvegarde automatique)",
+    "stepOf": "Étape {{current}} sur {{total}}"
+  },
+  "hints": {
+    "show": "Afficher les suggestions d'intégration",
+    "hide": "Masquer les suggestions d'intégration"
+  },
+  "tools": {
+    "select": "Outil Sélection - Sélectionner, déplacer et redimensionner les formes",
+    "arrow": "Outil Flèche - Dessiner des flèches",
+    "counter": "Outil Compteur - Ajouter des marqueurs numérotés",
+    "text": "Outil Texte - Ajouter des zones de texte",
+    "crop": "Outil Recadrage - Recadrer l'image",
+    "blur": "Outil Flou - Masquer les informations sensibles",
+    "pixelate": "Outil Pixélisation - Pixéliser les zones sensibles",
+    "blackout": "Outil Masquage - Masquer complètement les informations sensibles"
+  },
+  "toolbar": {
+    "colorLabel": "Couleur :",
+    "colorSelect": "Sélectionner {{color}}",
+    "privacyLabel": "Confidentialité :",
+    "sizeLabel": "Taille :",
+    "blurLabel": "Flou :",
+    "fontLabel": "Police :",
+    "fontSizePx": "{{size}}px",
+    "resetCounter": "Réinitialiser le Compteur",
+    "resetCounterTitle": "Réinitialiser le compteur à 1",
+    "counterNext": "Suivant : {{value}}",
+    "viewLabel": "Affichage :",
+    "zoomOut": "Zoom Arrière",
+    "zoomIn": "Zoom Avant",
+    "resetZoom": "Réinitialiser le Zoom (100%)",
+    "fitToScreen": "Ajuster à l'Écran",
+    "enterFullscreen": "Plein Écran",
+    "exitFullscreen": "Quitter le Plein Écran",
+    "revertCrop": "Annuler le Recadrage",
+    "revertCropTitle": "Revenir à l'image originale",
+    "save": "Enregistrer"
+  },
+  "canvas": {
+    "textPlaceholder": "Saisissez ici...",
+    "applyCrop": "✓ Appliquer",
+    "applyCropTitle": "Appliquer le recadrage (Entrée)",
+    "cancelCrop": "✕ Annuler",
+    "cancelCropTitle": "Annuler le recadrage (Échap)",
+    "instructions": "+ défilement pour zoomer • ",
+    "instructionsEsc": " pour quitter le plein écran",
+    "resizeHandle": "Glisser pour redimensionner"
+  },
+  "stepInfo": {
+    "heading": "Informations de l'Étape",
+    "titleLabel": "Titre de l'Étape",
+    "titlePlaceholder": "Saisissez le titre de l'étape...",
+    "descriptionLabel": "Description de l'Étape",
+    "descriptionPlaceholder": "Décrivez ce qui se passe dans cette étape..."
+  },
+  "coach": {
+    "navTitle": "Naviguer entre les étapes",
+    "navDesc": "Passez à l'étape précédente ou suivante — vos modifications actuelles sont sauvegardées automatiquement avant de changer.",
+    "drawingTitle": "Outils de dessin",
+    "drawingDesc": "Sélectionnez, dessinez des rectangles ou des flèches, ajoutez des marqueurs numérotés, insérez des zones de texte, ou recadrez la capture.",
+    "colorTitle": "Choisir une couleur",
+    "colorDesc": "Choisissez la couleur utilisée pour les formes, flèches, zones de texte et compteurs.",
+    "privacyTitle": "Outils de confidentialité",
+    "privacyDesc": "Floutez, pixélisez ou masquez les informations sensibles avant de partager votre documentation.",
+    "stepInfoTitle": "Modifier le titre & la description de l'étape",
+    "stepInfoDesc": "Décrivez ce qui se passe dans cette étape. La mise en forme de l'éditeur de texte enrichi est préservée dans l'export final.",
+    "revertTitle": "Revenir à l'original",
+    "revertDesc": "Annulez tout recadrage et restaurez la capture d'écran originale complète.",
+    "saveTitle": "Enregistrer vos modifications",
+    "saveDesc": "Enregistrez les annotations, recadrages et informations d'étape dans le projet."
+  }
+}

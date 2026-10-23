@@ -1,0 +1,164 @@
+{
+  "header": {
+    "title": "Impostazioni Account",
+    "subtitle": "Gestisci il tuo account, le preferenze e l'abbonamento"
+  },
+  "tabs": {
+    "profile": "Profilo",
+    "backup": "Backup & Esporta",
+    "settings": "Impostazioni",
+    "connections": "Connessioni",
+    "subscription": "Abbonamento",
+    "usage": "Utilizzo",
+    "support": "Supporto"
+  },
+  "profile": {
+    "title": "Informazioni Profilo",
+    "email": "Email",
+    "teamRole": "Ruolo nel Team",
+    "teamAdmin": "Amministratore",
+    "teamMember": "Membro",
+    "company": "Azienda"
+  },
+  "settings": {
+    "general": "Impostazioni Generali",
+    "recordingDefaults": "Impostazioni Predefinite di Registrazione",
+    "quality": "Qualità",
+    "frameRate": "Frequenza Fotogrammi",
+    "saveSettings": "Salva Impostazioni",
+    "saved": "Impostazioni salvate con successo!"
+  },
+  "connectionTab": {
+    "title": "Account Connessi",
+    "manageConnections": "Gestisci Connessioni",
+    "subtitle": "Collega i tuoi account Confluence e SharePoint per esportare la documentazione direttamente su queste piattaforme.",
+    "confluence": {
+      "title": "Confluence",
+      "subtitle": "Atlassian Confluence",
+      "description": "Esporta la documentazione direttamente negli spazi e nelle pagine Confluence."
+    },
+    "sharepoint": {
+      "title": "SharePoint",
+      "subtitle": "Microsoft 365",
+      "description": "Esporta la documentazione nelle librerie di documenti SharePoint."
+    },
+    "connected": "Connesso",
+    "notConnected": "Non Connesso",
+    "quickSetup": "Configurazione Rapida",
+    "quickSetupDesc": "Collega i tuoi account per iniziare a esportare la documentazione direttamente dalla pagina di esportazione.",
+    "setupConnections": "Configura connessioni →"
+  },
+  "subscription": {
+    "title": "Gestione Abbonamento"
+  },
+  "usage": {
+    "title": "Statistiche di Utilizzo",
+    "recordingsThisMonth": "Registrazioni questo Mese",
+    "totalRecordings": "Registrazioni Totali",
+    "documentsGenerated": "Documenti Generati",
+    "hoursRecorded": "Ore Registrate"
+  },
+  "support": {
+    "appInfo": "Informazioni sull'App",
+    "version": "Versione App",
+    "versionDesc": "Versione attualmente installata",
+    "contactSupport": "Contatta il Supporto",
+    "supportDesc": "Hai trovato un bug o hai una domanda? Apri una issue su GitHub.",
+    "emailSupport": "GitHub Issues",
+    "emailAddress": "github.com/Julienbase/Docfai/issues",
+    "contact": "Contatta",
+    "troubleshooting": "Strumenti di Risoluzione Problemi",
+    "exportLogs": "Esporta Log degli Errori",
+    "exportLogsDesc": "Salva i log degli errori e inviali al supporto",
+    "exportErrorLogsModal": {
+      "title": "Esporta Log degli Errori",
+      "instructions": "Segui questi passaggi per inviare i log degli errori al nostro team di supporto:",
+      "step1Title": "Scegli dove salvare",
+      "step1Desc": "Seleziona una posizione (come il Desktop) per salvare il file dei log",
+      "step2Title": "L'email si aprirà automaticamente",
+      "step2Desc": "Il tuo client email predefinito si aprirà con un messaggio pre-compilato",
+      "step3Title": "Allega il file dei log",
+      "step3Desc": "Allega il file dei log che hai appena salvato all'email",
+      "step4Title": "Descrivi il problema e invia",
+      "step4Desc": "Aggiungi dettagli sul problema che stai riscontrando e invia l'email",
+      "note": "Nota: Il file dei log contiene informazioni di sistema per aiutarci a diagnosticare i problemi. Nessun dato personale è incluso.",
+      "cancel": "Annulla",
+      "export": "Esporta Log"
+    }
+  },
+  "backup": {
+    "title": "Backup & Esporta",
+    "subtitle": "Configura i backup automatici e le impostazioni di esportazione dei dati"
+  },
+  "backupHistory": {
+    "title": "Cronologia Backup",
+    "loading": "Caricamento cronologia backup...",
+    "empty": "Nessuna cronologia backup trovata",
+    "emptyDesc": "I record di backup appariranno qui dopo il primo backup",
+    "retry": "Riprova",
+    "close": "Chiudi",
+    "date": "Data:",
+    "destination": "Destinazione:",
+    "size": "Dimensione:",
+    "download": "Scarica backup",
+    "openFolder": "Apri cartella backup",
+    "deleteRecord": "Elimina record backup"
+  },
+  "backupSettings": {
+    "automaticBackup": "Backup Automatico",
+    "automaticBackupDesc": "Esegui automaticamente il backup dei tuoi progetti e dati",
+    "backupFrequency": "Frequenza Backup",
+    "daily": "Giornaliero",
+    "weekly": "Settimanale",
+    "monthly": "Mensile",
+    "scheduleTime": "Orario Pianificato",
+    "hour": "Ora",
+    "minute": "Minuto",
+    "dayOfWeek": "Giorno della Settimana",
+    "dayOfMonth": "Giorno del Mese",
+    "lastDayOfMonth": "Ultimo giorno del mese",
+    "backupDestinations": "Destinazioni Backup",
+    "localStorage": "Archiviazione Locale",
+    "localStorageDesc": "Salva i backup in una cartella locale sul tuo computer",
+    "sharepoint": "SharePoint",
+    "sharepointDesc": "Carica i backup sul tuo sito SharePoint",
+    "noFolderSelected": "Nessuna cartella selezionata",
+    "change": "Modifica",
+    "select": "Seleziona",
+    "nextBackup": "Prossimo backup: {{time}}",
+    "backupNow": "Esegui Backup Ora",
+    "backupHistory": "Cronologia Backup",
+    "advancedSettings": "Impostazioni Avanzate"
+  },
+  "advancedBackupSettings": {
+    "title": "Impostazioni Avanzate Backup",
+    "cancel": "Annulla",
+    "save": "Salva Impostazioni",
+    "retentionPolicy": "Politica di Conservazione",
+    "keepBackupsFor": "Conserva i backup per",
+    "maxBackupCount": "Numero massimo di backup",
+    "compression": "Compressione",
+    "enableCompression": "Abilita compressione",
+    "compressionLevel": "Livello di compressione",
+    "fast": "Veloce",
+    "balanced": "Bilanciato",
+    "maximum": "Massimo",
+    "notifications": "Notifiche",
+    "notifySuccess": "Notifica al completamento del backup",
+    "notifyFailure": "Notifica in caso di errore backup",
+    "notifyCleanup": "Notifica quando i vecchi backup vengono eliminati",
+    "bandwidth": "Larghezza di Banda",
+    "limitUploadSpeed": "Limita velocità di caricamento",
+    "maxUploadSpeed": "Velocità max caricamento (MB/s)"
+  },
+  "toast": {
+    "settingsSaved": "Impostazioni backup avanzate salvate!",
+    "settingsFailed": "Salvataggio impostazioni fallito. Riprova.",
+    "backupDeleted": "Record backup eliminato con successo",
+    "backupDeleteFailed": "Eliminazione record backup fallita",
+    "logsSaved": "Log degli errori esportati con successo!",
+    "logsFailed": "Esportazione log degli errori fallita",
+    "desktopOnly": "Questa funzione è disponibile solo nell'app desktop",
+    "paymentSuccess": "Pagamento riuscito! Il tuo abbonamento è ora attivo."
+  }
+}

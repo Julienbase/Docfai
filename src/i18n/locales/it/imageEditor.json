@@ -1,0 +1,77 @@
+{
+  "title": "Modifica Screenshot & Informazioni Passaggio",
+  "nav": {
+    "prevStep": "Passaggio precedente (salvataggio automatico)",
+    "nextStep": "Passaggio successivo (salvataggio automatico)",
+    "stepOf": "Passaggio {{current}} di {{total}}"
+  },
+  "hints": {
+    "show": "Mostra suggerimenti di onboarding",
+    "hide": "Nascondi suggerimenti di onboarding"
+  },
+  "tools": {
+    "select": "Strumento Selezione - Seleziona, sposta e ridimensiona le forme",
+    "arrow": "Strumento Freccia - Disegna frecce",
+    "counter": "Strumento Contatore - Aggiungi marcatori numerati",
+    "text": "Strumento Testo - Aggiungi caselle di testo",
+    "crop": "Strumento Ritaglia - Ritaglia l'immagine",
+    "blur": "Strumento Sfocatura - Nascondi informazioni sensibili",
+    "pixelate": "Strumento Pixelatura - Pixela le aree sensibili",
+    "blackout": "Strumento Oscuramento - Nascondi completamente le informazioni sensibili"
+  },
+  "toolbar": {
+    "colorLabel": "Colore:",
+    "colorSelect": "Seleziona {{color}}",
+    "privacyLabel": "Privacy:",
+    "sizeLabel": "Dimensione:",
+    "blurLabel": "Sfocatura:",
+    "fontLabel": "Font:",
+    "fontSizePx": "{{size}}px",
+    "resetCounter": "Reimposta Contatore",
+    "resetCounterTitle": "Reimposta contatore a 1",
+    "counterNext": "Prossimo: {{value}}",
+    "viewLabel": "Vista:",
+    "zoomOut": "Riduci Zoom",
+    "zoomIn": "Aumenta Zoom",
+    "resetZoom": "Reimposta Zoom (100%)",
+    "fitToScreen": "Adatta allo Schermo",
+    "enterFullscreen": "Schermo Intero",
+    "exitFullscreen": "Esci da Schermo Intero",
+    "revertCrop": "Annulla Ritaglio",
+    "revertCropTitle": "Torna all'immagine originale",
+    "save": "Salva"
+  },
+  "canvas": {
+    "textPlaceholder": "Digita qui...",
+    "applyCrop": "✓ Applica",
+    "applyCropTitle": "Applica ritaglio (Invio)",
+    "cancelCrop": "✕ Annulla",
+    "cancelCropTitle": "Annulla ritaglio (Esc)",
+    "instructions": "+ scorri per zoomare • ",
+    "instructionsEsc": " per uscire dallo schermo intero",
+    "resizeHandle": "Trascina per ridimensionare"
+  },
+  "stepInfo": {
+    "heading": "Informazioni Passaggio",
+    "titleLabel": "Titolo Passaggio",
+    "titlePlaceholder": "Inserisci il titolo del passaggio...",
+    "descriptionLabel": "Descrizione Passaggio",
+    "descriptionPlaceholder": "Descrivi cosa accade in questo passaggio..."
+  },
+  "coach": {
+    "navTitle": "Naviga tra i passaggi",
+    "navDesc": "Passa al passaggio precedente o successivo — le modifiche correnti vengono salvate automaticamente prima del cambio.",
+    "drawingTitle": "Strumenti di disegno",
+    "drawingDesc": "Seleziona, disegna rettangoli o frecce, aggiungi marcatori numerati, inserisci caselle di testo, o ritaglia lo screenshot.",
+    "colorTitle": "Scegli un colore",
+    "colorDesc": "Scegli il colore usato per forme, frecce, caselle di testo e contatori.",
+    "privacyTitle": "Strumenti di privacy",
+    "privacyDesc": "Sfocat, pixela o oscura le informazioni sensibili prima di condividere la documentazione.",
+    "stepInfoTitle": "Modifica titolo & descrizione passaggio",
+    "stepInfoDesc": "Scrivi cosa accade in questo passaggio. La formattazione dell'editor di testo è preservata nell'esportazione finale.",
+    "revertTitle": "Torna all'originale",
+    "revertDesc": "Annulla i ritagli e ripristina lo screenshot originale completo.",
+    "saveTitle": "Salva le modifiche",
+    "saveDesc": "Salva annotazioni, ritagli e informazioni del passaggio nel progetto."
+  }
+}

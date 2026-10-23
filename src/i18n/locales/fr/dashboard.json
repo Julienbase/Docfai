@@ -1,0 +1,116 @@
+{
+  "welcome": "Bon retour, {{name}} !",
+  "subtitle": {
+    "empty": "Démarrez votre premier projet de documentation",
+    "needsEditing_one": "{{count}} projet nécessite des modifications",
+    "needsEditing_other": "{{count}} projets nécessitent des modifications",
+    "readyToExport_one": "{{count}} projet prêt à exporter",
+    "readyToExport_other": "{{count}} projets prêts à exporter",
+    "allUpToDate_one": "{{count}} projet — tout est à jour",
+    "allUpToDate_other": "{{count}} projets — tout est à jour"
+  },
+  "plan": {
+    "trial": "Essai",
+    "team": "Plan Équipe",
+    "yearly": "Annuel",
+    "monthly": "Mensuel",
+    "active": "Actif",
+    "noPlan": "Sans Plan"
+  },
+  "hints": {
+    "show": "Afficher les suggestions",
+    "hide": "Masquer les suggestions"
+  },
+  "continue": "Continuer : {{name}}",
+  "stage": {
+    "empty": "Vide",
+    "completed": "Terminé",
+    "readyToExport": "Prêt à exporter",
+    "needsEditing": "À modifier"
+  },
+  "quickActions": {
+    "title": "Actions Rapides",
+    "startRecordingTitle": "Démarrer l'Enregistrement",
+    "startRecordingDesc": "Lancer une session de capture d'écran",
+    "newProjectTitle": "Nouveau Projet",
+    "newProjectDesc": "Créer un projet de documentation",
+    "stepByStepTitle": "Captures d'Écran Pas à Pas",
+    "stepByStepDesc": "Capturez des écrans et des clics",
+    "importProjectTitle": "Importer un Projet",
+    "importProjectDesc": "Restaurez des projets précédemment exportés avec tous leurs enregistrements, captures d'écran et documentation"
+  },
+  "recentProjects": "Projets Récents",
+  "searchPlaceholder": "Rechercher des projets...",
+  "chooseMethod": {
+    "title": "Choisissez comment capturer votre processus",
+    "subtitle": "Choisissez la méthode adaptée à votre flux de travail",
+    "videoTitle": "Enregistrement Vidéo",
+    "videoDesc": "Idéal pour les flux de travail longs sur plusieurs applications. Enregistrez votre écran, puis générez des étapes automatiquement.",
+    "screenshotsTitle": "Captures d'Écran Pas à Pas",
+    "screenshotsDesc": "Idéal pour les tutoriels pas à pas. Capturez chaque étape avec des annotations au fur et à mesure."
+  },
+  "noResults": {
+    "title": "Aucun projet trouvé",
+    "subtitle": "Essayez d'ajuster vos termes de recherche"
+  },
+  "project": {
+    "noDescription": "Sans description",
+    "typeScreenshots": "Captures d'Écran",
+    "typeVideo": "Vidéo"
+  },
+  "modal": {
+    "createNewTitle": "Créer un Nouveau Projet",
+    "projectName": "Nom du Projet",
+    "projectNamePlaceholder": "Saisissez le nom du projet",
+    "description": "Description (Facultatif)",
+    "descriptionPlaceholder": "Décrivez votre projet",
+    "cancel": "Annuler",
+    "createProject": "Créer le Projet",
+    "deleteTitle": "Supprimer le Projet",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer « {{name}} » ?",
+    "deleteWarning": "Cette action est irréversible. Tous les fichiers, enregistrements et captures d'écran du projet seront définitivement supprimés.",
+    "deleteButton": "Supprimer le Projet"
+  },
+  "capture": {
+    "modalTitle": "🖥️ Enregistrement Bureau Actif",
+    "modalInstructions": "Appuyez sur <strong>ESPACE</strong> pour capturer des écrans",
+    "modalSubtext": "Fonctionne partout sur votre bureau — toute application, navigateur ou fenêtre",
+    "screenshotsCounter": "Captures d'Écran : {{count}}",
+    "stopRecording": "Arrêter l'Enregistrement"
+  },
+  "toast": {
+    "nameRequired": "Veuillez saisir un nom de projet",
+    "duplicateName": "Un projet nommé « {{name}} » existe déjà. Veuillez choisir un nom différent.",
+    "created": "Projet créé avec succès !",
+    "createFailed": "Échec de la création de la structure de dossiers du projet",
+    "deleted": "Projet et fichiers supprimés avec succès",
+    "deleteFailed": "Échec de la suppression des fichiers du projet",
+    "noExportable": "Aucun enregistrement ni capture d'écran trouvé dans ce projet à exporter",
+    "desktopOnly": "Cette fonctionnalité nécessite l'application de bureau",
+    "startGlobalFailed": "Échec du démarrage de l'enregistrement global",
+    "noScreenshots": "Aucune capture d'écran",
+    "stopError": "Erreur lors de l'arrêt de l'enregistrement",
+    "captureNotSupported": "La capture d'écran n'est pas prise en charge par ce navigateur",
+    "capturePermissionDenied": "Permission de capture d'écran refusée",
+    "captureNotSupported2": "Capture d'écran non prise en charge",
+    "captureFailed": "Échec de la capture d'écran",
+    "startSystemFailed": "Échec du démarrage de l'enregistrement système",
+    "leavePrompt": "Un enregistrement est en cours. Êtes-vous sûr de vouloir quitter ?"
+  },
+  "time": {
+    "justNow": "à l'instant",
+    "minsAgo": "il y a {{count}}min",
+    "hoursAgo": "il y a {{count}}h",
+    "daysAgo": "il y a {{count}}j"
+  },
+  "coach": {
+    "startRecordingTitle": "Démarrer l'Enregistrement",
+    "startRecordingDesc": "Capturez votre écran en vidéo. Idéal pour les tutoriels plus longs sur plusieurs applications.",
+    "newProjectTitle": "Créer un projet",
+    "newProjectDesc": "Organisez enregistrements, captures d'écran et documentation en un seul endroit.",
+    "stepByStepTitle": "Captures d'écran pas à pas",
+    "stepByStepDesc": "Capturez un écran à chaque clic. Parfait pour les tutoriels étape par étape.",
+    "importTitle": "Importer un projet",
+    "importDesc": "Importez un projet Docfai existant exporté depuis un autre appareil."
+  }
+}

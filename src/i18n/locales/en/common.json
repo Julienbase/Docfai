@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "import": "Import",
+    "help": "Help",
+    "settings": "Settings",
+    "pricing": "Pricing",
+    "subscriptionRequired": "Subscription Required",
+    "subscribeHint": "Subscribe to a plan in Pricing to unlock all features.",
+    "signOut": "Sign out"
+  },
+  "navBlock": {
+    "recordingTitle": "Recording in Progress",
+    "captureTitle": "Capture in Progress",
+    "recordingBody": "A screen recording is currently running. Please stop the recording before navigating away.",
+    "captureBody": "Screenshot capture is currently active. Please stop the capture before navigating away.",
+    "goBack": "Go Back"
+  },
+  "action": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "create": "Create",
+    "close": "Close"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "de": "Deutsch",
+    "es": "Español",
+    "fr": "Français",
+    "ro": "Română",
+    "it": "Italiano"
+  },
+  "theme": {
+    "label": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "coach": {
+    "ok": "OK"
+  },
+  "settings": {
+    "accountTitle": "Account Settings",
+    "general": "General Settings",
+    "recordingDefaults": "Recording Defaults",
+    "quality": "Quality",
+    "frameRate": "Frame Rate",
+    "saveSettings": "Save Settings",
+    "saved": "Settings saved"
+  }
+}

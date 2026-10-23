@@ -1,0 +1,164 @@
+{
+  "header": {
+    "title": "Configuración de Cuenta",
+    "subtitle": "Gestiona tu cuenta, preferencias y suscripción"
+  },
+  "tabs": {
+    "profile": "Perfil",
+    "backup": "Copia de Seguridad y Exportación",
+    "settings": "Configuración",
+    "connections": "Conexiones",
+    "subscription": "Suscripción",
+    "usage": "Uso",
+    "support": "Soporte"
+  },
+  "profile": {
+    "title": "Información de Perfil",
+    "email": "Correo Electrónico",
+    "teamRole": "Rol del Equipo",
+    "teamAdmin": "Administrador del Equipo",
+    "teamMember": "Miembro del Equipo",
+    "company": "Empresa"
+  },
+  "settings": {
+    "general": "Configuración General",
+    "recordingDefaults": "Configuración Predeterminada de Grabación",
+    "quality": "Calidad",
+    "frameRate": "Velocidad de Fotogramas",
+    "saveSettings": "Guardar Configuración",
+    "saved": "¡Configuración guardada exitosamente!"
+  },
+  "connectionTab": {
+    "title": "Cuentas Conectadas",
+    "manageConnections": "Gestionar Conexiones",
+    "subtitle": "Conecta tus cuentas de Confluence y SharePoint para exportar documentación directamente a estas plataformas.",
+    "confluence": {
+      "title": "Confluence",
+      "subtitle": "Atlassian Confluence",
+      "description": "Exporta documentación directamente a espacios y páginas de Confluence."
+    },
+    "sharepoint": {
+      "title": "SharePoint",
+      "subtitle": "Microsoft 365",
+      "description": "Exporta documentación a bibliotecas de documentos de SharePoint."
+    },
+    "connected": "Conectado",
+    "notConnected": "No Conectado",
+    "quickSetup": "Configuración Rápida",
+    "quickSetupDesc": "Conecta tus cuentas para comenzar a exportar documentación directamente desde la página de exportación.",
+    "setupConnections": "Configurar conexiones →"
+  },
+  "subscription": {
+    "title": "Gestión de Suscripción"
+  },
+  "usage": {
+    "title": "Estadísticas de Uso",
+    "recordingsThisMonth": "Grabaciones Este Mes",
+    "totalRecordings": "Total de Grabaciones",
+    "documentsGenerated": "Documentos Generados",
+    "hoursRecorded": "Horas Grabadas"
+  },
+  "support": {
+    "appInfo": "Información de la Aplicación",
+    "version": "Versión de la Aplicación",
+    "versionDesc": "Versión actualmente instalada",
+    "contactSupport": "Contactar Soporte",
+    "supportDesc": "¿Encontraste un error o tienes una pregunta? Abre un issue en GitHub.",
+    "emailSupport": "GitHub Issues",
+    "emailAddress": "github.com/Julienbase/Docfai/issues",
+    "contact": "Contacto",
+    "troubleshooting": "Herramientas de Diagnóstico",
+    "exportLogs": "Exportar Registros de Error",
+    "exportLogsDesc": "Guardar registros de error y enviar al soporte",
+    "exportErrorLogsModal": {
+      "title": "Exportar Registros de Error",
+      "instructions": "Sigue estos pasos para enviar registros de error a nuestro equipo de soporte:",
+      "step1Title": "Elige dónde guardar",
+      "step1Desc": "Selecciona una ubicación (como el Escritorio) para guardar el archivo de registros",
+      "step2Title": "El correo se abrirá automáticamente",
+      "step2Desc": "Tu cliente de correo predeterminado se abrirá con un mensaje pre-completado",
+      "step3Title": "Adjunta el archivo de registros",
+      "step3Desc": "Adjunta el archivo de registros que acabas de guardar al correo",
+      "step4Title": "Describe el problema y envía",
+      "step4Desc": "Agrega detalles sobre el problema que estás experimentando y envía el correo",
+      "note": "Nota: El archivo de registros contiene información del sistema para ayudarnos a diagnosticar problemas. No se incluyen datos personales.",
+      "cancel": "Cancelar",
+      "export": "Exportar Registros"
+    }
+  },
+  "backup": {
+    "title": "Copia de Seguridad y Exportación",
+    "subtitle": "Configura copias de seguridad automáticas y configuración de exportación de datos"
+  },
+  "backupHistory": {
+    "title": "Historial de Copias de Seguridad",
+    "loading": "Cargando historial de copias de seguridad...",
+    "empty": "No se encontró historial de copias de seguridad",
+    "emptyDesc": "Los registros aparecerán aquí después de tu primera copia de seguridad",
+    "retry": "Reintentar",
+    "close": "Cerrar",
+    "date": "Fecha:",
+    "destination": "Destino:",
+    "size": "Tamaño:",
+    "download": "Descargar copia de seguridad",
+    "openFolder": "Abrir carpeta de copia de seguridad",
+    "deleteRecord": "Eliminar registro de copia de seguridad"
+  },
+  "backupSettings": {
+    "automaticBackup": "Copia de Seguridad Automática",
+    "automaticBackupDesc": "Realiza copias de seguridad automáticas de tus proyectos y datos",
+    "backupFrequency": "Frecuencia de Copia de Seguridad",
+    "daily": "Diariamente",
+    "weekly": "Semanalmente",
+    "monthly": "Mensualmente",
+    "scheduleTime": "Hora Programada",
+    "hour": "Hora",
+    "minute": "Minuto",
+    "dayOfWeek": "Día de la Semana",
+    "dayOfMonth": "Día del Mes",
+    "lastDayOfMonth": "Último día del mes",
+    "backupDestinations": "Destinos de Copia de Seguridad",
+    "localStorage": "Almacenamiento Local",
+    "localStorageDesc": "Guardar copias de seguridad en una carpeta local en tu computadora",
+    "sharepoint": "SharePoint",
+    "sharepointDesc": "Subir copias de seguridad a tu sitio de SharePoint",
+    "noFolderSelected": "Ninguna carpeta seleccionada",
+    "change": "Cambiar",
+    "select": "Seleccionar",
+    "nextBackup": "Próxima copia de seguridad: {{time}}",
+    "backupNow": "Hacer Copia Ahora",
+    "backupHistory": "Historial de Copias de Seguridad",
+    "advancedSettings": "Configuración Avanzada"
+  },
+  "advancedBackupSettings": {
+    "title": "Configuración Avanzada de Copia de Seguridad",
+    "cancel": "Cancelar",
+    "save": "Guardar Configuración",
+    "retentionPolicy": "Política de Retención",
+    "keepBackupsFor": "Mantener copias de seguridad por",
+    "maxBackupCount": "Número máximo de copias de seguridad",
+    "compression": "Compresión",
+    "enableCompression": "Habilitar compresión",
+    "compressionLevel": "Nivel de compresión",
+    "fast": "Rápido",
+    "balanced": "Equilibrado",
+    "maximum": "Máximo",
+    "notifications": "Notificaciones",
+    "notifySuccess": "Notificar en copia de seguridad exitosa",
+    "notifyFailure": "Notificar en fallo de copia de seguridad",
+    "notifyCleanup": "Notificar cuando se eliminen copias de seguridad antiguas",
+    "bandwidth": "Ancho de Banda",
+    "limitUploadSpeed": "Limitar velocidad de subida",
+    "maxUploadSpeed": "Velocidad máxima de subida (MB/s)"
+  },
+  "toast": {
+    "settingsSaved": "¡Configuración avanzada de copia de seguridad guardada!",
+    "settingsFailed": "Error al guardar la configuración. Por favor, inténtalo de nuevo.",
+    "backupDeleted": "Registro de copia de seguridad eliminado exitosamente",
+    "backupDeleteFailed": "Error al eliminar el registro de copia de seguridad",
+    "logsSaved": "¡Registros de error guardados exitosamente!",
+    "logsFailed": "Error al exportar registros de error",
+    "desktopOnly": "Esta función solo está disponible en la aplicación de escritorio",
+    "paymentSuccess": "¡Pago exitoso! Tu suscripción ahora está activa."
+  }
+}

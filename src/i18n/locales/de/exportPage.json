@@ -1,0 +1,104 @@
+{
+  "empty": {
+    "title": "Keine Aufnahme ausgewählt",
+    "subtitle": "Bitte wählen Sie eine Aufnahme aus, um die Dokumentation zu exportieren.",
+    "goToDashboard": "Zum Dashboard"
+  },
+  "header": {
+    "title": "Dokumentation exportieren",
+    "showHints": "Hinweise einblenden",
+    "hideHints": "Hinweise ausblenden"
+  },
+  "formats": {
+    "heading": "Format",
+    "htmlOnly": "Nur HTML",
+    "pdf": {
+      "name": "PDF-Dokument",
+      "info": "Nur Screenshots, keine Videowiedergabe"
+    },
+    "docx": {
+      "name": "Word-Dokument",
+      "info": "Bearbeitbar, Screenshots als Bilder"
+    },
+    "html": {
+      "name": "HTML",
+      "info": "Volle Videowiedergabe, interaktiv"
+    },
+    "pptx": {
+      "name": "PowerPoint-Präsentation",
+      "info": "Ein Schritt pro Folie, Video eingebettet"
+    },
+    "markdown": {
+      "name": "Markdown-Dokument",
+      "info": "Nur Text, Bilder als Links"
+    },
+    "videoStepsWarning": "Videoschritte erkannt – dieses Format zeigt nur Vorschaubilder. Verwenden Sie HTML oder PPTX für die Videowiedergabe."
+  },
+  "language": {
+    "label": "Exportsprache",
+    "none": "Original (Keine Übersetzung)",
+    "en": "Englisch",
+    "de": "Deutsch",
+    "moduleRequired": "Erfordert einen Download des Übersetzungsmoduls (~600 MB)"
+  },
+  "destination": {
+    "heading": "Ziel",
+    "localFile": "Lokale Datei",
+    "connect": "Verbinden",
+    "local": {
+      "name": "Lokale Datei",
+      "description": "Auf Ihrem Computer speichern"
+    },
+    "confluence": {
+      "name": "Confluence",
+      "description": "In Confluence-Bereich hochladen",
+      "spaceUrlLabel": "Bereich-URL (optional)",
+      "parentPageLabel": "Übergeordnete Seiten-ID (optional)",
+      "parentPagePlaceholder": "Leer lassen für Stammverzeichnis",
+      "connectPrompt": "Confluence verbinden"
+    },
+    "sharepoint": {
+      "name": "SharePoint",
+      "description": "In SharePoint-Bibliothek hochladen",
+      "libraryUrlLabel": "SharePoint-Bibliotheks-URL",
+      "connectPrompt": "Microsoft 365 verbinden"
+    }
+  },
+  "export": {
+    "exporting": "Wird exportiert...",
+    "loading": "Wird geladen...",
+    "button": "Dokumentation exportieren",
+    "progress": "Wird exportiert..."
+  },
+  "result": {
+    "complete": "Export abgeschlossen",
+    "openFile": "Datei öffnen",
+    "folder": "Ordner",
+    "dismiss": "Schließen",
+    "showInFolder": "Im Ordner anzeigen"
+  },
+  "recent": {
+    "heading": "Letzte Exporte"
+  },
+  "coach": {
+    "formatTitle": "Exportformat auswählen",
+    "formatDesc": "PDF und DOCX eignen sich gut zum Teilen. HTML behält die Videowiedergabe. PPTX macht jeden Schritt zu einer Folie.",
+    "destinationTitle": "Ziel auswählen",
+    "destinationDesc": "Export lokal speichern oder direkt nach Confluence oder SharePoint übertragen, sobald verbunden.",
+    "runTitle": "Export starten",
+    "runDesc": "Dokument mit ausgewähltem Format, Ziel und Vorlage generieren."
+  },
+  "toast": {
+    "noData": "Keine Daten zum Exportieren verfügbar",
+    "translationFailed": "Übersetzung fehlgeschlagen. Export in Originalsprache.",
+    "exportCanceled": "Export abgebrochen",
+    "exportedDocx": "Dokumentation als Microsoft Word-Dokument exportiert",
+    "exportedHtml": "Dokumentation als HTML mit Vorlage {{template}} exportiert",
+    "exportedFile": "Dokumentation als {{filename}} exportiert",
+    "exportedConfluence": "Dokumentation nach Confluence exportiert: {{name}}",
+    "exportedSharePoint": "Dokumentation nach SharePoint exportiert: {{filename}}",
+    "exportFailed": "Export der Dokumentation fehlgeschlagen",
+    "openFileFailed": "Datei konnte nicht geöffnet werden",
+    "showFolderFailed": "Im Ordner anzeigen fehlgeschlagen"
+  }
+}

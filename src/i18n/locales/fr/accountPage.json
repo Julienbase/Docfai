@@ -1,0 +1,164 @@
+{
+  "header": {
+    "title": "Paramètres du Compte",
+    "subtitle": "Gérez votre compte, vos préférences et votre abonnement"
+  },
+  "tabs": {
+    "profile": "Profil",
+    "backup": "Sauvegarde & Export",
+    "settings": "Paramètres",
+    "connections": "Connexions",
+    "subscription": "Abonnement",
+    "usage": "Utilisation",
+    "support": "Support"
+  },
+  "profile": {
+    "title": "Informations du Profil",
+    "email": "E-mail",
+    "teamRole": "Rôle dans l'Équipe",
+    "teamAdmin": "Administrateur",
+    "teamMember": "Membre",
+    "company": "Entreprise"
+  },
+  "settings": {
+    "general": "Paramètres Généraux",
+    "recordingDefaults": "Paramètres d'Enregistrement par Défaut",
+    "quality": "Qualité",
+    "frameRate": "Fréquence d'Images",
+    "saveSettings": "Enregistrer les Paramètres",
+    "saved": "Paramètres enregistrés avec succès !"
+  },
+  "connectionTab": {
+    "title": "Comptes Connectés",
+    "manageConnections": "Gérer les Connexions",
+    "subtitle": "Connectez vos comptes Confluence et SharePoint pour exporter la documentation directement vers ces plateformes.",
+    "confluence": {
+      "title": "Confluence",
+      "subtitle": "Atlassian Confluence",
+      "description": "Exportez la documentation directement vers les espaces et pages Confluence."
+    },
+    "sharepoint": {
+      "title": "SharePoint",
+      "subtitle": "Microsoft 365",
+      "description": "Exportez la documentation vers les bibliothèques de documents SharePoint."
+    },
+    "connected": "Connecté",
+    "notConnected": "Non Connecté",
+    "quickSetup": "Configuration Rapide",
+    "quickSetupDesc": "Connectez vos comptes pour commencer à exporter la documentation directement depuis la page d'export.",
+    "setupConnections": "Configurer les connexions →"
+  },
+  "subscription": {
+    "title": "Gestion de l'Abonnement"
+  },
+  "usage": {
+    "title": "Statistiques d'Utilisation",
+    "recordingsThisMonth": "Enregistrements ce Mois",
+    "totalRecordings": "Total des Enregistrements",
+    "documentsGenerated": "Documents Générés",
+    "hoursRecorded": "Heures Enregistrées"
+  },
+  "support": {
+    "appInfo": "Informations sur l'Application",
+    "version": "Version de l'Application",
+    "versionDesc": "Version actuellement installée",
+    "contactSupport": "Contacter le Support",
+    "supportDesc": "Un bug ou une question ? Ouvrez une issue sur GitHub.",
+    "emailSupport": "GitHub Issues",
+    "emailAddress": "github.com/Julienbase/Docfai/issues",
+    "contact": "Contacter",
+    "troubleshooting": "Outils de Dépannage",
+    "exportLogs": "Exporter les Journaux d'Erreurs",
+    "exportLogsDesc": "Sauvegarder les journaux d'erreurs et les envoyer au support",
+    "exportErrorLogsModal": {
+      "title": "Exporter les Journaux d'Erreurs",
+      "instructions": "Suivez ces étapes pour envoyer les journaux d'erreurs à notre équipe de support :",
+      "step1Title": "Choisissez où sauvegarder",
+      "step1Desc": "Sélectionnez un emplacement (comme le Bureau) pour sauvegarder le fichier de journaux",
+      "step2Title": "L'e-mail s'ouvrira automatiquement",
+      "step2Desc": "Votre client e-mail par défaut s'ouvrira avec un message pré-rempli",
+      "step3Title": "Joignez le fichier de journaux",
+      "step3Desc": "Joignez le fichier de journaux que vous venez de sauvegarder à l'e-mail",
+      "step4Title": "Décrivez le problème et envoyez",
+      "step4Desc": "Ajoutez des détails sur le problème que vous rencontrez et envoyez l'e-mail",
+      "note": "Remarque : Le fichier de journaux contient des informations système pour nous aider à diagnostiquer les problèmes. Aucune donnée personnelle n'est incluse.",
+      "cancel": "Annuler",
+      "export": "Exporter les Journaux"
+    }
+  },
+  "backup": {
+    "title": "Sauvegarde & Export",
+    "subtitle": "Configurez les sauvegardes automatiques et les paramètres d'export de données"
+  },
+  "backupHistory": {
+    "title": "Historique des Sauvegardes",
+    "loading": "Chargement de l'historique...",
+    "empty": "Aucun historique de sauvegarde trouvé",
+    "emptyDesc": "Les enregistrements de sauvegarde apparaîtront ici après votre première sauvegarde",
+    "retry": "Réessayer",
+    "close": "Fermer",
+    "date": "Date :",
+    "destination": "Destination :",
+    "size": "Taille :",
+    "download": "Télécharger la sauvegarde",
+    "openFolder": "Ouvrir le dossier de sauvegarde",
+    "deleteRecord": "Supprimer l'enregistrement de sauvegarde"
+  },
+  "backupSettings": {
+    "automaticBackup": "Sauvegarde Automatique",
+    "automaticBackupDesc": "Sauvegarder automatiquement vos projets et données",
+    "backupFrequency": "Fréquence de Sauvegarde",
+    "daily": "Quotidienne",
+    "weekly": "Hebdomadaire",
+    "monthly": "Mensuelle",
+    "scheduleTime": "Heure Planifiée",
+    "hour": "Heure",
+    "minute": "Minute",
+    "dayOfWeek": "Jour de la Semaine",
+    "dayOfMonth": "Jour du Mois",
+    "lastDayOfMonth": "Dernier jour du mois",
+    "backupDestinations": "Destinations de Sauvegarde",
+    "localStorage": "Stockage Local",
+    "localStorageDesc": "Sauvegarder dans un dossier local sur votre ordinateur",
+    "sharepoint": "SharePoint",
+    "sharepointDesc": "Téléverser les sauvegardes sur votre site SharePoint",
+    "noFolderSelected": "Aucun dossier sélectionné",
+    "change": "Modifier",
+    "select": "Sélectionner",
+    "nextBackup": "Prochaine sauvegarde : {{time}}",
+    "backupNow": "Sauvegarder Maintenant",
+    "backupHistory": "Historique des Sauvegardes",
+    "advancedSettings": "Paramètres Avancés"
+  },
+  "advancedBackupSettings": {
+    "title": "Paramètres Avancés de Sauvegarde",
+    "cancel": "Annuler",
+    "save": "Enregistrer les Paramètres",
+    "retentionPolicy": "Politique de Rétention",
+    "keepBackupsFor": "Conserver les sauvegardes pendant",
+    "maxBackupCount": "Nombre maximum de sauvegardes",
+    "compression": "Compression",
+    "enableCompression": "Activer la compression",
+    "compressionLevel": "Niveau de compression",
+    "fast": "Rapide",
+    "balanced": "Équilibré",
+    "maximum": "Maximum",
+    "notifications": "Notifications",
+    "notifySuccess": "Notifier lors d'une sauvegarde réussie",
+    "notifyFailure": "Notifier en cas d'échec de sauvegarde",
+    "notifyCleanup": "Notifier lors du nettoyage des anciennes sauvegardes",
+    "bandwidth": "Bande Passante",
+    "limitUploadSpeed": "Limiter la vitesse de téléversement",
+    "maxUploadSpeed": "Vitesse max de téléversement (Mo/s)"
+  },
+  "toast": {
+    "settingsSaved": "Paramètres de sauvegarde avancés enregistrés !",
+    "settingsFailed": "Échec de l'enregistrement des paramètres. Veuillez réessayer.",
+    "backupDeleted": "Enregistrement de sauvegarde supprimé avec succès",
+    "backupDeleteFailed": "Échec de la suppression de l'enregistrement de sauvegarde",
+    "logsSaved": "Journaux d'erreurs exportés avec succès !",
+    "logsFailed": "Échec de l'export des journaux d'erreurs",
+    "desktopOnly": "Cette fonctionnalité n'est disponible que dans l'application de bureau",
+    "paymentSuccess": "Paiement réussi ! Votre abonnement est maintenant actif."
+  }
+}

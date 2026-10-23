@@ -1,0 +1,134 @@
+{
+  "header": {
+    "title": "Schritt-für-Schritt-Screenshots",
+    "noProject": "Kein Projekt ausgewählt"
+  },
+  "hints": {
+    "show": "Hinweise einblenden",
+    "hide": "Hinweise ausblenden"
+  },
+  "noProject": {
+    "prompt": "Erstellen Sie ein neues Projekt, um zu beginnen",
+    "description": "Sie benötigen ein Projekt, bevor Sie mit der Aufnahme beginnen können. Ihre Screenshots und Dokumentationsschritte werden im Projekt gespeichert.",
+    "createButton": "Neues Projekt erstellen"
+  },
+  "source": {
+    "heading": "Aufnahmequelle",
+    "refreshTitle": "Quellen aktualisieren",
+    "screen": "Bildschirm",
+    "window": "Fenster"
+  },
+  "captureMode": {
+    "heading": "Aufnahmemodus",
+    "hotkeys": "Hotkeys",
+    "auto": "Auto",
+    "hintAuto": "Erfasst automatisch bei jedem Klick",
+    "hintManual": "{{hotkey}} drücken, um aufzunehmen",
+    "captureRightClicks": "Rechtsklicks erfassen"
+  },
+  "controls": {
+    "startCapturing": "Aufnahme starten",
+    "startAutoCapture": "Auto-Aufnahme starten",
+    "capturing": "Aufnahme läuft",
+    "paused": "Pausiert",
+    "pause": "Pause",
+    "resume": "Fortsetzen",
+    "stop": "Stopp",
+    "goToEdit": "Zum Editor ({{count}} Schritte)"
+  },
+  "liveClicks": {
+    "heading": "Live-Klicks"
+  },
+  "stats": {
+    "screenshots": "Screenshots",
+    "duration": "Dauer"
+  },
+  "settings": {
+    "heading": "Einstellungen",
+    "primaryHotkey": "Primärer Hotkey",
+    "secondaryHotkey": "Sekundärer Hotkey",
+    "notSet": "Nicht festgelegt",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "editHotkeys": "Hotkeys bearbeiten"
+  },
+  "feed": {
+    "capturedSteps": "Aufgenommene Schritte ({{count}})",
+    "liveNotice": "Neue Screenshots erscheinen hier automatisch",
+    "readyTitle": "Bereit zur Aufnahme",
+    "waitingTitle": "Warte auf Screenshots...",
+    "readyDesc": "Wählen Sie eine Quelle und starten Sie die Aufnahme, um Ihre Dokumentation zu erstellen",
+    "capturingAutoDesc": "Klicken Sie auf das Zielfenster — jeder Klick wird ein Schritt",
+    "capturingManualDesc": "{{hotkey}} drücken, um einen Screenshot zu erstellen",
+    "realtimeNote": "Screenshots erscheinen hier in Echtzeit, während Sie aufnehmen"
+  },
+  "card": {
+    "step": "Schritt {{number}}",
+    "preview": "Vorschau",
+    "delete": "Löschen",
+    "loading": "Wird geladen...",
+    "loadError": "Bild konnte nicht geladen werden"
+  },
+  "previewModal": {
+    "loading": "Vorschau wird geladen...",
+    "loadError": "Bild konnte nicht geladen werden",
+    "screenshotId": "Screenshot-ID: {{id}}",
+    "captured": "Aufgenommen: {{time}}",
+    "size": "Größe: {{size}} KB"
+  },
+  "modal": {
+    "title": "Neues Projekt erstellen",
+    "projectName": "Projektname *",
+    "projectNamePlaceholder": "Projektnamen eingeben",
+    "description": "Beschreibung (Optional)",
+    "descriptionPlaceholder": "Projektbeschreibung eingeben",
+    "cancel": "Abbrechen",
+    "create": "Projekt erstellen"
+  },
+  "coach": {
+    "sourceTitle": "Aufnahmequelle auswählen",
+    "sourceDesc": "Wählen Sie einen Monitor oder ein bestimmtes Fenster. Screenshots werden von der gewählten Quelle aufgenommen.",
+    "modeTitle": "Manuell vs. Auto",
+    "modeDesc": "Hotkeys nehmen auf Befehl auf. Der Auto-Modus erfasst jeden Klick — ideal für Klick-für-Klick-Tutorials.",
+    "startTitle": "Aufnahme starten",
+    "startDesc": "Starten Sie die Aufnahmesitzung. Im Hotkey-Modus drücken Sie die konfigurierte Taste für jeden Schritt.",
+    "stopTitle": "Stoppen, wenn fertig",
+    "stopDesc": "Beendet die Aufnahmesitzung. Danach können Sie Ihre Schritte bearbeiten und verfeinern.",
+    "editTitle": "Bereit zum Bearbeiten",
+    "editDesc": "Wechseln Sie in den Editor, um Titel, Beschreibungen und Anmerkungen vor dem Export zu verfeinern."
+  },
+  "toast": {
+    "noSourcesFound": "Keine aufnehmbaren Quellen gefunden. Einige Fenster sind möglicherweise geschützt.",
+    "loadSourcesFailed": "Aufnahmequellen konnten nicht geladen werden. Einige Systemfenster sind möglicherweise geschützt.",
+    "screenshotDeleted": "Screenshot gelöscht",
+    "capturePaused": "Aufnahme pausiert",
+    "captureResumed": "Aufnahme fortgesetzt",
+    "resumeFailed": "Aufnahme konnte nicht fortgesetzt werden",
+    "switchedSource": "Gewechselt zu {{name}}",
+    "switchFailed": "Quellwechsel fehlgeschlagen",
+    "previewSelectFirst": "Bitte wählen Sie zuerst eine Aufnahmequelle aus.",
+    "previewStarted": "Vorschau erfolgreich gestartet",
+    "previewDesktopOnly": "Vorschau ist nur in der Desktop-App verfügbar.",
+    "previewFailed": "Vorschau konnte nicht gestartet werden. Versuchen Sie eine andere Quelle.",
+    "noProjectName": "Bitte geben Sie einen Projektnamen ein",
+    "projectCreated": "Projekt erfolgreich erstellt!",
+    "projectFolderFailed": "Projektordnerstruktur konnte nicht erstellt werden",
+    "projectSelected": "Projekt \u201e{{name}}\u201c ausgewählt",
+    "hotkeySaved": "Hotkey-Konfiguration gespeichert!",
+    "hotkeyFailed": "Hotkey-Konfiguration konnte nicht gespeichert werden",
+    "desktopRequired": "Diese Funktion erfordert die Desktop-Anwendung",
+    "noSource": "Bitte wählen Sie eine Aufnahmequelle aus",
+    "noProject": "Bitte wählen oder erstellen Sie zuerst ein Projekt",
+    "projectNotFound": "Projekt nicht gefunden",
+    "autoCaptureActivated": "Auto-Aufnahme aktiviert — jeder Klick wird automatisch erfasst!",
+    "hotkeyCaptureActivated": "Screenshot-Aufnahme aktiviert — Hotkey drücken zum Aufnehmen!",
+    "captureStartFailed": "Interaktive Aufnahme konnte nicht gestartet werden",
+    "captureCompleted": "Aufnahme abgeschlossen! {{count}} Screenshots aufgenommen.",
+    "noScreenshots": "Keine Screenshots aufgenommen",
+    "stopFailed": "Fehler beim Stoppen der Aufnahme",
+    "nativeScreenshot": "Nativer Screenshot sofort erfasst! ({{size}} Bytes)",
+    "nativeScreenshotFailed": "Nativer Screenshot konnte nicht verarbeitet werden",
+    "noScreenshotData": "Keine Screenshot-Daten empfangen",
+    "noImageData": "Keine Bilddaten empfangen"
+  }
+}

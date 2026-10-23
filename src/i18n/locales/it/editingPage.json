@@ -1,0 +1,163 @@
+{
+  "empty": {
+    "title": "Nessun Progetto o Registrazione Selezionati",
+    "subtitle": "Seleziona un progetto o una registrazione per iniziare a modificare.",
+    "goToDashboard": "Vai al Pannello di Controllo"
+  },
+  "header": {
+    "backToDashboard": "Torna al Pannello di Controllo",
+    "editor": "Editor",
+    "videoProject": "Progetto Video",
+    "screenshots": "Screenshot"
+  },
+  "view": {
+    "edit": "Modifica",
+    "preview": "Anteprima",
+    "showHints": "Mostra suggerimenti",
+    "hideHints": "Nascondi suggerimenti",
+    "stepsCount": "{{count}} passaggi",
+    "exportDocumentation": "Esporta Documentazione",
+    "exportEmpty": "Aggiungi screenshot o diagrammi per esportare la documentazione",
+    "exportReady": "Esporta documentazione passo dopo passo"
+  },
+  "stage": {
+    "viewFullSize": "Visualizza a schermo intero",
+    "buildingTitle": "La tua documentazione è in fase di creazione",
+    "buildingSubtitle": "Seleziona un passaggio a destra per l'anteprima, o passa alla modalità Anteprima per vedere il documento completo",
+    "previewDocument": "Anteprima Documento"
+  },
+  "timeline": {
+    "label": "Timeline ({{count}})"
+  },
+  "videoInfo": {
+    "videoRecording": "Registrazione Video",
+    "duration": "Durata: {{time}}",
+    "screenshotBased": "Documentazione basata su screenshot",
+    "exportVideoOnly": "Esporta Solo Video",
+    "exportVideoOnlyTitle": "Esporta solo il file video (formato WebM)"
+  },
+  "projectSettings": {
+    "heading": "Impostazioni Progetto",
+    "titleLabel": "Titolo Progetto",
+    "titlePlaceholder": "Inserisci il titolo del progetto per l'esportazione PDF",
+    "titleHint": "Questo titolo apparirà nel PDF esportato",
+    "sourceLabel": "Fonte/Applicazione",
+    "sourcePlaceholder": "es. Browser Chrome, App Desktop",
+    "sourceHint": "Specifica l'applicazione sorgente o il contesto"
+  },
+  "steps": {
+    "heading": "Passaggi Documentazione ({{count}})",
+    "bookmarks": "Segnalibri ({{count}})",
+    "bookmarksTitle": "Genera passaggi dagli orari dei segnalibri F10",
+    "workflow": "Flusso di Lavoro",
+    "workflowTitle": "Genera un diagramma di flusso dai titoli dei passaggi",
+    "diagram": "Diagramma",
+    "diagramTitle": "Aggiungi un passaggio con diagramma vuoto",
+    "select": "Seleziona",
+    "cancel": "Annulla",
+    "selectTitleEnter": "Seleziona più passaggi",
+    "selectTitleExit": "Esci dalla modalità selezione",
+    "selectAll": "Seleziona tutto",
+    "deselectAll": "Deseleziona tutto",
+    "selectedCount": "{{selected}} di {{total}} selezionati",
+    "bulkDelete": "Elimina ({{count}})",
+    "moveUp": "Sposta su",
+    "moveDown": "Sposta giù",
+    "goToTimestamp": "Vai al timestamp",
+    "replaceVideoFrame": "Sostituisci con il fotogramma video corrente",
+    "retakeFromWindow": "Riacquisisci screenshot da una finestra",
+    "editScreenshot": "Modifica screenshot",
+    "editDiagram": "Modifica diagramma",
+    "delete": "Elimina",
+    "doubleClickToEdit": "Doppio clic per modificare",
+    "stepTitlePlaceholder": "Titolo passaggio",
+    "stepDescriptionPlaceholder": "Descrizione passaggio",
+    "stepNumber": "Passaggio {{n}}",
+    "dropZone": "Trascina immagini o video qui per aggiungere nuovi passaggi"
+  },
+  "emptyState": {
+    "noStepsYet": "Nessun passaggio",
+    "captureFirstSteps": "Acquisisci i tuoi primi passaggi",
+    "goBackToCapture": "Torna alla pagina di acquisizione per fare screenshot del tuo flusso di lavoro",
+    "takeScreenshotsHint": "Fai screenshot del tuo flusso di lavoro e Docfai li trasformerà automaticamente in documentazione professionale",
+    "retakeScreenshots": "Riacquisisci Screenshot",
+    "startTakingScreenshots": "Inizia a Fare Screenshot",
+    "generateFromBookmarksTitle": "Genera passaggi dai segnalibri",
+    "generateFromBookmarksSubtitle": "Estrai passaggi di documentazione da ogni timestamp dei segnalibri F10 della tua registrazione",
+    "stepsFromBookmarks": "Passaggi dai Segnalibri ({{count}})"
+  },
+  "retakeModal": {
+    "heading": "Seleziona finestra da acquisire"
+  },
+  "preview": {
+    "heading": "Anteprima Documentazione",
+    "templateLabel": "Modello:"
+  },
+  "videoEditor": {
+    "takeScreenshot": "Fai uno Screenshot"
+  },
+  "coach": {
+    "editTitle": "Modifica immagine & testo",
+    "editDesc": "Clicca questo pulsante per annotare lo screenshot e modificare il titolo e la descrizione del passaggio in un unico posto.",
+    "replaceTitle": "Sostituisci immagine",
+    "replaceDesc": "Sostituisci lo screenshot con una nuova acquisizione dalla finestra originale — utile quando la prima acquisizione ha perso qualcosa.",
+    "deleteTitle": "Elimina passaggio",
+    "deleteDesc": "Rimuovi questo passaggio dalla documentazione. Usa la maniglia di trascinamento per riordinare i passaggi.",
+    "reorderTitle": "Riordina passaggi",
+    "reorderDesc": "Usa le frecce su/giù per cambiare l'ordine dei passaggi, o trascina la maniglia a sinistra per un riordinamento rapido.",
+    "templateTitle": "Scegli un modello",
+    "templateDesc": "Seleziona un layout adatto al tuo stile. Le modifiche si applicano istantaneamente all'anteprima sottostante.",
+    "workflowTitle": "Genera automaticamente il flusso di lavoro",
+    "workflowDesc": "Crea automaticamente un diagramma di flusso dai titoli dei passaggi — ottimo per la documentazione dei processi.",
+    "diagramTitle": "Aggiungi un diagramma",
+    "diagramDesc": "Inserisci un passaggio con diagramma di flusso vuoto per illustrare processi o decisioni ovunque nella documentazione."
+  },
+  "toast": {
+    "projectNotFound": "Progetto non trovato",
+    "stepUpdated": "Passaggio aggiornato con successo!",
+    "noStepsToExport": "Nessun passaggio da esportare. Fai degli screenshot o crea diagrammi prima.",
+    "noDocStepsToExport": "Nessun passaggio di documentazione da esportare. Fai prima degli screenshot.",
+    "exportFailed": "Esportazione guida fallita: {{error}}",
+    "noVideoFile": "Nessun file video da esportare",
+    "videoLoadFailed": "Caricamento registrazione video fallito",
+    "screenshotsLoadFailed": "Caricamento screenshot fallito",
+    "interactiveScreenshotsLoadFailed": "Caricamento screenshot per acquisizione interattiva fallito",
+    "desktopOnly": "Questa funzione richiede l'app desktop",
+    "bookmarksCreated": "{{count}} passaggi creati dai segnalibri!",
+    "bookmarksFailed": "Estrazione passaggi dai segnalibri fallita",
+    "needTwoSteps": "Servono almeno 2 passaggi per creare un diagramma di flusso",
+    "workflowUpdated": "Diagramma di flusso aggiornato con gli ultimi titoli dei passaggi!",
+    "workflowCreated": "Diagramma di flusso creato! Ora puoi modificarlo.",
+    "frameCaptureFailed": "Acquisizione fotogramma dal video fallita",
+    "saveReplacementFailed": "Salvataggio screenshot sostitutivo fallito",
+    "screenshotReplaced": "Screenshot sostituito con il fotogramma corrente",
+    "replaceFailed": "Sostituzione screenshot fallita",
+    "noCaptureSources": "Nessuna sorgente di acquisizione trovata",
+    "captureSourcesFailed": "Caricamento sorgenti di acquisizione fallito",
+    "captureFailed": "Acquisizione screenshot fallita",
+    "retakeSuccess": "Screenshot riacquisito con successo",
+    "retakeFailed": "Riacquisizione screenshot fallita",
+    "stepsDeleted_one": "{{count}} passaggio eliminato",
+    "stepsDeleted_other": "{{count}} passaggi eliminati",
+    "stepsReordered": "Passaggi riordinati",
+    "unsupportedFile": "Tipo di file non supportato. Trascina un'immagine (PNG, JPG, GIF, WebP) o un video (MP4, WebM).",
+    "unsupportedFileShort": "Tipo di file non supportato. Trascina un'immagine o un video.",
+    "videoTooLarge": "File video troppo grande. Massimo {{max}}MB.",
+    "noActiveProject": "Nessun progetto attivo.",
+    "saveImageFailed": "Salvataggio immagine trascinata fallito.",
+    "imageAdded": "Immagine aggiunta al passaggio.",
+    "saveVideoFailed": "Salvataggio clip video fallito.",
+    "videoClipAdded": "Clip video aggiunta al passaggio.",
+    "addImageStepFailed": "Aggiunta passaggio immagine fallita.",
+    "noProjectSelected": "Nessun progetto selezionato",
+    "screenshotDeleted": "Screenshot eliminato con successo!",
+    "deleteScreenshotFailed": "Eliminazione file screenshot fallita",
+    "noVideoForDoc": "Nessun file video disponibile per la documentazione",
+    "screenshotUpdated": "Screenshot e informazioni passaggio aggiornati con successo!",
+    "nextScreenshotFailed": "Caricamento screenshot successivo fallito",
+    "noVideoForExport": "Nessun file video disponibile per l'esportazione",
+    "screenshotEditLoadFailed": "Caricamento screenshot per la modifica fallito",
+    "diagramDeleted": "Passaggio diagramma e file associati eliminati",
+    "stepDeleted": "Passaggio e file screenshot eliminati"
+  }
+}

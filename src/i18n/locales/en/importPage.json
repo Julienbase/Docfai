@@ -1,0 +1,72 @@
+{
+  "header": {
+    "title": "Import Project",
+    "description": "Restore previously exported projects with all their recordings, screenshots, and documentation.",
+    "hints": {
+      "show": "Show hints",
+      "hide": "Hide hints"
+    }
+  },
+  "selection": {
+    "title": "Select a .docfai file",
+    "subtitle": "Choose an exported project backup to import",
+    "browseButton": "Browse Files"
+  },
+  "preview": {
+    "analyzing": "Analyzing import file...",
+    "title": "Import Preview",
+    "projectName": "Project Name",
+    "created": "Created",
+    "recordings": "Recordings",
+    "screenshots": "Screenshots",
+    "documentationSteps": "Documentation Steps",
+    "fileSize": "File Size"
+  },
+  "conflict": {
+    "warning": "A project named \"{{name}}\" already exists",
+    "importAsNew": "Import as new project",
+    "importAsNewDesc": "Creates a copy with a different name, keeping the existing project untouched",
+    "replace": "Replace existing project",
+    "replaceDesc": "Deletes the existing project and replaces it with the imported one"
+  },
+  "progress": {
+    "complete": "% complete"
+  },
+  "actions": {
+    "chooseDifferent": "Choose Different File",
+    "importButton": "Import Project",
+    "importing": "Importing..."
+  },
+  "infocards": {
+    "formats": {
+      "title": "Supported Formats",
+      "desc": ".docfai and .zip files exported from Docfai"
+    },
+    "protection": {
+      "title": "Conflict Protection",
+      "desc": "Duplicate names are detected — choose to replace or import as new"
+    },
+    "restore": {
+      "title": "Full Restore",
+      "desc": "Recordings, screenshots, diagrams, and notes are all restored"
+    }
+  },
+  "coach": {
+    "browse": {
+      "title": "Select your .docfai file",
+      "desc": "Pick the exported backup you want to restore. Docfai will analyze it and preview its contents."
+    },
+    "confirmImport": {
+      "title": "Import when ready",
+      "desc": "Review the preview above, then import. If the name already exists, pick how to handle the conflict."
+    }
+  },
+  "toast": {
+    "fileNotAvailable": "File selection not available in this environment",
+    "analyzeError": "Failed to analyze the selected file",
+    "readError": "Failed to read file: {{error}}",
+    "selectError": "Failed to select import file",
+    "success": "Project imported successfully!",
+    "error": "Import failed: {{error}}"
+  }
+}

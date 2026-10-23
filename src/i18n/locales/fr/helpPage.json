@@ -1,0 +1,348 @@
+{
+  "header": {
+    "title": "Aide & Documentation",
+    "subtitle": "Apprenez à utiliser Docfai pour créer une documentation professionnelle"
+  },
+  "search": {
+    "noResults": "Aucun sujet d'aide trouvé correspondant à « {{query}} »"
+  },
+  "sections": {
+    "gettingStarted": {
+      "title": "Premiers Pas",
+      "welcome": "Bienvenue sur Docfai",
+      "description": "Docfai est un puissant outil de documentation qui vous aide à créer des guides pas à pas, des tutoriels et de la documentation de processus à l'aide de captures d'écran et d'enregistrements vidéo.",
+      "quickStartTitle": "Guide de Démarrage Rapide :",
+      "quickStart": [
+        "Ouvrez Docfai (aucun compte nécessaire)",
+        "Créez votre premier projet depuis le Tableau de Bord",
+        "Choisissez entre le mode Captures d'Écran ou Enregistrement Vidéo",
+        "Capturez votre processus étape par étape",
+        "Modifiez et annotez vos captures d'écran",
+        "Exportez votre documentation dans le format souhaité"
+      ]
+    },
+    "trial": {
+      "title": "Essai Gratuit & Abonnement",
+      "trialTitle": "Comment Fonctionne l'Essai Gratuit de 7 Jours",
+      "trialDesc": "Docfai offre un essai gratuit de 7 jours avec accès complet à toutes les fonctionnalités — aucune carte de crédit requise.",
+      "trialFeaturesTitle": "Fonctionnalités de l'Essai :",
+      "trialFeatures": [
+        "Accès complet à toutes les fonctionnalités de documentation",
+        "Captures d'écran et enregistrements vidéo illimités",
+        "Accès à tous les formats d'export (PDF, Word, HTML, etc.)",
+        "Intégrations cloud (Confluence, SharePoint)",
+        "Aucune carte de crédit requise pour commencer"
+      ],
+      "afterTrialTitle": "Après l'Essai :",
+      "afterTrialDesc": "Lorsque votre essai se termine, vous pouvez choisir parmi nos plans d'abonnement :",
+      "plans": [
+        "Plan Solo : 20 €/mois ou 200 €/an (économisez 40 €)",
+        "Plan Équipe : 80 €/mois pour 5 sièges (16 €/siège)"
+      ],
+      "subscriptionInfo": "Visitez la page Tarification pour vous abonner ou gérez votre abonnement depuis la page Compte."
+    },
+    "projects": {
+      "title": "Créer des Projets",
+      "projectManagement": "Gestion de Projets",
+      "projectDesc": "Les projets sont des conteneurs pour votre documentation. Chaque projet peut contenir plusieurs enregistrements et exports.",
+      "createTitle": "Créer un Nouveau Projet :",
+      "createSteps": [
+        "Allez au Tableau de Bord",
+        "Cliquez sur le bouton « Nouveau Projet »",
+        "Saisissez un nom de projet et une description facultative",
+        "Cliquez sur « Créer »"
+      ],
+      "actionsTitle": "Actions sur le Projet :",
+      "actions": [
+        "Ouvrir : Afficher et gérer les enregistrements du projet",
+        "Renommer : Changer le nom du projet",
+        "Supprimer : Supprimer le projet et tous ses enregistrements (irréversible)",
+        "Exporter : Exporter tous les enregistrements du projet en une fois"
+      ]
+    },
+    "screenshots": {
+      "title": "Captures d'Écran Interactives",
+      "screenshotTitle": "Prendre des Captures d'Écran Pas à Pas",
+      "screenshotDesc": "Le mode Captures d'Écran vous permet de capturer des étapes individuelles avec des capacités d'édition complètes.",
+      "howToTitle": "Comment Utiliser :",
+      "howToSteps": [
+        "Accédez à Captures d'Écran depuis la barre latérale",
+        "Sélectionnez ou créez un projet",
+        "Cliquez sur « Prendre une Capture » ou appuyez sur le raccourci (par défaut : F8 ou Ctrl+Maj+C)",
+        "La capture d'écran s'ouvrira automatiquement dans l'éditeur",
+        "Annotez avec des rectangles, des flèches, du texte, des effets de flou et plus encore",
+        "Ajoutez un titre et une description pour l'étape",
+        "Enregistrez la capture dans votre enregistrement"
+      ],
+      "editingToolsTitle": "Outils d'Édition :",
+      "editingTools": [
+        "Rectangle : Mettre en évidence des zones d'intérêt",
+        "Cercle : Dessiner des surbrillances circulaires",
+        "Flèche : Pointer vers des éléments spécifiques",
+        "Zone de Texte : Ajouter des annotations textuelles personnalisées",
+        "Compteur : Numéroter les étapes séquentielles",
+        "Flou : Masquer les informations sensibles",
+        "Pixélisation : Brouiller les détails",
+        "Masquage : Masquer complètement des sections",
+        "Recadrage : Rogner la capture pour se concentrer sur une zone"
+      ],
+      "shortcutsTitle": "Raccourcis Clavier :",
+      "shortcuts": [
+        "Ctrl + Défilement : Zoom avant/arrière",
+        "Espace + Glisser : Panoramique de l'image"
+      ]
+    },
+    "videoRecording": {
+      "title": "Enregistrement Vidéo",
+      "recordingTitle": "Enregistrement de Vidéos de Processus",
+      "recordingDesc": "Enregistrez votre écran pour capturer des processus complexes, puis convertissez-les en captures d'écran pas à pas.",
+      "howToTitle": "Comment Enregistrer :",
+      "howToSteps": [
+        "Allez à Enregistrement depuis la barre latérale",
+        "Sélectionnez ou créez un projet",
+        "Cliquez sur « Démarrer l'Enregistrement »",
+        "Choisissez votre écran ou application à enregistrer",
+        "Effectuez les étapes que vous souhaitez documenter",
+        "Cliquez sur « Arrêter l'Enregistrement » lorsque vous avez terminé"
+      ],
+      "extractTitle": "Extraire des Captures d'Écran depuis la Vidéo :",
+      "extractSteps": [
+        "Après l'enregistrement, le lecteur vidéo apparaîtra",
+        "Faites défiler la chronologie pour trouver le cadre exact",
+        "Cliquez sur « Prendre une Capture » à chaque étape importante",
+        "Chaque capture s'ouvre dans l'éditeur pour annotation",
+        "Ajoutez titres, descriptions et annotations",
+        "Enregistrez pour construire votre séquence de documentation"
+      ],
+      "tipsTitle": "Conseils Vidéo :",
+      "tips": [
+        "Avancez lentement et délibérément à chaque étape",
+        "Faites une brève pause entre les actions pour faciliter l'extraction de captures",
+        "Maintenez l'enregistrement concentré sur un seul processus à la fois",
+        "Utilisez les contrôles image par image de la chronologie vidéo pour plus de précision"
+      ]
+    },
+    "templates": {
+      "title": "Modèles",
+      "templatesTitle": "Utiliser les Modèles",
+      "templatesDesc": "Les modèles contrôlent l'apparence de votre documentation lors de l'export. Choisissez parmi des modèles professionnels ou personnalisez le vôtre.",
+      "availableTitle": "Modèles Disponibles :",
+      "available": [
+        "Professionnel : Design propre et adapté aux entreprises avec une mise en page structurée",
+        "Moderne : Design contemporain avec des couleurs vives et une typographie moderne",
+        "Minimaliste : Documentation simple et sans distraction",
+        "Technique : Modèle détaillé pour la documentation technique avec blocs de code"
+      ],
+      "customizeTitle": "Personnaliser les Modèles :",
+      "customizeDesc": "Sur la page Export, vous pouvez personnaliser :",
+      "customizeOptions": [
+        "Titre & Description : Ajouter des informations d'en-tête au document",
+        "Logo : Téléverser le logo de votre entreprise",
+        "Couleurs : Personnaliser les couleurs primaires et d'accentuation",
+        "Typographie : Choisir les polices pour les titres et le corps du texte",
+        "Mise en Page : Ajuster l'espacement, les marges et la structure"
+      ],
+      "saveTitle": "Enregistrer les Paramètres du Modèle :",
+      "saveDesc": "Cliquez sur « Enregistrer les Paramètres du Modèle » pour mémoriser vos personnalisations pour les futurs exports."
+    },
+    "export": {
+      "title": "Formats d'Export",
+      "exportTitle": "Exporter Votre Documentation",
+      "exportDesc": "Exportez votre documentation dans plusieurs formats pour la partager avec votre équipe ou l'intégrer à votre flux de travail.",
+      "formatsTitle": "Formats d'Export Disponibles :",
+      "formats": {
+        "pdf": {
+          "name": "PDF",
+          "desc": "Documents PDF professionnels avec images et texte formaté. Parfait pour le partage et l'impression."
+        },
+        "docx": {
+          "name": "Microsoft Word (.docx)",
+          "desc": "Documents Word modifiables avec images et mise en forme. Idéal pour l'édition collaborative."
+        },
+        "html": {
+          "name": "HTML",
+          "desc": "HTML prêt pour le web avec images intégrées. Idéal pour les bases de connaissances et les wikis internes."
+        },
+        "markdown": {
+          "name": "Markdown (.md)",
+          "desc": "Texte brut avec mise en forme Markdown. Parfait pour GitHub, GitLab et la documentation technique."
+        },
+        "video": {
+          "name": "Vidéo (.mp4)",
+          "desc": "Vidéo diaporama à partir de captures d'écran avec durée configurable par diapositive."
+        }
+      },
+      "howToTitle": "Comment Exporter :",
+      "howToSteps": [
+        "Allez à Export depuis la barre latérale",
+        "Sélectionnez le projet et l'enregistrement à exporter",
+        "Choisissez votre modèle et personnalisez-le si nécessaire",
+        "Sélectionnez le(s) format(s) d'export",
+        "Cliquez sur « Exporter »",
+        "Choisissez l'emplacement de sauvegarde sur votre ordinateur"
+      ]
+    },
+    "importExport": {
+      "title": "Importer une Documentation Existante",
+      "importTitle": "Importer/Exporter une Documentation Existante",
+      "importDesc": "Importez des projets précédemment exportés ou de la documentation provenant d'autres sources. Exportez vos projets actuels pour sauvegarde ou partage.",
+      "formatsTitle": "Formats d'Import Pris en Charge :",
+      "formats": [
+        "Docfaizip : Importer des exports de projets Docfai",
+        "Images : Importer des captures d'écran de projet (.png, .jpg)",
+        "Vidéos : Importer des enregistrements d'écran de projet (.mp4, .webm)"
+      ],
+      "howToTitle": "Comment Importer :",
+      "howToSteps": [
+        "Allez à Import depuis la barre latérale",
+        "Cliquez sur « Choisir un Fichier » ou glissez-déposez des fichiers",
+        "Sélectionnez le projet dans lequel importer (ou créez-en un nouveau)",
+        "Cliquez sur « Importer »",
+        "Le contenu importé sera ajouté à votre projet"
+      ],
+      "useCasesTitle": "Cas d'Utilisation :",
+      "useCases": [
+        "Transférer des projets entre ordinateurs",
+        "Collaborer avec des membres d'équipe en partageant des fichiers de projet",
+        "Archiver et restaurer de l'ancienne documentation",
+        "Importer des captures d'écran depuis d'autres outils"
+      ]
+    },
+    "connections": {
+      "title": "Intégrations Cloud",
+      "connectionsTitle": "Gérer les Connexions Cloud",
+      "connectionsDesc": "Connectez Docfai à vos plateformes cloud pour publier la documentation directement.",
+      "confluenceTitle": "Intégration Confluence :",
+      "confluenceDesc": "Publiez la documentation directement vers Atlassian Confluence.",
+      "confluenceSteps": [
+        "Allez à la page Connexions",
+        "Cliquez sur « Connecter Confluence »",
+        "Saisissez l'URL de votre site Confluence (ex : votreetreprise.atlassian.net)",
+        "Saisissez votre e-mail et jeton API depuis les paramètres Confluence",
+        "Testez la connexion",
+        "Enregistrez si réussie"
+      ],
+      "sharepointTitle": "Intégration SharePoint :",
+      "sharepointDesc": "Publiez la documentation vers Microsoft SharePoint.",
+      "sharepointSteps": [
+        "Allez à la page Connexions",
+        "Cliquez sur « Connecter SharePoint »",
+        "Saisissez l'URL de votre site SharePoint",
+        "Authentifiez-vous avec vos identifiants Microsoft",
+        "Sélectionnez la bibliothèque de documents",
+        "Enregistrez la connexion"
+      ],
+      "usingTitle": "Utiliser les Connexions :",
+      "usingDesc": "Une fois connecté, vous pouvez exporter directement vers ces plateformes depuis la page Export :",
+      "usingSteps": [
+        "Sélectionnez votre format d'export",
+        "Choisissez « Publier vers Confluence » ou « Publier vers SharePoint »",
+        "Sélectionnez l'espace/bibliothèque et le dossier",
+        "Cliquez sur « Publier »"
+      ],
+      "managingTitle": "Gérer les Connexions :",
+      "managingSteps": [
+        "Modifier : Mettre à jour les identifiants de connexion",
+        "Tester : Vérifier que la connexion fonctionne",
+        "Supprimer : Effacer la connexion"
+      ]
+    },
+    "backup": {
+      "title": "Sauvegarde & Paramètres",
+      "backupTitle": "Comment Fonctionne la Sauvegarde",
+      "backupDesc": "Docfai sauvegarde automatiquement vos projets pour s'assurer que votre documentation n'est jamais perdue.",
+      "automaticTitle": "Sauvegardes Automatiques :",
+      "automaticSteps": [
+        "Les projets sont sauvegardés localement sur votre ordinateur en temps réel",
+        "Toutes les modifications sont automatiquement persistées sur le disque",
+        "Le stockage chiffré garantit la sécurité de vos données",
+        "Aucune connexion Internet requise pour les sauvegardes locales"
+      ],
+      "configureTitle": "Configurer l'Emplacement de Sauvegarde :",
+      "configureSteps": [
+        "Allez à la page Compte",
+        "Faites défiler jusqu'à la section Paramètres",
+        "Cliquez sur « Paramètres de Sauvegarde »",
+        "Cliquez sur « Ajouter un Emplacement de Sauvegarde »",
+        "Choisissez un dossier sur votre ordinateur ou un disque externe",
+        "Activez « Sauvegarde Automatique »",
+        "Définissez la fréquence de sauvegarde (ex : toutes les heures, quotidienne)"
+      ],
+      "manualTitle": "Sauvegardes Manuelles :",
+      "manualDesc": "Vous pouvez exporter manuellement des projets comme sauvegardes :",
+      "manualSteps": [
+        "Allez au Tableau de Bord",
+        "Faites un clic droit sur un projet",
+        "Sélectionnez « Exporter le Projet »",
+        "Enregistrez le fichier dans votre emplacement de sauvegarde"
+      ],
+      "restoreTitle": "Restaurer depuis une Sauvegarde :",
+      "restoreSteps": [
+        "Allez à la page Import",
+        "Cliquez sur « Choisir un Fichier »",
+        "Sélectionnez votre fichier de sauvegarde",
+        "Cliquez sur « Importer »",
+        "Votre projet sera restauré avec tous les enregistrements"
+      ],
+      "settingsTitle": "Autres Paramètres :",
+      "settingsOptions": [
+        "Thème : Basculer entre le mode Clair et Sombre",
+        "Raccourci de Capture : Personnaliser le raccourci global pour les captures d'écran",
+        "Intervalle de Sauvegarde Automatique : Configurer la fréquence de sauvegarde des projets",
+        "Format d'Export par Défaut : Définir votre format d'export préféré"
+      ]
+    },
+    "translation": {
+      "title": "Module de Traduction",
+      "translationTitle": "Module de Traduction",
+      "translationDesc": "Docfai propose une traduction de documents hors ligne entre l'anglais et l'allemand à l'aide d'un Module de Traduction séparé téléchargé à la demande.",
+      "howItTitle": "Comment Ça Fonctionne :",
+      "howItSteps": [
+        "Lorsque vous sélectionnez une langue de traduction lors de l'export, vous serez invité à télécharger le Module de Traduction (~600 Mo)",
+        "Le module est téléchargé une fois et stocké localement sur votre ordinateur",
+        "Toutes les traductions se font hors ligne — aucune connexion Internet requise après le téléchargement initial",
+        "Aucune donnée de document n'est envoyée à des serveurs externes — tout reste sur votre machine"
+      ],
+      "storageTitle": "Informations de Stockage :",
+      "storageInfo": [
+        "Taille de téléchargement : ~600 Mo",
+        "Espace disque requis : ~1,6 Go (après extraction)",
+        "Emplacement : Stocké dans votre dossier AppData (Docfai/translation-module)"
+      ],
+      "languagesTitle": "Langues Prises en Charge :",
+      "languages": [
+        "Anglais vers Allemand",
+        "Allemand vers Anglais"
+      ],
+      "translatedTitle": "Ce Qui Est Traduit :",
+      "translatedItems": [
+        "Titre du projet",
+        "Source/Description du projet",
+        "Titres et descriptions des étapes"
+      ],
+      "privacyNote": "Confidentialité : Le Module de Traduction utilise Argos Translate, un moteur de traduction hors ligne open source. Vos documents ne sont jamais envoyés à un service externe. Tout le traitement se fait localement sur votre ordinateur."
+    },
+    "shortcuts": {
+      "title": "Raccourcis Clavier",
+      "shortcutsTitle": "Raccourcis Clavier",
+      "globalTitle": "Raccourcis Globaux :",
+      "globalShortcuts": {
+        "screenshot": "Prendre une Capture d'Écran",
+        "screenshotKey": "Ctrl+Maj+C ou F8"
+      },
+      "editorTitle": "Raccourcis de l'Éditeur d'Image :",
+      "editorShortcuts": {
+        "zoom": "Zoom Avant/Arrière",
+        "zoomKey": "Ctrl+Défilement",
+        "pan": "Panoramique de l'Image",
+        "panKey": "Espace+Glisser"
+      }
+    }
+  },
+  "footer": {
+    "needHelp": "Besoin de Plus d'Aide ?",
+    "helpDesc": "Vous ne trouvez pas ce que vous cherchez ? Posez une question ou signalez un bug sur GitHub.",
+    "emailSupport": "Signaler un problème",
+    "viewDocs": "Projet sur GitHub"
+  }
+}

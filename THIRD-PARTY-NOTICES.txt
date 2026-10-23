@@ -1,0 +1,83 @@
+Third-Party Software Notices for Docfai
+========================================
+
+Docfai bundles or downloads the following third-party software. This file
+is distributed with the application (in the "resources" folder of the
+installation directory).
+
+Docfai's own source code is licensed under the MIT License (see LICENSE).
+The licenses below apply to the third-party components, not to Docfai's code.
+
+
+1. FFmpeg (ffmpeg.exe, ffprobe.exe)
+-----------------------------------
+License: GNU General Public License v3.0 or later (GPL-3.0-or-later)
+
+Docfai bundles UNMODIFIED FFmpeg binaries and invokes them as separate
+programs (separate processes). Docfai itself is not a derivative work of
+FFmpeg. The binaries are not stored in the source repository; the build
+downloads them (scripts/fetch-ffmpeg.cjs) and verifies their SHA-256 hash.
+
+FFmpeg is a trademark of Fabrice Bellard, originator of the FFmpeg project.
+Copyright (c) 2000-2026 the FFmpeg developers.
+
+Build: FFmpeg 8.1.2 "essentials" build by gyan.dev
+  https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-8.1.2-essentials_build.zip
+  SHA-256: db580001caa24ac104c8cb856cd113a87b0a443f7bdf47d8c12b1d740584a2ec
+
+License text: the full license of this build is installed alongside the
+binaries at resources/ffmpeg/LICENSE.txt, and is also available at
+  https://www.gnu.org/licenses/gpl-3.0.txt
+
+Corresponding source:
+  - FFmpeg 8.1.2 source code: https://ffmpeg.org/releases/ffmpeg-8.1.2.tar.xz
+  - The build's embedded version banner (run "ffmpeg.exe -version") lists the
+    package sources of all third-party libraries linked into this build.
+  - Anyone who distributes installers built from this repository distributes
+    these FFmpeg binaries and is responsible for meeting the GPLv3 source
+    requirements (section 6), for example by distributing the source above
+    alongside the installer.
+
+
+2. Node.js package dependencies
+-------------------------------
+Most npm dependencies are under permissive licenses (MIT, ISC, BSD,
+Apache-2.0). The following are worth noting:
+
+  - sharp (Apache-2.0) bundles prebuilt libvips binaries, which are licensed
+    under the GNU Lesser General Public License v3.0 or later
+    (LGPL-3.0-or-later). They are loaded as separate dynamic libraries.
+    https://github.com/lovell/sharp-libvips
+
+  - canvas (MIT) bundles prebuilt native libraries (cairo, pango, glib,
+    gdk-pixbuf, librsvg, fribidi, libthai and others) that are licensed
+    under the LGPL and/or MPL. They are loaded as separate dynamic libraries.
+    https://github.com/Automattic/node-canvas
+
+  - jszip is dual-licensed (MIT OR GPL-3.0); Docfai uses it under the MIT
+    License.
+
+  - dompurify is dual-licensed (MPL-2.0 OR Apache-2.0); Docfai uses it under
+    the Apache-2.0 License.
+
+The license of each package is included in its folder under node_modules.
+
+
+3. Electron / Chromium / Node.js
+--------------------------------
+Docfai is built on Electron. The licenses of Electron, Chromium, Node.js and
+their bundled components are installed by the Electron framework itself as
+LICENSE and LICENSES.chromium.html in the application installation directory.
+
+
+4. Argos Translate (optional Translation Module, not bundled)
+-------------------------------------------------------------
+License: MIT License
+  https://github.com/argosopentech/argos-translate
+
+The optional offline Translation Module is not part of the installer. It can
+be built with "npm run build-translation-module" and hosted separately. It
+contains a Python 3.11 runtime (PSF License,
+https://docs.python.org/3/license.html), the argostranslate library (MIT) and
+Argos Translate model data. Check the license of the model data you include
+before distributing a translation module.

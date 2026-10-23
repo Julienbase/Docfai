@@ -1,0 +1,75 @@
+{
+  "title": "Screenshot & Schrittinformationen bearbeiten",
+  "nav": {
+    "prevStep": "Vorheriger Schritt (automatisches Speichern)",
+    "nextStep": "Nächster Schritt (automatisches Speichern)",
+    "stepOf": "Schritt {{current}} von {{total}}"
+  },
+  "hints": {
+    "show": "Einführungshinweise einblenden",
+    "hide": "Einführungshinweise ausblenden"
+  },
+  "tools": {
+    "select": "Auswahl-Werkzeug – Formen auswählen, verschieben und skalieren",
+    "arrow": "Pfeil-Werkzeug – Pfeile zeichnen",
+    "counter": "Zähler-Werkzeug – Nummerierte Markierungen hinzufügen",
+    "text": "Text-Werkzeug – Textfelder hinzufügen",
+    "crop": "Zuschnitt-Werkzeug – Bild zuschneiden",
+    "blur": "Weichzeichner-Werkzeug – Sensible Informationen verbergen",
+    "pixelate": "Verpixelungs-Werkzeug – Sensible Bereiche verpixeln",
+    "blackout": "Schwärzen-Werkzeug – Sensible Informationen vollständig verbergen"
+  },
+  "toolbar": {
+    "colorLabel": "Farbe:",
+    "colorSelect": "{{color}} auswählen",
+    "privacyLabel": "Datenschutz:",
+    "sizeLabel": "Größe:",
+    "blurLabel": "Unschärfe:",
+    "fontLabel": "Schrift:",
+    "fontSizePx": "{{size}}px",
+    "resetCounter": "Zähler zurücksetzen",
+    "resetCounterTitle": "Zähler auf 1 zurücksetzen",
+    "counterNext": "Nächster: {{value}}",
+    "viewLabel": "Ansicht:",
+    "zoomOut": "Verkleinern",
+    "zoomIn": "Vergrößern",
+    "resetZoom": "Zoom zurücksetzen (100%)",
+    "fitToScreen": "An Bildschirm anpassen",
+    "enterFullscreen": "Vollbild",
+    "exitFullscreen": "Vollbild beenden",
+    "revertCrop": "Zuschnitt zurücksetzen",
+    "revertCropTitle": "Zum Originalbild zurücksetzen",
+    "save": "Speichern"
+  },
+  "canvas": {
+    "textPlaceholder": "Hier tippen...",
+    "applyCrop": "✓ Anwenden",
+    "applyCropTitle": "Zuschnitt anwenden (Enter)",
+    "cancelCrop": "✕ Abbrechen",
+    "cancelCropTitle": "Zuschnitt abbrechen (Escape)",
+    "resizeHandle": "Zum Ändern der Größe ziehen"
+  },
+  "stepInfo": {
+    "heading": "Schrittinformationen",
+    "titleLabel": "Schritttitel",
+    "titlePlaceholder": "Schritttitel eingeben...",
+    "descriptionLabel": "Schrittbeschreibung",
+    "descriptionPlaceholder": "Beschreiben Sie, was in diesem Schritt passiert..."
+  },
+  "coach": {
+    "navTitle": "Zwischen Schritten navigieren",
+    "navDesc": "Zum vorherigen oder nächsten Schritt wechseln – aktuelle Bearbeitungen werden vor dem Wechsel automatisch gespeichert.",
+    "drawingTitle": "Zeichenwerkzeuge",
+    "drawingDesc": "Auswählen, Rechtecke oder Pfeile zeichnen, nummerierte Markierungen hinzufügen, Textfelder einfügen oder den Screenshot zuschneiden.",
+    "colorTitle": "Farbe auswählen",
+    "colorDesc": "Wählen Sie die Farbe für Formen, Pfeile, Textfelder und Zähler.",
+    "privacyTitle": "Datenschutzwerkzeuge",
+    "privacyDesc": "Sensible Informationen weichzeichnen, verpixeln oder schwärzen, bevor Sie Ihre Dokumentation teilen.",
+    "stepInfoTitle": "Schritttitel & Beschreibung bearbeiten",
+    "stepInfoDesc": "Beschreiben Sie, was in diesem Schritt passiert. Die Formatierung aus dem Rich-Text-Editor wird im endgültigen Export beibehalten.",
+    "revertTitle": "Zum Original zurücksetzen",
+    "revertDesc": "Alle Zuschnitte rückgängig machen und den vollständigen Original-Screenshot wiederherstellen.",
+    "saveTitle": "Änderungen speichern",
+    "saveDesc": "Anmerkungen, Zuschnitte und Schrittinformationen im Projekt speichern."
+  }
+}

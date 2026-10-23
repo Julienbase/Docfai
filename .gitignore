@@ -1,0 +1,42 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependencies and build output
+node_modules
+dist
+dist-ssr
+release
+*.local
+
+# Environment files
+.env
+.env.*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Native module build output (node-gyp, regenerated on npm install)
+build/
+
+# Vendored FFmpeg binaries - fetched by scripts/fetch-ffmpeg.cjs
+vendor/
+
+# Optional translation module inputs (large; built locally, never committed)
+python/runtime/
+python/models/
+venv/
+.python/
+
+# Windows junk
+desktop.ini
+nul

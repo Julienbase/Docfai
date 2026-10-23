@@ -1,0 +1,22 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "08:00"
+    # Group all non-major updates into a single PR to reduce noise
+    groups:
+      patch-and-minor:
+        update-types:
+          - "patch"
+          - "minor"
+    # Ignore major version bumps — open separate PRs requiring manual review
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
+    # Limit open PRs at a time
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"

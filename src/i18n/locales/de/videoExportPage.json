@@ -1,0 +1,117 @@
+{
+  "header": {
+    "title": "Video exportieren"
+  },
+  "noRecording": {
+    "title": "Keine Videoaufnahme ausgewählt",
+    "description": "Bitte wählen Sie eine Videoaufnahme zum Exportieren aus.",
+    "button": "Zum Dashboard"
+  },
+  "hints": {
+    "show": "Hinweise einblenden",
+    "hide": "Hinweise ausblenden"
+  },
+  "trim": {
+    "heading": "Video zuschneiden",
+    "startTime": "Startzeit",
+    "endTime": "Endzeit",
+    "duration": "Dauer:",
+    "reset": "Zurücksetzen"
+  },
+  "export": {
+    "button": "Video exportieren",
+    "exporting": "Wird exportiert... {{progress}}%"
+  },
+  "recentExports": {
+    "heading": "Kürzliche Exporte"
+  },
+  "format": {
+    "heading": "Exportformat",
+    "premium": "Premium"
+  },
+  "formats": {
+    "mp4": {
+      "name": "MP4-Video",
+      "description": "Universelles Format, kompatibel mit allen Geräten und Plattformen",
+      "features": ["Universelle Kompatibilität", "Kleine Dateigröße", "Hohe Qualität", "Streaming-bereit"]
+    },
+    "webm": {
+      "name": "WebM-Video",
+      "description": "Web-optimiertes Format mit ausgezeichneter Kompression",
+      "features": ["Web-optimiert", "Ausgezeichnete Kompression", "Open Source", "HTML5-bereit"]
+    },
+    "avi": {
+      "name": "AVI-Video",
+      "description": "Hochqualitatives Format für professionelle Bearbeitung",
+      "features": ["Hohe Qualität", "Professionelle Bearbeitung", "Verlustfreie Kompression", "Breite Unterstützung"]
+    },
+    "mov": {
+      "name": "QuickTime MOV",
+      "description": "Apples Format optimiert für Mac und iOS-Geräte",
+      "features": ["Apple-optimiert", "Hohe Qualität", "Professionelle Qualität", "Final Cut Pro-bereit"]
+    }
+  },
+  "quality": {
+    "heading": "Qualitätseinstellungen",
+    "resolution": "Auflösung",
+    "note": "Höhere Auflösung = bessere Qualität",
+    "resolutions": {
+      "720p": "720p HD",
+      "1080p": "1080p Full HD",
+      "2k": "1440p 2K (QHD)"
+    },
+    "compression": "Kompression",
+    "compressionLow": "Niedrig (beste Qualität, größere Datei)",
+    "compressionMedium": "Mittel (ausgewogen)",
+    "compressionHigh": "Hoch (kleinere Datei, niedrigere Qualität)",
+    "compressionNotes": {
+      "low": "Empfohlen für 2K: 15-20 Mbps Bitrate",
+      "medium": "Ausgewogen: 8-15 Mbps Bitrate",
+      "high": "Komprimiert: 5-10 Mbps Bitrate"
+    },
+    "frameRate": "Bildrate",
+    "fps30": "30 FPS (Standard)",
+    "fps60": "60 FPS (Flüssig)"
+  },
+  "destination": {
+    "heading": "Exportziel",
+    "local": {
+      "name": "Lokaler Speicher",
+      "description": "Speichern Sie die Videodatei auf Ihrem Computer"
+    },
+    "sharepoint": {
+      "name": "SharePoint",
+      "description": "Laden Sie das Video direkt auf SharePoint hoch",
+      "required": "Microsoft-Kontoverbindung erforderlich",
+      "heading": "SharePoint-Optionen",
+      "url": "SharePoint-URL",
+      "urlPlaceholder": "https://yourcompany.sharepoint.com/sites/yoursite/...",
+      "libraryName": "Bibliotheksname",
+      "libraryPlaceholder": "Dokumente",
+      "folderPath": "Ordnerpfad",
+      "folderPlaceholder": "Videos/Exporte"
+    }
+  },
+  "progress": {
+    "heading": "Exportfortschritt"
+  },
+  "coach": {
+    "trimTitle": "Schneiden Sie den Clip zu",
+    "trimDesc": "Passen Sie Start- und Endzeiten an, um Ihr Video zuzuschneiden. Lassen Sie beide auf dem Standard, um die vollständige Aufnahme zu exportieren.",
+    "formatTitle": "Wählen Sie ein Videoformat",
+    "formatDesc": "Wählen Sie zwischen MP4 (universell), WebM (Web) oder Premium-Formaten wie AVI oder MOV für professionelle Bearbeitung.",
+    "exportTitle": "Video exportieren",
+    "exportDesc": "Klicken Sie hier, um den Exportprozess zu starten. Sie können lokal speichern oder direkt auf SharePoint hochladen."
+  },
+  "toast": {
+    "noRecording": "Keine Videoaufnahme zum Exportieren ausgewählt",
+    "exportCanceled": "Videoexport abgebrochen",
+    "exportSuccess": "Video erfolgreich exportiert nach {{path}}",
+    "exportDemo": "Videoexport abgeschlossen (Demo-Modus)",
+    "uploading": "Wird auf SharePoint hochgeladen...",
+    "sharepointSuccess": "Video zu SharePoint exportiert: {{fileName}}",
+    "exportFailed": "Export fehlgeschlagen: {{error}}",
+    "urlParsed": "SharePoint-URL erfolgreich analysiert!",
+    "urlParseFailed": "SharePoint-URL konnte nicht analysiert werden"
+  }
+}

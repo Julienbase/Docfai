@@ -1,0 +1,134 @@
+{
+  "header": {
+    "title": "Screenshot Passo dopo Passo",
+    "noProject": "Nessun progetto selezionato"
+  },
+  "hints": {
+    "show": "Mostra suggerimenti",
+    "hide": "Nascondi suggerimenti"
+  },
+  "noProject": {
+    "prompt": "Crea un nuovo progetto per iniziare",
+    "description": "Hai bisogno di un progetto prima di iniziare ad acquisire. I tuoi screenshot e i passaggi di documentazione verranno salvati nel progetto.",
+    "createButton": "Crea Nuovo Progetto"
+  },
+  "source": {
+    "heading": "Sorgente di Acquisizione",
+    "refreshTitle": "Aggiorna sorgenti",
+    "screen": "Schermo",
+    "window": "Finestra"
+  },
+  "captureMode": {
+    "heading": "Modalità di Acquisizione",
+    "hotkeys": "Tasti Rapidi",
+    "auto": "Auto",
+    "hintAuto": "Acquisisce automaticamente ad ogni clic",
+    "hintManual": "Premi {{hotkey}} per acquisire",
+    "captureRightClicks": "Acquisisci clic destri"
+  },
+  "controls": {
+    "startCapturing": "Inizia Acquisizione",
+    "startAutoCapture": "Avvia Acquisizione Auto",
+    "capturing": "Acquisizione in corso",
+    "paused": "In Pausa",
+    "pause": "Pausa",
+    "resume": "Riprendi",
+    "stop": "Interrompi",
+    "goToEdit": "Vai a Modifica ({{count}} passaggi)"
+  },
+  "liveClicks": {
+    "heading": "Clic in Tempo Reale"
+  },
+  "stats": {
+    "screenshots": "Screenshot",
+    "duration": "Durata"
+  },
+  "settings": {
+    "heading": "Impostazioni",
+    "primaryHotkey": "Tasto Rapido Principale",
+    "secondaryHotkey": "Tasto Rapido Secondario",
+    "notSet": "Non impostato",
+    "cancel": "Annulla",
+    "save": "Salva",
+    "editHotkeys": "Modifica Tasti Rapidi"
+  },
+  "feed": {
+    "capturedSteps": "Passaggi Acquisiti ({{count}})",
+    "liveNotice": "I nuovi screenshot appaiono qui automaticamente",
+    "readyTitle": "Pronto per acquisire",
+    "waitingTitle": "In attesa di screenshot...",
+    "readyDesc": "Seleziona una sorgente e inizia l'acquisizione per costruire la documentazione",
+    "capturingAutoDesc": "Clicca ovunque sulla finestra target — ogni clic diventa un passaggio",
+    "capturingManualDesc": "Premi {{hotkey}} per fare uno screenshot",
+    "realtimeNote": "Gli screenshot appariranno qui in tempo reale man mano che li acquisisci"
+  },
+  "card": {
+    "step": "Passaggio {{number}}",
+    "preview": "Anteprima",
+    "delete": "Elimina",
+    "loading": "Caricamento...",
+    "loadError": "Caricamento immagine fallito"
+  },
+  "previewModal": {
+    "loading": "Caricamento anteprima...",
+    "loadError": "Caricamento immagine fallito",
+    "screenshotId": "ID Screenshot: {{id}}",
+    "captured": "Acquisito: {{time}}",
+    "size": "Dimensione: {{size}} KB"
+  },
+  "modal": {
+    "title": "Crea Nuovo Progetto",
+    "projectName": "Nome Progetto *",
+    "projectNamePlaceholder": "Inserisci il nome del progetto",
+    "description": "Descrizione (Facoltativa)",
+    "descriptionPlaceholder": "Inserisci la descrizione del progetto",
+    "cancel": "Annulla",
+    "create": "Crea Progetto"
+  },
+  "coach": {
+    "sourceTitle": "Scegli una sorgente di acquisizione",
+    "sourceDesc": "Seleziona un monitor o una finestra specifica. Gli screenshot verranno presi dalla sorgente selezionata.",
+    "modeTitle": "Manuale vs Auto",
+    "modeDesc": "I tasti rapidi acquisiscono su comando. La modalità Auto acquisisce ad ogni clic — ottima per tutorial clic per clic.",
+    "startTitle": "Inizia l'acquisizione",
+    "startDesc": "Avvia la sessione di acquisizione. In modalità Tasto Rapido, premi il tasto configurato per acquisire ogni passaggio.",
+    "stopTitle": "Interrompi quando hai finito",
+    "stopDesc": "Termina la sessione di acquisizione. Poi puoi passare alla modifica e alla rifinitura dei passaggi.",
+    "editTitle": "Pronto per modificare",
+    "editDesc": "Accedi all'editor per rifinire titoli, descrizioni e annotazioni prima di esportare."
+  },
+  "toast": {
+    "noSourcesFound": "Nessuna sorgente acquisibile trovata. Alcune finestre potrebbero essere protette dal sistema.",
+    "loadSourcesFailed": "Caricamento sorgenti di acquisizione fallito. Alcune finestre di sistema potrebbero essere protette.",
+    "screenshotDeleted": "Screenshot eliminato",
+    "capturePaused": "Acquisizione in pausa",
+    "captureResumed": "Acquisizione ripresa",
+    "resumeFailed": "Ripresa acquisizione fallita",
+    "switchedSource": "Passato a {{name}}",
+    "switchFailed": "Cambio sorgente fallito",
+    "previewSelectFirst": "Seleziona prima una sorgente di acquisizione.",
+    "previewStarted": "Anteprima avviata con successo",
+    "previewDesktopOnly": "L'anteprima è disponibile solo nell'app desktop.",
+    "previewFailed": "Avvio anteprima fallito. Prova a selezionare una sorgente diversa.",
+    "noProjectName": "Inserisci un nome per il progetto",
+    "projectCreated": "Progetto creato con successo!",
+    "projectFolderFailed": "Creazione struttura cartelle progetto fallita",
+    "projectSelected": "Progetto \"{{name}}\" selezionato",
+    "hotkeySaved": "Configurazione tasti rapidi salvata!",
+    "hotkeyFailed": "Salvataggio configurazione tasti rapidi fallito",
+    "desktopRequired": "Questa funzione richiede l'app desktop",
+    "noSource": "Seleziona una sorgente di acquisizione",
+    "noProject": "Seleziona o crea prima un progetto",
+    "projectNotFound": "Progetto non trovato",
+    "autoCaptureActivated": "Acquisizione automatica attivata — ogni clic viene ora acquisito automaticamente!",
+    "hotkeyCaptureActivated": "Modalità acquisizione con tasto rapido attivata — premi il tasto per acquisire!",
+    "captureStartFailed": "Avvio acquisizione interattiva fallito",
+    "captureCompleted": "Acquisizione completata! {{count}} screenshot acquisiti.",
+    "noScreenshots": "Nessuno screenshot acquisito",
+    "stopFailed": "Errore durante l'interruzione dell'acquisizione",
+    "nativeScreenshot": "Screenshot nativo acquisito istantaneamente! ({{size}} byte)",
+    "nativeScreenshotFailed": "Elaborazione screenshot nativo fallita",
+    "noScreenshotData": "Nessun dato screenshot ricevuto",
+    "noImageData": "Nessun dato immagine ricevuto"
+  }
+}

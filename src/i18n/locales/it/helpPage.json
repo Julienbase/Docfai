@@ -1,0 +1,348 @@
+{
+  "header": {
+    "title": "Guida & Documentazione",
+    "subtitle": "Scopri come usare Docfai per creare documentazione professionale"
+  },
+  "search": {
+    "noResults": "Nessun argomento trovato per \"{{query}}\""
+  },
+  "sections": {
+    "gettingStarted": {
+      "title": "Primi Passi",
+      "welcome": "Benvenuto su Docfai",
+      "description": "Docfai è un potente strumento di documentazione che ti aiuta a creare guide passo dopo passo, tutorial e documentazione di processi usando screenshot e registrazioni video.",
+      "quickStartTitle": "Guida Rapida:",
+      "quickStart": [
+        "Apri Docfai (non serve alcun account)",
+        "Crea il tuo primo progetto dal Pannello di Controllo",
+        "Scegli tra la modalità Screenshot o Registrazione Video",
+        "Acquisisci il tuo processo passo dopo passo",
+        "Modifica e annota i tuoi screenshot",
+        "Esporta la tua documentazione nel formato preferito"
+      ]
+    },
+    "trial": {
+      "title": "Prova Gratuita & Abbonamento",
+      "trialTitle": "Come Funziona la Prova Gratuita di 7 Giorni",
+      "trialDesc": "Docfai offre una prova gratuita di 7 giorni con accesso completo a tutte le funzionalità — nessuna carta di credito richiesta.",
+      "trialFeaturesTitle": "Funzionalità della Prova:",
+      "trialFeatures": [
+        "Accesso completo a tutte le funzionalità di documentazione",
+        "Screenshot e registrazioni video illimitati",
+        "Accesso a tutti i formati di esportazione (PDF, Word, HTML, ecc.)",
+        "Integrazioni cloud (Confluence, SharePoint)",
+        "Nessuna carta di credito richiesta per iniziare"
+      ],
+      "afterTrialTitle": "Dopo la Prova:",
+      "afterTrialDesc": "Quando la prova termina, puoi scegliere tra i nostri piani di abbonamento:",
+      "plans": [
+        "Piano Solo: €20/mese o €200/anno (risparmia €40)",
+        "Piano Team: €80/mese per 5 posti (€16/posto)"
+      ],
+      "subscriptionInfo": "Visita la pagina Prezzi per abbonarti o gestisci l'abbonamento dalla pagina Account."
+    },
+    "projects": {
+      "title": "Creare Progetti",
+      "projectManagement": "Gestione Progetti",
+      "projectDesc": "I progetti sono contenitori per la tua documentazione. Ogni progetto può contenere più registrazioni ed esportazioni.",
+      "createTitle": "Creare un Nuovo Progetto:",
+      "createSteps": [
+        "Vai al Pannello di Controllo",
+        "Clicca il pulsante \"Nuovo Progetto\"",
+        "Inserisci un nome e una descrizione facoltativa",
+        "Clicca \"Crea\""
+      ],
+      "actionsTitle": "Azioni Progetto:",
+      "actions": [
+        "Apri: Visualizza e gestisci le registrazioni del progetto",
+        "Rinomina: Cambia il nome del progetto",
+        "Elimina: Rimuovi il progetto e tutte le registrazioni (irreversibile)",
+        "Esporta: Esporta tutte le registrazioni del progetto in una volta"
+      ]
+    },
+    "screenshots": {
+      "title": "Screenshot Interattivi",
+      "screenshotTitle": "Fare Screenshot Passo dopo Passo",
+      "screenshotDesc": "La modalità Screenshot ti permette di acquisire singoli passaggi con capacità di modifica complete.",
+      "howToTitle": "Come Usarlo:",
+      "howToSteps": [
+        "Vai a Screenshot dalla barra laterale",
+        "Seleziona o crea un progetto",
+        "Clicca \"Fai uno Screenshot\" o premi il tasto rapido (predefinito: F8 o Ctrl+Shift+C)",
+        "L'acquisizione si aprirà automaticamente nell'editor",
+        "Annota con rettangoli, frecce, testo, effetti di sfocatura e altro",
+        "Aggiungi un titolo e una descrizione per il passaggio",
+        "Salva lo screenshot nella tua registrazione"
+      ],
+      "editingToolsTitle": "Strumenti di Modifica:",
+      "editingTools": [
+        "Rettangolo: Evidenzia aree di interesse",
+        "Cerchio: Disegna evidenziazioni circolari",
+        "Freccia: Indica elementi specifici",
+        "Casella di Testo: Aggiungi annotazioni di testo personalizzate",
+        "Contatore: Numera i passaggi sequenziali",
+        "Sfocatura: Nascondi informazioni sensibili",
+        "Pixelatura: Oscura i dettagli",
+        "Oscuramento: Nascondi completamente le sezioni",
+        "Ritaglia: Ridimensiona lo screenshot per focalizzarti sull'area"
+      ],
+      "shortcutsTitle": "Scorciatoie da Tastiera:",
+      "shortcuts": [
+        "Ctrl + Rotellina: Zoom avanti/indietro",
+        "Spazio + Trascina: Panoramica dell'immagine"
+      ]
+    },
+    "videoRecording": {
+      "title": "Registrazione Video",
+      "recordingTitle": "Registrare Video di Processi",
+      "recordingDesc": "Registra lo schermo per acquisire processi complessi, poi convertili in screenshot passo dopo passo.",
+      "howToTitle": "Come Registrare:",
+      "howToSteps": [
+        "Vai a Registrazione dalla barra laterale",
+        "Seleziona o crea un progetto",
+        "Clicca \"Avvia Registrazione\"",
+        "Scegli lo schermo o l'applicazione da registrare",
+        "Esegui i passaggi che vuoi documentare",
+        "Clicca \"Interrompi Registrazione\" quando hai finito"
+      ],
+      "extractTitle": "Estrarre Screenshot dal Video:",
+      "extractSteps": [
+        "Dopo la registrazione, apparirà il lettore video",
+        "Scorri la timeline per trovare il fotogramma esatto",
+        "Clicca \"Fai uno Screenshot\" a ogni passaggio importante",
+        "Ogni screenshot si apre nell'editor per l'annotazione",
+        "Aggiungi titoli, descrizioni e annotazioni",
+        "Salva per costruire la sequenza di documentazione"
+      ],
+      "tipsTitle": "Consigli Video:",
+      "tips": [
+        "Muoviti lentamente e deliberatamente attraverso ogni passaggio",
+        "Fai una breve pausa tra le azioni per facilitare l'estrazione degli screenshot",
+        "Mantieni la registrazione focalizzata su un processo alla volta",
+        "Usa i controlli fotogramma per fotogramma della timeline per la precisione"
+      ]
+    },
+    "templates": {
+      "title": "Modelli",
+      "templatesTitle": "Usare i Modelli",
+      "templatesDesc": "I modelli controllano l'aspetto della documentazione quando viene esportata. Scegli tra modelli professionali o personalizza il tuo.",
+      "availableTitle": "Modelli Disponibili:",
+      "available": [
+        "Professionale: Design pulito e orientato al business con layout strutturato",
+        "Moderno: Design contemporaneo con colori vivaci e tipografia moderna",
+        "Minimale: Documentazione semplice e priva di distrazioni",
+        "Tecnico: Modello dettagliato per documentazione tecnica con blocchi di codice"
+      ],
+      "customizeTitle": "Personalizzare i Modelli:",
+      "customizeDesc": "Nella pagina Esporta, puoi personalizzare:",
+      "customizeOptions": [
+        "Titolo & Descrizione: Aggiungi informazioni di intestazione al documento",
+        "Logo: Carica il logo della tua azienda",
+        "Colori: Personalizza i colori primari e di accento",
+        "Tipografia: Scegli i font per titoli e corpo del testo",
+        "Layout: Regola spaziatura, margini e struttura"
+      ],
+      "saveTitle": "Salvare le Impostazioni del Modello:",
+      "saveDesc": "Clicca \"Salva Impostazioni Modello\" per ricordare le personalizzazioni per le esportazioni future."
+    },
+    "export": {
+      "title": "Formati di Esportazione",
+      "exportTitle": "Esportare la Documentazione",
+      "exportDesc": "Esporta la documentazione in più formati per condividerla con il team o integrarla nel flusso di lavoro.",
+      "formatsTitle": "Formati di Esportazione Disponibili:",
+      "formats": {
+        "pdf": {
+          "name": "PDF",
+          "desc": "Documenti PDF professionali con immagini e testo formattato. Perfetto per la condivisione e la stampa."
+        },
+        "docx": {
+          "name": "Microsoft Word (.docx)",
+          "desc": "Documenti Word modificabili con immagini e formattazione. Ottimo per la modifica collaborativa."
+        },
+        "html": {
+          "name": "HTML",
+          "desc": "HTML pronto per il web con immagini incorporate. Ideale per knowledge base e wiki interni."
+        },
+        "markdown": {
+          "name": "Markdown (.md)",
+          "desc": "Testo semplice con formattazione Markdown. Perfetto per GitHub, GitLab e documentazione tecnica."
+        },
+        "video": {
+          "name": "Video (.mp4)",
+          "desc": "Video slideshow dagli screenshot con durata configurabile per diapositiva."
+        }
+      },
+      "howToTitle": "Come Esportare:",
+      "howToSteps": [
+        "Vai a Esporta dalla barra laterale",
+        "Seleziona il progetto e la registrazione da esportare",
+        "Scegli il modello e personalizzalo se necessario",
+        "Seleziona il/i formato/i di esportazione",
+        "Clicca \"Esporta\"",
+        "Scegli la posizione di salvataggio sul computer"
+      ]
+    },
+    "importExport": {
+      "title": "Importa Documentazione Esistente",
+      "importTitle": "Importare/Esportare Documentazione Esistente",
+      "importDesc": "Importa progetti precedentemente esportati o documentazione da altre fonti. Esporta i progetti attuali per backup o condivisione.",
+      "formatsTitle": "Formati di Importazione Supportati:",
+      "formats": [
+        "Docfaizip: Importa esportazioni di progetti Docfai",
+        "Immagini: Importa screenshot del progetto (.png, .jpg)",
+        "Video: Importa registrazioni dello schermo del progetto (.mp4, .webm)"
+      ],
+      "howToTitle": "Come Importare:",
+      "howToSteps": [
+        "Vai a Importa dalla barra laterale",
+        "Clicca \"Scegli File\" o trascina i file",
+        "Seleziona il progetto in cui importare (o creane uno nuovo)",
+        "Clicca \"Importa\"",
+        "Il contenuto importato verrà aggiunto al tuo progetto"
+      ],
+      "useCasesTitle": "Casi d'Uso:",
+      "useCases": [
+        "Trasferisci progetti tra computer",
+        "Collabora con i membri del team condividendo file di progetto",
+        "Archivia e ripristina documentazione precedente",
+        "Importa screenshot da altri strumenti"
+      ]
+    },
+    "connections": {
+      "title": "Integrazioni Cloud",
+      "connectionsTitle": "Gestire le Connessioni Cloud",
+      "connectionsDesc": "Connetti Docfai alle tue piattaforme cloud per pubblicare la documentazione direttamente.",
+      "confluenceTitle": "Integrazione Confluence:",
+      "confluenceDesc": "Pubblica documentazione direttamente su Atlassian Confluence.",
+      "confluenceSteps": [
+        "Vai alla pagina Connessioni",
+        "Clicca \"Connetti Confluence\"",
+        "Inserisci l'URL del tuo sito Confluence (es. tuaazienda.atlassian.net)",
+        "Inserisci email e token API dalle impostazioni Confluence",
+        "Testa la connessione",
+        "Salva quando riuscita"
+      ],
+      "sharepointTitle": "Integrazione SharePoint:",
+      "sharepointDesc": "Pubblica documentazione su Microsoft SharePoint.",
+      "sharepointSteps": [
+        "Vai alla pagina Connessioni",
+        "Clicca \"Connetti SharePoint\"",
+        "Inserisci l'URL del tuo sito SharePoint",
+        "Autenticati con le credenziali Microsoft",
+        "Seleziona la libreria documenti",
+        "Salva la connessione"
+      ],
+      "usingTitle": "Usare le Connessioni:",
+      "usingDesc": "Una volta connesso, puoi esportare direttamente su queste piattaforme dalla pagina Esporta:",
+      "usingSteps": [
+        "Seleziona il formato di esportazione",
+        "Scegli \"Pubblica su Confluence\" o \"Pubblica su SharePoint\"",
+        "Seleziona lo spazio/libreria e la cartella",
+        "Clicca \"Pubblica\""
+      ],
+      "managingTitle": "Gestire le Connessioni:",
+      "managingSteps": [
+        "Modifica: Aggiorna le credenziali di connessione",
+        "Testa: Verifica che la connessione funzioni",
+        "Rimuovi: Elimina la connessione"
+      ]
+    },
+    "backup": {
+      "title": "Backup & Impostazioni",
+      "backupTitle": "Come Funziona il Backup",
+      "backupDesc": "Docfai esegue automaticamente il backup dei tuoi progetti per assicurarsi che la documentazione non vada mai persa.",
+      "automaticTitle": "Backup Automatici:",
+      "automaticSteps": [
+        "I progetti vengono salvati localmente sul computer in tempo reale",
+        "Tutte le modifiche vengono automaticamente persistite su disco",
+        "L'archiviazione crittografata garantisce la sicurezza dei dati",
+        "Nessuna connessione Internet richiesta per i backup locali"
+      ],
+      "configureTitle": "Configurare la Posizione del Backup:",
+      "configureSteps": [
+        "Vai alla pagina Account",
+        "Scorri fino alla sezione Impostazioni",
+        "Clicca \"Impostazioni Backup\"",
+        "Clicca \"Aggiungi Posizione Backup\"",
+        "Scegli una cartella sul computer o su un'unità esterna",
+        "Abilita \"Backup Automatico\"",
+        "Imposta la frequenza di backup (es. ogni ora, giornaliero)"
+      ],
+      "manualTitle": "Backup Manuali:",
+      "manualDesc": "Puoi esportare manualmente i progetti come backup:",
+      "manualSteps": [
+        "Vai al Pannello di Controllo",
+        "Clicca con il tasto destro su un progetto",
+        "Seleziona \"Esporta Progetto\"",
+        "Salva il file nella posizione di backup"
+      ],
+      "restoreTitle": "Ripristinare dal Backup:",
+      "restoreSteps": [
+        "Vai alla pagina Importa",
+        "Clicca \"Scegli File\"",
+        "Seleziona il file di backup",
+        "Clicca \"Importa\"",
+        "Il progetto verrà ripristinato con tutte le registrazioni"
+      ],
+      "settingsTitle": "Altre Impostazioni:",
+      "settingsOptions": [
+        "Tema: Passa tra modalità Chiara e Scura",
+        "Tasto Rapido Screenshot: Personalizza il tasto rapido globale per gli screenshot",
+        "Intervallo Salvataggio Automatico: Configura la frequenza di salvataggio dei progetti",
+        "Formato Esportazione Predefinito: Imposta il formato di esportazione preferito"
+      ]
+    },
+    "translation": {
+      "title": "Modulo di Traduzione",
+      "translationTitle": "Modulo di Traduzione",
+      "translationDesc": "Docfai offre la traduzione offline di documenti tra inglese e tedesco usando un Modulo di Traduzione separato scaricato su richiesta.",
+      "howItTitle": "Come Funziona:",
+      "howItSteps": [
+        "Quando selezioni una lingua di traduzione durante l'esportazione, ti verrà chiesto di scaricare il Modulo di Traduzione (~600 MB)",
+        "Il modulo viene scaricato una volta e memorizzato localmente sul computer",
+        "Tutte le traduzioni avvengono offline — nessuna connessione Internet richiesta dopo il download iniziale",
+        "Nessun dato del documento viene inviato a server esterni — tutto rimane sul tuo computer"
+      ],
+      "storageTitle": "Informazioni di Archiviazione:",
+      "storageInfo": [
+        "Dimensione download: ~600 MB",
+        "Spazio su disco richiesto: ~1,6 GB (dopo l'estrazione)",
+        "Posizione: Memorizzato nella cartella AppData (Docfai/translation-module)"
+      ],
+      "languagesTitle": "Lingue Supportate:",
+      "languages": [
+        "Inglese a Tedesco",
+        "Tedesco a Inglese"
+      ],
+      "translatedTitle": "Cosa Viene Tradotto:",
+      "translatedItems": [
+        "Titolo del progetto",
+        "Fonte/Descrizione del progetto",
+        "Titoli e descrizioni dei passaggi"
+      ],
+      "privacyNote": "Privacy: Il Modulo di Traduzione usa Argos Translate, un motore di traduzione offline open source. I tuoi documenti non vengono mai inviati a servizi esterni. Tutta l'elaborazione avviene localmente sul tuo computer."
+    },
+    "shortcuts": {
+      "title": "Scorciatoie da Tastiera",
+      "shortcutsTitle": "Scorciatoie da Tastiera",
+      "globalTitle": "Scorciatoie Globali:",
+      "globalShortcuts": {
+        "screenshot": "Fai uno Screenshot",
+        "screenshotKey": "Ctrl+Shift+C o F8"
+      },
+      "editorTitle": "Scorciatoie Editor Immagini:",
+      "editorShortcuts": {
+        "zoom": "Zoom Avanti/Indietro",
+        "zoomKey": "Ctrl+Rotellina",
+        "pan": "Panoramica Immagine",
+        "panKey": "Spazio+Trascina"
+      }
+    }
+  },
+  "footer": {
+    "needHelp": "Hai Bisogno di Ulteriore Aiuto?",
+    "helpDesc": "Non riesci a trovare quello che cerchi? Fai una domanda o segnala un bug su GitHub.",
+    "emailSupport": "Segnala un problema",
+    "viewDocs": "Progetto su GitHub"
+  }
+}

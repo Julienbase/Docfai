@@ -1,0 +1,126 @@
+{
+  "header": {
+    "title": "Ajutor și Documentație",
+    "subtitle": "Învață cum să folosești Docfai pentru a crea documentație profesională"
+  },
+  "search": {
+    "placeholder": "Căutare subiecte ajutor..."
+  },
+  "sections": {
+    "gettingStarted": {
+      "title": "Începere",
+      "welcome": "Bienvenit la Docfai",
+      "description": "Docfai este un instrument puternic de documentație care te ajută să creezi ghiduri pas cu pas, tutoriale și documentație proces folosind capturi de ecran și înregistrări video.",
+      "quickStartTitle": "Ghid Pornire Rapidă:",
+      "quickStart": [
+        "Înregistrare pentru versiune de încercare gratuită de 7 zile (nu este necesară cartea de credit)",
+        "Crearea primului proiect din Panou de Control",
+        "Alegere între modul Capturi sau Înregistrare Video",
+        "Capturare procesul dumneavoastră pas cu pas",
+        "Editare și adnotare capturile dumneavoastră",
+        "Exportare documentație în formatul preferat"
+      ]
+    },
+    "trial": {
+      "title": "Versiune de Încercare Gratuită și Abonament",
+      "trialTitle": "Cum Funcționează Versiunea de Încercare de 7 Zile",
+      "trialDesc": "Docfai oferă o versiune de încercare gratuită de 7 zile cu acces complet la toate funcțiile — nu este necesară cartea de credit.",
+      "trialFeaturesTitle": "Funcții Versiune de Încercare:",
+      "trialFeatures": [
+        "Acces complet la toate funcțiile documentației",
+        "Capturi și înregistrări video nelimitate",
+        "Acces la toate formatele de export (PDF, Word, HTML, etc.)",
+        "Integrări cloud (Confluence, SharePoint)",
+        "Nu este necesară cartea de credit pentru a porni"
+      ],
+      "afterTrialTitle": "După Versiunea de Încercare:",
+      "afterTrialDesc": "Când versiunea dumneavoastră de încercare se încheie, puteți alege din planurile de abonament:",
+      "plans": [
+        "Plan Solo: €20/lună sau €200/an (economisiți €40)",
+        "Plan Echipă: €80/lună pentru 5 locuri (€16/loc)"
+      ],
+      "subscriptionInfo": "Vizitați pagina Prețuri pentru abonare sau gestionare abonament din pagina Cont."
+    },
+    "projects": {
+      "title": "Crearea Proiectelor",
+      "projectManagement": "Gestionare Proiect",
+      "projectDesc": "Proiectele sunt containere pentru documentația dumneavoastră. Fiecare proiect poate conține mai multe înregistrări și exporturi.",
+      "createTitle": "Crearea unui Proiect Nou:",
+      "createSteps": [
+        "Mergeți la Panou de Control",
+        "Faceți clic pe butonul \"Proiect Nou\"",
+        "Introduceți un nume de proiect și descriere opțională",
+        "Faceți clic pe \"Criere\""
+      ],
+      "actionsTitle": "Acțiuni Proiect:",
+      "actions": [
+        "Deschidere: Vizualizare și gestionare înregistrări în proiect",
+        "Redenumire: Schimbare nume proiect",
+        "Ștergere: Eliminare proiect și toate înregistrările (ireversibil)",
+        "Export: Export toate înregistrările în proiect o dată"
+      ]
+    },
+    "screenshots": {
+      "title": "Capturi Interactive",
+      "screenshotTitle": "Luare Capturi Pas cu Pas",
+      "screenshotDesc": "Modul Capturi vă permite să capturați pași individuali cu capacități de editare complete.",
+      "howToTitle": "Cum să Utilizați:",
+      "howToSteps": [
+        "Navigare la Capturi din bara laterală",
+        "Selectare sau creație proiect",
+        "Faceți clic pe \"Luare Captură\" sau apăsați tasta acces rapid (implicit: F8 sau Ctrl+Shift+C)",
+        "Captura ecranului se va deschide în editor automat",
+        "Adnotare cu dreptunghiuri, săgeți, text, efecte blur și mai mult",
+        "Adăugare titlu și descriere pentru pas",
+        "Salvare captură la înregistrarea dumneavoastră"
+      ],
+      "editingToolsTitle": "Unelte Editare:",
+      "editingTools": [
+        "Dreptunghi: Evidențiere zone de interes",
+        "Cerc: Desenare evidențieri circulare",
+        "Săgeată: Indicare elemente specifice",
+        "Casetă Text: Adăugare adnotări text personalizate",
+        "Numărare: Numerare pași secvențiali",
+        "Blur: Ascundere informații sensibile",
+        "Pixela: Obscurare detalii",
+        "Blackout: Ascundere completă secțiuni",
+        "Decupare: Decupare captură pe zone focusate"
+      ],
+      "shortcutsTitle": "Scurtături Tastatură:",
+      "shortcuts": [
+        "Ctrl + Scroll: Zoom intrare/ieșire",
+        "Spațiu + Drag: Panorama pe imagine"
+      ]
+    },
+    "videoRecording": {
+      "title": "Înregistrare Video",
+      "recordingTitle": "Înregistrare Videoclipuri Proces",
+      "recordingDesc": "Înregistrați-vă ecranul pentru a captura procese complexe, apoi convertiți în capturi pas cu pas.",
+      "howToTitle": "Cum să Înregistrați:",
+      "howToSteps": [
+        "Mergeți la Înregistrare din bara laterală",
+        "Selectare sau creație proiect",
+        "Faceți clic pe \"Început Înregistrare\"",
+        "Alegere ecran sau aplicație pentru înregistrare",
+        "Efectuare pași pe care doriți să-i documentați",
+        "Faceți clic pe \"Oprire Înregistrare\" când ați terminat"
+      ],
+      "extractTitle": "Extragere Capturi din Video:",
+      "extractSteps": [
+        "După înregistrare, playerul video va apărea",
+        "Trageți prin cronologie pentru a găsi cadrul exact",
+        "Faceți clic pe \"Luare Captură\" la fiecare pas important",
+        "Fiecare captură se deschide în editor pentru adnotare",
+        "Adăugare titluri, descrieri și adnotări",
+        "Salvare pentru construire secvență documentație"
+      ],
+      "tipsTitle": "Sfaturi Video:",
+      "tips": [
+        "Mișcare lentă și deliberată prin fiecare pas",
+        "Pauză scurtă între acțiuni pentru a ușura extragerea captureului",
+        "Păstrare înregistrare focusată pe un proces o dată",
+        "Utilizare controale cadru-cu-cadru ale cronologiei video pentru precizie"
+      ]
+    }
+  }
+}

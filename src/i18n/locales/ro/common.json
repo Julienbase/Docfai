@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "import": "Import",
+    "help": "Ajutor",
+    "settings": "Setări",
+    "pricing": "Prețuri",
+    "subscriptionRequired": "Abonament Necesar",
+    "subscribeHint": "Abonați-vă la un plan cu Plată pentru a debloca toate funcțiile.",
+    "signOut": "Deconectare"
+  },
+  "navBlock": {
+    "recordingTitle": "Înregistrare în Curs",
+    "captureTitle": "Capturare în Curs",
+    "recordingBody": "O înregistrare a ecranului este în curs. Vă rugăm, opriți înregistrarea înainte de a naviga.",
+    "captureBody": "Captura de ecran este în curs. Vă rugăm, opriți captura înainte de a naviga.",
+    "goBack": "Înapoi"
+  },
+  "action": {
+    "save": "Salvare",
+    "cancel": "Anulare",
+    "delete": "Ștergere",
+    "create": "Creare",
+    "close": "Închidere"
+  },
+  "language": {
+    "label": "Limbă",
+    "en": "English",
+    "de": "Deutsch",
+    "es": "Español",
+    "fr": "Français",
+    "ro": "Română",
+    "it": "Italiano"
+  },
+  "theme": {
+    "label": "Temă",
+    "light": "Luminos",
+    "dark": "Întunecat",
+    "system": "Sistem"
+  },
+  "coach": {
+    "ok": "OK"
+  },
+  "settings": {
+    "accountTitle": "Setări Cont",
+    "general": "Setări Generale",
+    "recordingDefaults": "Valori Implicite de Înregistrare",
+    "quality": "Calitate",
+    "frameRate": "Viteza de Fotograme",
+    "saveSettings": "Salvare Setări",
+    "saved": "Setări salvate"
+  }
+}

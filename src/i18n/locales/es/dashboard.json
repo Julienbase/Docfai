@@ -1,0 +1,116 @@
+{
+  "welcome": "¡Bienvenido de nuevo, {{name}}!",
+  "subtitle": {
+    "empty": "Inicia tu primer proyecto de documentación",
+    "needsEditing_one": "{{count}} proyecto necesita edición",
+    "needsEditing_other": "{{count}} proyectos necesitan edición",
+    "readyToExport_one": "{{count}} proyecto listo para exportar",
+    "readyToExport_other": "{{count}} proyectos listos para exportar",
+    "allUpToDate_one": "{{count}} proyecto — todo actualizado",
+    "allUpToDate_other": "{{count}} proyectos — todo actualizado"
+  },
+  "plan": {
+    "trial": "Prueba",
+    "team": "Plan de Equipo",
+    "yearly": "Anual",
+    "monthly": "Mensual",
+    "active": "Activo",
+    "noPlan": "Sin Plan"
+  },
+  "hints": {
+    "show": "Mostrar sugerencias",
+    "hide": "Ocultar sugerencias"
+  },
+  "continue": "Continuar: {{name}}",
+  "stage": {
+    "empty": "Vacío",
+    "completed": "Completado",
+    "readyToExport": "Listo para exportar",
+    "needsEditing": "Necesita edición"
+  },
+  "quickActions": {
+    "title": "Acciones Rápidas",
+    "startRecordingTitle": "Iniciar Grabación",
+    "startRecordingDesc": "Comenzar sesión de captura de pantalla",
+    "newProjectTitle": "Nuevo Proyecto",
+    "newProjectDesc": "Crear proyecto de documentación",
+    "stepByStepTitle": "Capturas de Pantalla Paso a Paso",
+    "stepByStepDesc": "Captura pantallas y clics",
+    "importProjectTitle": "Importar Proyecto",
+    "importProjectDesc": "Restaura proyectos previamente exportados con todas sus grabaciones, capturas de pantalla y documentación"
+  },
+  "recentProjects": "Proyectos Recientes",
+  "searchPlaceholder": "Buscar proyectos...",
+  "chooseMethod": {
+    "title": "Elige cómo capturar tu proceso",
+    "subtitle": "Elige el método que se ajuste a tu flujo de trabajo",
+    "videoTitle": "Grabación de Video",
+    "videoDesc": "Mejor para flujos de trabajo largos en múltiples aplicaciones. Graba tu pantalla, luego genera pasos automáticamente.",
+    "screenshotsTitle": "Capturas de Pantalla Paso a Paso",
+    "screenshotsDesc": "Mejor para tutoriales paso a paso. Captura cada paso con anotaciones mientras avanzas."
+  },
+  "noResults": {
+    "title": "No se encontraron proyectos",
+    "subtitle": "Intenta ajustar tus términos de búsqueda"
+  },
+  "project": {
+    "noDescription": "Sin descripción",
+    "typeScreenshots": "Capturas de Pantalla",
+    "typeVideo": "Video"
+  },
+  "modal": {
+    "createNewTitle": "Crear Nuevo Proyecto",
+    "projectName": "Nombre del Proyecto",
+    "projectNamePlaceholder": "Ingresa el nombre del proyecto",
+    "description": "Descripción (Opcional)",
+    "descriptionPlaceholder": "Describe tu proyecto",
+    "cancel": "Cancelar",
+    "createProject": "Crear Proyecto",
+    "deleteTitle": "Eliminar Proyecto",
+    "deleteConfirm": "¿Estás seguro de que deseas eliminar \"{{name}}\"?",
+    "deleteWarning": "Esta acción no se puede deshacer. Todos los archivos del proyecto, grabaciones y capturas de pantalla se eliminarán permanentemente.",
+    "deleteButton": "Eliminar Proyecto"
+  },
+  "capture": {
+    "modalTitle": "🖥️ Grabación de Escritorio Activa",
+    "modalInstructions": "Presiona <strong>ESPACIO</strong> para capturar pantallas",
+    "modalSubtext": "Funciona en cualquier lugar de tu escritorio - cualquier aplicación, navegador o ventana",
+    "screenshotsCounter": "Capturas de Pantalla: {{count}}",
+    "stopRecording": "Detener Grabación"
+  },
+  "toast": {
+    "nameRequired": "Por favor, ingresa un nombre de proyecto",
+    "duplicateName": "Un proyecto llamado \"{{name}}\" ya existe. Por favor, elige un nombre diferente.",
+    "created": "¡Proyecto creado exitosamente!",
+    "createFailed": "Error al crear la estructura de carpetas del proyecto",
+    "deleted": "Proyecto y archivos eliminados exitosamente",
+    "deleteFailed": "Error al eliminar archivos del proyecto",
+    "noExportable": "No se encontraron grabaciones ni capturas de pantalla en este proyecto para exportar",
+    "desktopOnly": "Esta función requiere la aplicación de escritorio",
+    "startGlobalFailed": "Error al iniciar grabación global",
+    "noScreenshots": "Sin capturas de pantalla",
+    "stopError": "Error al detener la grabación",
+    "captureNotSupported": "La captura de pantalla no es compatible con este navegador",
+    "capturePermissionDenied": "Permiso de captura de pantalla denegado",
+    "captureNotSupported2": "Captura de pantalla no compatible",
+    "captureFailed": "Error al capturar pantalla",
+    "startSystemFailed": "Error al iniciar grabación en todo el sistema",
+    "leavePrompt": "La grabación está en progreso. ¿Estás seguro de que deseas irte?"
+  },
+  "time": {
+    "justNow": "hace un momento",
+    "minsAgo": "hace {{count}}m",
+    "hoursAgo": "hace {{count}}h",
+    "daysAgo": "hace {{count}}d"
+  },
+  "coach": {
+    "startRecordingTitle": "Iniciar Grabación",
+    "startRecordingDesc": "Captura tu pantalla como video. Mejor para tutoriales más largos en múltiples aplicaciones.",
+    "newProjectTitle": "Crear un proyecto",
+    "newProjectDesc": "Organiza grabaciones, capturas de pantalla y documentación en un solo lugar.",
+    "stepByStepTitle": "Capturas de pantalla paso a paso",
+    "stepByStepDesc": "Captura una pantalla en cada clic. Ideal para tutoriales paso a paso.",
+    "importTitle": "Importar un proyecto",
+    "importDesc": "Trae un proyecto Docfai existente exportado desde otro dispositivo."
+  }
+}

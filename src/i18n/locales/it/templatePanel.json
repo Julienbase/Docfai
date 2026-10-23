@@ -1,0 +1,93 @@
+{
+  "panel": {
+    "heading": "Modello Documento",
+    "selectPlaceholder": "Seleziona un modello per l'esportazione",
+    "tabSelect": "Seleziona Modello",
+    "tabCustomize": "Personalizza",
+    "customizeLink": "Personalizza colori & font →",
+    "selected": "Selezionato:"
+  },
+  "selector": {
+    "heading": "Modello Documento",
+    "available": "{{count}} modelli disponibili",
+    "categories": {
+      "compliance": "Conformità & Regolamentazione",
+      "operations": "Operazioni & Processi",
+      "training": "Formazione & Istruzione",
+      "technical": "Documentazione Tecnica"
+    }
+  },
+  "templates": {
+    "sop": {
+      "name": "Procedura Operativa Standard (POS)",
+      "description": "Documentazione di processo pronta per la conformità con tracciamento revisioni, sezioni di approvazione e layout strutturato. Ideale per settori regolamentati."
+    },
+    "work-instruction": {
+      "name": "Istruzione di Lavoro",
+      "description": "Documentazione chiara e orientata all'azione con passaggi numerati e immagini prominenti. Ideale per compiti operativi o di officina."
+    },
+    "training-manual": {
+      "name": "Manuale di Formazione",
+      "description": "Documentazione educativa con obiettivi di apprendimento, layout incentrato sulle immagini, checkpoint e sezioni di riepilogo."
+    },
+    "user-guide": {
+      "name": "Manuale / Guida Utente",
+      "description": "Documentazione user-friendly con navigazione chiara, screenshot annotati e struttura a capitoli."
+    },
+    "technical-spec": {
+      "name": "Specifica Tecnica",
+      "description": "Documentazione tecnica strutturata con specifiche dettagliate, supporto diagrammi e versioning."
+    }
+  },
+  "customizer": {
+    "heading": "Personalizza Modello",
+    "save": "Salva Impostazioni",
+    "saving": "Salvataggio...",
+    "saved": "Salvato!",
+    "reset": "Reimposta",
+    "sections": {
+      "colors": "Schema Colori",
+      "typography": "Tipografia",
+      "branding": "Identità del Brand",
+      "document": "Informazioni Documento"
+    },
+    "colors": {
+      "presets": "Preset Rapidi",
+      "custom": "Colori Personalizzati",
+      "primary": "Primario",
+      "secondary": "Secondario",
+      "accent": "Accento",
+      "text": "Testo",
+      "headerBg": "Sfondo Intestazione",
+      "headerText": "Testo Intestazione"
+    },
+    "typography": {
+      "combinations": "Combinazioni Font",
+      "headingFont": "Font Titoli",
+      "bodyFont": "Font Corpo"
+    },
+    "branding": {
+      "logo": "Logo Aziendale",
+      "changeLogo": "Cambia Logo",
+      "uploadLogo": "Carica Logo",
+      "companyName": "Nome Azienda",
+      "companyNamePlaceholder": "Inserisci il nome dell'azienda"
+    },
+    "document": {
+      "documentId": "ID Documento",
+      "documentIdPlaceholder": "es. POS-001",
+      "revision": "Revisione",
+      "revisionPlaceholder": "es. 1.0",
+      "confidentiality": "Livello di Riservatezza",
+      "public": "Pubblico",
+      "internal": "Solo Uso Interno",
+      "confidential": "Riservato",
+      "restricted": "Limitato"
+    },
+    "preview": {
+      "heading": "Anteprima",
+      "hide": "Nascondi",
+      "show": "Mostra"
+    }
+  }
+}

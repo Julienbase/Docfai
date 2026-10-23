@@ -1,0 +1,104 @@
+{
+  "empty": {
+    "title": "No Recording Selected",
+    "subtitle": "Please select a recording to export documentation.",
+    "goToDashboard": "Go to Dashboard"
+  },
+  "header": {
+    "title": "Export Documentation",
+    "showHints": "Show hints",
+    "hideHints": "Hide hints"
+  },
+  "formats": {
+    "heading": "Format",
+    "htmlOnly": "HTML only",
+    "pdf": {
+      "name": "PDF Document",
+      "info": "Screenshots only, no video playback"
+    },
+    "docx": {
+      "name": "Word Document",
+      "info": "Editable, screenshots as images"
+    },
+    "html": {
+      "name": "HTML",
+      "info": "Full video playback, interactive"
+    },
+    "pptx": {
+      "name": "PowerPoint Presentation",
+      "info": "One step per slide, video embeds"
+    },
+    "markdown": {
+      "name": "Markdown Document",
+      "info": "Plain text, images as links"
+    },
+    "videoStepsWarning": "Video steps detected — this format shows thumbnails only. Use HTML or PPTX for video playback."
+  },
+  "language": {
+    "label": "Export Language",
+    "none": "Original (No Translation)",
+    "en": "English",
+    "de": "Deutsch (German)",
+    "moduleRequired": "Requires ~600 MB translation module download"
+  },
+  "destination": {
+    "heading": "Destination",
+    "localFile": "Local File",
+    "connect": "Connect",
+    "local": {
+      "name": "Local File",
+      "description": "Save to your computer"
+    },
+    "confluence": {
+      "name": "Confluence",
+      "description": "Upload to Confluence space",
+      "spaceUrlLabel": "Space URL (Optional)",
+      "parentPageLabel": "Parent Page ID (Optional)",
+      "parentPagePlaceholder": "Leave empty for root",
+      "connectPrompt": "Connect Confluence"
+    },
+    "sharepoint": {
+      "name": "SharePoint",
+      "description": "Upload to SharePoint library",
+      "libraryUrlLabel": "SharePoint Library URL",
+      "connectPrompt": "Connect Microsoft 365"
+    }
+  },
+  "export": {
+    "exporting": "Exporting...",
+    "loading": "Loading...",
+    "button": "Export Documentation",
+    "progress": "Exporting..."
+  },
+  "result": {
+    "complete": "Export Complete",
+    "openFile": "Open File",
+    "folder": "Folder",
+    "dismiss": "Dismiss",
+    "showInFolder": "Show in folder"
+  },
+  "recent": {
+    "heading": "Recent Exports"
+  },
+  "coach": {
+    "formatTitle": "Choose an export format",
+    "formatDesc": "PDF and DOCX are great for sharing. HTML keeps video playback. PPTX turns every step into a slide.",
+    "destinationTitle": "Pick a destination",
+    "destinationDesc": "Save the export locally, or push straight to Confluence or SharePoint once connected.",
+    "runTitle": "Run the export",
+    "runDesc": "Generate the document with the selected format, destination, and template."
+  },
+  "toast": {
+    "noData": "No data available for export",
+    "translationFailed": "Translation failed. Exporting in original language.",
+    "exportCanceled": "Export canceled",
+    "exportedDocx": "Documentation exported as Microsoft Word document",
+    "exportedHtml": "Documentation exported as HTML with {{template}} template",
+    "exportedFile": "Documentation exported as {{filename}}",
+    "exportedConfluence": "Documentation exported to Confluence: {{name}}",
+    "exportedSharePoint": "Documentation exported to SharePoint: {{filename}}",
+    "exportFailed": "Failed to export documentation",
+    "openFileFailed": "Failed to open file",
+    "showFolderFailed": "Failed to show in folder"
+  }
+}

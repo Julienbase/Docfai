@@ -1,0 +1,164 @@
+{
+  "header": {
+    "title": "Setări Cont",
+    "subtitle": "Gestionare cont, preferințe și abonament"
+  },
+  "tabs": {
+    "profile": "Profil",
+    "backup": "Backup și Export",
+    "settings": "Setări",
+    "connections": "Conexiuni",
+    "subscription": "Abonament",
+    "usage": "Utilizare",
+    "support": "Suport"
+  },
+  "profile": {
+    "title": "Informații Profil",
+    "email": "Email",
+    "teamRole": "Rol Echipă",
+    "teamAdmin": "Administrator Echipă",
+    "teamMember": "Membru Echipă",
+    "company": "Companie"
+  },
+  "settings": {
+    "general": "Setări Generale",
+    "recordingDefaults": "Valori Implicite Înregistrare",
+    "quality": "Calitate",
+    "frameRate": "Viteza Fotogramelor",
+    "saveSettings": "Salvare Setări",
+    "saved": "Setări salvate cu succes!"
+  },
+  "connectionTab": {
+    "title": "Conturi Conectate",
+    "manageConnections": "Gestionare Conexiuni",
+    "subtitle": "Conectați conturile dumneavoastră Confluence și SharePoint pentru a exporta documentație direct la aceste platforme.",
+    "confluence": {
+      "title": "Confluence",
+      "subtitle": "Atlassian Confluence",
+      "description": "Exportare documentație direct la spațiile și paginile dumneavoastră Confluence."
+    },
+    "sharepoint": {
+      "title": "SharePoint",
+      "subtitle": "Microsoft 365",
+      "description": "Exportare documentație la bibliotecile de documente SharePoint."
+    },
+    "connected": "Conectat",
+    "notConnected": "Nu Este Conectat",
+    "quickSetup": "Configurare Rapidă",
+    "quickSetupDesc": "Conectați-vă conturile pentru a exporta documentație direct din pagina de export.",
+    "setupConnections": "Configurare conexiuni →"
+  },
+  "subscription": {
+    "title": "Gestionare Abonament"
+  },
+  "usage": {
+    "title": "Statistici Utilizare",
+    "recordingsThisMonth": "Înregistrări Luna Aceasta",
+    "totalRecordings": "Total Înregistrări",
+    "documentsGenerated": "Documente Generate",
+    "hoursRecorded": "Ore Înregistrate"
+  },
+  "support": {
+    "appInfo": "Informații Aplicație",
+    "version": "Versiune Aplicație",
+    "versionDesc": "Versiune instalată în prezent",
+    "contactSupport": "Contactare Suport",
+    "supportDesc": "Ați găsit o eroare sau aveți o întrebare? Deschideți un issue pe GitHub.",
+    "emailSupport": "GitHub Issues",
+    "emailAddress": "github.com/Julienbase/Docfai/issues",
+    "contact": "Contactare",
+    "troubleshooting": "Instrumente Rezolvare Probleme",
+    "exportLogs": "Export Jurnale Erori",
+    "exportLogsDesc": "Salvare jurnale erori și trimitere la suport",
+    "exportErrorLogsModal": {
+      "title": "Export Jurnale Erori",
+      "instructions": "Urmați acești pași pentru a trimite jurnale erori la echipa noastră de suport:",
+      "step1Title": "Alegere unde să salvați",
+      "step1Desc": "Selectați o locație (cum ar fi Desktop) pentru salvare fișierul cu jurnale erori",
+      "step2Title": "Email se va deschide automat",
+      "step2Desc": "Clientul dumneavoastră de email implicit se va deschide cu un mesaj pre-completat",
+      "step3Title": "Atașare fișier jurnale",
+      "step3Desc": "Atașați fișierul cu jurnale erori pe care l-ați salvat chiar acum la email",
+      "step4Title": "Descriere problemă și trimitere",
+      "step4Desc": "Adăugați detalii despre problema pe care o experimentați și trimiteți emailul",
+      "note": "Notă: Fișierul cu jurnale conține informații de sistem pentru a ne ajuta să diagnosticăm probleme. Nicio dată personală nu este inclusă.",
+      "cancel": "Anulare",
+      "export": "Export Jurnale"
+    }
+  },
+  "backup": {
+    "title": "Backup și Export",
+    "subtitle": "Configurare backup-uri automate și setări export date"
+  },
+  "backupHistory": {
+    "title": "Istoric Backup",
+    "loading": "Încărcare istoric backup...",
+    "empty": "Nicio istoric backup găsit",
+    "emptyDesc": "Înregistrările backup vor apărea aici după primul backup",
+    "retry": "Reîncercare",
+    "close": "Închidere",
+    "date": "Dată:",
+    "destination": "Destinație:",
+    "size": "Mărime:",
+    "download": "Descărcare backup",
+    "openFolder": "Deschidere dosar backup",
+    "deleteRecord": "Ștergere înregistrare backup"
+  },
+  "backupSettings": {
+    "automaticBackup": "Backup Automat",
+    "automaticBackupDesc": "Backup automat al proiectelor și datelor dumneavoastră",
+    "backupFrequency": "Frecvență Backup",
+    "daily": "Zilnic",
+    "weekly": "Săptămânal",
+    "monthly": "Lunar",
+    "scheduleTime": "Timp Programare",
+    "hour": "Oră",
+    "minute": "Minut",
+    "dayOfWeek": "Ziua Săptămânii",
+    "dayOfMonth": "Ziua Lunii",
+    "lastDayOfMonth": "Ultima zi a lunii",
+    "backupDestinations": "Destinații Backup",
+    "localStorage": "Stocare Locală",
+    "localStorageDesc": "Salvare backup-uri la dosar local pe computerul dumneavoastră",
+    "sharepoint": "SharePoint",
+    "sharepointDesc": "Încărcare backup-uri la site-ul dumneavoastră SharePoint",
+    "noFolderSelected": "Nicio dosar selectat",
+    "change": "Schimbare",
+    "select": "Selectare",
+    "nextBackup": "Backup următor: {{time}}",
+    "backupNow": "Backup Acum",
+    "backupHistory": "Istoric Backup",
+    "advancedSettings": "Setări Avansate"
+  },
+  "advancedBackupSettings": {
+    "title": "Setări Backup Avansate",
+    "cancel": "Anulare",
+    "save": "Salvare Setări",
+    "retentionPolicy": "Politică Retenție",
+    "keepBackupsFor": "Păstrare backup-uri pentru",
+    "maxBackupCount": "Numărul maxim de backup-uri",
+    "compression": "Compresie",
+    "enableCompression": "Activare compresie",
+    "compressionLevel": "Nivel compresie",
+    "fast": "Rapid",
+    "balanced": "Echilibrat",
+    "maximum": "Maxim",
+    "notifications": "Notificări",
+    "notifySuccess": "Notificare la backup reușit",
+    "notifyFailure": "Notificare la eșec backup",
+    "notifyCleanup": "Notificare când backup-uri vechi sunt curățate",
+    "bandwidth": "Lățime Bandă",
+    "limitUploadSpeed": "Limitare viteze încărcare",
+    "maxUploadSpeed": "Viteză încărcare max (MB/s)"
+  },
+  "toast": {
+    "settingsSaved": "Setări backup avansate salvate!",
+    "settingsFailed": "Eșec la salvare setări. Vă rugăm, încercați din nou.",
+    "backupDeleted": "Înregistrare backup șters cu succes",
+    "backupDeleteFailed": "Eșec la ștergere înregistrare backup",
+    "logsSaved": "Jurnale erori salvate cu succes!",
+    "logsFailed": "Eșec la export jurnale erori",
+    "desktopOnly": "Această funcție este disponibilă doar în aplicația desktop",
+    "paymentSuccess": "Plată reușit! Abonamentul dumneavoastră este acum activ."
+  }
+}

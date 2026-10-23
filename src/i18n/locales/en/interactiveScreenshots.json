@@ -1,0 +1,134 @@
+{
+  "header": {
+    "title": "Step-by-Step Screenshots",
+    "noProject": "No project selected"
+  },
+  "hints": {
+    "show": "Show hints",
+    "hide": "Hide hints"
+  },
+  "noProject": {
+    "prompt": "Create a new project to get started",
+    "description": "You need a project before you can start capturing. Your screenshots and documentation steps will be saved inside the project.",
+    "createButton": "Create New Project"
+  },
+  "source": {
+    "heading": "Capture Source",
+    "refreshTitle": "Refresh sources",
+    "screen": "Screen",
+    "window": "Window"
+  },
+  "captureMode": {
+    "heading": "Capture Mode",
+    "hotkeys": "Hotkeys",
+    "auto": "Auto",
+    "hintAuto": "Auto-captures on every click",
+    "hintManual": "Press {{hotkey}} to capture",
+    "captureRightClicks": "Capture right-clicks"
+  },
+  "controls": {
+    "startCapturing": "Start Capturing",
+    "startAutoCapture": "Start Auto-Capture",
+    "capturing": "Capturing",
+    "paused": "Paused",
+    "pause": "Pause",
+    "resume": "Resume",
+    "stop": "Stop",
+    "goToEdit": "Go to Edit ({{count}} steps)"
+  },
+  "liveClicks": {
+    "heading": "Live Clicks"
+  },
+  "stats": {
+    "screenshots": "Screenshots",
+    "duration": "Duration"
+  },
+  "settings": {
+    "heading": "Settings",
+    "primaryHotkey": "Primary Hotkey",
+    "secondaryHotkey": "Secondary Hotkey",
+    "notSet": "Not set",
+    "cancel": "Cancel",
+    "save": "Save",
+    "editHotkeys": "Edit Hotkeys"
+  },
+  "feed": {
+    "capturedSteps": "Captured Steps ({{count}})",
+    "liveNotice": "New screenshots appear here automatically",
+    "readyTitle": "Ready to capture",
+    "waitingTitle": "Waiting for screenshots...",
+    "readyDesc": "Select a source and start capturing to build your documentation",
+    "capturingAutoDesc": "Click anywhere on the target window — each click becomes a step",
+    "capturingManualDesc": "Press {{hotkey}} to take a screenshot",
+    "realtimeNote": "Screenshots will appear here in real-time as you capture them"
+  },
+  "card": {
+    "step": "Step {{number}}",
+    "preview": "Preview",
+    "delete": "Delete",
+    "loading": "Loading...",
+    "loadError": "Failed to load image"
+  },
+  "previewModal": {
+    "loading": "Loading preview...",
+    "loadError": "Failed to load image",
+    "screenshotId": "Screenshot ID: {{id}}",
+    "captured": "Captured: {{time}}",
+    "size": "Size: {{size}} KB"
+  },
+  "modal": {
+    "title": "Create New Project",
+    "projectName": "Project Name *",
+    "projectNamePlaceholder": "Enter project name",
+    "description": "Description (Optional)",
+    "descriptionPlaceholder": "Enter project description",
+    "cancel": "Cancel",
+    "create": "Create Project"
+  },
+  "coach": {
+    "sourceTitle": "Pick a capture source",
+    "sourceDesc": "Choose a monitor or a specific window. Screenshots will be taken from the selected source.",
+    "modeTitle": "Manual vs Auto",
+    "modeDesc": "Hotkeys capture on command. Auto mode captures on every click — great for building click-by-click tutorials.",
+    "startTitle": "Start capturing",
+    "startDesc": "Kick off the capture session. In Hotkey mode, press the configured key to snap each step.",
+    "stopTitle": "Stop when you're done",
+    "stopDesc": "Ends the capture session. You can then move on to edit and polish your steps.",
+    "editTitle": "Ready to edit",
+    "editDesc": "Jump into the editor to refine titles, descriptions, and annotations before exporting."
+  },
+  "toast": {
+    "noSourcesFound": "No capturable sources found. Some windows may be protected by the system.",
+    "loadSourcesFailed": "Failed to load capture sources. Some system windows may be protected.",
+    "screenshotDeleted": "Screenshot deleted",
+    "capturePaused": "Capture paused",
+    "captureResumed": "Capture resumed",
+    "resumeFailed": "Failed to resume capture",
+    "switchedSource": "Switched to {{name}}",
+    "switchFailed": "Failed to switch source",
+    "previewSelectFirst": "Please select a capture source first.",
+    "previewStarted": "Preview started successfully",
+    "previewDesktopOnly": "Preview is only available in the desktop app.",
+    "previewFailed": "Failed to start preview. Please try selecting a different source.",
+    "noProjectName": "Please enter a project name",
+    "projectCreated": "Project created successfully!",
+    "projectFolderFailed": "Failed to create project folder structure",
+    "projectSelected": "Project \"{{name}}\" selected",
+    "hotkeySaved": "Hotkey configuration saved!",
+    "hotkeyFailed": "Failed to save hotkey configuration",
+    "desktopRequired": "This feature requires the desktop application",
+    "noSource": "Please select a capture source",
+    "noProject": "Please select or create a project first",
+    "projectNotFound": "Project not found",
+    "autoCaptureActivated": "Auto-capture activated — every click is now captured automatically!",
+    "hotkeyCaptureActivated": "Screenshot capture mode activated — press hotkey to capture!",
+    "captureStartFailed": "Failed to start interactive capture",
+    "captureCompleted": "Capture completed! {{count}} screenshots captured.",
+    "noScreenshots": "No screenshots captured",
+    "stopFailed": "Error stopping capture",
+    "nativeScreenshot": "Native screenshot captured instantly! ({{size}} bytes)",
+    "nativeScreenshotFailed": "Failed to process native screenshot",
+    "noScreenshotData": "No screenshot data received",
+    "noImageData": "No image data received"
+  }
+}

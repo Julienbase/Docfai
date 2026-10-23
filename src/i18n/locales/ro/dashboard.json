@@ -1,0 +1,116 @@
+{
+  "welcome": "Bun venit din nou, {{name}}!",
+  "subtitle": {
+    "empty": "Începeți-vă primul proiect de documentație",
+    "needsEditing_one": "{{count}} proiect necesită editare",
+    "needsEditing_other": "{{count}} proiecte necesită editare",
+    "readyToExport_one": "{{count}} proiect gata de export",
+    "readyToExport_other": "{{count}} proiecte gata de export",
+    "allUpToDate_one": "{{count}} proiect — toate la zi",
+    "allUpToDate_other": "{{count}} proiecte — toate la zi"
+  },
+  "plan": {
+    "trial": "Versiune de Încercare",
+    "team": "Plan de Echipă",
+    "yearly": "Anual",
+    "monthly": "Lunar",
+    "active": "Activ",
+    "noPlan": "Fără Plan"
+  },
+  "hints": {
+    "show": "Afișare indicii",
+    "hide": "Ascundere indicii"
+  },
+  "continue": "Continuare: {{name}}",
+  "stage": {
+    "empty": "Gol",
+    "completed": "Completat",
+    "readyToExport": "Gata de export",
+    "needsEditing": "Necesită editare"
+  },
+  "quickActions": {
+    "title": "Acțiuni Rapide",
+    "startRecordingTitle": "Început Înregistrare",
+    "startRecordingDesc": "Inițiați sesiune de captură ecran",
+    "newProjectTitle": "Proiect Nou",
+    "newProjectDesc": "Creați proiect de documentație",
+    "stepByStepTitle": "Capturi Pas cu Pas",
+    "stepByStepDesc": "Capturați ecrane și clicuri",
+    "importProjectTitle": "Importare Proiect",
+    "importProjectDesc": "Restaurați proiecte exportate anterior cu toate înregistrările, capturile și documentația"
+  },
+  "recentProjects": "Proiecte Recente",
+  "searchPlaceholder": "Căutare proiecte...",
+  "chooseMethod": {
+    "title": "Alegeți cum doriți să capturați procesul",
+    "subtitle": "Selectați metoda care se potrivește fluxului de lucru",
+    "videoTitle": "Înregistrare Video",
+    "videoDesc": "Ideal pentru fluxuri de lucru lungi pe mai multe aplicații. Înregistrați ecranul, apoi generați automat pași.",
+    "screenshotsTitle": "Capturi Pas cu Pas",
+    "screenshotsDesc": "Ideal pentru tutoriale clic pe clic. Capturați fiecare pas cu adnotări pe măsură ce procedați."
+  },
+  "noResults": {
+    "title": "Nicio proiect găsit",
+    "subtitle": "Încercați ajustarea termenilor de căutare"
+  },
+  "project": {
+    "noDescription": "Fără descriere",
+    "typeScreenshots": "Capturi",
+    "typeVideo": "Video"
+  },
+  "modal": {
+    "createNewTitle": "Criere Proiect Nou",
+    "projectName": "Nume Proiect",
+    "projectNamePlaceholder": "Introduceți numele proiectului",
+    "description": "Descriere (Opțional)",
+    "descriptionPlaceholder": "Descrieți-vă proiectul",
+    "cancel": "Anulare",
+    "createProject": "Criere Proiect",
+    "deleteTitle": "Ștergere Proiect",
+    "deleteConfirm": "Sunteți sigur că doriți să ștergeți \"{{name}}\"?",
+    "deleteWarning": "Această acțiune nu poate fi anulată. Toate fișierele proiectului, înregistrările și capturile vor fi șterse permanent.",
+    "deleteButton": "Ștergere Proiect"
+  },
+  "capture": {
+    "modalTitle": " Înregistrare Desktop Activă",
+    "modalInstructions": "Apăsați <strong>SPAȚIU</strong> pentru a captura capturile de ecran",
+    "modalSubtext": "Funcționează oriunde pe desktop - orice aplicație, browser sau fereastră",
+    "screenshotsCounter": "Capturi: {{count}}",
+    "stopRecording": "Oprire Înregistrare"
+  },
+  "toast": {
+    "nameRequired": "Vă rugăm, introduceți un nume de proiect",
+    "duplicateName": "Un proiect cu nume \"{{name}}\" deja există. Vă rugăm, alegeți un alt nume.",
+    "created": "Proiect creat cu succes!",
+    "createFailed": "Eșec la crearea structurii dosarului proiectului",
+    "deleted": "Proiect și fișiere șterse cu succes",
+    "deleteFailed": "Eșec la ștergerea fișierelor proiectului",
+    "noExportable": "Nicio înregistrare sau captură găsit în acest proiect pentru export",
+    "desktopOnly": "Această funcție necesită aplicația desktop",
+    "startGlobalFailed": "Eșec la inițierea înregistrării globale",
+    "noScreenshots": "Nicio captură capturată",
+    "stopError": "Eroare la oprire înregistrare",
+    "captureNotSupported": "Captura de ecran nu este suportată în acest browser",
+    "capturePermissionDenied": "Permisiune capturare ecran refuzată",
+    "captureNotSupported2": "Captura de ecran nu este suportată",
+    "captureFailed": "Eșec la capturarea captureului de ecran",
+    "startSystemFailed": "Eșec la inițierea înregistrării pe nivelul sistemului",
+    "leavePrompt": "Înregistrarea este în curs. Sunteți sigur că doriți să plecați?"
+  },
+  "time": {
+    "justNow": "chiar acum",
+    "minsAgo": "{{count}}m în urmă",
+    "hoursAgo": "{{count}}h în urmă",
+    "daysAgo": "{{count}}z în urmă"
+  },
+  "coach": {
+    "startRecordingTitle": "Început Înregistrare",
+    "startRecordingDesc": "Capturați-vă ecranul ca video. Ideal pentru tutoriale mai lungi pe mai multe aplicații.",
+    "newProjectTitle": "Crearea unui proiect",
+    "newProjectDesc": "Organizați înregistrările, capturile și documentația într-un singur loc.",
+    "stepByStepTitle": "Capturi pas cu pas",
+    "stepByStepDesc": "Capturați o captură la fiecare clic. Ideal pentru tutoriale clic pe clic.",
+    "importTitle": "Importare proiect",
+    "importDesc": "Aduceți un proiect Docfai exportat anterior de pe alt dispozitiv."
+  }
+}

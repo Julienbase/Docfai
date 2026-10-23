@@ -1,0 +1,72 @@
+{
+  "header": {
+    "title": "Importar Proyecto",
+    "description": "Restaura proyectos previamente exportados con todas sus grabaciones, capturas de pantalla y documentación.",
+    "hints": {
+      "show": "Mostrar sugerencias",
+      "hide": "Ocultar sugerencias"
+    }
+  },
+  "selection": {
+    "title": "Selecciona un archivo .docfai",
+    "subtitle": "Elige una copia de seguridad de proyecto exportada para importar",
+    "browseButton": "Explorar Archivos"
+  },
+  "preview": {
+    "analyzing": "Analizando archivo de importación...",
+    "title": "Vista Previa de Importación",
+    "projectName": "Nombre del Proyecto",
+    "created": "Creado",
+    "recordings": "Grabaciones",
+    "screenshots": "Capturas de Pantalla",
+    "documentationSteps": "Pasos de Documentación",
+    "fileSize": "Tamaño del Archivo"
+  },
+  "conflict": {
+    "warning": "Un proyecto llamado \"{{name}}\" ya existe",
+    "importAsNew": "Importar como nuevo proyecto",
+    "importAsNewDesc": "Crea una copia con un nombre diferente, manteniendo el proyecto existente intacto",
+    "replace": "Reemplazar proyecto existente",
+    "replaceDesc": "Elimina el proyecto existente y lo reemplaza con el importado"
+  },
+  "progress": {
+    "complete": "% completado"
+  },
+  "actions": {
+    "chooseDifferent": "Elegir Archivo Diferente",
+    "importButton": "Importar Proyecto",
+    "importing": "Importando..."
+  },
+  "infocards": {
+    "formats": {
+      "title": "Formatos Soportados",
+      "desc": "Archivos .docfai y .zip exportados desde Docfai"
+    },
+    "protection": {
+      "title": "Protección contra Conflictos",
+      "desc": "Los nombres duplicados se detectan — elige reemplazar o importar como nuevo"
+    },
+    "restore": {
+      "title": "Restauración Completa",
+      "desc": "Las grabaciones, capturas de pantalla, diagramas y notas se restauran completamente"
+    }
+  },
+  "coach": {
+    "browse": {
+      "title": "Selecciona tu archivo .docfai",
+      "desc": "Elige la copia de seguridad exportada que deseas restaurar. Docfai la analizará y mostrará una vista previa de su contenido."
+    },
+    "confirmImport": {
+      "title": "Importar cuando estés listo",
+      "desc": "Revisa la vista previa de arriba, luego importa. Si el nombre ya existe, elige cómo manejar el conflicto."
+    }
+  },
+  "toast": {
+    "fileNotAvailable": "Selección de archivo no disponible en este entorno",
+    "analyzeError": "Error al analizar el archivo seleccionado",
+    "readError": "Error al leer el archivo: {{error}}",
+    "selectError": "Error al seleccionar el archivo de importación",
+    "success": "¡Proyecto importado exitosamente!",
+    "error": "Importación fallida: {{error}}"
+  }
+}

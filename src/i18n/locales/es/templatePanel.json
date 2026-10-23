@@ -1,0 +1,93 @@
+{
+  "panel": {
+    "heading": "Plantilla de Documento",
+    "selectPlaceholder": "Selecciona una plantilla para tu exportación",
+    "tabSelect": "Seleccionar Plantilla",
+    "tabCustomize": "Personalizar",
+    "customizeLink": "Personalizar colores y fuentes →",
+    "selected": "Seleccionada:"
+  },
+  "selector": {
+    "heading": "Plantilla de Documento",
+    "available": "{{count}} plantillas disponibles",
+    "categories": {
+      "compliance": "Cumplimiento y Regulación",
+      "operations": "Operaciones y Procesos",
+      "training": "Formación y Educación",
+      "technical": "Documentación Técnica"
+    }
+  },
+  "templates": {
+    "sop": {
+      "name": "Procedimiento Operativo Estándar (SOP)",
+      "description": "Documentación de procesos lista para cumplimiento con seguimiento de revisiones, secciones de aprobación y diseño estructurado. Ideal para industrias reguladas."
+    },
+    "work-instruction": {
+      "name": "Instrucción de Trabajo",
+      "description": "Documentación limpia y orientada a la acción con pasos numerados y elementos visuales prominentes. Ideal para tareas operativas o en planta."
+    },
+    "training-manual": {
+      "name": "Manual de Formación",
+      "description": "Documentación educativa con objetivos de aprendizaje, diseño enfocado en lo visual, puntos de control y secciones de resumen."
+    },
+    "user-guide": {
+      "name": "Manual de Usuario / Guía",
+      "description": "Documentación fácil de usar con navegación clara, capturas de pantalla anotadas y estructura basada en capítulos."
+    },
+    "technical-spec": {
+      "name": "Especificación Técnica",
+      "description": "Documentación técnica estructurada con especificaciones detalladas, soporte de diagramas y versionado."
+    }
+  },
+  "customizer": {
+    "heading": "Personalizar Plantilla",
+    "save": "Guardar Configuración",
+    "saving": "Guardando...",
+    "saved": "¡Guardado!",
+    "reset": "Restablecer",
+    "sections": {
+      "colors": "Esquema de Colores",
+      "typography": "Tipografía",
+      "branding": "Marca",
+      "document": "Información del Documento"
+    },
+    "colors": {
+      "presets": "Presets Rápidos",
+      "custom": "Colores Personalizados",
+      "primary": "Primario",
+      "secondary": "Secundario",
+      "accent": "Acento",
+      "text": "Texto",
+      "headerBg": "Fondo del Encabezado",
+      "headerText": "Texto del Encabezado"
+    },
+    "typography": {
+      "combinations": "Combinaciones de Fuentes",
+      "headingFont": "Fuente de Título",
+      "bodyFont": "Fuente del Cuerpo"
+    },
+    "branding": {
+      "logo": "Logo de la Empresa",
+      "changeLogo": "Cambiar Logo",
+      "uploadLogo": "Subir Logo",
+      "companyName": "Nombre de la Empresa",
+      "companyNamePlaceholder": "Ingresa el nombre de la empresa"
+    },
+    "document": {
+      "documentId": "ID del Documento",
+      "documentIdPlaceholder": "p. ej., SOP-001",
+      "revision": "Revisión",
+      "revisionPlaceholder": "p. ej., 1.0",
+      "confidentiality": "Nivel de Confidencialidad",
+      "public": "Público",
+      "internal": "Solo Uso Interno",
+      "confidential": "Confidencial",
+      "restricted": "Restringido"
+    },
+    "preview": {
+      "heading": "Vista Previa",
+      "hide": "Ocultar",
+      "show": "Mostrar"
+    }
+  }
+}

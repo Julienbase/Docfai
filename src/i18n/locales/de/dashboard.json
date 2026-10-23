@@ -1,0 +1,116 @@
+{
+  "welcome": "Willkommen zurück, {{name}}!",
+  "subtitle": {
+    "empty": "Starten Sie Ihr erstes Dokumentationsprojekt",
+    "needsEditing_one": "{{count}} Projekt muss bearbeitet werden",
+    "needsEditing_other": "{{count}} Projekte müssen bearbeitet werden",
+    "readyToExport_one": "{{count}} Projekt zum Exportieren bereit",
+    "readyToExport_other": "{{count}} Projekte zum Exportieren bereit",
+    "allUpToDate_one": "{{count}} Projekt — alles aktuell",
+    "allUpToDate_other": "{{count}} Projekte — alles aktuell"
+  },
+  "plan": {
+    "trial": "Testversion",
+    "team": "Team-Tarif",
+    "yearly": "Jährlich",
+    "monthly": "Monatlich",
+    "active": "Aktiv",
+    "noPlan": "Kein Tarif"
+  },
+  "hints": {
+    "show": "Hinweise einblenden",
+    "hide": "Hinweise ausblenden"
+  },
+  "continue": "Fortsetzen: {{name}}",
+  "stage": {
+    "empty": "Leer",
+    "completed": "Abgeschlossen",
+    "readyToExport": "Bereit zum Export",
+    "needsEditing": "Bearbeitung nötig"
+  },
+  "quickActions": {
+    "title": "Schnellaktionen",
+    "startRecordingTitle": "Aufnahme starten",
+    "startRecordingDesc": "Bildschirmaufnahme beginnen",
+    "newProjectTitle": "Neues Projekt",
+    "newProjectDesc": "Dokumentationsprojekt erstellen",
+    "stepByStepTitle": "Schritt-für-Schritt-Screenshots",
+    "stepByStepDesc": "Bildschirme und Klicks erfassen",
+    "importProjectTitle": "Projekt importieren",
+    "importProjectDesc": "Stellen Sie zuvor exportierte Projekte mit allen Aufnahmen, Screenshots und Dokumentationen wieder her"
+  },
+  "recentProjects": "Aktuelle Projekte",
+  "searchPlaceholder": "Projekte suchen...",
+  "chooseMethod": {
+    "title": "Wählen Sie, wie Sie Ihren Prozess erfassen möchten",
+    "subtitle": "Wählen Sie die Methode, die zu Ihrem Arbeitsablauf passt",
+    "videoTitle": "Videoaufnahme",
+    "videoDesc": "Am besten für lange Arbeitsabläufe über mehrere Apps hinweg. Nehmen Sie Ihren Bildschirm auf und generieren Sie automatisch Schritte.",
+    "screenshotsTitle": "Schritt-für-Schritt-Screenshots",
+    "screenshotsDesc": "Am besten für Klick-für-Klick-Anleitungen. Erfassen Sie jeden Schritt mit Anmerkungen."
+  },
+  "noResults": {
+    "title": "Keine Projekte gefunden",
+    "subtitle": "Versuchen Sie, Ihre Suchbegriffe anzupassen"
+  },
+  "project": {
+    "noDescription": "Keine Beschreibung",
+    "typeScreenshots": "Screenshots",
+    "typeVideo": "Video"
+  },
+  "modal": {
+    "createNewTitle": "Neues Projekt erstellen",
+    "projectName": "Projektname",
+    "projectNamePlaceholder": "Projektnamen eingeben",
+    "description": "Beschreibung (optional)",
+    "descriptionPlaceholder": "Beschreiben Sie Ihr Projekt",
+    "cancel": "Abbrechen",
+    "createProject": "Projekt erstellen",
+    "deleteTitle": "Projekt löschen",
+    "deleteConfirm": "Möchten Sie „{{name}}“ wirklich löschen?",
+    "deleteWarning": "Diese Aktion kann nicht rückgängig gemacht werden. Alle Projektdateien, Aufnahmen und Screenshots werden unwiderruflich gelöscht.",
+    "deleteButton": "Projekt löschen"
+  },
+  "capture": {
+    "modalTitle": " Desktop-Aufnahme aktiv",
+    "modalInstructions": "Drücken Sie <strong>LEERTASTE</strong>, um Screenshots aufzunehmen",
+    "modalSubtext": "Funktioniert überall auf Ihrem Desktop – jede App, jeder Browser, jedes Fenster",
+    "screenshotsCounter": "Screenshots: {{count}}",
+    "stopRecording": "Aufnahme beenden"
+  },
+  "toast": {
+    "nameRequired": "Bitte geben Sie einen Projektnamen ein",
+    "duplicateName": "Ein Projekt mit dem Namen „{{name}}“ existiert bereits. Bitte wählen Sie einen anderen Namen.",
+    "created": "Projekt erfolgreich erstellt!",
+    "createFailed": "Projektordnerstruktur konnte nicht erstellt werden",
+    "deleted": "Projekt und Dateien erfolgreich gelöscht",
+    "deleteFailed": "Projektdateien konnten nicht gelöscht werden",
+    "noExportable": "Keine Aufnahmen oder Screenshots in diesem Projekt zum Exportieren gefunden",
+    "desktopOnly": "Diese Funktion erfordert die Desktop-Anwendung",
+    "startGlobalFailed": "Globale Aufnahme konnte nicht gestartet werden",
+    "noScreenshots": "Keine Screenshots aufgenommen",
+    "stopError": "Fehler beim Beenden der Aufnahme",
+    "captureNotSupported": "Bildschirmaufnahme wird in diesem Browser nicht unterstützt",
+    "capturePermissionDenied": "Berechtigung zur Bildschirmaufnahme verweigert",
+    "captureNotSupported2": "Bildschirmaufnahme nicht unterstützt",
+    "captureFailed": "Screenshot konnte nicht aufgenommen werden",
+    "startSystemFailed": "Systemweite Aufnahme konnte nicht gestartet werden",
+    "leavePrompt": "Die Aufnahme läuft. Möchten Sie die Seite wirklich verlassen?"
+  },
+  "time": {
+    "justNow": "gerade eben",
+    "minsAgo": "vor {{count}} Min.",
+    "hoursAgo": "vor {{count}} Std.",
+    "daysAgo": "vor {{count}} T."
+  },
+  "coach": {
+    "startRecordingTitle": "Aufnahme starten",
+    "startRecordingDesc": "Nehmen Sie Ihren Bildschirm als Video auf. Ideal für längere Durchläufe über mehrere Apps.",
+    "newProjectTitle": "Projekt erstellen",
+    "newProjectDesc": "Aufnahmen, Screenshots und Dokumentation an einem Ort organisieren.",
+    "stepByStepTitle": "Schritt-für-Schritt-Screenshots",
+    "stepByStepDesc": "Bei jedem Klick einen Screenshot aufnehmen. Ideal für Klick-für-Klick-Anleitungen.",
+    "importTitle": "Projekt importieren",
+    "importDesc": "Importieren Sie ein vorhandenes Docfai-Projekt von einem anderen Gerät."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "dashboard": "Pannello di Controllo",
+    "import": "Importa",
+    "help": "Guida",
+    "settings": "Impostazioni",
+    "pricing": "Prezzi",
+    "subscriptionRequired": "Abbonamento Richiesto",
+    "subscribeHint": "Abbonati a un piano nella sezione Prezzi per sbloccare tutte le funzionalità.",
+    "signOut": "Disconnetti"
+  },
+  "navBlock": {
+    "recordingTitle": "Registrazione in Corso",
+    "captureTitle": "Acquisizione in Corso",
+    "recordingBody": "È in corso una registrazione dello schermo. Interrompi la registrazione prima di navigare.",
+    "captureBody": "L'acquisizione dello schermo è attualmente attiva. Interrompi l'acquisizione prima di navigare.",
+    "goBack": "Indietro"
+  },
+  "action": {
+    "save": "Salva",
+    "cancel": "Annulla",
+    "delete": "Elimina",
+    "create": "Crea",
+    "close": "Chiudi"
+  },
+  "language": {
+    "label": "Lingua",
+    "en": "English",
+    "de": "Deutsch",
+    "es": "Español",
+    "fr": "Français",
+    "ro": "Română",
+    "it": "Italiano"
+  },
+  "theme": {
+    "label": "Tema",
+    "light": "Chiaro",
+    "dark": "Scuro",
+    "system": "Sistema"
+  },
+  "coach": {
+    "ok": "OK"
+  },
+  "settings": {
+    "accountTitle": "Impostazioni Account",
+    "general": "Impostazioni Generali",
+    "recordingDefaults": "Impostazioni Predefinite di Registrazione",
+    "quality": "Qualità",
+    "frameRate": "Frequenza Fotogrammi",
+    "saveSettings": "Salva Impostazioni",
+    "saved": "Impostazioni salvate"
+  }
+}

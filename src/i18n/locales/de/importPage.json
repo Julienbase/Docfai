@@ -1,0 +1,72 @@
+{
+  "header": {
+    "title": "Projekt importieren",
+    "description": "Stellen Sie zuvor exportierte Projekte mit allen Aufnahmen, Screenshots und Dokumentationen wieder her.",
+    "hints": {
+      "show": "Hinweise anzeigen",
+      "hide": "Hinweise ausblenden"
+    }
+  },
+  "selection": {
+    "title": "Wählen Sie eine .docfai-Datei aus",
+    "subtitle": "Wählen Sie ein exportiertes Projekt-Backup zum Importieren",
+    "browseButton": "Dateien durchsuchen"
+  },
+  "preview": {
+    "analyzing": "Importdatei wird analysiert...",
+    "title": "Importvorschau",
+    "projectName": "Projektname",
+    "created": "Erstellt",
+    "recordings": "Aufnahmen",
+    "screenshots": "Screenshots",
+    "documentationSteps": "Dokumentationsschritte",
+    "fileSize": "Dateigröße"
+  },
+  "conflict": {
+    "warning": "Ein Projekt mit dem Namen \u201e{{name}}\u201c existiert bereits",
+    "importAsNew": "Als neues Projekt importieren",
+    "importAsNewDesc": "Erstellt eine Kopie mit einem anderen Namen und lässt das vorhandene Projekt unverändert",
+    "replace": "Vorhandenes Projekt ersetzen",
+    "replaceDesc": "Löscht das vorhandene Projekt und ersetzt es durch das importierte"
+  },
+  "progress": {
+    "complete": "% abgeschlossen"
+  },
+  "actions": {
+    "chooseDifferent": "Andere Datei wählen",
+    "importButton": "Projekt importieren",
+    "importing": "Wird importiert..."
+  },
+  "infocards": {
+    "formats": {
+      "title": "Unterstützte Formate",
+      "desc": ".docfai und .zip-Dateien, die aus Docfai exportiert wurden"
+    },
+    "protection": {
+      "title": "Konfliktschutz",
+      "desc": "Doppelte Namen werden erkannt — wählen Sie, ob Sie ersetzen oder als neu importieren möchten"
+    },
+    "restore": {
+      "title": "Vollständige Wiederherstellung",
+      "desc": "Aufnahmen, Screenshots, Diagramme und Notizen werden alle wiederhergestellt"
+    }
+  },
+  "coach": {
+    "browse": {
+      "title": "Wählen Sie Ihre .docfai-Datei",
+      "desc": "Wählen Sie das exportierte Backup aus, das Sie wiederherstellen möchten. Docfai analysiert es und zeigt eine Vorschau des Inhalts."
+    },
+    "confirmImport": {
+      "title": "Importieren Sie, wenn Sie bereit sind",
+      "desc": "Überprüfen Sie die obige Vorschau und importieren Sie. Falls der Name bereits vorhanden ist, wählen Sie, wie der Konflikt behandelt werden soll."
+    }
+  },
+  "toast": {
+    "fileNotAvailable": "Dateiauswahl ist in dieser Umgebung nicht verfügbar",
+    "analyzeError": "Fehler beim Analysieren der ausgewählten Datei",
+    "readError": "Fehler beim Lesen der Datei: {{error}}",
+    "selectError": "Fehler beim Auswählen der Importdatei",
+    "success": "Projekt erfolgreich importiert!",
+    "error": "Import fehlgeschlagen: {{error}}"
+  }
+}

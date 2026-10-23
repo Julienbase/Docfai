@@ -1,0 +1,77 @@
+{
+  "title": "Edit Screenshot & Step Information",
+  "nav": {
+    "prevStep": "Previous step (auto-saves)",
+    "nextStep": "Next step (auto-saves)",
+    "stepOf": "Step {{current}} of {{total}}"
+  },
+  "hints": {
+    "show": "Show onboarding hints",
+    "hide": "Hide onboarding hints"
+  },
+  "tools": {
+    "select": "Select Tool - Select, move, and resize shapes",
+    "arrow": "Arrow Tool - Draw arrows",
+    "counter": "Counter Tool - Add numbered markers",
+    "text": "Text Tool - Add text boxes",
+    "crop": "Crop Tool - Crop image",
+    "blur": "Blur Tool - Hide sensitive information",
+    "pixelate": "Pixelate Tool - Pixelate sensitive areas",
+    "blackout": "Blackout Tool - Completely hide sensitive information"
+  },
+  "toolbar": {
+    "colorLabel": "Color:",
+    "colorSelect": "Select {{color}}",
+    "privacyLabel": "Privacy:",
+    "sizeLabel": "Size:",
+    "blurLabel": "Blur:",
+    "fontLabel": "Font:",
+    "fontSizePx": "{{size}}px",
+    "resetCounter": "Reset Counter",
+    "resetCounterTitle": "Reset counter to 1",
+    "counterNext": "Next: {{value}}",
+    "viewLabel": "View:",
+    "zoomOut": "Zoom Out",
+    "zoomIn": "Zoom In",
+    "resetZoom": "Reset Zoom (100%)",
+    "fitToScreen": "Fit to Screen",
+    "enterFullscreen": "Enter Fullscreen",
+    "exitFullscreen": "Exit Fullscreen",
+    "revertCrop": "Revert Crop",
+    "revertCropTitle": "Revert to original image",
+    "save": "Save"
+  },
+  "canvas": {
+    "textPlaceholder": "Type here...",
+    "applyCrop": "✓ Apply",
+    "applyCropTitle": "Apply crop (Enter)",
+    "cancelCrop": "✕ Cancel",
+    "cancelCropTitle": "Cancel crop (Escape)",
+    "instructions": "+ scroll to zoom • ",
+    "instructionsEsc": " to exit fullscreen",
+    "resizeHandle": "Drag to resize"
+  },
+  "stepInfo": {
+    "heading": "Step Information",
+    "titleLabel": "Step Title",
+    "titlePlaceholder": "Enter step title...",
+    "descriptionLabel": "Step Description",
+    "descriptionPlaceholder": "Describe what happens in this step..."
+  },
+  "coach": {
+    "navTitle": "Navigate between steps",
+    "navDesc": "Jump to the previous or next step — your current edits auto-save before switching.",
+    "drawingTitle": "Drawing tools",
+    "drawingDesc": "Select, draw rectangles or arrows, add numbered markers, insert text boxes, or crop the screenshot.",
+    "colorTitle": "Pick a color",
+    "colorDesc": "Choose the color used for shapes, arrows, text boxes and counters.",
+    "privacyTitle": "Privacy tools",
+    "privacyDesc": "Blur, pixelate, or black out sensitive information before sharing your documentation.",
+    "stepInfoTitle": "Edit step title & description",
+    "stepInfoDesc": "Write what's happening in this step. Formatting from the rich text editor is preserved in the final export.",
+    "revertTitle": "Revert to original",
+    "revertDesc": "Undo any crops and restore the full original screenshot.",
+    "saveTitle": "Save your changes",
+    "saveDesc": "Save annotations, crops, and step info back to the project."
+  }
+}

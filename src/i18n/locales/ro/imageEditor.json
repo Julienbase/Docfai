@@ -1,0 +1,77 @@
+{
+  "title": "Editare Captură și Informații Pas",
+  "nav": {
+    "prevStep": "Pas anterior (salvare automată)",
+    "nextStep": "Pas următor (salvare automată)",
+    "stepOf": "Pas {{current}} din {{total}}"
+  },
+  "hints": {
+    "show": "Afișare indicii onboarding",
+    "hide": "Ascundere indicii onboarding"
+  },
+  "tools": {
+    "select": "Unealtă Selectare - Selectare, mutare și redimensionare forme",
+    "arrow": "Unealtă Săgeată - Desenare săgeți",
+    "counter": "Unealtă Numărare - Adăugare marcatori numerotați",
+    "text": "Unealtă Text - Adăugare casete text",
+    "crop": "Unealtă Decupare - Decupare imagine",
+    "blur": "Unealtă Blur - Ascundere informații sensibile",
+    "pixelate": "Unealtă Pixela - Pixelizare zone sensibile",
+    "blackout": "Unealtă Blackout - Ascundere completă informații sensibile"
+  },
+  "toolbar": {
+    "colorLabel": "Culoare:",
+    "colorSelect": "Selectare {{color}}",
+    "privacyLabel": "Confidențialitate:",
+    "sizeLabel": "Mărime:",
+    "blurLabel": "Blur:",
+    "fontLabel": "Font:",
+    "fontSizePx": "{{size}}px",
+    "resetCounter": "Resetare Numărare",
+    "resetCounterTitle": "Resetare numărare la 1",
+    "counterNext": "Următor: {{value}}",
+    "viewLabel": "Vedere:",
+    "zoomOut": "Zoom Iesire",
+    "zoomIn": "Zoom Intrare",
+    "resetZoom": "Resetare Zoom (100%)",
+    "fitToScreen": "Potrivire la Ecran",
+    "enterFullscreen": "Intrare Ecran Complet",
+    "exitFullscreen": "Ieșire Ecran Complet",
+    "revertCrop": "Revenire Decupare",
+    "revertCropTitle": "Revenire la imagine originală",
+    "save": "Salvare"
+  },
+  "canvas": {
+    "textPlaceholder": "Scrie aici...",
+    "applyCrop": "✓ Aplicare",
+    "applyCropTitle": "Aplicare decupare (Enter)",
+    "cancelCrop": "✕ Anulare",
+    "cancelCropTitle": "Anulare decupare (Escape)",
+    "instructions": "+ scroll zoom • ",
+    "instructionsEsc": " pentru ieșire ecran complet",
+    "resizeHandle": "Trageți pentru redimensionare"
+  },
+  "stepInfo": {
+    "heading": "Informații Pas",
+    "titleLabel": "Titlu Pas",
+    "titlePlaceholder": "Introduceți titlul pasului...",
+    "descriptionLabel": "Descriere Pas",
+    "descriptionPlaceholder": "Descrieți ce se întâmplă în acest pas..."
+  },
+  "coach": {
+    "navTitle": "Navigare între pași",
+    "navDesc": "Sări la pasul anterior sau următor — editările curente sunt salvate automat înainte de comutare.",
+    "drawingTitle": "Unelte desen",
+    "drawingDesc": "Selectare, desenare dreptunghiuri sau săgeți, adăugare marcatori numerotați, inserare casete text, sau decupare captură.",
+    "colorTitle": "Alegere culoare",
+    "colorDesc": "Alegeți culoarea utilizată pentru forme, săgeți, casete text și numărare.",
+    "privacyTitle": "Unelte confidențialitate",
+    "privacyDesc": "Blur, pixeliza, sau ascunde informații sensibile înainte de partajare documentației dumneavoastră.",
+    "stepInfoTitle": "Editare titlu pas și descriere",
+    "stepInfoDesc": "Scrieți ce se întâmplă în acest pas. Formatarea din editorul de text bogat este conservată în exportul final.",
+    "revertTitle": "Revenire la original",
+    "revertDesc": "Anulare orice decupări și restaurare captureului original complet.",
+    "saveTitle": "Salvare modificări",
+    "saveDesc": "Salvare adnotări, decupări, și informații pas înapoi la proiect."
+  }
+}

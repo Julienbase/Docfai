@@ -1,0 +1,163 @@
+{
+  "empty": {
+    "title": "Kein Projekt oder Aufnahme ausgewählt",
+    "subtitle": "Bitte wählen Sie ein Projekt oder eine Aufnahme aus, um mit der Bearbeitung zu beginnen.",
+    "goToDashboard": "Zum Dashboard"
+  },
+  "header": {
+    "backToDashboard": "Zurück zum Dashboard",
+    "editor": "Editor",
+    "videoProject": "Videoprojekt",
+    "screenshots": "Screenshots"
+  },
+  "view": {
+    "edit": "Bearbeiten",
+    "preview": "Vorschau",
+    "showHints": "Hinweise einblenden",
+    "hideHints": "Hinweise ausblenden",
+    "stepsCount": "{{count}} Schritte",
+    "exportDocumentation": "Dokumentation exportieren",
+    "exportEmpty": "Fügen Sie Screenshots oder Diagramme hinzu, um die Dokumentation zu exportieren",
+    "exportReady": "Schritt-für-Schritt-Dokumentation exportieren"
+  },
+  "stage": {
+    "viewFullSize": "Vollbildansicht",
+    "buildingTitle": "Ihre Dokumentation wird erstellt",
+    "buildingSubtitle": "Wählen Sie rechts einen Schritt zur Vorschau oder wechseln Sie in den Vorschaumodus, um das vollständige Dokument zu sehen",
+    "previewDocument": "Dokument anzeigen"
+  },
+  "timeline": {
+    "label": "Zeitleiste ({{count}})"
+  },
+  "videoInfo": {
+    "videoRecording": "Videoaufnahme",
+    "duration": "Dauer: {{time}}",
+    "screenshotBased": "Screenshot-basierte Dokumentation",
+    "exportVideoOnly": "Nur Video exportieren",
+    "exportVideoOnlyTitle": "Nur Videodatei exportieren (WebM-Format)"
+  },
+  "projectSettings": {
+    "heading": "Projekteinstellungen",
+    "titleLabel": "Projekttitel",
+    "titlePlaceholder": "Projekttitel für PDF-Export eingeben",
+    "titleHint": "Dieser Titel erscheint im exportierten PDF",
+    "sourceLabel": "Quelle/Anwendung",
+    "sourcePlaceholder": "z. B. Chrome Browser, Desktop-App",
+    "sourceHint": "Geben Sie die Quellanwendung oder den Kontext an"
+  },
+  "steps": {
+    "heading": "Dokumentationsschritte ({{count}})",
+    "bookmarks": "Lesezeichen ({{count}})",
+    "bookmarksTitle": "Schritte aus F10-Lesezeichen-Zeitstempeln generieren",
+    "workflow": "Arbeitsablauf",
+    "workflowTitle": "Arbeitsablaufdiagramm aus Schritttiteln generieren",
+    "diagram": "Diagramm",
+    "diagramTitle": "Leeren Diagrammschritt hinzufügen",
+    "select": "Auswählen",
+    "cancel": "Abbrechen",
+    "selectTitleEnter": "Mehrere Schritte auswählen",
+    "selectTitleExit": "Auswahlmodus beenden",
+    "selectAll": "Alle auswählen",
+    "deselectAll": "Auswahl aufheben",
+    "selectedCount": "{{selected}} von {{total}} ausgewählt",
+    "bulkDelete": "Löschen ({{count}})",
+    "moveUp": "Nach oben",
+    "moveDown": "Nach unten",
+    "goToTimestamp": "Zum Zeitstempel springen",
+    "replaceVideoFrame": "Durch aktuelles Videobild ersetzen",
+    "retakeFromWindow": "Screenshot aus einem Fenster neu aufnehmen",
+    "editScreenshot": "Screenshot bearbeiten",
+    "editDiagram": "Diagramm bearbeiten",
+    "delete": "Löschen",
+    "doubleClickToEdit": "Doppelklick zum Bearbeiten",
+    "stepTitlePlaceholder": "Schritttitel",
+    "stepDescriptionPlaceholder": "Schrittbeschreibung",
+    "stepNumber": "Schritt {{n}}",
+    "dropZone": "Bilder oder Videos hier ablegen, um neue Schritte hinzuzufügen"
+  },
+  "emptyState": {
+    "noStepsYet": "Noch keine Schritte",
+    "captureFirstSteps": "Nehmen Sie Ihre ersten Schritte auf",
+    "goBackToCapture": "Gehen Sie zurück zur Aufnahmeseite, um Screenshots Ihres Arbeitsablaufs aufzunehmen",
+    "takeScreenshotsHint": "Machen Sie Screenshots Ihres Arbeitsablaufs und Docfai verwandelt sie automatisch in professionelle Dokumentation",
+    "retakeScreenshots": "Screenshots neu aufnehmen",
+    "startTakingScreenshots": "Screenshots aufnehmen",
+    "generateFromBookmarksTitle": "Schritte aus Lesezeichen generieren",
+    "generateFromBookmarksSubtitle": "Dokumentationsschritte an jedem F10-Lesezeichen-Zeitstempel Ihrer Aufnahme extrahieren",
+    "stepsFromBookmarks": "Schritte aus Lesezeichen ({{count}})"
+  },
+  "retakeModal": {
+    "heading": "Aufzunehmendes Fenster auswählen"
+  },
+  "preview": {
+    "heading": "Dokumentationsvorschau",
+    "templateLabel": "Vorlage:"
+  },
+  "videoEditor": {
+    "takeScreenshot": "Screenshot aufnehmen"
+  },
+  "coach": {
+    "editTitle": "Bild & Text bearbeiten",
+    "editDesc": "Klicken Sie auf diese Schaltfläche, um den Screenshot zu annotieren und Titel sowie Beschreibung des Schritts an einer Stelle zu bearbeiten.",
+    "replaceTitle": "Bild ersetzen",
+    "replaceDesc": "Tauschen Sie den Screenshot durch eine neue Aufnahme aus dem Originalfenster aus – hilfreich, wenn die erste Aufnahme etwas verpasst hat.",
+    "deleteTitle": "Schritt löschen",
+    "deleteDesc": "Entfernen Sie diesen Schritt aus Ihrer Dokumentation. Nutzen Sie stattdessen den Griff, um Schritte per Drag & Drop neu anzuordnen.",
+    "reorderTitle": "Schritte neu anordnen",
+    "reorderDesc": "Verwenden Sie die Auf-/Ab-Pfeile, um die Reihenfolge zu ändern, oder ziehen Sie links am Griff für schnelles Umsortieren.",
+    "templateTitle": "Vorlage auswählen",
+    "templateDesc": "Wählen Sie ein Layout, das zu Ihrem Stil passt. Änderungen werden sofort in der Vorschau unten angewendet.",
+    "workflowTitle": "Arbeitsablauf automatisch generieren",
+    "workflowDesc": "Erstellt automatisch ein Flussdiagramm aus Ihren Schritttiteln – ideal für Prozessdokumentation.",
+    "diagramTitle": "Diagramm hinzufügen",
+    "diagramDesc": "Fügen Sie einen leeren Flussdiagrammschritt ein, um Prozesse oder Entscheidungen an beliebiger Stelle in Ihrer Dokumentation zu veranschaulichen."
+  },
+  "toast": {
+    "projectNotFound": "Projekt nicht gefunden",
+    "stepUpdated": "Schritt erfolgreich aktualisiert!",
+    "noStepsToExport": "Keine Schritte zum Exportieren. Bitte nehmen Sie zunächst Screenshots auf oder erstellen Sie Diagramme.",
+    "noDocStepsToExport": "Keine Dokumentationsschritte zum Exportieren. Bitte nehmen Sie zunächst Screenshots auf.",
+    "exportFailed": "Export der Schrittanleitung fehlgeschlagen: {{error}}",
+    "noVideoFile": "Keine Videodatei zum Exportieren",
+    "videoLoadFailed": "Videoaufnahme konnte nicht geladen werden",
+    "screenshotsLoadFailed": "Screenshots konnten nicht geladen werden",
+    "interactiveScreenshotsLoadFailed": "Screenshots für interaktive Aufnahme konnten nicht geladen werden",
+    "desktopOnly": "Diese Funktion erfordert die Desktop-Anwendung",
+    "bookmarksCreated": "{{count}} Schritte aus Lesezeichen erstellt!",
+    "bookmarksFailed": "Schritte konnten nicht aus Lesezeichen extrahiert werden",
+    "needTwoSteps": "Mindestens 2 Schritte erforderlich, um ein Arbeitsablaufdiagramm zu erstellen",
+    "workflowUpdated": "Arbeitsablaufdiagramm mit neuesten Schritttiteln aktualisiert!",
+    "workflowCreated": "Arbeitsablaufdiagramm erstellt! Sie können es nun bearbeiten.",
+    "frameCaptureFailed": "Einzelbild konnte nicht aus Video erfasst werden",
+    "saveReplacementFailed": "Ersatz-Screenshot konnte nicht gespeichert werden",
+    "screenshotReplaced": "Screenshot durch aktuelles Einzelbild ersetzt",
+    "replaceFailed": "Screenshot konnte nicht ersetzt werden",
+    "noCaptureSources": "Keine Aufnahmequellen gefunden",
+    "captureSourcesFailed": "Aufnahmequellen konnten nicht geladen werden",
+    "captureFailed": "Screenshot konnte nicht aufgenommen werden",
+    "retakeSuccess": "Screenshot erfolgreich neu aufgenommen",
+    "retakeFailed": "Screenshot konnte nicht neu aufgenommen werden",
+    "stepsDeleted_one": "{{count}} Schritt gelöscht",
+    "stepsDeleted_other": "{{count}} Schritte gelöscht",
+    "stepsReordered": "Schritte neu angeordnet",
+    "unsupportedFile": "Nicht unterstützter Dateityp. Legen Sie eine Bild- (PNG, JPG, GIF, WebP) oder Videodatei (MP4, WebM) ab.",
+    "unsupportedFileShort": "Nicht unterstützter Dateityp. Legen Sie eine Bild- oder Videodatei ab.",
+    "videoTooLarge": "Videodatei zu groß. Maximal {{max}} MB.",
+    "noActiveProject": "Kein aktives Projekt.",
+    "saveImageFailed": "Abgelegtes Bild konnte nicht gespeichert werden.",
+    "imageAdded": "Bild zum Schritt hinzugefügt.",
+    "saveVideoFailed": "Videoclip konnte nicht gespeichert werden.",
+    "videoClipAdded": "Videoclip zum Schritt hinzugefügt.",
+    "addImageStepFailed": "Bildschritt konnte nicht hinzugefügt werden.",
+    "noProjectSelected": "Kein Projekt ausgewählt",
+    "screenshotDeleted": "Screenshot erfolgreich gelöscht!",
+    "deleteScreenshotFailed": "Screenshot-Datei konnte nicht gelöscht werden",
+    "noVideoForDoc": "Keine Videodatei für Dokumentation verfügbar",
+    "screenshotUpdated": "Screenshot- und Schrittinformationen erfolgreich aktualisiert!",
+    "nextScreenshotFailed": "Nächster Screenshot konnte nicht geladen werden",
+    "noVideoForExport": "Keine Videodatei zum Exportieren verfügbar",
+    "screenshotEditLoadFailed": "Screenshot konnte nicht zum Bearbeiten geladen werden",
+    "diagramDeleted": "Diagrammschritt und zugehörige Dateien gelöscht",
+    "stepDeleted": "Schritt und Screenshot-Datei gelöscht"
+  }
+}

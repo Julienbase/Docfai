@@ -1,0 +1,134 @@
+{
+  "header": {
+    "title": "Capturas de Pantalla Paso a Paso",
+    "noProject": "Ningún proyecto seleccionado"
+  },
+  "hints": {
+    "show": "Mostrar sugerencias",
+    "hide": "Ocultar sugerencias"
+  },
+  "noProject": {
+    "prompt": "Crea un nuevo proyecto para comenzar",
+    "description": "Necesitas un proyecto antes de comenzar a capturar. Tus capturas de pantalla y pasos de documentación se guardarán dentro del proyecto.",
+    "createButton": "Crear Nuevo Proyecto"
+  },
+  "source": {
+    "heading": "Fuente de Captura",
+    "refreshTitle": "Actualizar fuentes",
+    "screen": "Pantalla",
+    "window": "Ventana"
+  },
+  "captureMode": {
+    "heading": "Modo de Captura",
+    "hotkeys": "Teclas de Acceso Rápido",
+    "auto": "Automático",
+    "hintAuto": "Captura automáticamente en cada clic",
+    "hintManual": "Presiona {{hotkey}} para capturar",
+    "captureRightClicks": "Capturar clics derechos"
+  },
+  "controls": {
+    "startCapturing": "Comenzar Captura",
+    "startAutoCapture": "Comenzar Captura Automática",
+    "capturing": "Capturando",
+    "paused": "En Pausa",
+    "pause": "Pausar",
+    "resume": "Reanudar",
+    "stop": "Detener",
+    "goToEdit": "Ir a Editar ({{count}} pasos)"
+  },
+  "liveClicks": {
+    "heading": "Clics en Vivo"
+  },
+  "stats": {
+    "screenshots": "Capturas de Pantalla",
+    "duration": "Duración"
+  },
+  "settings": {
+    "heading": "Configuración",
+    "primaryHotkey": "Tecla de Acceso Rápido Principal",
+    "secondaryHotkey": "Tecla de Acceso Rápido Secundaria",
+    "notSet": "No configurada",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "editHotkeys": "Editar Teclas de Acceso Rápido"
+  },
+  "feed": {
+    "capturedSteps": "Pasos Capturados ({{count}})",
+    "liveNotice": "Nuevas capturas de pantalla aparecen aquí automáticamente",
+    "readyTitle": "Listo para capturar",
+    "waitingTitle": "Esperando capturas de pantalla...",
+    "readyDesc": "Selecciona una fuente y comienza a capturar para construir tu documentación",
+    "capturingAutoDesc": "Haz clic en cualquier lugar de la ventana objetivo — cada clic se convierte en un paso",
+    "capturingManualDesc": "Presiona {{hotkey}} para tomar una captura de pantalla",
+    "realtimeNote": "Las capturas de pantalla aparecerán aquí en tiempo real mientras las capturas"
+  },
+  "card": {
+    "step": "Paso {{number}}",
+    "preview": "Vista Previa",
+    "delete": "Eliminar",
+    "loading": "Cargando...",
+    "loadError": "Error al cargar la imagen"
+  },
+  "previewModal": {
+    "loading": "Cargando vista previa...",
+    "loadError": "Error al cargar la imagen",
+    "screenshotId": "ID de captura: {{id}}",
+    "captured": "Capturado: {{time}}",
+    "size": "Tamaño: {{size}} KB"
+  },
+  "modal": {
+    "title": "Crear Nuevo Proyecto",
+    "projectName": "Nombre del Proyecto *",
+    "projectNamePlaceholder": "Ingresa el nombre del proyecto",
+    "description": "Descripción (Opcional)",
+    "descriptionPlaceholder": "Ingresa la descripción del proyecto",
+    "cancel": "Cancelar",
+    "create": "Crear Proyecto"
+  },
+  "coach": {
+    "sourceTitle": "Elige una fuente de captura",
+    "sourceDesc": "Elige un monitor o una ventana específica. Las capturas de pantalla se tomarán de la fuente seleccionada.",
+    "modeTitle": "Manual vs Automático",
+    "modeDesc": "Las teclas de acceso rápido capturan bajo comando. El modo automático captura en cada clic — excelente para construir tutoriales paso a paso.",
+    "startTitle": "Comenzar captura",
+    "startDesc": "Inicia la sesión de captura. En modo de tecla de acceso rápido, presiona la tecla configurada para capturar cada paso.",
+    "stopTitle": "Detener cuando hayas terminado",
+    "stopDesc": "Termina la sesión de captura. Luego puedes pasar a editar y pulir tus pasos.",
+    "editTitle": "Listo para editar",
+    "editDesc": "Entra al editor para refinar títulos, descripciones y anotaciones antes de exportar."
+  },
+  "toast": {
+    "noSourcesFound": "No se encontraron fuentes capturables. Algunas ventanas pueden estar protegidas por el sistema.",
+    "loadSourcesFailed": "Error al cargar fuentes de captura. Algunas ventanas del sistema pueden estar protegidas.",
+    "screenshotDeleted": "Captura de pantalla eliminada",
+    "capturePaused": "Captura en pausa",
+    "captureResumed": "Captura reanudada",
+    "resumeFailed": "Error al reanudar la captura",
+    "switchedSource": "Cambiado a {{name}}",
+    "switchFailed": "Error al cambiar de fuente",
+    "previewSelectFirst": "Por favor selecciona primero una fuente de captura.",
+    "previewStarted": "Vista previa iniciada exitosamente",
+    "previewDesktopOnly": "La vista previa solo está disponible en la aplicación de escritorio.",
+    "previewFailed": "Error al iniciar la vista previa. Intenta seleccionar una fuente diferente.",
+    "noProjectName": "Por favor ingresa un nombre de proyecto",
+    "projectCreated": "¡Proyecto creado exitosamente!",
+    "projectFolderFailed": "Error al crear la estructura de carpetas del proyecto",
+    "projectSelected": "Proyecto \"{{name}}\" seleccionado",
+    "hotkeySaved": "¡Configuración de tecla de acceso rápido guardada!",
+    "hotkeyFailed": "Error al guardar la configuración de tecla de acceso rápido",
+    "desktopRequired": "Esta función requiere la aplicación de escritorio",
+    "noSource": "Por favor selecciona una fuente de captura",
+    "noProject": "Por favor selecciona o crea un proyecto primero",
+    "projectNotFound": "Proyecto no encontrado",
+    "autoCaptureActivated": "¡Captura automática activada — cada clic se captura ahora automáticamente!",
+    "hotkeyCaptureActivated": "¡Modo de captura de pantalla activado — presiona la tecla de acceso rápido para capturar!",
+    "captureStartFailed": "Error al iniciar la captura interactiva",
+    "captureCompleted": "¡Captura completada! {{count}} capturas de pantalla capturadas.",
+    "noScreenshots": "Sin capturas de pantalla capturadas",
+    "stopFailed": "Error al detener la captura",
+    "nativeScreenshot": "¡Captura de pantalla nativa capturada instantáneamente! ({{size}} bytes)",
+    "nativeScreenshotFailed": "Error al procesar la captura de pantalla nativa",
+    "noScreenshotData": "No se recibieron datos de captura de pantalla",
+    "noImageData": "No se recibieron datos de imagen"
+  }
+}

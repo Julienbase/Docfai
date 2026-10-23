@@ -1,0 +1,127 @@
+{
+  "header": {
+    "title": "Înregistrare Ecran",
+    "noProject": "Nicio proiect selectat"
+  },
+  "hints": {
+    "show": "Afișare indicii",
+    "hide": "Ascundere indicii"
+  },
+  "noProject": {
+    "prompt": "Creați un proiect nou pentru a începe",
+    "description": "Aveți nevoie de un proiect înainte de a putea înregistra. Înregistrările și pașii documentației vor fi salvați în proiect.",
+    "createButton": "Creare Proiect Nou"
+  },
+  "source": {
+    "heading": "Selectare Sursă"
+  },
+  "settings": {
+    "heading": "Setări",
+    "summary": "{{quality}} · {{fps}} FPS · Mic {{micState}}",
+    "micOn": "ACTIV",
+    "micOff": "INACTIV",
+    "quality": {
+      "label": "Calitate",
+      "fhd": "1080p Full HD",
+      "2k": "1440p 2K (QHD)"
+    },
+    "frameRate": {
+      "label": "Viteza Fotogramelor"
+    },
+    "microphone": {
+      "label": "Microfon",
+      "on": "Microfon ACTIV",
+      "off": "Microfon INACTIV",
+      "noDevice": "Nicio microfon detectat",
+      "deviceLabel": "Dispozitiv Microfon",
+      "default": "Microfon Implicit"
+    }
+  },
+  "controls": {
+    "recording": "Înregistrare",
+    "paused": "Pauză",
+    "stepsMarked": "{{count}} pas marcat cu F10",
+    "stepsMarked_other": "{{count}} pași marcați cu F10",
+    "preview": "Previzualizare Sursă",
+    "start": "Început Înregistrare",
+    "pause": "Pauză",
+    "resume": "Reluare",
+    "stop": "Oprire"
+  },
+  "bookmark": {
+    "title": "Apăsați F10 pentru a marca pași documentație",
+    "description": "Marcați momente importante în timp ce înregistrați. Fiecare marcaj devine pas documentație cu captură extrasă automat."
+  },
+  "upload": {
+    "button": "Încărcare Video",
+    "uploading": "Încărcare... {{progress}}%"
+  },
+  "preview": {
+    "selectPrompt": "Selectați o sursă din bară laterală",
+    "clickPrompt": "Faceți clic pe \"Previzualizare Sursă\" pentru a vedea ce veți înregistra",
+    "rec": "ÎNR",
+    "pausedOverlay": "PAUZĂ",
+    "steps": "{{count}} pas",
+    "steps_other": "{{count}} pași"
+  },
+  "modal": {
+    "title": "Criere Proiect Nou",
+    "projectName": "Nume Proiect *",
+    "projectNamePlaceholder": "Introduceți numele proiectului",
+    "description": "Descriere (Opțional)",
+    "descriptionPlaceholder": "Introduceți descrierea proiectului",
+    "cancel": "Anulare",
+    "create": "Criere Proiect"
+  },
+  "coach": {
+    "sourceTitle": "Alegeți ce doriți să înregistrați",
+    "sourceDesc": "Alegeți ecran complet sau o fereastră specifică. Faceți clic pe o placă pentru o selecta — veți vedea o bordură albastră pe sursa aleasă.",
+    "startTitle": "Început înregistrare",
+    "startDesc": "Când sunteți gata, faceți clic pe acest buton pentru a începe captura. Puteți face pauză sau opri oricând din același loc.",
+    "stopTitle": "Oprire și editare",
+    "stopDesc": "Oprirea vă trimite direct la editor cu înregistrarea dumneavoastră și toate marcajele F10 gata de transformare în pași.",
+    "bookmarkTitle": "Marcați momente cheie cu F10",
+    "bookmarkDesc": "În timp ce înregistrați, apăsați F10 oricând se întâmplă ceva important. Fiecare apăsare devine pas documentație cu captură automată.",
+    "settingsTitle": "Reglare calitate și audio",
+    "settingsDesc": "Extindeți Setări pentru a modifica rezoluția, viteza fotogramelor, sau pentru a activa microfonul înainte de înregistrare."
+  },
+  "toast": {
+    "bookmarkAdded": "Marcaj adăugat la {{time}}",
+    "videoStarted": "Înregistrare video începută pentru {{source}}",
+    "videoSaved": "Video salvat la: {{path}}",
+    "videoSaveFailed": "Eșec la salvarea video: {{error}}",
+    "videoSaveError": "Eșec la salvarea înregistrării video",
+    "videoError": "Eroare înregistrare video: {{error}}",
+    "videoRecordingError": "A apărut o eroare de înregistrare video",
+    "electronRequired": "Această aplicație necesită Electron pentru a funcționa corect.",
+    "loadSourcesFailed": "Eșec la încărcarea surselor de înregistrare",
+    "micDenied": "Permisiune microfon refuzată. Înregistrarea vocii nu va fi disponibilă.",
+    "noSource": "Vă rugăm, selectați mai întâi o sursă de înregistrare.",
+    "micFailed": "Eșec la accesarea microfonului. Continuare doar cu video.",
+    "previewFailed": "Eșec la inițierea previzualizării video. Încercați selectarea sursei din nou.",
+    "permissionDenied": "Permisiune captură ecran refuzată. Vă rugăm, permiteți partajarea ecranului.",
+    "noCapture": "Nicio sursă captură ecran disponibilă.",
+    "notSupported": "Captură ecran nu este suportată în acest mediu.",
+    "overconstrained": "Sursa selectată nu poate fi capturată cu setările curente.",
+    "previewFailedGeneric": "Eșec la inițierea previzualizării. Vă rugăm, încercați din nou.",
+    "noProjectSelected": "Nicio proiect selectat",
+    "noSourceSelected": "Vă rugăm, selectați o sursă de înregistrare",
+    "micFailedRecording": "Eșec la accesarea microfonului. Înregistrare fără audio.",
+    "recordingStarted": "Înregistrare video începută! (Format: {{format}})",
+    "stopFailed": "Eșec la oprire corespunzătoare înregistrare",
+    "recordingSaved": "Înregistrare video oprit și salvat!",
+    "noVideoData": "Nicio dată video înregistrată. Vă rugăm, încercați din nou.",
+    "videoFileSaveFailed": "Eșec la salvarea fișierului video",
+    "noProjectForSave": "Vă rugăm, selectați un proiect înainte de înregistrare.",
+    "projectCreated": "Proiect creat cu succes!",
+    "projectFolderFailed": "Eșec la crearea structurii dosarului proiectului",
+    "invalidFileType": "Vă rugăm, selectați fișier video WebM sau MP4",
+    "uploadSuccess": "Video încărcat cu succes: {{filename}}",
+    "uploadFailed": "Încărcare eșuată: {{error}}",
+    "projectSelected": "Proiect \"{{name}}\" selectat",
+    "recordingPaused": "Înregistrare în pauză",
+    "recordingResumed": "Înregistrare reluată",
+    "noProjectName": "Vă rugăm, introduceți un nume de proiect",
+    "previewFailedMessage": "Eșec la inițierea previzualizării: {{message}}"
+  }
+}

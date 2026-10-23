@@ -1,0 +1,93 @@
+{
+  "panel": {
+    "heading": "Document Template",
+    "selectPlaceholder": "Select a template for your export",
+    "tabSelect": "Select Template",
+    "tabCustomize": "Customize",
+    "customizeLink": "Customize colors & fonts →",
+    "selected": "Selected:"
+  },
+  "selector": {
+    "heading": "Document Template",
+    "available": "{{count}} templates available",
+    "categories": {
+      "compliance": "Compliance & Regulatory",
+      "operations": "Operations & Processes",
+      "training": "Training & Education",
+      "technical": "Technical Documentation"
+    }
+  },
+  "templates": {
+    "sop": {
+      "name": "Standard Operating Procedure (SOP)",
+      "description": "Compliance-ready process documentation with revision tracking, approval sections, and structured layout. Ideal for regulated industries."
+    },
+    "work-instruction": {
+      "name": "Work Instruction",
+      "description": "Clean, action-oriented documentation with numbered steps and prominent visuals. Ideal for shop-floor or operational tasks."
+    },
+    "training-manual": {
+      "name": "Training Manual",
+      "description": "Educational documentation with learning objectives, visual-focused layout, checkpoints, and summary sections."
+    },
+    "user-guide": {
+      "name": "User Manual / Guide",
+      "description": "User-friendly documentation with clear navigation, annotated screenshots, and chapter-based structure."
+    },
+    "technical-spec": {
+      "name": "Technical Specification",
+      "description": "Structured technical documentation with detailed specifications, diagrams support, and versioning."
+    }
+  },
+  "customizer": {
+    "heading": "Customize Template",
+    "save": "Save Settings",
+    "saving": "Saving...",
+    "saved": "Saved!",
+    "reset": "Reset",
+    "sections": {
+      "colors": "Color Scheme",
+      "typography": "Typography",
+      "branding": "Branding",
+      "document": "Document Info"
+    },
+    "colors": {
+      "presets": "Quick Presets",
+      "custom": "Custom Colors",
+      "primary": "Primary",
+      "secondary": "Secondary",
+      "accent": "Accent",
+      "text": "Text",
+      "headerBg": "Header BG",
+      "headerText": "Header Text"
+    },
+    "typography": {
+      "combinations": "Font Combinations",
+      "headingFont": "Heading Font",
+      "bodyFont": "Body Font"
+    },
+    "branding": {
+      "logo": "Company Logo",
+      "changeLogo": "Change Logo",
+      "uploadLogo": "Upload Logo",
+      "companyName": "Company Name",
+      "companyNamePlaceholder": "Enter company name"
+    },
+    "document": {
+      "documentId": "Document ID",
+      "documentIdPlaceholder": "e.g., SOP-001",
+      "revision": "Revision",
+      "revisionPlaceholder": "e.g., 1.0",
+      "confidentiality": "Confidentiality Level",
+      "public": "Public",
+      "internal": "Internal Use Only",
+      "confidential": "Confidential",
+      "restricted": "Restricted"
+    },
+    "preview": {
+      "heading": "Preview",
+      "hide": "Hide",
+      "show": "Show"
+    }
+  }
+}

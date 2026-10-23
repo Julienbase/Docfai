@@ -1,0 +1,93 @@
+{
+  "panel": {
+    "heading": "Șablon Document",
+    "selectPlaceholder": "Selectare șablon pentru exportul dumneavoastră",
+    "tabSelect": "Selectare Șablon",
+    "tabCustomize": "Personalizare",
+    "customizeLink": "Personalizare culori și fonturi →",
+    "selected": "Selectat:"
+  },
+  "selector": {
+    "heading": "Șablon Document",
+    "available": "{{count}} șabloane disponibile",
+    "categories": {
+      "compliance": "Conformitate și Reglementare",
+      "operations": "Operații și Procese",
+      "training": "Instruire și Educație",
+      "technical": "Documentație Tehnică"
+    }
+  },
+  "templates": {
+    "sop": {
+      "name": "Procedură Standard de Operare (SOP)",
+      "description": "Documentație proces gata de conformitate cu urmărire revizii, secțiuni de aprobare și dispoziție structurată. Ideal pentru industrii reglementate."
+    },
+    "work-instruction": {
+      "name": "Instrucție de Lucru",
+      "description": "Documentație curată, orientată pe acțiune cu pași numerotați și imagini prominente. Ideal pentru sarcini pe teren sau operaționale."
+    },
+    "training-manual": {
+      "name": "Manual de Instruire",
+      "description": "Documentație educațională cu obiective de învățare, dispoziție focusată pe imagini, puncte de control și secțiuni rezumat."
+    },
+    "user-guide": {
+      "name": "Manual Utilizator / Ghid",
+      "description": "Documentație prietenoasă cu utilizatorul cu navigare clară, capturi adnotate și structură pe bază de capitole."
+    },
+    "technical-spec": {
+      "name": "Specificație Tehnică",
+      "description": "Documentație tehnică structurată cu specificații detaliate, suport diagrame și versioning."
+    }
+  },
+  "customizer": {
+    "heading": "Personalizare Șablon",
+    "save": "Salvare Setări",
+    "saving": "Salvare...",
+    "saved": "Salvat!",
+    "reset": "Resetare",
+    "sections": {
+      "colors": "Schema Culori",
+      "typography": "Tipografie",
+      "branding": "Branding",
+      "document": "Informații Document"
+    },
+    "colors": {
+      "presets": "Presetări Rapide",
+      "custom": "Culori Personalizate",
+      "primary": "Primar",
+      "secondary": "Secundar",
+      "accent": "Accent",
+      "text": "Text",
+      "headerBg": "Fundal Antet",
+      "headerText": "Text Antet"
+    },
+    "typography": {
+      "combinations": "Combinații Fonturi",
+      "headingFont": "Font Titlu",
+      "bodyFont": "Font Corp"
+    },
+    "branding": {
+      "logo": "Logo Companie",
+      "changeLogo": "Schimbare Logo",
+      "uploadLogo": "Încărcare Logo",
+      "companyName": "Nume Companie",
+      "companyNamePlaceholder": "Introduceți nume companie"
+    },
+    "document": {
+      "documentId": "ID Document",
+      "documentIdPlaceholder": "de exemplu, SOP-001",
+      "revision": "Reviziune",
+      "revisionPlaceholder": "de exemplu, 1.0",
+      "confidentiality": "Nivel Confidențialitate",
+      "public": "Public",
+      "internal": "Doar Utilizare Internă",
+      "confidential": "Confidențial",
+      "restricted": "Restricționat"
+    },
+    "preview": {
+      "heading": "Previzualizare",
+      "hide": "Ascundere",
+      "show": "Afișare"
+    }
+  }
+}

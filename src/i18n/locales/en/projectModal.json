@@ -1,0 +1,111 @@
+{
+  "noDescription": "No description",
+  "hints": {
+    "show": "Show hints",
+    "hide": "Hide hints"
+  },
+  "close": "Close",
+  "cancel": "Cancel",
+  "save": "Save",
+  "saving": "Saving...",
+  "delete": "Delete",
+  "newProject": {
+    "heading": "How do you want to capture?",
+    "subtitle": "Choose a capture mode to get started. This can't be changed later.",
+    "videoTitle": "Video Recording",
+    "videoDesc": "Record your screen with audio narration, then auto-generate steps from the video.",
+    "videoBestFor": "Best for: long workflows across multiple apps",
+    "screenshotsTitle": "Step-by-Step Screenshots",
+    "screenshotsDesc": "Capture each click as a numbered step with automatic element detection.",
+    "screenshotsBestFor": "Best for: click-by-click tutorials with annotations",
+    "startCapturing": "Start Capturing",
+    "startRecording": "Start Recording"
+  },
+  "security": {
+    "notesEncrypted": "All notes are encrypted and stored securely"
+  },
+  "status": {
+    "completed": "Completed",
+    "recording": "Recording",
+    "editing": "Editing",
+    "draft": "Draft"
+  },
+  "summary": {
+    "videoRecording": "Video Recording",
+    "screenshots": "Screenshots",
+    "recordings_one": "{{count}} recording",
+    "recordings_other": "{{count}} recordings",
+    "screenshotsCount_one": "{{count}} screenshot",
+    "screenshotsCount_other": "{{count}} screenshots",
+    "updated": "Updated {{date}}"
+  },
+  "actions": {
+    "editSteps": "Edit Steps",
+    "export": "Export",
+    "retake": "Retake",
+    "addMore": "Add More",
+    "saveVersion": "Save Version",
+    "saveVersionTitle": "Save a backup version"
+  },
+  "tabs": {
+    "notes": "Notes ({{count}})",
+    "versions": "Versions ({{count}})"
+  },
+  "notes": {
+    "title": "Project Notes",
+    "add": "Add Note",
+    "placeholder": "Write your note here...",
+    "loading": "Loading notes...",
+    "emptyTitle": "No notes yet",
+    "emptySubtitle": "Add your first note to get started",
+    "encrypted": "Encrypted"
+  },
+  "versions": {
+    "emptyTitle": "No versions yet",
+    "emptySubtitle": "Versions are created automatically when you export the project",
+    "triggerExport": "Export",
+    "triggerBackup": "Backup",
+    "restore": "Restore",
+    "restoring": "Restoring...",
+    "confirmRestore": "Confirm Restore",
+    "restorePrompt": "This will replace your current project with version {{n}}. Are you sure?",
+    "deletePrompt": "Delete version {{n}}? This cannot be undone.",
+    "showInFolder": "Show in folder",
+    "deleteThis": "Delete this version",
+    "restoreThis": "Restore this version",
+    "hintSteps": "Documentation steps",
+    "hintScreenshots": "Screenshots",
+    "hintRecordings": "Recordings"
+  },
+  "toast": {
+    "notesLoadFailed": "Failed to load notes",
+    "enterNote": "Please enter note content",
+    "userNotAuth": "User not authenticated",
+    "noteAdded": "Note added successfully",
+    "noteAddFailed": "Failed to add note",
+    "noteDeleted": "Note deleted successfully",
+    "noteDeleteFailed": "Failed to delete note",
+    "versionDeleted": "Version deleted",
+    "versionDeleteFailed": "Failed to delete version",
+    "projectRestored": "Project restored successfully. Reload the project to see changes.",
+    "versionRestoreFailed": "Failed to restore version",
+    "versionSaved": "Version {{n}} saved successfully",
+    "versionSaveFailed": "Failed to save version",
+    "selectRecordingType": "Please select a recording type",
+    "cannotChangeType": "Cannot change recording type on projects with existing content",
+    "projectFilesCleared": "Project files cleared for retake",
+    "clearFilesFailed": "Failed to clear project files"
+  },
+  "coach": {
+    "editStepsTitle": "Edit your steps",
+    "editStepsDesc": "Open the editor to refine titles, descriptions, annotations, and reorder steps before exporting.",
+    "exportTitle": "Export the project",
+    "exportDesc": "Generate a PDF, DOCX, HTML, or PPTX.",
+    "retakeTitle": "Add or retake steps",
+    "retakeDesc": "Capture additional screenshots or re-record portions without starting a new project.",
+    "saveVersionTitle": "Save a version",
+    "saveVersionDesc": "Snapshot the current state so you can roll back if later edits don't work out.",
+    "addNoteTitle": "Capture context in notes",
+    "addNoteDesc": "Jot down requirements, feedback, or decisions tied to this project. Notes are encrypted on disk."
+  }
+}

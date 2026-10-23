@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "dashboard": "Tableau de Bord",
+    "import": "Importer",
+    "help": "Aide",
+    "settings": "Paramètres",
+    "pricing": "Tarification",
+    "subscriptionRequired": "Abonnement Requis",
+    "subscribeHint": "Abonnez-vous à un plan dans Tarification pour déverrouiller toutes les fonctionnalités.",
+    "signOut": "Se Déconnecter"
+  },
+  "navBlock": {
+    "recordingTitle": "Enregistrement en Cours",
+    "captureTitle": "Capture en Cours",
+    "recordingBody": "Un enregistrement d'écran s'exécute actuellement. Veuillez arrêter l'enregistrement avant de naviguer.",
+    "captureBody": "La capture d'écran est actuellement active. Veuillez arrêter la capture avant de naviguer.",
+    "goBack": "Retour"
+  },
+  "action": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "create": "Créer",
+    "close": "Fermer"
+  },
+  "language": {
+    "label": "Langue",
+    "en": "English",
+    "de": "Deutsch",
+    "es": "Español",
+    "fr": "Français",
+    "ro": "Română",
+    "it": "Italiano"
+  },
+  "theme": {
+    "label": "Thème",
+    "light": "Clair",
+    "dark": "Sombre",
+    "system": "Système"
+  },
+  "coach": {
+    "ok": "OK"
+  },
+  "settings": {
+    "accountTitle": "Paramètres du Compte",
+    "general": "Paramètres Généraux",
+    "recordingDefaults": "Paramètres d'Enregistrement par Défaut",
+    "quality": "Qualité",
+    "frameRate": "Fréquence d'Images",
+    "saveSettings": "Enregistrer les Paramètres",
+    "saved": "Paramètres Enregistrés"
+  }
+}

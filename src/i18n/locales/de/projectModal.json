@@ -1,0 +1,111 @@
+{
+  "noDescription": "Keine Beschreibung",
+  "hints": {
+    "show": "Hinweise einblenden",
+    "hide": "Hinweise ausblenden"
+  },
+  "close": "Schließen",
+  "cancel": "Abbrechen",
+  "save": "Speichern",
+  "saving": "Speichern...",
+  "delete": "Löschen",
+  "newProject": {
+    "heading": "Wie möchten Sie aufnehmen?",
+    "subtitle": "Wählen Sie einen Aufnahmemodus, um zu starten. Dies kann später nicht geändert werden.",
+    "videoTitle": "Videoaufnahme",
+    "videoDesc": "Nehmen Sie Ihren Bildschirm mit Audionarration auf und generieren Sie anschließend automatisch Schritte aus dem Video.",
+    "videoBestFor": "Am besten für: lange Arbeitsabläufe über mehrere Apps",
+    "screenshotsTitle": "Schritt-für-Schritt-Screenshots",
+    "screenshotsDesc": "Erfassen Sie jeden Klick als nummerierten Schritt mit automatischer Elementerkennung.",
+    "screenshotsBestFor": "Am besten für: Klick-für-Klick-Anleitungen mit Anmerkungen",
+    "startCapturing": "Aufnahme starten",
+    "startRecording": "Aufnahme starten"
+  },
+  "security": {
+    "notesEncrypted": "Alle Notizen werden verschlüsselt und sicher gespeichert"
+  },
+  "status": {
+    "completed": "Abgeschlossen",
+    "recording": "Aufnahme",
+    "editing": "Bearbeitung",
+    "draft": "Entwurf"
+  },
+  "summary": {
+    "videoRecording": "Videoaufnahme",
+    "screenshots": "Screenshots",
+    "recordings_one": "{{count}} Aufnahme",
+    "recordings_other": "{{count}} Aufnahmen",
+    "screenshotsCount_one": "{{count}} Screenshot",
+    "screenshotsCount_other": "{{count}} Screenshots",
+    "updated": "Aktualisiert {{date}}"
+  },
+  "actions": {
+    "editSteps": "Schritte bearbeiten",
+    "export": "Exportieren",
+    "retake": "Neu aufnehmen",
+    "addMore": "Mehr hinzufügen",
+    "saveVersion": "Version speichern",
+    "saveVersionTitle": "Sicherungsversion speichern"
+  },
+  "tabs": {
+    "notes": "Notizen ({{count}})",
+    "versions": "Versionen ({{count}})"
+  },
+  "notes": {
+    "title": "Projektnotizen",
+    "add": "Notiz hinzufügen",
+    "placeholder": "Schreiben Sie hier Ihre Notiz...",
+    "loading": "Notizen werden geladen...",
+    "emptyTitle": "Noch keine Notizen",
+    "emptySubtitle": "Fügen Sie Ihre erste Notiz hinzu, um zu beginnen",
+    "encrypted": "Verschlüsselt"
+  },
+  "versions": {
+    "emptyTitle": "Noch keine Versionen",
+    "emptySubtitle": "Versionen werden automatisch erstellt, wenn Sie das Projekt exportieren",
+    "triggerExport": "Export",
+    "triggerBackup": "Sicherung",
+    "restore": "Wiederherstellen",
+    "restoring": "Wird wiederhergestellt...",
+    "confirmRestore": "Wiederherstellung bestätigen",
+    "restorePrompt": "Dies ersetzt Ihr aktuelles Projekt durch Version {{n}}. Sind Sie sicher?",
+    "deletePrompt": "Version {{n}} löschen? Dies kann nicht rückgängig gemacht werden.",
+    "showInFolder": "Im Ordner anzeigen",
+    "deleteThis": "Diese Version löschen",
+    "restoreThis": "Diese Version wiederherstellen",
+    "hintSteps": "Dokumentationsschritte",
+    "hintScreenshots": "Screenshots",
+    "hintRecordings": "Aufnahmen"
+  },
+  "toast": {
+    "notesLoadFailed": "Notizen konnten nicht geladen werden",
+    "enterNote": "Bitte geben Sie einen Notizinhalt ein",
+    "userNotAuth": "Benutzer nicht authentifiziert",
+    "noteAdded": "Notiz erfolgreich hinzugefügt",
+    "noteAddFailed": "Notiz konnte nicht hinzugefügt werden",
+    "noteDeleted": "Notiz erfolgreich gelöscht",
+    "noteDeleteFailed": "Notiz konnte nicht gelöscht werden",
+    "versionDeleted": "Version gelöscht",
+    "versionDeleteFailed": "Version konnte nicht gelöscht werden",
+    "projectRestored": "Projekt erfolgreich wiederhergestellt. Laden Sie das Projekt neu, um die Änderungen zu sehen.",
+    "versionRestoreFailed": "Version konnte nicht wiederhergestellt werden",
+    "versionSaved": "Version {{n}} erfolgreich gespeichert",
+    "versionSaveFailed": "Version konnte nicht gespeichert werden",
+    "selectRecordingType": "Bitte wählen Sie einen Aufnahmetyp",
+    "cannotChangeType": "Aufnahmetyp kann bei Projekten mit vorhandenen Inhalten nicht geändert werden",
+    "projectFilesCleared": "Projektdateien für Neuaufnahme gelöscht",
+    "clearFilesFailed": "Projektdateien konnten nicht gelöscht werden"
+  },
+  "coach": {
+    "editStepsTitle": "Schritte bearbeiten",
+    "editStepsDesc": "Öffnen Sie den Editor, um Titel, Beschreibungen und Anmerkungen zu verfeinern und Schritte vor dem Export neu zu ordnen.",
+    "exportTitle": "Projekt exportieren",
+    "exportDesc": "Erstellen Sie ein PDF, DOCX, HTML oder PPTX.",
+    "retakeTitle": "Schritte hinzufügen oder neu aufnehmen",
+    "retakeDesc": "Nehmen Sie zusätzliche Screenshots auf oder zeichnen Sie Teile neu auf, ohne ein neues Projekt zu starten.",
+    "saveVersionTitle": "Version speichern",
+    "saveVersionDesc": "Erstellen Sie eine Momentaufnahme des aktuellen Zustands, um bei Bedarf zurückzusetzen.",
+    "addNoteTitle": "Kontext in Notizen festhalten",
+    "addNoteDesc": "Halten Sie Anforderungen, Rückmeldungen oder Entscheidungen zu diesem Projekt fest. Notizen werden verschlüsselt gespeichert."
+  }
+}

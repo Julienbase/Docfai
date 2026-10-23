@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "dashboard": "Übersicht",
+    "import": "Importieren",
+    "help": "Hilfe",
+    "settings": "Einstellungen",
+    "pricing": "Preise",
+    "subscriptionRequired": "Abonnement erforderlich",
+    "subscribeHint": "Wählen Sie unter „Preise“ ein Abonnement, um alle Funktionen freizuschalten.",
+    "signOut": "Abmelden"
+  },
+  "navBlock": {
+    "recordingTitle": "Aufnahme läuft",
+    "captureTitle": "Aufnahme läuft",
+    "recordingBody": "Eine Bildschirmaufnahme läuft gerade. Bitte beenden Sie die Aufnahme, bevor Sie die Seite verlassen.",
+    "captureBody": "Screenshot-Aufnahme ist aktiv. Bitte beenden Sie die Aufnahme, bevor Sie die Seite verlassen.",
+    "goBack": "Zurück"
+  },
+  "action": {
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "create": "Erstellen",
+    "close": "Schließen"
+  },
+  "language": {
+    "label": "Sprache",
+    "en": "English",
+    "de": "Deutsch",
+    "es": "Español",
+    "fr": "Français",
+    "ro": "Română",
+    "it": "Italiano"
+  },
+  "theme": {
+    "label": "Design",
+    "light": "Hell",
+    "dark": "Dunkel",
+    "system": "System"
+  },
+  "coach": {
+    "ok": "OK"
+  },
+  "settings": {
+    "accountTitle": "Kontoeinstellungen",
+    "general": "Allgemeine Einstellungen",
+    "recordingDefaults": "Aufnahme-Standardwerte",
+    "quality": "Qualität",
+    "frameRate": "Bildrate",
+    "saveSettings": "Einstellungen speichern",
+    "saved": "Einstellungen gespeichert"
+  }
+}

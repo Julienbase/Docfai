@@ -1,0 +1,111 @@
+{
+  "noDescription": "Sin descripción",
+  "hints": {
+    "show": "Mostrar sugerencias",
+    "hide": "Ocultar sugerencias"
+  },
+  "close": "Cerrar",
+  "cancel": "Cancelar",
+  "save": "Guardar",
+  "saving": "Guardando...",
+  "delete": "Eliminar",
+  "newProject": {
+    "heading": "¿Cómo deseas capturar?",
+    "subtitle": "Elige un modo de captura para comenzar. Esto no se puede cambiar después.",
+    "videoTitle": "Grabación de Video",
+    "videoDesc": "Graba tu pantalla con narración de audio, luego genera pasos automáticamente desde el video.",
+    "videoBestFor": "Mejor para: flujos de trabajo largos en múltiples aplicaciones",
+    "screenshotsTitle": "Capturas de Pantalla Paso a Paso",
+    "screenshotsDesc": "Captura cada clic como un paso numerado con detección automática de elementos.",
+    "screenshotsBestFor": "Mejor para: tutoriales paso a paso con anotaciones",
+    "startCapturing": "Comenzar a Capturar",
+    "startRecording": "Comenzar a Grabar"
+  },
+  "security": {
+    "notesEncrypted": "Todas las notas están encriptadas y almacenadas de forma segura"
+  },
+  "status": {
+    "completed": "Completado",
+    "recording": "Grabando",
+    "editing": "Editando",
+    "draft": "Borrador"
+  },
+  "summary": {
+    "videoRecording": "Grabación de Video",
+    "screenshots": "Capturas de Pantalla",
+    "recordings_one": "{{count}} grabación",
+    "recordings_other": "{{count}} grabaciones",
+    "screenshotsCount_one": "{{count}} captura de pantalla",
+    "screenshotsCount_other": "{{count}} capturas de pantalla",
+    "updated": "Actualizado {{date}}"
+  },
+  "actions": {
+    "editSteps": "Editar Pasos",
+    "export": "Exportar",
+    "retake": "Repetir",
+    "addMore": "Agregar Más",
+    "saveVersion": "Guardar Versión",
+    "saveVersionTitle": "Guardar una versión de respaldo"
+  },
+  "tabs": {
+    "notes": "Notas ({{count}})",
+    "versions": "Versiones ({{count}})"
+  },
+  "notes": {
+    "title": "Notas del Proyecto",
+    "add": "Agregar Nota",
+    "placeholder": "Escribe tu nota aquí...",
+    "loading": "Cargando notas...",
+    "emptyTitle": "Sin notas aún",
+    "emptySubtitle": "Agrega tu primera nota para comenzar",
+    "encrypted": "Encriptado"
+  },
+  "versions": {
+    "emptyTitle": "Sin versiones aún",
+    "emptySubtitle": "Las versiones se crean automáticamente cuando exportas el proyecto",
+    "triggerExport": "Exportar",
+    "triggerBackup": "Copia de seguridad",
+    "restore": "Restaurar",
+    "restoring": "Restaurando...",
+    "confirmRestore": "Confirmar Restauración",
+    "restorePrompt": "Esto reemplazará tu proyecto actual con la versión {{n}}. ¿Estás seguro?",
+    "deletePrompt": "¿Eliminar versión {{n}}? Esto no se puede deshacer.",
+    "showInFolder": "Mostrar en carpeta",
+    "deleteThis": "Eliminar esta versión",
+    "restoreThis": "Restaurar esta versión",
+    "hintSteps": "Pasos de documentación",
+    "hintScreenshots": "Capturas de Pantalla",
+    "hintRecordings": "Grabaciones"
+  },
+  "toast": {
+    "notesLoadFailed": "Error al cargar las notas",
+    "enterNote": "Por favor ingresa el contenido de la nota",
+    "userNotAuth": "Usuario no autenticado",
+    "noteAdded": "Nota agregada exitosamente",
+    "noteAddFailed": "Error al agregar la nota",
+    "noteDeleted": "Nota eliminada exitosamente",
+    "noteDeleteFailed": "Error al eliminar la nota",
+    "versionDeleted": "Versión eliminada",
+    "versionDeleteFailed": "Error al eliminar la versión",
+    "projectRestored": "Proyecto restaurado exitosamente. Recarga el proyecto para ver los cambios.",
+    "versionRestoreFailed": "Error al restaurar la versión",
+    "versionSaved": "Versión {{n}} guardada exitosamente",
+    "versionSaveFailed": "Error al guardar la versión",
+    "selectRecordingType": "Por favor selecciona un tipo de grabación",
+    "cannotChangeType": "No se puede cambiar el tipo de grabación en proyectos con contenido existente",
+    "projectFilesCleared": "Archivos del proyecto borrados para repetir",
+    "clearFilesFailed": "Error al borrar los archivos del proyecto"
+  },
+  "coach": {
+    "editStepsTitle": "Edita tus pasos",
+    "editStepsDesc": "Abre el editor para refinar títulos, descripciones, anotaciones y reordenar pasos antes de exportar.",
+    "exportTitle": "Exportar el proyecto",
+    "exportDesc": "Genera un PDF, DOCX, HTML o PPTX.",
+    "retakeTitle": "Agregar o repetir pasos",
+    "retakeDesc": "Captura capturas de pantalla adicionales o re-graba porciones sin iniciar un nuevo proyecto.",
+    "saveVersionTitle": "Guardar una versión",
+    "saveVersionDesc": "Captura el estado actual para que puedas revertir si ediciones posteriores no funcionan.",
+    "addNoteTitle": "Captura contexto en notas",
+    "addNoteDesc": "Anota requisitos, comentarios o decisiones vinculadas a este proyecto. Las notas están encriptadas en disco."
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "noDescription": "Fără descriere",
+  "hints": {
+    "show": "Afișare indicii",
+    "hide": "Ascundere indicii"
+  },
+  "close": "Închidere",
+  "cancel": "Anulare",
+  "save": "Salvare",
+  "saving": "Salvare...",
+  "delete": "Ștergere",
+  "newProject": {
+    "heading": "Cum doriți să capturați?",
+    "subtitle": "Alegeți un mod de captură pentru a începe. Aceasta nu poate fi modificată mai târziu.",
+    "videoTitle": "Înregistrare Video",
+    "videoDesc": "Înregistrați-vă ecranul cu narație audio, apoi generați automat pași din video.",
+    "videoBestFor": "Ideal pentru: fluxuri de lucru lungi pe mai multe aplicații",
+    "screenshotsTitle": "Capturi Pas cu Pas",
+    "screenshotsDesc": "Capturați fiecare clic ca pas numerotat cu detectare automată de elemente.",
+    "screenshotsBestFor": "Ideal pentru: tutoriale pas cu pas cu adnotări",
+    "startCapturing": "Început Captură",
+    "startRecording": "Început Înregistrare"
+  },
+  "security": {
+    "notesEncrypted": "Toate notele sunt criptate și stocate în siguranță"
+  },
+  "status": {
+    "completed": "Completat",
+    "recording": "Înregistrare",
+    "editing": "Editare",
+    "draft": "Ciornă"
+  },
+  "summary": {
+    "videoRecording": "Înregistrare Video",
+    "screenshots": "Capturi",
+    "recordings_one": "{{count}} înregistrare",
+    "recordings_other": "{{count}} înregistrări",
+    "screenshotsCount_one": "{{count}} captură",
+    "screenshotsCount_other": "{{count}} capturi",
+    "updated": "Actualizat {{date}}"
+  },
+  "actions": {
+    "editSteps": "Editare Pași",
+    "export": "Export",
+    "retake": "Retake",
+    "addMore": "Adăugare Mai Mult",
+    "saveVersion": "Salvare Versiune",
+    "saveVersionTitle": "Salvare versiune de backup"
+  },
+  "tabs": {
+    "notes": "Note ({{count}})",
+    "versions": "Versiuni ({{count}})"
+  },
+  "notes": {
+    "title": "Note Proiect",
+    "add": "Adăugare Notă",
+    "placeholder": "Scrieți nota dumneavoastră aici...",
+    "loading": "Încărcare note...",
+    "emptyTitle": "Nicio notă încă",
+    "emptySubtitle": "Adăugați prima notă pentru a începe",
+    "encrypted": "Criptat"
+  },
+  "versions": {
+    "emptyTitle": "Nicio versiune încă",
+    "emptySubtitle": "Versiunile sunt create automat când exportați proiectul",
+    "triggerExport": "Export",
+    "triggerBackup": "Backup",
+    "restore": "Restaurare",
+    "restoring": "Restaurare...",
+    "confirmRestore": "Confirmare Restaurare",
+    "restorePrompt": "Aceasta va înlocui proiectul curent cu versiunea {{n}}. Sunteți sigur?",
+    "deletePrompt": "Ștergere versiune {{n}}? Aceasta nu poate fi anulată.",
+    "showInFolder": "Afișare în dosar",
+    "deleteThis": "Ștergere acestă versiune",
+    "restoreThis": "Restaurare acestă versiune",
+    "hintSteps": "Pași documentație",
+    "hintScreenshots": "Capturi",
+    "hintRecordings": "Înregistrări"
+  },
+  "toast": {
+    "notesLoadFailed": "Eșec la încărcarea note",
+    "enterNote": "Vă rugăm, introduceți conținut notă",
+    "userNotAuth": "Utilizator nu autentificat",
+    "noteAdded": "Notă adăugat cu succes",
+    "noteAddFailed": "Eșec la adăugare notă",
+    "noteDeleted": "Notă șters cu succes",
+    "noteDeleteFailed": "Eșec la ștergere notă",
+    "versionDeleted": "Versiune șters",
+    "versionDeleteFailed": "Eșec la ștergere versiune",
+    "projectRestored": "Proiect restaurat cu succes. Reîncărcați proiectul pentru a vedea modificări.",
+    "versionRestoreFailed": "Eșec la restaurare versiune",
+    "versionSaved": "Versiune {{n}} salvat cu succes",
+    "versionSaveFailed": "Eșec la salvare versiune",
+    "selectRecordingType": "Vă rugăm, selectați un tip de înregistrare",
+    "cannotChangeType": "Nu se poate schimba tipul de înregistrare pe proiecte cu conținut existent",
+    "projectFilesCleared": "Fișiere proiect șterse pentru retake",
+    "clearFilesFailed": "Eșec la ștergere fișiere proiect"
+  },
+  "coach": {
+    "editStepsTitle": "Editare pași dumneavoastră",
+    "editStepsDesc": "Deschideți editorul pentru a rafina titluri, descrieri, adnotări și reordonare pași înainte de export.",
+    "exportTitle": "Export proiect",
+    "exportDesc": "Generați un PDF, DOCX, HTML sau PPTX.",
+    "retakeTitle": "Adăugare sau retake pași",
+    "retakeDesc": "Capturați capturi suplimentare sau re-înregistrați porțiuni fără a porni un proiect nou.",
+    "saveVersionTitle": "Salvare versiune",
+    "saveVersionDesc": "Snapshot starea curentă pentru a putea reveni dacă ediții ulterioare nu funcționează.",
+    "addNoteTitle": "Capturare context în note",
+    "addNoteDesc": "Notați cerințe, feedback, sau decizii legate de acest proiect. Notele sunt criptate pe disc."
+  }
+}

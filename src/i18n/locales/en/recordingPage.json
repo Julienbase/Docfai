@@ -1,0 +1,127 @@
+{
+  "header": {
+    "title": "Screen Recording",
+    "noProject": "No project selected"
+  },
+  "hints": {
+    "show": "Show hints",
+    "hide": "Hide hints"
+  },
+  "noProject": {
+    "prompt": "Create a new project to get started",
+    "description": "You need a project before you can start recording. Your recordings and documentation steps will be saved inside the project.",
+    "createButton": "Create New Project"
+  },
+  "source": {
+    "heading": "Select Source"
+  },
+  "settings": {
+    "heading": "Settings",
+    "summary": "{{quality}} · {{fps}} FPS · Mic {{micState}}",
+    "micOn": "ON",
+    "micOff": "OFF",
+    "quality": {
+      "label": "Quality",
+      "fhd": "1080p Full HD",
+      "2k": "1440p 2K (QHD)"
+    },
+    "frameRate": {
+      "label": "Frame Rate"
+    },
+    "microphone": {
+      "label": "Microphone",
+      "on": "Microphone ON",
+      "off": "Microphone OFF",
+      "noDevice": "No microphone detected",
+      "deviceLabel": "Microphone Device",
+      "default": "Default Microphone"
+    }
+  },
+  "controls": {
+    "recording": "Recording",
+    "paused": "Paused",
+    "stepsMarked": "{{count}} step marked with F10",
+    "stepsMarked_other": "{{count}} steps marked with F10",
+    "preview": "Preview Source",
+    "start": "Start Recording",
+    "pause": "Pause",
+    "resume": "Resume",
+    "stop": "Stop"
+  },
+  "bookmark": {
+    "title": "Press F10 to mark documentation steps",
+    "description": "Mark important moments while recording. Each bookmark becomes a documentation step with an auto-extracted screenshot."
+  },
+  "upload": {
+    "button": "Upload Video",
+    "uploading": "Uploading... {{progress}}%"
+  },
+  "preview": {
+    "selectPrompt": "Select a source from the sidebar",
+    "clickPrompt": "Click \"Preview Source\" to see what you'll record",
+    "rec": "REC",
+    "pausedOverlay": "PAUSED",
+    "steps": "{{count}} step",
+    "steps_other": "{{count}} steps"
+  },
+  "modal": {
+    "title": "Create New Project",
+    "projectName": "Project Name *",
+    "projectNamePlaceholder": "Enter project name",
+    "description": "Description (Optional)",
+    "descriptionPlaceholder": "Enter project description",
+    "cancel": "Cancel",
+    "create": "Create Project"
+  },
+  "coach": {
+    "sourceTitle": "Pick what to record",
+    "sourceDesc": "Choose a full screen or a specific window. Click a tile to select it — you'll see a blue border on the chosen source.",
+    "startTitle": "Start recording",
+    "startDesc": "When ready, click this button to begin capturing. You can pause or stop anytime from the same spot.",
+    "stopTitle": "Stop and edit",
+    "stopDesc": "Stopping sends you straight to the editor with your recording and all F10 bookmarks ready to turn into steps.",
+    "bookmarkTitle": "Mark key moments with F10",
+    "bookmarkDesc": "While recording, press F10 whenever something important happens. Each press becomes a documentation step with an auto screenshot.",
+    "settingsTitle": "Tune quality & audio",
+    "settingsDesc": "Expand Settings to change resolution, frame rate, or enable your microphone before recording."
+  },
+  "toast": {
+    "bookmarkAdded": "Bookmark added at {{time}}",
+    "videoStarted": "Video recording started for {{source}}",
+    "videoSaved": "Video saved to: {{path}}",
+    "videoSaveFailed": "Failed to save video: {{error}}",
+    "videoSaveError": "Failed to save video recording",
+    "videoError": "Video recording error: {{error}}",
+    "videoRecordingError": "Video recording error occurred",
+    "electronRequired": "This application requires Electron to function properly.",
+    "loadSourcesFailed": "Failed to load recording sources",
+    "micDenied": "Microphone permission denied. Voice recording will not be available.",
+    "noSource": "Please select a recording source first.",
+    "micFailed": "Failed to access microphone. Continuing with video only.",
+    "previewFailed": "Failed to start video preview. Try selecting the source again.",
+    "permissionDenied": "Screen capture permission denied. Please allow screen sharing.",
+    "noCapture": "No screen capture source available.",
+    "notSupported": "Screen capture not supported in this environment.",
+    "overconstrained": "Selected source cannot be captured with current settings.",
+    "previewFailedGeneric": "Failed to start preview. Please try again.",
+    "noProjectSelected": "No project selected",
+    "noSourceSelected": "Please select a recording source",
+    "micFailedRecording": "Failed to access microphone. Recording without audio.",
+    "recordingStarted": "Video recording started! (Format: {{format}})",
+    "stopFailed": "Failed to stop recording properly",
+    "recordingSaved": "Video recording stopped and saved!",
+    "noVideoData": "No video data recorded. Please try recording again.",
+    "videoFileSaveFailed": "Failed to save video file",
+    "noProjectForSave": "Please select a project before recording.",
+    "projectCreated": "Project created successfully!",
+    "projectFolderFailed": "Failed to create project folder structure",
+    "invalidFileType": "Please select a WebM or MP4 video file",
+    "uploadSuccess": "Video uploaded successfully: {{filename}}",
+    "uploadFailed": "Upload failed: {{error}}",
+    "projectSelected": "Project \"{{name}}\" selected",
+    "recordingPaused": "Recording paused",
+    "recordingResumed": "Recording resumed",
+    "noProjectName": "Please enter a project name",
+    "previewFailedMessage": "Failed to start preview: {{message}}"
+  }
+}

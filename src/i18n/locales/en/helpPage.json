@@ -1,0 +1,348 @@
+{
+  "header": {
+    "title": "Help & Documentation",
+    "subtitle": "Learn how to use Docfai to create professional documentation"
+  },
+  "search": {
+    "noResults": "No help topics found matching \"{{query}}\""
+  },
+  "sections": {
+    "gettingStarted": {
+      "title": "Getting Started",
+      "welcome": "Welcome to Docfai",
+      "description": "Docfai is a powerful documentation tool that helps you create step-by-step guides, tutorials, and process documentation using screenshots and video recordings.",
+      "quickStartTitle": "Quick Start Guide:",
+      "quickStart": [
+        "Open Docfai (no account needed)",
+        "Create your first project from the Dashboard",
+        "Choose between Screenshots or Video Recording mode",
+        "Capture your process step-by-step",
+        "Edit and annotate your screenshots",
+        "Export your documentation in your preferred format"
+      ]
+    },
+    "trial": {
+      "title": "Free Trial & Subscription",
+      "trialTitle": "How the 7-Day Free Trial Works",
+      "trialDesc": "Docfai offers a 7-day free trial with full access to all features—no credit card required.",
+      "trialFeaturesTitle": "Trial Features:",
+      "trialFeatures": [
+        "Full access to all documentation features",
+        "Unlimited screenshots and video recordings",
+        "Access to all export formats (PDF, Word, HTML, etc.)",
+        "Cloud integrations (Confluence, SharePoint)",
+        "No credit card required to start"
+      ],
+      "afterTrialTitle": "After the Trial:",
+      "afterTrialDesc": "When your trial ends, you can choose from our subscription plans:",
+      "plans": [
+        "Solo Plan: €20/month or €200/year (save €40)",
+        "Team Plan: €80/month for 5 seats (€16/seat)"
+      ],
+      "subscriptionInfo": "Visit the Pricing page to subscribe or manage your subscription from the Account page."
+    },
+    "projects": {
+      "title": "Creating Projects",
+      "projectManagement": "Project Management",
+      "projectDesc": "Projects are containers for your documentation. Each project can contain multiple recordings and exports.",
+      "createTitle": "Creating a New Project:",
+      "createSteps": [
+        "Go to the Dashboard",
+        "Click the \"New Project\" button",
+        "Enter a project name and optional description",
+        "Click \"Create\""
+      ],
+      "actionsTitle": "Project Actions:",
+      "actions": [
+        "Open: View and manage recordings within the project",
+        "Rename: Change the project name",
+        "Delete: Remove the project and all its recordings (irreversible)",
+        "Export: Export all recordings in the project at once"
+      ]
+    },
+    "screenshots": {
+      "title": "Interactive Screenshots",
+      "screenshotTitle": "Taking Step-by-Step Screenshots",
+      "screenshotDesc": "The Screenshots mode allows you to capture individual steps with full editing capabilities.",
+      "howToTitle": "How to Use:",
+      "howToSteps": [
+        "Navigate to Screenshots from the sidebar",
+        "Select or create a project",
+        "Click \"Take Screenshot\" or press the hotkey (default: F8 or Ctrl+Shift+C )",
+        "The screen capture will open in the editor automatically",
+        "Annotate with rectangles, arrows, text, blur effects, and more",
+        "Add a title and description for the step",
+        "Save the screenshot to your recording"
+      ],
+      "editingToolsTitle": "Editing Tools:",
+      "editingTools": [
+        "Rectangle: Highlight areas of interest",
+        "Circle: Draw circular highlights",
+        "Arrow: Point to specific elements",
+        "Text Box: Add custom text annotations",
+        "Counter: Number sequential steps",
+        "Blur: Hide sensitive information",
+        "Pixelate: Obscure details",
+        "Blackout: Completely hide sections",
+        "Crop: Trim the screenshot to focus area"
+      ],
+      "shortcutsTitle": "Keyboard Shortcuts:",
+      "shortcuts": [
+        "Ctrl + Scroll: Zoom in/out",
+        "Space + Drag: Pan around the image"
+      ]
+    },
+    "videoRecording": {
+      "title": "Video Recording",
+      "recordingTitle": "Recording Process Videos",
+      "recordingDesc": "Record your screen to capture complex processes, then convert them into step-by-step screenshots.",
+      "howToTitle": "How to Record:",
+      "howToSteps": [
+        "Go to Recording from the sidebar",
+        "Select or create a project",
+        "Click \"Start Recording\"",
+        "Choose your screen or application to record",
+        "Perform the steps you want to document",
+        "Click \"Stop Recording\" when done"
+      ],
+      "extractTitle": "Extracting Screenshots from Video:",
+      "extractSteps": [
+        "After recording, the video player will appear",
+        "Scrub through the timeline to find the exact frame",
+        "Click \"Take Screenshot\" at each important step",
+        "Each screenshot opens in the editor for annotation",
+        "Add titles, descriptions, and annotations",
+        "Save to build your documentation sequence"
+      ],
+      "tipsTitle": "Video Tips:",
+      "tips": [
+        "Move slowly and deliberately through each step",
+        "Pause briefly between actions to make screenshot extraction easier",
+        "Keep the recording focused on one process at a time",
+        "Use the video timeline's frame-by-frame controls for precision"
+      ]
+    },
+    "templates": {
+      "title": "Templates",
+      "templatesTitle": "Using Templates",
+      "templatesDesc": "Templates control how your documentation looks when exported. Choose from professional templates or customize your own.",
+      "availableTitle": "Available Templates:",
+      "available": [
+        "Professional: Clean, corporate-friendly design with structured layout",
+        "Modern: Contemporary design with vibrant colors and modern typography",
+        "Minimal: Simple, distraction-free documentation",
+        "Technical: Detailed template for technical documentation with code blocks"
+      ],
+      "customizeTitle": "Customizing Templates:",
+      "customizeDesc": "On the Export page, you can customize:",
+      "customizeOptions": [
+        "Title & Description: Add document header information",
+        "Logo: Upload your company logo",
+        "Colors: Customize primary and accent colors",
+        "Typography: Choose fonts for headings and body text",
+        "Layout: Adjust spacing, margins, and structure"
+      ],
+      "saveTitle": "Saving Template Settings:",
+      "saveDesc": "Click \"Save Template Settings\" to remember your customizations for future exports."
+    },
+    "export": {
+      "title": "Export Formats",
+      "exportTitle": "Exporting Your Documentation",
+      "exportDesc": "Export your documentation in multiple formats to share with your team or integrate into your workflow.",
+      "formatsTitle": "Available Export Formats:",
+      "formats": {
+        "pdf": {
+          "name": "PDF",
+          "desc": "Professional PDF documents with images and formatted text. Perfect for sharing and printing."
+        },
+        "docx": {
+          "name": "Microsoft Word (.docx)",
+          "desc": "Editable Word documents with images and formatting. Great for collaborative editing."
+        },
+        "html": {
+          "name": "HTML",
+          "desc": "Web-ready HTML with embedded images. Ideal for knowledge bases and internal wikis."
+        },
+        "markdown": {
+          "name": "Markdown (.md)",
+          "desc": "Plain text with Markdown formatting. Perfect for GitHub, GitLab, and technical documentation."
+        },
+        "video": {
+          "name": "Video (.mp4)",
+          "desc": "Slideshow video from screenshots with configurable duration per slide."
+        }
+      },
+      "howToTitle": "How to Export:",
+      "howToSteps": [
+        "Go to Export from the sidebar",
+        "Select the project and recording to export",
+        "Choose your template and customize if needed",
+        "Select the export format(s)",
+        "Click \"Export\"",
+        "Choose the save location on your computer"
+      ]
+    },
+    "importExport": {
+      "title": "Import Export Documentation",
+      "importTitle": "Importing/Exporting Existing Documentation",
+      "importDesc": "Import previously exported projects or documentation from other sources. Export your current projects for backup or sharing.",
+      "formatsTitle": "Supported Import Formats:",
+      "formats": [
+        "Docfaizip: Import Docfai project exports",
+        "Images: Import Project screenshots (.png, .jpg)",
+        "Videos: Import Project screen recordings (.mp4, .webm)"
+      ],
+      "howToTitle": "How to Import:",
+      "howToSteps": [
+        "Go to Import from the sidebar",
+        "Click \"Choose File\" or drag and drop files",
+        "Select the project to import into (or create a new one)",
+        "Click \"Import\"",
+        "The imported content will be added to your project"
+      ],
+      "useCasesTitle": "Use Cases:",
+      "useCases": [
+        "Transfer projects between computers",
+        "Collaborate with team members by sharing project files",
+        "Archive and restore old documentation",
+        "Import screenshots from other tools"
+      ]
+    },
+    "connections": {
+      "title": "Cloud Integrations",
+      "connectionsTitle": "Managing Cloud Connections",
+      "connectionsDesc": "Connect Docfai to your cloud platforms to publish documentation directly.",
+      "confluenceTitle": "Confluence Integration:",
+      "confluenceDesc": "Publish documentation directly to Atlassian Confluence.",
+      "confluenceSteps": [
+        "Go to Connections page",
+        "Click \"Connect Confluence\"",
+        "Enter your Confluence site URL (e.g., yourcompany.atlassian.net)",
+        "Enter your email and API token from Confluence settings",
+        "Test the connection",
+        "Save when successful"
+      ],
+      "sharepointTitle": "SharePoint Integration:",
+      "sharepointDesc": "Publish documentation to Microsoft SharePoint.",
+      "sharepointSteps": [
+        "Go to Connections page",
+        "Click \"Connect SharePoint\"",
+        "Enter your SharePoint site URL",
+        "Authenticate using Microsoft credentials",
+        "Select the document library",
+        "Save the connection"
+      ],
+      "usingTitle": "Using Connections:",
+      "usingDesc": "Once connected, you can export directly to these platforms from the Export page:",
+      "usingSteps": [
+        "Select your export format",
+        "Choose \"Publish to Confluence\" or \"Publish to SharePoint\"",
+        "Select the space/library and folder",
+        "Click \"Publish\""
+      ],
+      "managingTitle": "Managing Connections:",
+      "managingSteps": [
+        "Edit: Update connection credentials",
+        "Test: Verify connection is working",
+        "Remove: Delete the connection"
+      ]
+    },
+    "backup": {
+      "title": "Backup & Settings",
+      "backupTitle": "How Backup Works",
+      "backupDesc": "Docfai automatically backs up your projects to ensure your documentation is never lost.",
+      "automaticTitle": "Automatic Backups:",
+      "automaticSteps": [
+        "Projects are saved locally on your computer in real-time",
+        "All changes are automatically persisted to disk",
+        "Encrypted storage ensures your data is secure",
+        "No internet connection required for local backups"
+      ],
+      "configureTitle": "Configuring Backup Location:",
+      "configureSteps": [
+        "Go to Account page",
+        "Scroll to Settings section",
+        "Click \"Backup Settings\"",
+        "Click \"Add Backup Location\"",
+        "Choose a folder on your computer or external drive",
+        "Enable \"Automatic Backup\"",
+        "Set backup frequency (e.g., every hour, daily)"
+      ],
+      "manualTitle": "Manual Backups:",
+      "manualDesc": "You can manually export projects as backups:",
+      "manualSteps": [
+        "Go to Dashboard",
+        "Right-click a project",
+        "Select \"Export Project\"",
+        "Save the file to your backup location"
+      ],
+      "restoreTitle": "Restoring from Backup:",
+      "restoreSteps": [
+        "Go to Import page",
+        "Click \"Choose File\"",
+        "Select your backup file",
+        "Click \"Import\"",
+        "Your project will be restored with all recordings"
+      ],
+      "settingsTitle": "Other Settings:",
+      "settingsOptions": [
+        "Theme: Switch between Light and Dark mode",
+        "Screenshot Hotkey: Customize the global hotkey for screenshots",
+        "Auto-save Interval: Configure how often projects are saved",
+        "Default Export Format: Set your preferred export format"
+      ]
+    },
+    "translation": {
+      "title": "Translation Module",
+      "translationTitle": "Translation Module",
+      "translationDesc": "Docfai offers offline document translation between English and German using a separate Translation Module that is downloaded on demand.",
+      "howItTitle": "How It Works:",
+      "howItSteps": [
+        "When you select a translation language during export, you will be prompted to download the Translation Module (~600 MB)",
+        "The module is downloaded once and stored locally on your computer",
+        "All translations happen offline - no internet connection is needed after the initial download",
+        "No document data is sent to external servers - everything stays on your machine"
+      ],
+      "storageTitle": "Storage Information:",
+      "storageInfo": [
+        "Download size: ~600 MB",
+        "Disk space required: ~1.6 GB (after extraction)",
+        "Location: Stored in your AppData folder (Docfai/translation-module)"
+      ],
+      "languagesTitle": "Supported Languages:",
+      "languages": [
+        "English to German",
+        "German to English"
+      ],
+      "translatedTitle": "What Gets Translated:",
+      "translatedItems": [
+        "Project title",
+        "Project source/description",
+        "Step titles and descriptions"
+      ],
+      "privacyNote": "Privacy: The Translation Module uses Argos Translate, an open-source offline translation engine. Your documents are never sent to any external service. All processing happens locally on your computer."
+    },
+    "shortcuts": {
+      "title": "Keyboard Shortcuts",
+      "shortcutsTitle": "Keyboard Shortcuts",
+      "globalTitle": "Global Shortcuts:",
+      "globalShortcuts": {
+        "screenshot": "Take Screenshot",
+        "screenshotKey": "Ctrl+Shift+C or F8"
+      },
+      "editorTitle": "Image Editor Shortcuts:",
+      "editorShortcuts": {
+        "zoom": "Zoom In/Out",
+        "zoomKey": "Ctrl+Scroll",
+        "pan": "Pan Image",
+        "panKey": "Space+Drag"
+      }
+    }
+  },
+  "footer": {
+    "needHelp": "Need More Help?",
+    "helpDesc": "Can't find what you're looking for? Ask a question or report a bug on GitHub.",
+    "emailSupport": "Report an Issue",
+    "viewDocs": "Project on GitHub"
+  }
+}

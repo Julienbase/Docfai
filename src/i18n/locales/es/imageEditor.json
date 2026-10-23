@@ -1,0 +1,77 @@
+{
+  "title": "Editar Captura de Pantalla e Información del Paso",
+  "nav": {
+    "prevStep": "Paso anterior (se guarda automáticamente)",
+    "nextStep": "Siguiente paso (se guarda automáticamente)",
+    "stepOf": "Paso {{current}} de {{total}}"
+  },
+  "hints": {
+    "show": "Mostrar sugerencias de incorporación",
+    "hide": "Ocultar sugerencias de incorporación"
+  },
+  "tools": {
+    "select": "Herramienta de Selección - Seleccionar, mover y cambiar tamaño de formas",
+    "arrow": "Herramienta de Flecha - Dibujar flechas",
+    "counter": "Herramienta de Contador - Agregar marcadores numerados",
+    "text": "Herramienta de Texto - Agregar cuadros de texto",
+    "crop": "Herramienta de Recorte - Recortar imagen",
+    "blur": "Herramienta de Desenfoque - Ocultar información sensible",
+    "pixelate": "Herramienta de Pixelado - Pixelar áreas sensibles",
+    "blackout": "Herramienta de Oscurecimiento - Ocultar completamente información sensible"
+  },
+  "toolbar": {
+    "colorLabel": "Color:",
+    "colorSelect": "Seleccionar {{color}}",
+    "privacyLabel": "Privacidad:",
+    "sizeLabel": "Tamaño:",
+    "blurLabel": "Desenfoque:",
+    "fontLabel": "Fuente:",
+    "fontSizePx": "{{size}}px",
+    "resetCounter": "Restablecer Contador",
+    "resetCounterTitle": "Restablecer contador a 1",
+    "counterNext": "Siguiente: {{value}}",
+    "viewLabel": "Vista:",
+    "zoomOut": "Alejar",
+    "zoomIn": "Acercar",
+    "resetZoom": "Restablecer Zoom (100%)",
+    "fitToScreen": "Ajustar a la Pantalla",
+    "enterFullscreen": "Entrar en Pantalla Completa",
+    "exitFullscreen": "Salir de Pantalla Completa",
+    "revertCrop": "Revertir Recorte",
+    "revertCropTitle": "Revertir a la imagen original",
+    "save": "Guardar"
+  },
+  "canvas": {
+    "textPlaceholder": "Escribe aquí...",
+    "applyCrop": "✓ Aplicar",
+    "applyCropTitle": "Aplicar recorte (Enter)",
+    "cancelCrop": "✕ Cancelar",
+    "cancelCropTitle": "Cancelar recorte (Escape)",
+    "instructions": "+ desplazamiento para zoom • ",
+    "instructionsEsc": " para salir de pantalla completa",
+    "resizeHandle": "Arrastra para redimensionar"
+  },
+  "stepInfo": {
+    "heading": "Información del Paso",
+    "titleLabel": "Título del Paso",
+    "titlePlaceholder": "Ingresa el título del paso...",
+    "descriptionLabel": "Descripción del Paso",
+    "descriptionPlaceholder": "Describe qué sucede en este paso..."
+  },
+  "coach": {
+    "navTitle": "Navegar entre pasos",
+    "navDesc": "Salta al paso anterior o siguiente — tus ediciones actuales se guardan automáticamente antes de cambiar.",
+    "drawingTitle": "Herramientas de dibujo",
+    "drawingDesc": "Selecciona, dibuja rectángulos o flechas, agrega marcadores numerados, inserta cuadros de texto o recorta la captura.",
+    "colorTitle": "Elige un color",
+    "colorDesc": "Elige el color usado para formas, flechas, cuadros de texto y contadores.",
+    "privacyTitle": "Herramientas de privacidad",
+    "privacyDesc": "Desenfoca, pixela u oscurece información sensible antes de compartir tu documentación.",
+    "stepInfoTitle": "Editar título y descripción del paso",
+    "stepInfoDesc": "Escribe qué está sucediendo en este paso. El formato del editor de texto enriquecido se preserva en la exportación final.",
+    "revertTitle": "Revertir al original",
+    "revertDesc": "Deshace cualquier recorte y restaura la captura de pantalla original completa.",
+    "saveTitle": "Guardar tus cambios",
+    "saveDesc": "Guarda las anotaciones, recortes e información del paso de vuelta al proyecto."
+  }
+}

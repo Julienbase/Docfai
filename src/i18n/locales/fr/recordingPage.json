@@ -1,0 +1,127 @@
+{
+  "header": {
+    "title": "Enregistrement d'Écran",
+    "noProject": "Aucun projet sélectionné"
+  },
+  "hints": {
+    "show": "Afficher les suggestions",
+    "hide": "Masquer les suggestions"
+  },
+  "noProject": {
+    "prompt": "Créez un nouveau projet pour commencer",
+    "description": "Vous avez besoin d'un projet avant de pouvoir commencer à enregistrer. Vos enregistrements et étapes de documentation seront sauvegardés dans le projet.",
+    "createButton": "Créer un Nouveau Projet"
+  },
+  "source": {
+    "heading": "Sélectionner la Source"
+  },
+  "settings": {
+    "heading": "Paramètres",
+    "summary": "{{quality}} · {{fps}} FPS · Micro {{micState}}",
+    "micOn": "ACTIVÉ",
+    "micOff": "DÉSACTIVÉ",
+    "quality": {
+      "label": "Qualité",
+      "fhd": "1080p Full HD",
+      "2k": "1440p 2K (QHD)"
+    },
+    "frameRate": {
+      "label": "Fréquence d'Images"
+    },
+    "microphone": {
+      "label": "Microphone",
+      "on": "Microphone ACTIVÉ",
+      "off": "Microphone DÉSACTIVÉ",
+      "noDevice": "Aucun microphone détecté",
+      "deviceLabel": "Périphérique Microphone",
+      "default": "Microphone par Défaut"
+    }
+  },
+  "controls": {
+    "recording": "Enregistrement",
+    "paused": "En Pause",
+    "stepsMarked": "{{count}} étape marquée avec F10",
+    "stepsMarked_other": "{{count}} étapes marquées avec F10",
+    "preview": "Aperçu de la Source",
+    "start": "Commencer l'Enregistrement",
+    "pause": "Pause",
+    "resume": "Reprendre",
+    "stop": "Arrêter"
+  },
+  "bookmark": {
+    "title": "Appuyez sur F10 pour marquer les étapes de documentation",
+    "description": "Marquez les moments importants pendant l'enregistrement. Chaque signet devient une étape de documentation avec une capture d'écran extraite automatiquement."
+  },
+  "upload": {
+    "button": "Téléverser une Vidéo",
+    "uploading": "Téléversement... {{progress}}%"
+  },
+  "preview": {
+    "selectPrompt": "Sélectionnez une source dans la barre latérale",
+    "clickPrompt": "Cliquez sur « Aperçu de la Source » pour voir ce que vous allez enregistrer",
+    "rec": "ENR",
+    "pausedOverlay": "EN PAUSE",
+    "steps": "{{count}} étape",
+    "steps_other": "{{count}} étapes"
+  },
+  "modal": {
+    "title": "Créer un Nouveau Projet",
+    "projectName": "Nom du Projet *",
+    "projectNamePlaceholder": "Saisissez le nom du projet",
+    "description": "Description (Facultatif)",
+    "descriptionPlaceholder": "Saisissez la description du projet",
+    "cancel": "Annuler",
+    "create": "Créer le Projet"
+  },
+  "coach": {
+    "sourceTitle": "Choisissez ce que vous allez enregistrer",
+    "sourceDesc": "Choisissez un écran complet ou une fenêtre spécifique. Cliquez sur une vignette pour la sélectionner — vous verrez une bordure bleue sur la source choisie.",
+    "startTitle": "Démarrer l'enregistrement",
+    "startDesc": "Quand vous êtes prêt, cliquez sur ce bouton pour commencer la capture. Vous pouvez mettre en pause ou arrêter à tout moment depuis le même endroit.",
+    "stopTitle": "Arrêter et modifier",
+    "stopDesc": "L'arrêt vous envoie directement à l'éditeur avec votre enregistrement et tous les signets F10 prêts à être transformés en étapes.",
+    "bookmarkTitle": "Marquez les moments clés avec F10",
+    "bookmarkDesc": "Pendant l'enregistrement, appuyez sur F10 lorsque quelque chose d'important se produit. Chaque pression devient une étape de documentation avec une capture automatique.",
+    "settingsTitle": "Ajustez la qualité et l'audio",
+    "settingsDesc": "Développez Paramètres pour changer la résolution, la fréquence d'images, ou activer votre microphone avant d'enregistrer."
+  },
+  "toast": {
+    "bookmarkAdded": "Signet ajouté à {{time}}",
+    "videoStarted": "Enregistrement vidéo démarré pour {{source}}",
+    "videoSaved": "Vidéo sauvegardée dans : {{path}}",
+    "videoSaveFailed": "Échec de la sauvegarde de la vidéo : {{error}}",
+    "videoSaveError": "Échec de la sauvegarde de l'enregistrement vidéo",
+    "videoError": "Erreur d'enregistrement vidéo : {{error}}",
+    "videoRecordingError": "Une erreur d'enregistrement vidéo s'est produite",
+    "electronRequired": "Cette application nécessite Electron pour fonctionner correctement.",
+    "loadSourcesFailed": "Échec du chargement des sources d'enregistrement",
+    "micDenied": "Permission microphone refusée. L'enregistrement vocal ne sera pas disponible.",
+    "noSource": "Veuillez d'abord sélectionner une source d'enregistrement.",
+    "micFailed": "Échec de l'accès au microphone. Poursuite avec vidéo uniquement.",
+    "previewFailed": "Échec du démarrage de l'aperçu vidéo. Essayez de resélectionner la source.",
+    "permissionDenied": "Permission de capture d'écran refusée. Veuillez autoriser le partage d'écran.",
+    "noCapture": "Aucune source de capture d'écran disponible.",
+    "notSupported": "Capture d'écran non prise en charge dans cet environnement.",
+    "overconstrained": "La source sélectionnée ne peut pas être capturée avec les paramètres actuels.",
+    "previewFailedGeneric": "Échec du démarrage de l'aperçu. Veuillez réessayer.",
+    "noProjectSelected": "Aucun projet sélectionné",
+    "noSourceSelected": "Veuillez sélectionner une source d'enregistrement",
+    "micFailedRecording": "Échec de l'accès au microphone. Enregistrement sans audio.",
+    "recordingStarted": "Enregistrement vidéo démarré ! (Format : {{format}})",
+    "stopFailed": "Échec de l'arrêt correct de l'enregistrement",
+    "recordingSaved": "Enregistrement vidéo arrêté et sauvegardé !",
+    "noVideoData": "Aucune donnée vidéo enregistrée. Veuillez réessayer.",
+    "videoFileSaveFailed": "Échec de la sauvegarde du fichier vidéo",
+    "noProjectForSave": "Veuillez sélectionner un projet avant d'enregistrer.",
+    "projectCreated": "Projet créé avec succès !",
+    "projectFolderFailed": "Échec de la création de la structure de dossiers du projet",
+    "invalidFileType": "Veuillez sélectionner un fichier vidéo WebM ou MP4",
+    "uploadSuccess": "Vidéo téléversée avec succès : {{filename}}",
+    "uploadFailed": "Échec du téléversement : {{error}}",
+    "projectSelected": "Projet « {{name}} » sélectionné",
+    "recordingPaused": "Enregistrement en pause",
+    "recordingResumed": "Enregistrement repris",
+    "noProjectName": "Veuillez saisir un nom de projet",
+    "previewFailedMessage": "Échec du démarrage de l'aperçu : {{message}}"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "header": {
+    "title": "Capturi Pas cu Pas",
+    "noProject": "Nicio proiect selectat"
+  },
+  "hints": {
+    "show": "Afișare indicii",
+    "hide": "Ascundere indicii"
+  },
+  "noProject": {
+    "prompt": "Creați un proiect nou pentru a începe",
+    "description": "Aveți nevoie de un proiect înainte de a putea porni captura. Capturile și pașii documentației vor fi salvați în proiect.",
+    "createButton": "Criere Proiect Nou"
+  },
+  "source": {
+    "heading": "Sursă Captură",
+    "refreshTitle": "Reîmprospătare surse",
+    "screen": "Ecran",
+    "window": "Fereastră"
+  },
+  "captureMode": {
+    "heading": "Mod Captură",
+    "hotkeys": "Taste Acces Rapid",
+    "auto": "Automat",
+    "hintAuto": "Capturare automată la fiecare clic",
+    "hintManual": "Apăsați {{hotkey}} pentru a captura",
+    "captureRightClicks": "Capturare clicuri dreapta"
+  },
+  "controls": {
+    "startCapturing": "Început Captură",
+    "startAutoCapture": "Început Captură Automată",
+    "capturing": "Capturare",
+    "paused": "Pauză",
+    "pause": "Pauză",
+    "resume": "Reluare",
+    "stop": "Oprire",
+    "goToEdit": "Mergeți la Editare ({{count}} pași)"
+  },
+  "liveClicks": {
+    "heading": "Clicuri în Timp Real"
+  },
+  "stats": {
+    "screenshots": "Capturi de Ecran",
+    "duration": "Durată"
+  },
+  "settings": {
+    "heading": "Setări",
+    "primaryHotkey": "Tastă Acces Rapid Primară",
+    "secondaryHotkey": "Tastă Acces Rapid Secundară",
+    "notSet": "Nu este setată",
+    "cancel": "Anulare",
+    "save": "Salvare",
+    "editHotkeys": "Editare Taste Acces Rapid"
+  },
+  "feed": {
+    "capturedSteps": "Pași Capturați ({{count}})",
+    "liveNotice": "Capturile noi apar aici automat",
+    "readyTitle": "Gata de captură",
+    "waitingTitle": "Așteptare capturi...",
+    "readyDesc": "Selectați o sursă și început capturare pentru a construi documentația dumneavoastră",
+    "capturingAutoDesc": "Faceți clic oriunde pe fereastra țintă — fiecare clic devine pas",
+    "capturingManualDesc": "Apăsați {{hotkey}} pentru a lua o captură",
+    "realtimeNote": "Capturile vor apărea aici în timp real pe măsură ce le capturați"
+  },
+  "card": {
+    "step": "Pas {{number}}",
+    "preview": "Previzualizare",
+    "delete": "Ștergere",
+    "loading": "Încărcare...",
+    "loadError": "Eșec la încărcarea imaginii"
+  },
+  "previewModal": {
+    "loading": "Încărcare previzualizare...",
+    "loadError": "Eșec la încărcarea imaginii",
+    "screenshotId": "ID Captură: {{id}}",
+    "captured": "Capturat: {{time}}",
+    "size": "Mărime: {{size}} KB"
+  },
+  "modal": {
+    "title": "Criere Proiect Nou",
+    "projectName": "Nume Proiect *",
+    "projectNamePlaceholder": "Introduceți numele proiectului",
+    "description": "Descriere (Opțional)",
+    "descriptionPlaceholder": "Introduceți descrierea proiectului",
+    "cancel": "Anulare",
+    "create": "Criere Proiect"
+  },
+  "coach": {
+    "sourceTitle": "Alegeți o sursă de captură",
+    "sourceDesc": "Alegeți un monitor sau o fereastră specifică. Capturile vor fi luate din sursa selectată.",
+    "modeTitle": "Manual vs Automat",
+    "modeDesc": "Tastele acces rapid captează pe comandă. Modul automat captează la fiecare clic — grozav pentru tutoriale clic pe clic.",
+    "startTitle": "Început captură",
+    "startDesc": "Pornim sesiunea de captură. În modul tasta acces rapid, apăsați cheia configurată pentru a captura fiecare pas.",
+    "stopTitle": "Oprire când ați terminat",
+    "stopDesc": "Încheie sesiunea de captură. Apoi puteți merge la editare și finalizare pași dumneavoastră.",
+    "editTitle": "Gata de editare",
+    "editDesc": "Sari în editor pentru a rafina titluri, descrieri și adnotări înainte de export."
+  },
+  "toast": {
+    "noSourcesFound": "Nicio sursă capturabilă găsit. Unele ferestre pot fi protejate de sistem.",
+    "loadSourcesFailed": "Eșec la încărcarea surselor de captură. Unele ferestre de sistem pot fi protejate.",
+    "screenshotDeleted": "Captură șters",
+    "capturePaused": "Captură în pauză",
+    "captureResumed": "Captură reluată",
+    "resumeFailed": "Eșec la reluare captură",
+    "switchedSource": "Schimbat la {{name}}",
+    "switchFailed": "Eșec la schimbare sursă",
+    "previewSelectFirst": "Vă rugăm, selectați mai întâi o sursă de captură.",
+    "previewStarted": "Previzualizare pornim cu succes",
+    "previewDesktopOnly": "Previzualizarea este disponibilă doar în aplicația desktop.",
+    "previewFailed": "Eșec la inițierea previzualizării. Vă rugăm, încercați selectarea unei alte surse.",
+    "noProjectName": "Vă rugăm, introduceți un nume de proiect",
+    "projectCreated": "Proiect creat cu succes!",
+    "projectFolderFailed": "Eșec la crearea structurii dosarului proiectului",
+    "projectSelected": "Proiect \"{{name}}\" selectat",
+    "hotkeySaved": "Configurare tasta acces rapid salvată!",
+    "hotkeyFailed": "Eșec la salvare configurare tasta acces rapid",
+    "desktopRequired": "Această funcție necesită aplicația desktop",
+    "noSource": "Vă rugăm, selectați o sursă de captură",
+    "noProject": "Vă rugăm, selectați sau creați mai întâi un proiect",
+    "projectNotFound": "Proiect nu găsit",
+    "autoCaptureActivated": "Captură automată activată — fiecare clic este captura automat!",
+    "hotkeyCaptureActivated": "Mod captură captură de ecran activat — apăsați tasta acces rapid pentru a captura!",
+    "captureStartFailed": "Eșec la inițierea capturii interactive",
+    "captureCompleted": "Captură completă! {{count}} capturi capturate.",
+    "noScreenshots": "Nicio captură capturată",
+    "stopFailed": "Eroare la oprire captură",
+    "nativeScreenshot": "Captură nativă capturată instant! ({{size}} biți)",
+    "nativeScreenshotFailed": "Eșec la procesare captură nativă",
+    "noScreenshotData": "Nicio dată captură primită",
+    "noImageData": "Nicio dată imagine primită"
+  }
+}

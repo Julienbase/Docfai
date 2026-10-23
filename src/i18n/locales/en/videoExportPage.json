@@ -1,0 +1,117 @@
+{
+  "header": {
+    "title": "Export Video"
+  },
+  "noRecording": {
+    "title": "No Video Recording Selected",
+    "description": "Please select a video recording to export.",
+    "button": "Go to Dashboard"
+  },
+  "hints": {
+    "show": "Show hints",
+    "hide": "Hide hints"
+  },
+  "trim": {
+    "heading": "Trim Video",
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "duration": "Duration:",
+    "reset": "Reset"
+  },
+  "export": {
+    "button": "Export Video",
+    "exporting": "Exporting... {{progress}}%"
+  },
+  "recentExports": {
+    "heading": "Recent Exports"
+  },
+  "format": {
+    "heading": "Export Format",
+    "premium": "Premium"
+  },
+  "formats": {
+    "mp4": {
+      "name": "MP4 Video",
+      "description": "Universal format compatible with all devices and platforms",
+      "features": ["Universal compatibility", "Small file size", "High quality", "Streaming ready"]
+    },
+    "webm": {
+      "name": "WebM Video",
+      "description": "Web-optimized format with excellent compression",
+      "features": ["Web optimized", "Excellent compression", "Open source", "HTML5 ready"]
+    },
+    "avi": {
+      "name": "AVI Video",
+      "description": "High-quality format for professional editing",
+      "features": ["High quality", "Professional editing", "Lossless compression", "Wide support"]
+    },
+    "mov": {
+      "name": "QuickTime MOV",
+      "description": "Apple's format optimized for Mac and iOS devices",
+      "features": ["Apple optimized", "High quality", "Professional grade", "Final Cut Pro ready"]
+    }
+  },
+  "quality": {
+    "heading": "Quality Settings",
+    "resolution": "Resolution",
+    "note": "Higher resolution = better quality",
+    "resolutions": {
+      "720p": "720p HD",
+      "1080p": "1080p Full HD",
+      "2k": "1440p 2K (QHD)"
+    },
+    "compression": "Compression",
+    "compressionLow": "Low (Best Quality, Larger File)",
+    "compressionMedium": "Medium (Balanced)",
+    "compressionHigh": "High (Smaller File, Lower Quality)",
+    "compressionNotes": {
+      "low": "Recommended for 2K: 15-20 Mbps bitrate",
+      "medium": "Balanced: 8-15 Mbps bitrate",
+      "high": "Compressed: 5-10 Mbps bitrate"
+    },
+    "frameRate": "Frame Rate",
+    "fps30": "30 FPS (Standard)",
+    "fps60": "60 FPS (Smooth)"
+  },
+  "destination": {
+    "heading": "Export Destination",
+    "local": {
+      "name": "Local Storage",
+      "description": "Save video file to your computer"
+    },
+    "sharepoint": {
+      "name": "SharePoint",
+      "description": "Upload video directly to SharePoint",
+      "required": "Microsoft account connection required",
+      "heading": "SharePoint Options",
+      "url": "SharePoint URL",
+      "urlPlaceholder": "https://yourcompany.sharepoint.com/sites/yoursite/...",
+      "libraryName": "Library Name",
+      "libraryPlaceholder": "Documents",
+      "folderPath": "Folder Path",
+      "folderPlaceholder": "Videos/Exports"
+    }
+  },
+  "progress": {
+    "heading": "Export Progress"
+  },
+  "coach": {
+    "trimTitle": "Trim the clip",
+    "trimDesc": "Adjust start and end times to trim your video. Leave both at default to export the full recording.",
+    "formatTitle": "Pick a video format",
+    "formatDesc": "Choose from MP4 (universal), WebM (web), or premium formats like AVI or MOV for professional editing.",
+    "exportTitle": "Export the video",
+    "exportDesc": "Click here to begin the export process. You can save locally or upload directly to SharePoint."
+  },
+  "toast": {
+    "noRecording": "No video recording selected for export",
+    "exportCanceled": "Video export canceled",
+    "exportSuccess": "Video exported successfully to {{path}}",
+    "exportDemo": "Video export completed (demo mode)",
+    "uploading": "Uploading to SharePoint...",
+    "sharepointSuccess": "Video exported to SharePoint: {{fileName}}",
+    "exportFailed": "Export failed: {{error}}",
+    "urlParsed": "SharePoint URL parsed successfully!",
+    "urlParseFailed": "Failed to parse SharePoint URL"
+  }
+}
