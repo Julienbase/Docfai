@@ -53,6 +53,8 @@ npm test
 ## Known issues
 
 - Windows only.
+- `npm run lint` reports existing errors (mostly unused imports and `any` types). `npm run check` and `npm test` pass.
+- `npm audit --omit=dev --audit-level=high` (also run in CI) fails on `extract-zip` and `image-size`. `extract-zip` has no fixed version yet; it only extracts the hash-verified translation module.
 
 ## License
 
