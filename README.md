@@ -2,12 +2,32 @@
 
 Docfai is a Windows desktop app that turns screen recordings into step-by-step guides.
 
+![Editing a step: drawing a highlight and blurring text](.github/readme/editor.gif)
+
 - Record your screen, or capture a screenshot on every click with auto-capture. Windows UI Automation names the element you clicked ("Click the Save button").
 - Pull steps out of an existing video by detecting scene changes.
 - Edit steps with annotations, highlights and blur, and add flowcharts.
 - Export to PDF, DOCX, PPTX, HTML, Markdown or video, using templates (SOP, user guide, technical spec).
 
 Everything runs locally. There are no accounts, no telemetry and no cloud services.
+
+## Screenshots
+
+**Capture steps** with a hotkey, or automatically on every click:
+
+![Capture screen with source picker and captured steps](.github/readme/capture.png)
+
+**Edit and preview** the guide with a document template:
+
+![Step editor with live documentation preview](.github/readme/editor.png)
+
+**Add workflow diagrams** to any step:
+
+![Building a workflow diagram](.github/readme/diagram.gif)
+
+**Export** to PDF, Word, HTML, PowerPoint or Markdown:
+
+![Export screen with formats and templates](.github/readme/export.png)
 
 ## Download and install
 
